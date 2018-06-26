@@ -60,17 +60,72 @@ And dots\dots
 \section{Including code}
 The following code is written by Lorenzo:
 
-% Code
+% Code from Lorenz
+%\begin{minipage}{\linewidth}
+%\begin{lstlisting}
+%	public void ToggleShow(bool show) {
+%		// Hide all walls
+%		foreach (GameObject wall in walls)
+%			wall.SetActive(show);
+%			
+%		// Set default material to floor
+%		floor.SetMaterial(show);
+%	}
+%\end{lstlisting}
+%\end{minipage}
+
+% Code from me
 \begin{minipage}{\linewidth}
 \begin{lstlisting}
-	public void ToggleShow(bool show) {
-		// Hide all walls
-		foreach (GameObject wall in walls)
-			wall.SetActive(show);
-			
-		// Set default material to floor
-		floor.SetMaterial(show);
-	}
+=IF(
+   OR(
+      E68 = "Russia";
+      E68 = "Albania";
+      E68 = "Bulgaria";
+      E68 = "Ungheria";
+      E68 = "Ucraina";
+      E68 = "Moldavia";
+      E68 = "Romania"
+   );
+   "Europa dell'Est";
+   IF(
+      OR(
+         E68 = "Burkina Faso";
+         E68 = "Etiopia";
+         E68 = "Costa d'Avorio";
+         E68 = "Congo";
+         E68 = "Guinea Bissau";
+         E68 = "Africa";
+         E68 = "Ghana";
+         E68 = "Benin"
+      );
+      "Africa";
+      IF(
+         OR(
+            E68 = "Colombia";
+            E68 = "Brasile";
+            E68 = "Guatemala";
+            E68 = "Peru";
+            E68 = "Costa Rica"
+         );
+         "America del Sud";
+         IF(
+            OR(
+               E68 = "Armenia";
+               E68 = "India";
+               E68 = "Cina";
+               E68 = "Vietnam";
+               E68 = "Sri Lanka";
+               E68 = "Siberia";
+               E68 = "Nepal";
+               E68 = "Filippine"
+            );
+            "Asia";
+            ""
+         )
+      )
+   )
+)
 \end{lstlisting}
 \end{minipage}
 

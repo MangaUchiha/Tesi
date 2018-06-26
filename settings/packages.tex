@@ -65,48 +65,27 @@
 	\ifx\relax#1\enumerate\else\enumerate[#1]\fi}{\endenumerate}
 
 
-% Gantt --------------------------------
-\setganttlinklabel{f-s}{}
-\setganttlinklabel{f-f}{}
-\setganttlinklabel{s-s}{}
-
-\newganttlinktype{ff}{
-	\ganttsetstartanchor{on bottom=1}
-	\ganttsetendanchor{on top = 1}
-	\draw [/pgfgantt/link]
-	(\xLeft, \yUpper) -- 
-	(\xRight, \yUpper) --
-	(\xRight, \yLower);
-}
-
-\newganttlinktype{fs}{
-	\ganttsetstartanchor{on bottom=1}
-	\ganttsetendanchor{on top = 0}
-	\draw [/pgfgantt/link]
-	(\xLeft, \yUpper) -- 
-	(\xRight, \yUpper) --
-	(\xRight, \yLower);
-}
-
-\newganttlinktype{fc}{
-	\ganttsetstartanchor{on bottom=1}
-	\ganttsetendanchor{on top = .5}
-	\draw [/pgfgantt/link]
-	(\xRight, \yUpper) --
-	(\xRight, \yLower);
-}
-
-\newganttlinktype{fcc}{
-	\ganttsetstartanchor{on bottom=1}
-	\ganttsetendanchor{on top = .5}
-	\draw [/pgfgantt/link]
-	(\xLeft, \yUpper) -- 
-	(\xRight, \yUpper) --
-	(\xRight, \yLower);
-}
-
 % Listings ---------------------
-\lstset{language=[Sharp]C,
+% Old exmaple
+%\lstset{language=[Sharp]C,
+%	basicstyle=\ttfamily\scriptsize,
+%	backgroundcolor=\color{codebackground},
+%	keywordstyle=\color{blue}\ttfamily,
+%	stringstyle=\color{red}\ttfamily,
+%	commentstyle=\color{dkgreen}\ttfamily,
+%	stringstyle=\color{mauve}\ttfamily,
+%	morecomment=[l][\color{dkgreen}]{\#},
+% breaklines=true,
+%	tabsize=2,
+%	showspaces=false,
+%	showstringspaces=false,
+%	aboveskip=2em,
+%	belowskip=2em,
+	% frame=none,
+%	postbreak=\raisebox{0ex}[0ex][0ex]{\ensuremath{\color{red}\hookrightarrow\space}}
+%}
+
+\lstset{language=[Visual]Basic,
 	basicstyle=\ttfamily\scriptsize,
 	backgroundcolor=\color{codebackground},
 	keywordstyle=\color{blue}\ttfamily,

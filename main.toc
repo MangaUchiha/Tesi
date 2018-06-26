@@ -42,24 +42,24 @@
 \contentsline {subsection}{\numberline {5.2.3}Using footnotes}{14}{subsection.48}
 \contentsline {section}{\numberline {5.3}Including quotes}{15}{section.52}
 \contentsline {section}{\numberline {5.4}Including code}{15}{section.53}
-\contentsline {section}{\numberline {5.5}Formatting Text}{15}{section.63}
-\contentsline {section}{\numberline {5.6}Including bulleted list}{16}{section.64}
-\contentsline {section}{\numberline {5.7}Including Figures}{17}{section.68}
-\contentsline {section}{\numberline {5.8}Including Tables}{17}{section.70}
+\contentsline {section}{\numberline {5.5}Formatting Text}{17}{section.104}
+\contentsline {section}{\numberline {5.6}Including bulleted list}{17}{section.105}
+\contentsline {section}{\numberline {5.7}Including Figures}{18}{section.109}
+\contentsline {section}{\numberline {5.8}Including Tables}{18}{section.111}
 \vspace {2em}
-\contentsline {chapter}{\numberline {A}Setup Instructions}{20}{appendix.73}
-\contentsline {section}{\numberline {A.1}Building ParaView and ParaUnity}{20}{section.74}
-\contentsline {subsection}{\numberline {A.1.1}Prerequisites}{20}{subsection.75}
-\contentsline {subsection}{\numberline {A.1.2}Obtain the source code}{21}{subsection.76}
-\contentsline {subsection}{\numberline {A.1.3}Compile Qt}{21}{subsection.77}
-\contentsline {subsection}{\numberline {A.1.4}Compile ParaView}{21}{subsection.85}
-\contentsline {subsection}{\numberline {A.1.5}Compile ParaUnity}{22}{subsection.92}
-\contentsline {subsection}{\numberline {A.1.6}Loading the plug-in in ParaView}{23}{subsection.101}
-\contentsline {section}{\numberline {A.2}Building the Unity Application}{23}{section.105}
-\contentsline {subsection}{\numberline {A.2.1}Prerequisites}{23}{subsection.106}
-\contentsline {subsection}{\numberline {A.2.2}Obtain the source code}{23}{subsection.107}
-\contentsline {subsection}{\numberline {A.2.3}Compile the application}{23}{subsection.108}
-\contentsline {subsection}{\numberline {A.2.4}Exporting an object from ParaView to Unity}{24}{subsection.116}
-\contentsline {chapter}{\numberline {B}Code of the Unity Application}{25}{appendix.120}
-\contentsline {section}{\numberline {B.1}AnimationManager}{25}{section.121}
-\contentsline {chapter}{Bibliography}{26}{dummy.122}
+\contentsline {chapter}{\numberline {A}Setup Instructions}{21}{appendix.114}
+\contentsline {section}{\numberline {A.1}Building ParaView and ParaUnity}{21}{section.115}
+\contentsline {subsection}{\numberline {A.1.1}Prerequisites}{21}{subsection.116}
+\contentsline {subsection}{\numberline {A.1.2}Obtain the source code}{22}{subsection.117}
+\contentsline {subsection}{\numberline {A.1.3}Compile Qt}{22}{subsection.118}
+\contentsline {subsection}{\numberline {A.1.4}Compile ParaView}{22}{subsection.126}
+\contentsline {subsection}{\numberline {A.1.5}Compile ParaUnity}{23}{subsection.133}
+\contentsline {subsection}{\numberline {A.1.6}Loading the plug-in in ParaView}{24}{subsection.142}
+\contentsline {section}{\numberline {A.2}Building the Unity Application}{24}{section.146}
+\contentsline {subsection}{\numberline {A.2.1}Prerequisites}{24}{subsection.147}
+\contentsline {subsection}{\numberline {A.2.2}Obtain the source code}{24}{subsection.148}
+\contentsline {subsection}{\numberline {A.2.3}Compile the application}{24}{subsection.149}
+\contentsline {subsection}{\numberline {A.2.4}Exporting an object from ParaView to Unity}{25}{subsection.157}
+\contentsline {chapter}{\numberline {B}Code of the Unity Application}{26}{appendix.161}
+\contentsline {section}{\numberline {B.1}AnimationManager}{26}{section.162}
+\contentsline {chapter}{Bibliography}{27}{dummy.163}
