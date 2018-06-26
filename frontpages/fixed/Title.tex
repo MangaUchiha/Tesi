@@ -1,0 +1,68 @@
+%% Set up the Title Page - DO NOT EDIT THIS, (if you don't want to ;)  )
+%% instead specify your name, title and more in "/Settings/Administrative.tex"
+%\title   {\myTitle}
+%\authors {\texorpdfstring
+%            {\href{\myAuthorEmail}{\myAuthorName}}
+%            {\myAuthorName}
+%         }
+%\addresses  {\groupname\\\deptname\\\univname}  
+%\date       {\myDate}
+%\subject    {\mySubject}
+%\keywords   {\myKeywords}
+%
+%\maketitle
+%%% ----------------------------------------------------------------
+%
+%\setstretch{1.3}  % It is better to have smaller font and larger line spacing than the other way round
+%
+%% Define the page headers using the FancyHdr package and set up for one-sided printing
+%\fancyhead{}  % Clears all page headers and footers
+%\rhead{\thepage}  % Sets the right side header to show the page number
+%\lhead{}  % Clears the left side page header
+
+\title   {\myTitle}
+\authors {
+            {\myAuthorName}
+         }
+\addresses  {\groupname\\\deptname\\\univname}  
+\date       {\myDate}
+\subject    {\mySubject}
+\keywords   {\myKeywords}
+
+\begin{titlepage}
+	\pagestyle{empty}
+	\begin{center}
+		{\Large {\bfseries \MakeUppercase{\univname} \\}}
+		{\Large {\bfseries \deptname \\}}
+		\vspace{1cm}
+		\includegraphics[width=6cm,height=6cm]{units_logo.jpg}\\
+		\vspace{1.5cm}
+		{\Large \mySubject \space \myDegree \\}
+		\vspace{1cm}
+		{\Large {\bfseries \myTitle \\}}
+		\vfill
+		{Ottobre 2018 \\}
+		\vfill
+		%\begin{table}[h]
+		%	\centering
+		%	{\large
+		%		\begin{tabular}{c c c c c c r c c | c c l}
+		%			& & & & & & Laureando & & & & & Relatore \\
+		%			& & & & & & \bfseries Sebastiano Genna & & & & & \bfseries Prof. Egidio Barbi \\
+		%		\end{tabular}
+		%	}
+		% \end{table}
+		\begin{table}[h]
+			\centering
+			{\large
+				\begin{tabular}{ r c c | c c l}
+					Laureando & & & & & Relatore \\
+					\bfseries Sebastiano Genna & & & & & \bfseries Prof. Egidio Barbi \\
+				\end{tabular}
+			}
+		\end{table}
+		
+		\vspace{1cm}
+		{\large Anno Accademico 2017/2018 \\}
+	\end{center}
+\end{titlepage}

@@ -1,0 +1,125 @@
+% Add your own packages here, 
+% these existing packages can be removed if necessary
+% note that more packages are imported in Thesis.cls, '
+% but those should not be changed if you don't know what you are doing...
+
+\usepackage[utf8]{inputenc} % for writing other that basic characters
+\usepackage{graphicx}
+\graphicspath{ {images/} }
+\usepackage{caption}
+\usepackage{subcaption}
+
+
+% Include any extra LaTeX packages required
+\usepackage[square, numbers, comma, sort&compress]{natbib}  % Use the "Natbib" style for the references in the Bibliography
+\usepackage{verbatim}  		% Needed for the "comment" environment to make LaTeX comments
+\usepackage{hyperref}		% Clickable links
+\usepackage{csquotes}		% Multiline quotes
+\usepackage{pgfgantt}		% Gantt charts
+\usepackage{listings}		% For nice code
+\usepackage{color} 			% For defining custom colors
+\usepackage{float} 			% For fixed-place figures
+\usepackage{easytable}		% For more flexible tables
+\usepackage{multirow}		% For multirow options in tables
+\usepackage{colortbl} 		% For coloring tables
+\usepackage[htt]{hyphenat}	% Enable wordbreak on tt text
+\usepackage{xcolor}			% For coloring enumerate number
+\usepackage{geometry,calc}	% To expand margins
+
+% Configurations
+\setlength{\paperheight}{297mm}
+\setlength{\paperwidth}{210mm}
+\setlength{\textwidth}{\paperwidth-60mm}
+\setlength{\textheight}{\paperheight-60mm-\headheight-\headsep-\footskip}
+\setlength{\topmargin}{3cm-1in}
+\setlength{\oddsidemargin}{3cm-1in}
+\setlength{\evensidemargin}{0in}
+\setlength{\hoffset}{0in}
+\setlength{\voffset}{0in}
+
+\hyphenation{Para-View}	% Defines ParaView's preferred hyphenation
+\hyphenation{Para-Unity}	% Defines ParaView's preferred hyphenation
+
+
+\definecolor{codebackground}{rgb}{.95,.95,.95}
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+\definecolor{tblgreen}{rgb}{0.45,1,0.84}
+\definecolor{tblorange}{rgb}{1,0.83,0.47}
+\definecolor{tblpink}{rgb}{1,0.54,0.85}
+
+\hypersetup{
+	colorlinks,
+	citecolor=black,
+	filecolor=black,
+	linkcolor=black,
+	urlcolor=black
+}
+
+\newcommand{\source}[1]{\vspace{-3pt} \caption*{\textit{Source: {#1}}} }	% For citing sources in captions
+
+% Enumerate with custom colors
+\let\svitem\item
+\newenvironment{cenumerate}[1][\relax]{\renewcommand\item[1][black]{\color{##1}\svitem}
+	\ifx\relax#1\enumerate\else\enumerate[#1]\fi}{\endenumerate}
+
+
+% Gantt --------------------------------
+\setganttlinklabel{f-s}{}
+\setganttlinklabel{f-f}{}
+\setganttlinklabel{s-s}{}
+
+\newganttlinktype{ff}{
+	\ganttsetstartanchor{on bottom=1}
+	\ganttsetendanchor{on top = 1}
+	\draw [/pgfgantt/link]
+	(\xLeft, \yUpper) -- 
+	(\xRight, \yUpper) --
+	(\xRight, \yLower);
+}
+
+\newganttlinktype{fs}{
+	\ganttsetstartanchor{on bottom=1}
+	\ganttsetendanchor{on top = 0}
+	\draw [/pgfgantt/link]
+	(\xLeft, \yUpper) -- 
+	(\xRight, \yUpper) --
+	(\xRight, \yLower);
+}
+
+\newganttlinktype{fc}{
+	\ganttsetstartanchor{on bottom=1}
+	\ganttsetendanchor{on top = .5}
+	\draw [/pgfgantt/link]
+	(\xRight, \yUpper) --
+	(\xRight, \yLower);
+}
+
+\newganttlinktype{fcc}{
+	\ganttsetstartanchor{on bottom=1}
+	\ganttsetendanchor{on top = .5}
+	\draw [/pgfgantt/link]
+	(\xLeft, \yUpper) -- 
+	(\xRight, \yUpper) --
+	(\xRight, \yLower);
+}
+
+% Listings ---------------------
+\lstset{language=[Sharp]C,
+	basicstyle=\ttfamily\scriptsize,
+	backgroundcolor=\color{codebackground},
+	keywordstyle=\color{blue}\ttfamily,
+	stringstyle=\color{red}\ttfamily,
+	commentstyle=\color{dkgreen}\ttfamily,
+	stringstyle=\color{mauve}\ttfamily,
+	morecomment=[l][\color{dkgreen}]{\#},
+	breaklines=true,
+	tabsize=2,
+	showspaces=false,
+	showstringspaces=false,
+	aboveskip=2em,
+	belowskip=2em,
+	% frame=none,
+	postbreak=\raisebox{0ex}[0ex][0ex]{\ensuremath{\color{red}\hookrightarrow\space}}
+}

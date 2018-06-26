@@ -1,0 +1,98 @@
+\chap{Setup Instructions}
+This appendix provides the instructions to setup, install and run the software system described in this thesis. They refer to a machine with VR-ready hardware running Windows 10. 
+
+\section{Building ParaView and ParaUnity}
+This section provides the instructions for building a working copy of ParaView with the ParaUnity plug-in. It is a simplified and adapted version of the \textit{readme} file of the official ParaUnity repository \cite{paraunity}.
+
+\subsection{Prerequisites}
+\begin{itemize}
+	\item CMake 3.8.1
+	\item Visual Studio 2015 x64 Community Edition
+\end{itemize}
+
+\subsection{Obtain the source code}
+To obtain a patched, pre-prepared version of the source code for Qt, ParaView and ParaUnity, clone the repository available at \url{https://github.com/vrcranfield/paraviewunity}. Unless specified otherwise, all the following instructions refer to the files contained in this repository.
+
+\subsection{Compile Qt}
+The files in \path{Qt 4.8.6} are a patched version of Qt that allows compilation with Visual Studio 2015 x64.
+
+In order to build it do the following:
+\begin{enumerate}
+	\item Move the content of \path{Qt 4.8.6} in \path{C:\Qt\4.8.6}
+	\item Open the \texttt{VS2015 x64 Native Tools Command Prompt} from Start.
+	\item cd \path{C:\Qt\4.8.6}
+	\item \texttt{./configure.exe -make nmake -platform win32-msvc2015 -prefix \path{C:\Qt\4.8.6} -opensource -confirm-license -nomake examples -nomake tests -nomake demos -debug-and-release}
+	\item \texttt{nmake}
+	\item \texttt{nmake install}
+	\item Add \path{C:\Qt\4.8.6\bin} to the Path environment variable.
+\end{enumerate}
+
+\subsection{Compile ParaView}
+The files in \texttt{ParaView-v.5.2.0} consist in the official source code of ParaView. 
+
+In order to build it do the following:
+\begin{enumerate}
+	\item  Open CMake and set source in \path{ParaView-v5.2.0} and build in \path{ParaView-v5.2.0\build}
+	\item Configure with ``Visual Studio 14 2015 Win64'' as a generator.
+	\item Check that \texttt{PARAVIEW\_QT\_VERSION} is \texttt{4} and that \texttt{QT\_QMAKE\_EXECUTABLE} points to \path{C:\Qt\4.8.6\bin\qmake.exe}. If necessary, configure again.
+	\item Generate.
+	\item Open with VS2015.
+	\item Build solution.
+\end{enumerate}
+
+\subsection{Compile ParaUnity}
+The files in \texttt{ParaUnity} are the developed and improved version of the official ParaUnity plugin, as described in Chapter \ref{chap:paraunity}.
+
+In order to build ParaUnity do the following:
+\begin{enumerate}
+	\item Open a terminal in \path{\ParaUnity\Unity3DPlugin}
+	\item \texttt{mkdir build}
+	\item \texttt{cd build}
+	\item \texttt{cmake -G "Visual Studio 14 2015 Win64" -DParaView\_DIR="\path{<PARAVIEW_DIR>\build}" ..}
+	\item Open \path{\ParaUnity\Unity3DPlugin\build\Project.sln} in Visual Studio
+	\item Right click on the project \texttt{Unity3D}, go to \texttt{C/C++ > Additional Include Directories} and add \path{\verC:\Qt\4.8.6\include\QtNetwork}
+	\item Build.
+	\item You now have some files (most importantly a \path{Unity3D.dll} file) in \path{\build\Debug}. Remember their location.
+\end{enumerate}
+
+\subsection{Loading the plug-in in ParaView}
+To load the plug-in in ParaView, do the following:
+
+\begin{enumerate}
+	\item Open ParaView 5.2.0 (from \texttt{paraview.exe} in the \path{\build\bin\Debug} folder, or from Visual Studio).
+	\item Go to \texttt{Tools > Manage Plugins}, click \texttt{Load New} and locate \texttt{Unity3D.dll}
+	\item Open the dropdown entry from Unity3D and select \texttt{Auto Load}.
+\end{enumerate}
+
+\section{Building the Unity Application}
+This section provides the instruction for obtaining and building a working copy of the Unity Application described in Chapter \ref{chap:unityapplication}.
+
+\subsection{Prerequisites}
+\begin{itemize}
+	\item Unity 5.6.1f1
+\end{itemize}
+
+\subsection{Obtain the source code}
+To obtain the source code of the Unity Application, clone the repository available at \url{https://github.com/vrcranfield/UnityApplication}. Unless specified otherwise, all the following instructions refer to the files contained in this repository.
+
+\subsection{Compile the application}
+In order to build the Unity Application do the following:
+
+\begin{enumerate}
+	\item Open the root directory of the project in the Unity editor.
+	\item \texttt{File > Build Settings}
+	\item Uncheck all scenes apart form the \texttt{Main} scene.
+	\item Set \texttt{Target Platform} as \texttt{Windows} and \texttt{Architecture} as \texttt{x86\_64}.
+	\item Click build.
+	\item Choose the same location as the \texttt{Unity3D.dll} (see previous section).
+	\item Save the file as \path{unity_player.exe}
+\end{enumerate}
+
+\subsection{Exporting an object from ParaView to Unity}
+To test if the system is working correctly, do the following:
+
+\begin{enumerate}
+	\item Load any file in ParaView (e.g. a simple sphere)
+	\item Click the button with the Unity logo and the \texttt{P}
+	\item You should see your Unity scene with the ParaView object in the middle.
+\end{enumerate}
