@@ -1,10 +1,10 @@
-\contentsline {chapter}{Abstract (Italian)}{ii}{dummy.2}
-\contentsline {chapter}{Abstract}{iii}{dummy.3}
-\contentsline {chapter}{Acknowledgements}{iv}{dummy.4}
+\contentsline {chapter}{Abstract (Italian)}{II}{dummy.2}
+\contentsline {chapter}{Abstract}{III}{dummy.3}
+\contentsline {chapter}{Acknowledgements}{IV}{dummy.4}
 \vspace {1em}
-\contentsline {chapter}{List of Figures}{viii}{dummy.6}
-\contentsline {chapter}{List of Tables}{ix}{dummy.8}
-\contentsline {chapter}{Abbreviations}{x}{dummy.10}
+\contentsline {chapter}{List of Figures}{VIII}{dummy.6}
+\contentsline {chapter}{List of Tables}{IX}{dummy.8}
+\contentsline {chapter}{Abbreviations}{X}{dummy.10}
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.13}
 \contentsline {section}{\numberline {1.1}Objectives}{3}{section.14}
 \contentsline {section}{\numberline {1.2}Project Management}{4}{section.15}
