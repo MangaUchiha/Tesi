@@ -23,7 +23,7 @@ The \texttt{ROUNDOWN} function was needed in order to avoid overestimating child
 To further understand how geographic origin influenced the results of our screening program, every nation was grouped up in 4 major continents are areas with the following excel expression.
 
 % Excel equation of nationality
-\begin{minipage}{\linewidth}
+% No minipage so it can page break
 \begin{lstlisting}
 =IF(
    OR(
@@ -75,9 +75,6 @@ To further understand how geographic origin influenced the results of our screen
    )
 )
 \end{lstlisting}
-\end{minipage}
-
-\clearpage %Hack per far vedere il codice proprio qui
 
 \section{Pathological values}\label{sec:pathologicalvalues}
 The data set contained numerical values for many laboratory analyses. Cut-off values for these results were established via the most recent literature review, as explained in Sections \ref{sub:cutoffvalues}. In the following sections, the code used to establish which ones where pathological and which were not is displayed and shortly explained.
@@ -104,7 +101,7 @@ These parameters, since they had already been converted to percentile values, we
 Hemoglobin required a more complicated and sophisticated expression, in order to be stratified, because hemoglobin pathological cut-offs depend on various factors, as described in Section \ref{sub:haemoglobin}. Moreover mild, moderate and severe anemia had to be separated in order to properly evaluate the child's health status; each one had an arbitrary values of 1 (\textit{mild}), 2 (\textit{moderate}) or 3 (\textit{severe}) associated to it.
 
 % Excel equation of pathological hemoglobin
-\begin{minipage}{\linewidth}
+% No minipage so it can page break
 \begin{lstlisting}
 =IF(
    L2 <> "";
@@ -185,14 +182,13 @@ Hemoglobin required a more complicated and sophisticated expression, in order to
    );
    ""
 )
-\end{lstlisting}\
-\end{minipage}
+\end{lstlisting}
 
 \subsection{MCV}\label{sub:patmcv}
 As just described for haemglobin, MCV required more complicated techniques in order to be stratified, because of its variability (through age, sex, ecc\dots), as described in Section \ref{sub:mcv}. Moreover, boolean results couldn't be accepted for this parameter, so arbitrary values were used to appropriately identify microcytic (\textit{1}) and macrocytic (\textit{2}) anemias.
 
 % Excel equation of pathological mcv
-\begin{minipage}{\linewidth}
+% No minipage so it can page break
 \begin{lstlisting}
 =IF(
    N2 <> "";
@@ -313,8 +309,7 @@ As just described for haemglobin, MCV required more complicated techniques in or
    );
    ""
 )
-\end{lstlisting}\
-\end{minipage}
+\end{lstlisting}
 
 \subsection{Circulating iron}\label{sub:patiron}
 The following VBA expression was used to establish whether circulating iron values were insufficient. 
@@ -334,14 +329,14 @@ The following VBA expression was used to establish whether circulating iron valu
    );
    ""
 )
-\end{lstlisting}\
+\end{lstlisting}
 \end{minipage}
 
 \subsection{Ferritin}\label{sub:patferritin}
 The following VBA expression was used to identify pathological ferritin values, these were, again, stratified for mild (\textit{1}), moderate (\textit{2}) and severe (\textit{3}) deficiency. 
 
 % Excel equation of pathological ferritin
-\begin{minipage}{\linewidth}
+% No minipage so it can page break
 \begin{lstlisting}
 =IF(
    R2 <> "";
@@ -369,14 +364,13 @@ The following VBA expression was used to identify pathological ferritin values, 
    );
    ""
 )
-\end{lstlisting}\
-\end{minipage}
+\end{lstlisting}
 
 \subsection{Vitamin D}\label{sub:patvitaminD}
 The following VBA expression was used to establish whether Vitamin D (serum \textit{25-hydroxycholecalciferol}) values were insufficient (\textit{1}), deficient (\textit{2}) or severly deficient (\textit{3}). The predictive choice for this marker is explained at Section \ref{sub:vitaminD}.
 
 % Excel equation of pathological vitamin D
-\begin{minipage}{\linewidth}
+% No minipage so it can page break
 \begin{lstlisting}
 =IF(
    AA2 <> "";
@@ -404,5 +398,4 @@ The following VBA expression was used to establish whether Vitamin D (serum \tex
    );
    ""
 )
-\end{lstlisting}\
-\end{minipage}
+\end{lstlisting}

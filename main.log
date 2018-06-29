@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.1.18)  29 JUN 2018 19:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.1.18)  29 JUN 2018 19:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1849,30 +1849,10 @@ Appendix A.
 ------------------------------------------------------------------------------
 [23
 
-] [24]
-Overfull \vbox (23.9183pt too high) has occurred while \output is active []
-
-
-[25] [26
-
-]
-Overfull \vbox (409.86853pt too high) has occurred while \output is active []
-
-
-[27] [28]
-Overfull \vbox (903.86877pt too high) has occurred while \output is active []
-
-
-[29] [30])
-Underfull \hbox (badness 10000) in paragraph at lines 379--63
-
- []
-
-(./appendices/AppendixB.tex
+] [24] [25] [26] [27] [28] [29] [30] [31]) (./appendices/AppendixB.tex
 (/usr/local/texlive/2017/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
-) [31]
-[32]
+) [32]
 Appendix B.
 ------------------------------------------------------------------------------
  B Code of the Unity Application
@@ -1910,12 +1890,15 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 75.
  ) 
 Here is how much of TeX's memory you used:
  29050 strings out of 492995
  507315 string characters out of 6132704
- 1248620 words of memory out of 5000000
+ 868033 words of memory out of 5000000
  31469 multiletter control sequences out of 15000+600000
  76803 words of font info for 73 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
@@ -1936,7 +1919,7 @@ pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmss12.pfb></usr/
 local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texl
 ive/2017/texmf-dist/fonts/type1/public/lm/lmtt12.pfb></usr/local/texlive/2017/t
 exmf-dist/fonts/type1/public/lm/lmtt8.pfb>
-Output written on main.pdf (47 pages, 782942 bytes).
+Output written on main.pdf (47 pages, 783738 bytes).
 PDF statistics:
  1204 PDF objects out of 1440 (max. 8388607)
  1127 compressed objects within 12 object streams
