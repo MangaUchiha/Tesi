@@ -1,8 +1,9 @@
-\chap{Code used}\label{chap:codeused}
+\chap{Data set elaboration: VBA expressions}\label{chap:apprendixvbaexpressions}
 This appendix provides all the VBA code used in this thesis to elaborate the data set. Further information can be found throughout the thesis, especially in Section \ref{sec:datasetelaboration} at page \pageref{sec:datasetelaboration}.
 
 \section{Age (in months)}\label{sec:ageinmonths}
-This VBA expression checks the Age (in months) column and, if it's not empty, it divides it's value by 12, rounding it down, just as age works.
+This VBA expression checks the Age (in months) column and, if it's not empty, it divides it's value by 12, rounding it down, just as age works.\\
+The \texttt{ROUNDOWN} function was needed in order to avoid overestimating children's age.
 
 % Excel equation of age (in months)
 \begin{minipage}{\linewidth}
@@ -81,7 +82,7 @@ To further understand how geographic origin influenced the results of our screen
 \section{Pathological values}\label{sec:pathologicalvalues}
 The data set contained numerical values for many laboratory analyses. Cut-off values for these results were established via the most recent literature review, as explained in Sections \ref{sub:cutoffvalues}. In the following sections, the code used to establish which ones where pathological and which were not is displayed and shortly explained.
 
-\subsection{Pathological weight and height}\label{sub:patweightandheight}
+\subsection{Weight and height}\label{sub:patweightandheight}
 These parameters, since they had already been converted to percentile values, were easily implement with the following simple VBA expression:
 
 % Excel equation of pathological weight and height
@@ -99,8 +100,8 @@ These parameters, since they had already been converted to percentile values, we
 \end{lstlisting}\
 \end{minipage}
 
-\subsection{Pathological hemoglobin}\label{sub:pathemoglobin}
-Hemoglobin required a more complicated and sophisticated expression, in order to be stratified, because hemoglobin pathological cut-offs depend on various factors, as described in Section \ref{sub:}. Moreover mild, moderate and severe anemia had to be separated in order to properly evaluate the child's health status; each one had an arbitrary values of 1 (\textit{mild}), 2 (\textit{moderate}) or 3 (\textit{severe}) associated to it.
+\subsection{Haemoglobin}\label{sub:pathaemoglobin}
+Hemoglobin required a more complicated and sophisticated expression, in order to be stratified, because hemoglobin pathological cut-offs depend on various factors, as described in Section \ref{sub:haemoglobin}. Moreover mild, moderate and severe anemia had to be separated in order to properly evaluate the child's health status; each one had an arbitrary values of 1 (\textit{mild}), 2 (\textit{moderate}) or 3 (\textit{severe}) associated to it.
 
 % Excel equation of pathological hemoglobin
 \begin{minipage}{\linewidth}
@@ -187,26 +188,242 @@ Hemoglobin required a more complicated and sophisticated expression, in order to
 \end{lstlisting}\
 \end{minipage}
 
+\subsection{MCV}\label{sub:patmcv}
+As just described for haemglobin, MCV required more complicated techniques in order to be stratified, because of its variability (through age, sex, ecc\dots), as described in Section \ref{sub:mcv}. Moreover, boolean results couldn't be accepted for this parameter, so arbitrary values were used to appropriately identify microcytic (\textit{1}) and macrocytic (\textit{2}) anemias.
 
+% Excel equation of pathological mcv
+\begin{minipage}{\linewidth}
+\begin{lstlisting}
+=IF(
+   N2 <> "";
+   IF(
+      B2 = "F";
+      IF(
+         AND(
+            C2 >= 0;
+            C2 < 60
+         );
+         IF(
+            N2 > 85;
+            2;
+            IF(
+               AND(
+                  N2 <= 85;
+                  N2 >= 69
+               );
+               0;
+               1
+            )
+         );
+         IF(
+            AND(
+               C2 >= 60;
+               C2 < 120
+            );
+            IF(
+               N2 > 89;
+               2;
+               IF(
+                  AND(
+                     N2 <= 89;
+                     N2 >= 75
+                  );
+                  0;
+                  1
+               )
+            );
+            IF(
+               AND(
+                  C2 >= 120;
+                  C2 < 168
+               );
+               IF(
+                  N2 > 92;
+                  2;
+                  IF(
+                     AND(
+                        N2 <= 92;
+                        N2 >= 78
+                     );
+                     0;
+                     1
+                  )
+               )
+            )
+         )
+      );
+      IF(
+         B2 = "M";
+         IF(
+            AND(
+               C2 >= 0;
+               C2 < 60
+            );
+            IF(
+               N2 > 85;
+               2;
+               IF(
+                  AND(
+                     N2 <= 85;
+                     N2 >= 71
+                  );
+                  0;
+                  1
+               )
+            );
+            IF(
+               AND(
+                  C2 >= 60;
+                  C2 < 120
+               );
+               IF(
+                  N2 > 88;
+                  2;
+                  IF(
+                     AND(
+                        N2 <= 88;
+                        N2 >= 76
+                     );
+                     0;
+                     1
+                  )
+               );
+               IF(
+                  AND(
+                     C2 >= 120;
+                     C2 < 168
+                  );
+                  IF(
+                     N2 > 90;
+                     2;
+                     IF(
+                        AND(
+                           N2 <= 90;
+                           N2 >= 76
+                        );
+                        0;
+                        1
+                     )
+                  )
+               )
+            )
+         );
+         ""
+      )
+   );
+   ""
+)
+\end{lstlisting}\
+\end{minipage}
 
+\subsection{Circulating iron}\label{sub:patmcv}
+The following VBA expression was used to establish were circulating iron 
 
+% Excel equation of pathological iron
+\begin{minipage}{\linewidth}
+\begin{lstlisting}
+=IF(
+   P2 <> "";
+   IF(
+      AND(
+         P2 >= 16;
+         P2 <= 129
+      );
+      0;
+      1
+   );
+   ""
+)
+\end{lstlisting}\
+\end{minipage}
 
-\section{Compile ParaUnity}
-The files in \texttt{ParaUnity} are the developed and improved version of the official ParaUnity plugin, as described in Chapter.
+\subsection{Circulating iron}\label{sub:patiron}
+The following VBA expression was used to establish whether circulating iron values were insufficient. 
 
-In order to build ParaUnity do the following:
-\begin{enumerate}
-	\item Open a terminal in \path{\ParaUnity\Unity3DPlugin}
-	\item \texttt{mkdir build}
-	\item \texttt{cd build}
-	\item \texttt{cmake -G "Visual Studio 14 2015 Win64" -DParaView\_DIR="\path{<PARAVIEW_DIR>\build}" ..}
-	\item Open \path{\ParaUnity\Unity3DPlugin\build\Project.sln} in Visual Studio
-	\item Right click on the project \texttt{Unity3D}, go to \texttt{C/C++ > Additional Include Directories} and add \path{\verC:\Qt\4.8.6\include\QtNetwork}
-	\item Build.
-	\item You now have some files (most importantly a \path{Unity3D.dll} file) in \path{\build\Debug}. Remember their location.
-\end{enumerate}
+% Excel equation of pathological iron
+\begin{minipage}{\linewidth}
+\begin{lstlisting}
+=IF(
+   P2 <> "";
+   IF(
+      AND(
+         P2 >= 16;
+         P2 <= 129
+      );
+      0;
+      1
+   );
+   ""
+)
+\end{lstlisting}\
+\end{minipage}
 
-\subsection{Prerequisites}
-\begin{itemize}
-	\item Unity 5.6.1f1
-\end{itemize}
+\subsection{Ferritin}\label{sub:patferritin}
+The following VBA expression was used to identify pathological ferritin values, these were, again, stratified for mild (\textit{1}), moderate (\textit{2}) and severe (\textit{3}) deficiency. 
+
+% Excel equation of pathological ferritin
+\begin{minipage}{\linewidth}
+\begin{lstlisting}
+=IF(
+   R2 <> "";
+   IF(
+      R2 >= 20;
+      0;
+      IF(
+         AND(
+            R2 < 20;
+            R2 >= 15
+         );
+         1;
+         IF(
+            AND(
+               R2 < 15;
+               R2 >= 10
+            );
+            2;
+            IF(
+               R2 < 10;
+               3
+            )
+         )
+      )
+   );
+   ""
+)
+\end{lstlisting}\
+\end{minipage}
+
+\subsection{Vitamin D}\label{sub:patvitaminD}
+The following VBA expression was used to establish whether Vitamin D (serum \textit{25-hydroxycholecalciferol}) values were insufficient (\textit{1}), deficient (\textit{2}) or severly deficient (\textit{3}). The predictive choice for this marker is explained at Section \ref{sub:vitaminD}.
+
+% Excel equation of pathological vitamin D
+\begin{minipage}{\linewidth}
+\begin{lstlisting}
+=IF(
+   AA2 <> "";
+   IF(
+      AA2 >= 50;
+      0;
+      IF(
+         AND(
+            AA2 < 50;
+            AA2 >= 25
+         );
+         1;
+         IF(
+            AND(
+               AA2 < 25;
+               AA2 >= 10
+            );
+            2;
+            IF(
+               AA2 < 10;
+               3
+            )
+         )
+      )
+   );
+   ""
+)
+\end{lstlisting}\
+\end{minipage}
