@@ -20,7 +20,7 @@ The \texttt{ROUNDOWN} function was needed in order to avoid overestimating child
 \end{minipage}
 
 \section{Geographic area of origin}\label{sec:geographicarea}
-To further understand how geographic origin influenced the results of our screening program, every nation was grouped up in 4 major continents are areas with the following excel expression.
+To further understand how geographic origin influenced the results of our screening program, every nation was grouped up in 4 major continents or areas with the following excel expression.
 
 % Excel equation of nationality
 % No minipage so it can page break
@@ -77,10 +77,10 @@ To further understand how geographic origin influenced the results of our screen
 \end{lstlisting}
 
 \section{Pathological values}\label{sec:pathologicalvalues}
-The data set contained numerical values for many laboratory analyses. Cut-off values for these results were established via the most recent literature review, as explained in Sections \ref{sub:cutoffvalues}. In the following sections, the code used to establish which ones where pathological and which were not is displayed and shortly explained.
+The data set contained numerical values for many laboratory analyses. Cut-off values for these results were established via the most recent literature review, as explained in Section \ref{sub:cutoffvalues}. In the following sections, the code used to establish which ones where pathological and which were not, is displayed and shortly explained.
 
 \subsection{Weight and height}\label{sub:patweightandheight}
-These parameters, since they had already been converted to percentile values, were easily implement with the following simple VBA expression:
+These parameters, since they had already been converted to percentile values, were easily implemented with the following simple VBA expression:
 
 % Excel equation of pathological weight and height
 \begin{minipage}{\linewidth}
@@ -98,7 +98,7 @@ These parameters, since they had already been converted to percentile values, we
 \end{minipage}
 
 \subsection{Haemoglobin}\label{sub:pathaemoglobin}
-Hemoglobin required a more complicated and sophisticated expression, in order to be stratified, because hemoglobin pathological cut-offs depend on various factors, as described in Section \ref{sub:haemoglobin}. Moreover mild, moderate and severe anemia had to be separated in order to properly evaluate the child's health status; each one had an arbitrary values of 1 (\textit{mild}), 2 (\textit{moderate}) or 3 (\textit{severe}) associated to it.
+Hemoglobin required a more complicated and sophisticated expression, in order to be stratified, because hemoglobin pathological cut-offs depend on various factors, as described in Section \ref{sub:haemoglobin}. Moreover mild, moderate and severe anemias had to be separated in order to properly evaluate the child's health status; each one had an arbitrary value of 1 (\textit{mild}), 2 (\textit{moderate}) or 3 (\textit{severe}) associated to it.
 
 % Excel equation of pathological hemoglobin
 % No minipage so it can page break
@@ -185,7 +185,7 @@ Hemoglobin required a more complicated and sophisticated expression, in order to
 \end{lstlisting}
 
 \subsection{MCV}\label{sub:patmcv}
-As just described for haemglobin, MCV required more complicated techniques in order to be stratified, because of its variability (through age, sex, ecc\dots), as described in Section \ref{sub:mcv}. Moreover, boolean results couldn't be accepted for this parameter, so arbitrary values were used to appropriately identify microcytic (\textit{1}) and macrocytic (\textit{2}) anemias.
+As just described for haemoglobin, MCV required more complicated techniques in order to be stratified, because of its variability (through age, sex, ecc\dots), as described in Section \ref{sub:mcv}. Moreover, boolean results couldn't be accepted for this parameter, so arbitrary values were used to appropriately identify microcytic (\textit{1}) and macrocytic (\textit{2}) anemias.
 
 % Excel equation of pathological mcv
 % No minipage so it can page break
@@ -312,7 +312,7 @@ As just described for haemglobin, MCV required more complicated techniques in or
 \end{lstlisting}
 
 \subsection{Circulating iron}\label{sub:patiron}
-The following VBA expression was used to establish whether circulating iron values were insufficient. 
+The following VBA expression was used to establish whether circulating iron levels were insufficient. 
 
 % Excel equation of pathological iron
 \begin{minipage}{\linewidth}
@@ -333,7 +333,7 @@ The following VBA expression was used to establish whether circulating iron valu
 \end{minipage}
 
 \subsection{Ferritin}\label{sub:patferritin}
-The following VBA expression was used to identify pathological ferritin values, these were, again, stratified for mild (\textit{1}), moderate (\textit{2}) and severe (\textit{3}) deficiency. 
+The following VBA expression was used to identify pathological ferritin values. These were, again, stratified for \textit{mild} (\textit{1}), \textit{moderate} (\textit{2}) and \textit{severe} (\textit{3}) deficiencies. 
 
 % Excel equation of pathological ferritin
 % No minipage so it can page break
@@ -367,7 +367,7 @@ The following VBA expression was used to identify pathological ferritin values, 
 \end{lstlisting}
 
 \subsection{Vitamin D}\label{sub:patvitaminD}
-The following VBA expression was used to establish whether Vitamin D (serum \textit{25-hydroxycholecalciferol}) values were insufficient (\textit{1}), deficient (\textit{2}) or severly deficient (\textit{3}). The predictive choice for this marker is explained at Section \ref{sub:vitaminD}.
+The following VBA expression was used to establish whether Vitamin D (serum \textit{25-hydroxycholecalciferol}) values were \textit{insufficient} (\textit{1}), \textit{deficient} (\textit{2}) or \textit{severely deficient} (\textit{3}). The predictive choice for this marker is explained at Section \ref{sub:vitaminD}.
 
 % Excel equation of pathological vitamin D
 % No minipage so it can page break
