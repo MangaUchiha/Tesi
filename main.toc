@@ -13,54 +13,52 @@
 \contentsline {subsubsection}{\numberline {1.2.2.1}Github}{5}{subsubsection.18}
 \contentsline {subsubsection}{\numberline {1.2.2.2}Waffle}{5}{subsubsection.19}
 \contentsline {chapter}{\numberline {2}Materials and Methods}{6}{chapter.20}
-\contentsline {section}{\numberline {2.1}Literature Review}{6}{section.21}
-\contentsline {section}{\numberline {2.2}Technologies Used}{6}{section.22}
-\contentsline {subsection}{\numberline {2.2.1}ParaView and VTK}{7}{subsection.23}
-\contentsline {subsubsection}{\numberline {2.2.1.1}Virtual Reality Capabilities in ParaView}{7}{subsubsection.24}
-\contentsline {subsection}{\numberline {2.2.2}Unity}{7}{subsection.25}
-\contentsline {subsubsection}{\numberline {2.2.2.1}Object behaviors in Unity}{8}{subsubsection.26}
-\contentsline {subsubsection}{\numberline {2.2.2.2}Virtual Reality Capabilities in Unity}{8}{subsubsection.27}
-\contentsline {subsection}{\numberline {2.2.3}ParaUnity}{8}{subsection.28}
-\contentsline {chapter}{\numberline {3}Results}{9}{chapter.29}
-\contentsline {section}{\numberline {3.1}Introduction}{9}{section.30}
-\contentsline {subsection}{\numberline {3.1.1}Why Unity?}{9}{subsection.31}
-\contentsline {section}{\numberline {3.2}Application Architecture}{10}{section.32}
-\contentsline {subsection}{\numberline {3.2.1}Environment}{10}{subsection.33}
-\contentsline {chapter}{\numberline {4}Conclusions}{11}{chapter.34}
-\contentsline {section}{\numberline {4.1}Final system architecture}{11}{section.35}
-\contentsline {section}{\numberline {4.2}Objectives achieved}{12}{section.36}
-\contentsline {section}{\numberline {4.3}Future work}{12}{section.37}
-\contentsline {chapter}{\numberline {5}How to Do}{13}{chapter.38}
-\contentsline {section}{\numberline {5.1}Including Sections and Subsections}{13}{section.39}
-\contentsline {subsection}{\numberline {5.1.1}I like myself}{13}{subsection.40}
-\contentsline {subsection}{\numberline {5.1.2}but I'm weird}{13}{subsection.41}
-\contentsline {subsubsection}{\numberline {5.1.2.1}LOST OF FUN!}{13}{subsubsection.42}
-\contentsline {subsubsection}{\numberline {5.1.2.2}I'm calm and shit}{14}{subsubsection.43}
-\contentsline {section}{\numberline {5.2}Including references and citations}{14}{section.45}
-\contentsline {subsection}{\numberline {5.2.1}Referencing images and tables!}{14}{subsection.46}
-\contentsline {subsection}{\numberline {5.2.2}Referencing chapters and subchapters}{14}{subsection.47}
-\contentsline {subsection}{\numberline {5.2.3}Using footnotes}{14}{subsection.48}
-\contentsline {section}{\numberline {5.3}Including quotes}{15}{section.52}
-\contentsline {section}{\numberline {5.4}Including URLs}{15}{section.53}
-\contentsline {section}{\numberline {5.5}Including code}{15}{section.54}
-\contentsline {section}{\numberline {5.6}Formatting Text}{17}{section.105}
-\contentsline {section}{\numberline {5.7}Including bulleted list}{17}{section.106}
-\contentsline {section}{\numberline {5.8}Including Figures}{18}{section.110}
-\contentsline {section}{\numberline {5.9}Including Tables}{18}{section.112}
+\contentsline {section}{\numberline {2.1}Data set elaboration}{6}{section.21}
+\contentsline {subsection}{\numberline {2.1.1}VBA expressions}{6}{subsection.22}
+\contentsline {subsection}{\numberline {2.1.2}Cut-off values}{7}{subsection.23}
+\contentsline {section}{\numberline {2.2}Literature Review}{7}{section.24}
+\contentsline {section}{\numberline {2.3}Technologies Used}{7}{section.25}
+\contentsline {subsection}{\numberline {2.3.1}ParaView and VTK}{8}{subsection.26}
+\contentsline {subsubsection}{\numberline {2.3.1.1}Virtual Reality Capabilities in ParaView}{8}{subsubsection.27}
+\contentsline {subsection}{\numberline {2.3.2}Unity}{8}{subsection.28}
+\contentsline {subsubsection}{\numberline {2.3.2.1}Object behaviors in Unity}{9}{subsubsection.29}
+\contentsline {subsubsection}{\numberline {2.3.2.2}Virtual Reality Capabilities in Unity}{9}{subsubsection.30}
+\contentsline {subsection}{\numberline {2.3.3}ParaUnity}{9}{subsection.31}
+\contentsline {chapter}{\numberline {3}Results}{10}{chapter.32}
+\contentsline {section}{\numberline {3.1}Introduction}{10}{section.33}
+\contentsline {subsection}{\numberline {3.1.1}Why Unity?}{10}{subsection.34}
+\contentsline {section}{\numberline {3.2}Application Architecture}{11}{section.35}
+\contentsline {subsection}{\numberline {3.2.1}Environment}{11}{subsection.36}
+\contentsline {chapter}{\numberline {4}Discussion}{12}{chapter.37}
+\contentsline {section}{\numberline {4.1}Final system architecture}{12}{section.38}
+\contentsline {section}{\numberline {4.2}Objectives achieved}{13}{section.39}
+\contentsline {section}{\numberline {4.3}Future work}{13}{section.40}
+\contentsline {chapter}{\numberline {5}How to Do}{14}{chapter.41}
+\contentsline {section}{\numberline {5.1}Including Sections and Subsections}{14}{section.42}
+\contentsline {subsection}{\numberline {5.1.1}I like myself}{14}{subsection.43}
+\contentsline {subsection}{\numberline {5.1.2}but I'm weird}{14}{subsection.44}
+\contentsline {subsubsection}{\numberline {5.1.2.1}LOST OF FUN!}{14}{subsubsection.45}
+\contentsline {subsubsection}{\numberline {5.1.2.2}I'm calm and shit}{15}{subsubsection.46}
+\contentsline {section}{\numberline {5.2}Including references and citations}{15}{section.48}
+\contentsline {subsection}{\numberline {5.2.1}Referencing images and tables!}{15}{subsection.49}
+\contentsline {subsection}{\numberline {5.2.2}Referencing chapters and subchapters}{15}{subsection.50}
+\contentsline {subsection}{\numberline {5.2.3}Using footnotes}{15}{subsection.51}
+\contentsline {section}{\numberline {5.3}Including quotes}{16}{section.55}
+\contentsline {section}{\numberline {5.4}Including URLs}{16}{section.56}
+\contentsline {section}{\numberline {5.5}Including code}{16}{section.57}
+\contentsline {section}{\numberline {5.6}Formatting Text}{18}{section.108}
+\contentsline {section}{\numberline {5.7}Including bulleted list}{18}{section.109}
+\contentsline {section}{\numberline {5.8}Including Figures}{19}{section.113}
+\contentsline {section}{\numberline {5.9}Including Tables}{19}{section.115}
 \vspace {2em}
-\contentsline {chapter}{\numberline {A}Setup Instructions}{21}{appendix.115}
-\contentsline {section}{\numberline {A.1}Building ParaView and ParaUnity}{21}{section.116}
-\contentsline {subsection}{\numberline {A.1.1}Prerequisites}{21}{subsection.117}
-\contentsline {subsection}{\numberline {A.1.2}Obtain the source code}{22}{subsection.118}
-\contentsline {subsection}{\numberline {A.1.3}Compile Qt}{22}{subsection.119}
-\contentsline {subsection}{\numberline {A.1.4}Compile ParaView}{22}{subsection.127}
-\contentsline {subsection}{\numberline {A.1.5}Compile ParaUnity}{23}{subsection.134}
-\contentsline {subsection}{\numberline {A.1.6}Loading the plug-in in ParaView}{24}{subsection.143}
-\contentsline {section}{\numberline {A.2}Building the Unity Application}{24}{section.147}
-\contentsline {subsection}{\numberline {A.2.1}Prerequisites}{24}{subsection.148}
-\contentsline {subsection}{\numberline {A.2.2}Obtain the source code}{24}{subsection.149}
-\contentsline {subsection}{\numberline {A.2.3}Compile the application}{24}{subsection.150}
-\contentsline {subsection}{\numberline {A.2.4}Exporting an object from ParaView to Unity}{25}{subsection.158}
-\contentsline {chapter}{\numberline {B}Code of the Unity Application}{26}{appendix.162}
-\contentsline {section}{\numberline {B.1}AnimationManager}{26}{section.163}
-\contentsline {chapter}{Bibliography}{27}{dummy.164}
+\contentsline {chapter}{\numberline {A}Code used}{22}{appendix.118}
+\contentsline {section}{\numberline {A.1}Age (in months)}{22}{section.119}
+\contentsline {section}{\numberline {A.2}Geographic area of origin}{23}{section.129}
+\contentsline {section}{\numberline {A.3}Pathological values}{25}{section.180}
+\contentsline {subsection}{\numberline {A.3.1}Pathological weight and height}{25}{subsection.181}
+\contentsline {subsection}{\numberline {A.3.2}Pathological hemoglobin}{25}{subsection.192}
+\contentsline {section}{\numberline {A.4}Compile ParaUnity}{27}{section.273}
+\contentsline {subsection}{\numberline {A.4.1}Prerequisites}{27}{subsection.282}
+\contentsline {chapter}{\numberline {B}Code of the Unity Application}{28}{appendix.283}
+\contentsline {section}{\numberline {B.1}AnimationManager}{28}{section.284}
+\contentsline {chapter}{Bibliography}{29}{dummy.285}
