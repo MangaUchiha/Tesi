@@ -1,4 +1,4 @@
-\chap{Data set elaboration: VBA expressions}\label{chap:apprendixvbaexpressions}
+\chap{Data set elaboration: VBA expressions}\label{chap:appendixvbaexpressions}
 This appendix provides all the VBA code used in this thesis to elaborate the data set. Further information can be found throughout the thesis, especially in Section \ref{sec:datasetelaboration} at page \pageref{sec:datasetelaboration}.
 
 \section{Age (in months)}\label{sec:ageinmonths}
@@ -310,27 +310,6 @@ As just described for haemglobin, MCV required more complicated techniques in or
          );
          ""
       )
-   );
-   ""
-)
-\end{lstlisting}\
-\end{minipage}
-
-\subsection{Circulating iron}\label{sub:patmcv}
-The following VBA expression was used to establish were circulating iron 
-
-% Excel equation of pathological iron
-\begin{minipage}{\linewidth}
-\begin{lstlisting}
-=IF(
-   P2 <> "";
-   IF(
-      AND(
-         P2 >= 16;
-         P2 <= 129
-      );
-      0;
-      1
    );
    ""
 )

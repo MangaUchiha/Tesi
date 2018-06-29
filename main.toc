@@ -63,9 +63,8 @@
 \contentsline {subsection}{\numberline {A.3.2}Haemoglobin}{26}{subsection.196}
 \contentsline {subsection}{\numberline {A.3.3}MCV}{28}{subsection.277}
 \contentsline {subsection}{\numberline {A.3.4}Circulating iron}{30}{subsection.398}
-\contentsline {subsection}{\numberline {A.3.5}Circulating iron}{30}{subsection.412}
-\contentsline {subsection}{\numberline {A.3.6}Ferritin}{31}{subsection.426}
-\contentsline {subsection}{\numberline {A.3.7}Vitamin D}{31}{subsection.454}
-\contentsline {chapter}{\numberline {B}Code of the Unity Application}{33}{appendix.482}
-\contentsline {section}{\numberline {B.1}AnimationManager}{33}{section.483}
-\contentsline {chapter}{Bibliography}{34}{dummy.484}
+\contentsline {subsection}{\numberline {A.3.5}Ferritin}{30}{subsection.412}
+\contentsline {subsection}{\numberline {A.3.6}Vitamin D}{31}{subsection.440}
+\contentsline {chapter}{\numberline {B}Code of the Unity Application}{33}{appendix.468}
+\contentsline {section}{\numberline {B.1}AnimationManager}{33}{section.469}
+\contentsline {chapter}{Bibliography}{34}{dummy.470}
