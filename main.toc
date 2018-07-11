@@ -54,15 +54,15 @@
 \contentsline {section}{\numberline {5.9}Including Tables}{20}{section.117}
 \vspace {2em}
 \contentsline {chapter}{\numberline {A}Data set elaboration: VBA expressions}{23}{appendix.120}
-\contentsline {section}{\numberline {A.1}Age (in months)}{23}{section.121}
-\contentsline {section}{\numberline {A.2}Geographic area of origin}{24}{section.131}
-\contentsline {section}{\numberline {A.3}Pathological values}{25}{section.182}
-\contentsline {subsection}{\numberline {A.3.1}Weight and height}{25}{subsection.183}
-\contentsline {subsection}{\numberline {A.3.2}Haemoglobin}{26}{subsection.194}
-\contentsline {subsection}{\numberline {A.3.3}MCV}{28}{subsection.275}
-\contentsline {subsection}{\numberline {A.3.4}Circulating iron}{30}{subsection.396}
-\contentsline {subsection}{\numberline {A.3.5}Ferritin}{31}{subsection.410}
-\contentsline {subsection}{\numberline {A.3.6}Vitamin D}{32}{subsection.438}
-\contentsline {chapter}{\numberline {B}Code of the Unity Application}{33}{appendix.466}
-\contentsline {section}{\numberline {B.1}AnimationManager}{33}{section.467}
-\contentsline {chapter}{Bibliography}{34}{dummy.468}
+\contentsline {section}{\numberline {A.1}Age (in months)}{23}{section.122}
+\contentsline {section}{\numberline {A.2}Geographic area of origin}{24}{section.132}
+\contentsline {section}{\numberline {A.3}Pathological values}{26}{section.183}
+\contentsline {subsection}{\numberline {A.3.1}Weight and height}{26}{subsection.184}
+\contentsline {subsection}{\numberline {A.3.2}Haemoglobin}{26}{subsection.195}
+\contentsline {subsection}{\numberline {A.3.3}MCV}{28}{subsection.276}
+\contentsline {subsection}{\numberline {A.3.4}Circulating iron}{31}{subsection.397}
+\contentsline {subsection}{\numberline {A.3.5}Ferritin}{32}{subsection.411}
+\contentsline {subsection}{\numberline {A.3.6}Vitamin D}{32}{subsection.439}
+\contentsline {chapter}{\numberline {B}Code of the Unity Application}{34}{appendix.467}
+\contentsline {section}{\numberline {B.1}AnimationManager}{34}{section.468}
+\contentsline {chapter}{Bibliography}{35}{dummy.469}

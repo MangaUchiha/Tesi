@@ -1,9 +1,30 @@
 \chap{Data set elaboration: VBA expressions}\label{chap:appendixvbaexpressions}
-This appendix provides all the VBA code used in this thesis to elaborate the data set. Further information can be found throughout the thesis, especially in Section \ref{sec:datasetelaboration} at page \pageref{sec:datasetelaboration}.
+This appendix provides all the code used in this thesis to elaborate the data set. Visual Basic for Application (VBA) is the programming language chosen for this purpose, as the most effective and manageable way of elaborating data in excel sheets. Further information can be found throughout this thesis, especially in Section \ref{sec:datasetelaboration} at page \pageref{sec:datasetelaboration}.
+
+In the following appendix, cells are indicated as combination of a letter (identifying the column) and a number (identifying the line), as they originally were in the database. Every line represents a single child's evaluation; every column represents one of the examined parameters. The full column-parameter correspondence can be found in following Table \ref{tab:columnparameter}.
+
+% Column-parameter correspondence table
+\begin{table}[ht!]
+	\centering 
+	\def\arraystretch{1.5}
+	\begin{tabularx}{\textwidth}{|C|C|C|}
+		\hline
+		\textbf{Column} & \textbf{Parameter} & \textbf{Description} \\
+		\hline \hline
+		A & Name and surname & Although registering the name of the patient posed a risk in terms of possible privacy breach, it was added nonetheless to easily identify each patient as the data set got bigger.\\
+		\hline
+		B & Age (in years) & The age of the kid  \\
+		\hline
+		C & Age (in months) & ASD. For further information, see Section \ref{sec:ageinmonths} \\
+		\hline
+	\end{tabularx}
+	\captionof{table}{Column-parameter correspondence}
+	\label{tab:columnparameter}
+\end{table}
 
 \section{Age (in months)}\label{sec:ageinmonths}
-This VBA expression checks the Age (in months) column and, if it's not empty, it divides it's value by 12, rounding it down, just as age works.\\
-The \texttt{ROUNDOWN} function was needed in order to avoid overestimating children's age.
+This VBA expression checks the \textit{Age (in months)} column (C) and, if it's not empty, it divides it's value by 12, rounding it down, just as age works.\\
+The \texttt{ROUNDOWN} function was implemented in order to avoid overestimating child's age.
 
 % Excel equation of age (in months)
 \begin{minipage}{\linewidth}
