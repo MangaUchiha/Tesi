@@ -6,65 +6,63 @@
 \contentsline {chapter}{List of Tables}{IX}{dummy.8}
 \contentsline {chapter}{Abbreviations}{X}{dummy.10}
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.13}
-\contentsline {section}{\numberline {1.1}Objectives}{3}{section.14}
-\contentsline {section}{\numberline {1.2}Project Management}{4}{section.15}
-\contentsline {subsection}{\numberline {1.2.1}Time management}{4}{subsection.16}
-\contentsline {subsection}{\numberline {1.2.2}Versioning and productivity tools}{5}{subsection.17}
-\contentsline {subsubsection}{\numberline {1.2.2.1}Github}{5}{subsubsection.18}
-\contentsline {subsubsection}{\numberline {1.2.2.2}Waffle}{5}{subsubsection.19}
-\contentsline {chapter}{\numberline {2}Materials and Methods}{6}{chapter.20}
-\contentsline {section}{\numberline {2.1}Data set elaboration}{6}{section.21}
-\contentsline {subsection}{\numberline {2.1.1}VBA expressions}{6}{subsection.22}
-\contentsline {subsection}{\numberline {2.1.2}Cut-off values}{7}{subsection.23}
-\contentsline {subsubsection}{\numberline {2.1.2.1}Haemoglobin}{7}{subsubsection.24}
-\contentsline {subsubsection}{\numberline {2.1.2.2}MCV}{7}{subsubsection.25}
-\contentsline {subsubsection}{\numberline {2.1.2.3}Circulating Iron}{7}{subsubsection.26}
-\contentsline {subsubsection}{\numberline {2.1.2.4}Vitamin D}{7}{subsubsection.27}
-\contentsline {section}{\numberline {2.2}Literature Review}{8}{section.28}
-\contentsline {section}{\numberline {2.3}Technologies Used}{8}{section.29}
-\contentsline {subsection}{\numberline {2.3.1}ParaView and VTK}{8}{subsection.30}
-\contentsline {subsubsection}{\numberline {2.3.1.1}Virtual Reality Capabilities in ParaView}{9}{subsubsection.31}
-\contentsline {subsection}{\numberline {2.3.2}Unity}{9}{subsection.32}
-\contentsline {subsubsection}{\numberline {2.3.2.1}Object behaviors in Unity}{9}{subsubsection.33}
-\contentsline {subsubsection}{\numberline {2.3.2.2}Virtual Reality Capabilities in Unity}{10}{subsubsection.34}
-\contentsline {subsection}{\numberline {2.3.3}ParaUnity}{10}{subsection.35}
-\contentsline {chapter}{\numberline {3}Results}{11}{chapter.36}
-\contentsline {section}{\numberline {3.1}Introduction}{11}{section.37}
-\contentsline {subsection}{\numberline {3.1.1}Why Unity?}{11}{subsection.38}
-\contentsline {section}{\numberline {3.2}Application Architecture}{12}{section.39}
-\contentsline {subsection}{\numberline {3.2.1}Environment}{12}{subsection.40}
-\contentsline {chapter}{\numberline {4}Discussion}{13}{chapter.41}
-\contentsline {section}{\numberline {4.1}Final system architecture}{13}{section.42}
-\contentsline {section}{\numberline {4.2}Objectives achieved}{14}{section.43}
-\contentsline {section}{\numberline {4.3}Future work}{14}{section.44}
-\contentsline {chapter}{\numberline {5}How to Do}{15}{chapter.45}
-\contentsline {section}{\numberline {5.1}Including Sections and Subsections}{15}{section.46}
-\contentsline {subsection}{\numberline {5.1.1}I like myself}{15}{subsection.47}
-\contentsline {subsection}{\numberline {5.1.2}but I'm weird}{15}{subsection.48}
-\contentsline {subsubsection}{\numberline {5.1.2.1}LOST OF FUN!}{15}{subsubsection.49}
-\contentsline {subsubsection}{\numberline {5.1.2.2}I'm calm and shit}{16}{subsubsection.50}
-\contentsline {section}{\numberline {5.2}Including references and citations}{16}{section.52}
-\contentsline {subsection}{\numberline {5.2.1}Referencing images and tables!}{16}{subsection.53}
-\contentsline {subsection}{\numberline {5.2.2}Referencing chapters and subchapters}{16}{subsection.54}
-\contentsline {subsection}{\numberline {5.2.3}Using footnotes}{16}{subsection.55}
-\contentsline {section}{\numberline {5.3}Including quotes}{17}{section.59}
-\contentsline {section}{\numberline {5.4}Including URLs}{17}{section.60}
-\contentsline {section}{\numberline {5.5}Including code}{17}{section.61}
-\contentsline {section}{\numberline {5.6}Formatting Text}{19}{section.112}
-\contentsline {section}{\numberline {5.7}Including bulleted list}{19}{section.113}
-\contentsline {section}{\numberline {5.8}Including Figures}{20}{section.117}
-\contentsline {section}{\numberline {5.9}Including Tables}{20}{section.119}
+\contentsline {section}{\numberline {1.1}International adoptions in Italy}{3}{section.14}
+\contentsline {subsection}{\numberline {1.1.1}Adoptions in Europe and in the world}{4}{subsection.15}
+\contentsline {section}{\numberline {1.2}State of the arts in Italy}{4}{section.16}
+\contentsline {subsection}{\numberline {1.2.1}State of the arts in Europe and in the world}{5}{subsection.17}
+\contentsline {section}{\numberline {1.3}Illnesses and dysfunctions under exam}{5}{section.18}
+\contentsline {subsubsection}{\numberline {1.3.0.1}Infectious diseases}{5}{subsubsection.19}
+\contentsline {subsubsection}{\numberline {1.3.0.2}Blood count disorders and deficiency states}{6}{subsubsection.20}
+\contentsline {subsubsection}{\numberline {1.3.0.3}Height-weight disorders}{6}{subsubsection.21}
+\contentsline {chapter}{\numberline {2}Materials and Methods}{7}{chapter.22}
+\contentsline {section}{\numberline {2.1}The data set}{7}{section.23}
+\contentsline {subsection}{\numberline {2.1.1}The population in exam}{7}{subsection.24}
+\contentsline {subsection}{\numberline {2.1.2}Inclusion and exclusion citeria}{8}{subsection.25}
+\contentsline {section}{\numberline {2.2}Data set elaboration}{8}{section.26}
+\contentsline {subsection}{\numberline {2.2.1}VBA expressions}{8}{subsection.27}
+\contentsline {subsection}{\numberline {2.2.2}Cut-off values}{9}{subsection.28}
+\contentsline {subsubsection}{\numberline {2.2.2.1}Haemoglobin}{9}{subsubsection.29}
+\contentsline {subsubsection}{\numberline {2.2.2.2}MCV}{9}{subsubsection.30}
+\contentsline {subsubsection}{\numberline {2.2.2.3}Circulating Iron}{9}{subsubsection.31}
+\contentsline {subsubsection}{\numberline {2.2.2.4}Vitamin D}{9}{subsubsection.32}
+\contentsline {section}{\numberline {2.3}Statistical Analyses}{9}{section.33}
+\contentsline {chapter}{\numberline {3}Results}{11}{chapter.34}
+\contentsline {section}{\numberline {3.1}Introduction}{11}{section.35}
+\contentsline {section}{\numberline {3.2}Risultati 1}{11}{section.36}
+\contentsline {section}{\numberline {3.3}Risultati 2}{12}{section.37}
+\contentsline {section}{\numberline {3.4}Risultati 3}{12}{section.38}
+\contentsline {chapter}{\numberline {4}Discussion}{13}{chapter.39}
+\contentsline {section}{\numberline {4.1}Objectives achieved}{13}{section.40}
+\contentsline {section}{\numberline {4.2}Our recommendations}{14}{section.41}
+\contentsline {section}{\numberline {4.3}Future work}{14}{section.42}
+\contentsline {chapter}{\numberline {5}How to Do}{15}{chapter.43}
+\contentsline {section}{\numberline {5.1}Including Sections and Subsections}{15}{section.44}
+\contentsline {subsection}{\numberline {5.1.1}I like myself}{15}{subsection.45}
+\contentsline {subsection}{\numberline {5.1.2}but I'm weird}{15}{subsection.46}
+\contentsline {subsubsection}{\numberline {5.1.2.1}LOST OF FUN!}{15}{subsubsection.47}
+\contentsline {subsubsection}{\numberline {5.1.2.2}I'm calm and shit}{16}{subsubsection.48}
+\contentsline {section}{\numberline {5.2}Including references and citations}{16}{section.50}
+\contentsline {subsection}{\numberline {5.2.1}Referencing images and tables!}{16}{subsection.51}
+\contentsline {subsection}{\numberline {5.2.2}Referencing chapters and subchapters}{16}{subsection.52}
+\contentsline {subsection}{\numberline {5.2.3}Using footnotes}{16}{subsection.53}
+\contentsline {section}{\numberline {5.3}Including quotes}{17}{section.57}
+\contentsline {section}{\numberline {5.4}Including URLs}{17}{section.58}
+\contentsline {section}{\numberline {5.5}Including code}{17}{section.59}
+\contentsline {section}{\numberline {5.6}Formatting Text}{19}{section.110}
+\contentsline {section}{\numberline {5.7}Including bulleted list}{19}{section.111}
+\contentsline {section}{\numberline {5.8}Including Figures}{20}{section.115}
+\contentsline {section}{\numberline {5.9}Including Tables}{20}{section.117}
 \vspace {2em}
-\contentsline {chapter}{\numberline {A}Data set elaboration: VBA expressions}{23}{appendix.122}
-\contentsline {section}{\numberline {A.1}Age (in months)}{23}{section.123}
-\contentsline {section}{\numberline {A.2}Geographic area of origin}{24}{section.133}
-\contentsline {section}{\numberline {A.3}Pathological values}{25}{section.184}
-\contentsline {subsection}{\numberline {A.3.1}Weight and height}{25}{subsection.185}
-\contentsline {subsection}{\numberline {A.3.2}Haemoglobin}{26}{subsection.196}
-\contentsline {subsection}{\numberline {A.3.3}MCV}{28}{subsection.277}
-\contentsline {subsection}{\numberline {A.3.4}Circulating iron}{30}{subsection.398}
-\contentsline {subsection}{\numberline {A.3.5}Ferritin}{31}{subsection.412}
-\contentsline {subsection}{\numberline {A.3.6}Vitamin D}{32}{subsection.440}
-\contentsline {chapter}{\numberline {B}Code of the Unity Application}{33}{appendix.468}
-\contentsline {section}{\numberline {B.1}AnimationManager}{33}{section.469}
-\contentsline {chapter}{Bibliography}{34}{dummy.470}
+\contentsline {chapter}{\numberline {A}Data set elaboration: VBA expressions}{23}{appendix.120}
+\contentsline {section}{\numberline {A.1}Age (in months)}{23}{section.121}
+\contentsline {section}{\numberline {A.2}Geographic area of origin}{24}{section.131}
+\contentsline {section}{\numberline {A.3}Pathological values}{25}{section.182}
+\contentsline {subsection}{\numberline {A.3.1}Weight and height}{25}{subsection.183}
+\contentsline {subsection}{\numberline {A.3.2}Haemoglobin}{26}{subsection.194}
+\contentsline {subsection}{\numberline {A.3.3}MCV}{28}{subsection.275}
+\contentsline {subsection}{\numberline {A.3.4}Circulating iron}{30}{subsection.396}
+\contentsline {subsection}{\numberline {A.3.5}Ferritin}{31}{subsection.410}
+\contentsline {subsection}{\numberline {A.3.6}Vitamin D}{32}{subsection.438}
+\contentsline {chapter}{\numberline {B}Code of the Unity Application}{33}{appendix.466}
+\contentsline {section}{\numberline {B.1}AnimationManager}{33}{section.467}
+\contentsline {chapter}{Bibliography}{34}{dummy.468}
