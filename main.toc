@@ -63,6 +63,4 @@
 \contentsline {subsection}{\numberline {A.3.4}Circulating iron}{31}{subsection.402}
 \contentsline {subsection}{\numberline {A.3.5}Ferritin}{32}{subsection.416}
 \contentsline {subsection}{\numberline {A.3.6}Vitamin D}{32}{subsection.444}
-\contentsline {chapter}{\numberline {B}Code of the Unity Application}{35}{appendix.472}
-\contentsline {section}{\numberline {B.1}AnimationManager}{35}{section.473}
-\contentsline {chapter}{Bibliography}{36}{dummy.474}
+\contentsline {chapter}{Bibliography}{35}{dummy.472}
