@@ -7,20 +7,73 @@ In the following appendix, cells are indicated as combination of a letter (ident
 \begin{table}[ht!]
 	\centering 
 	\def\arraystretch{1.5}
-	\begin{tabularx}{\textwidth}{|C|C|C|}
+	\begin{tabularx}{\textwidth}{|C|C|C|C|}
 		\hline
-		\textbf{Column} & \textbf{Parameter} & \textbf{Description} \\
+		\textbf{Column} & \textbf{Parameter} & \textbf{Unit of measure (or cell content type)} & \textbf{Description} \\
 		\hline \hline
-		A & Name and surname & Although registering the name of the patient posed a risk in terms of possible privacy breach, it was added nonetheless to easily identify each patient as the data set got bigger.\\
+		A & First and last name & \textit{text} & The name of the kid.\footnote{Although registering the name of the patient posed a risk in terms of possible privacy breach, it was added nonetheless to easily identify each patient as the data set got larger through the years.}\\
 		\hline
-		B & Age (in years) & The age of the kid  \\
+		B & Sex & \textit{text} & The sex of the kid.\\
 		\hline
-		C & Age (in months) & ASD. For further information, see Section \ref{sec:ageinmonths} \\
+		C & Age (in months) & months & The age of the kid.  \\
+		\hline
+		D & Age (in years) & years & *. For further information, see Section \ref{sec:ageinmonths}. \\
+		\hline
+		E & Nation of origin & \textit{text} & *. \\
+		\hline
+		F & Geographic area of origin & \textit{text} & *. \\
+		\hline
+		G & Residency time in Italy (in months) & months & *. \\
+		\hline
+		H & Weight & percentile & *. \\
+		\hline
+		I & Pathological weight & \textit{boolean} & *. \\
+		\hline
+		J & Height & percentile & *. \\
+		\hline
+		K & Pathological height & \textit{boolean} & *. \\
+		\hline
+		L & Haemoglobin & \si{\gram}/\si{\deci\litre} & *. \\
+		\hline
+		M & Pathological haemoglobin & \textit{boolean} & *. \\
+		\hline
+		N & MCV & \si{\femto\litre} & *. \\
+		\hline
+		O & Pathological MCV & \textit{boolean} & *. \\
+		\hline
+		P & Circulating iron & \si{\micro\gram}/\si{\deci\litre} & *. \\
+		\hline
+		Q & Pathological circulating iron & \textit{boolean} & *. \\
+		\hline
+		R & Ferritin & \si{\nano\gram}/\si{\milli\litre} & *. \\
+		\hline
+		S & Pathological ferritin & \textit{boolean} & *. \\
 		\hline
 	\end{tabularx}
 	\captionof{table}{Column-parameter correspondence}
 	\label{tab:columnparameter}
 \end{table}
+
+
+\begin{longtable}{|l|l|l|l|}
+	\hline
+	\textbf{Column} & \textbf{Parameter} & \textbf{Unit of measure (or cell content type)} & \textbf{Description} \\[6pt]
+	\hline \hline
+	$A$ & First and last name & \textit{text} & The name of the kid.\footnote{Although registering the name of the patient posed a risk in terms of possible privacy breach, it was added nonetheless to easily identify each patient as the data set got larger through the years.}\\[6pt]
+		\hline
+		$B$ & Sex & \textit{text} & The sex of the kid.\\[6pt]
+		\hline
+		$C$ & Age (in months) & months & The age of the kid.  \\[6pt]
+		\hline
+		$D$ & Age (in years) & years & *. For further information, see Section \ref{sec:ageinmonths}. \\[6pt]
+		\hline
+		$E$ & Nation of origin & \textit{text} & *. \\[6pt]
+		\hline
+		$F$ & Geographic area of origin & \textit{text} & *. \\[6pt]
+		\hline
+		\caption{Column-parameter correspondence} \\
+		\label{tab:columnparameter}
+\end{longtable} 
 
 \section{Age (in months)}\label{sec:ageinmonths}
 This VBA expression checks the \textit{Age (in months)} column (C) and, if it's not empty, it divides it's value by 12, rounding it down, just as age works.\\
