@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.1.18)  30 JUL 2018 19:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.1.18)  30 JUL 2018 20:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2012,7 +2012,7 @@ File: ot1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 
 Package hyperref Warning: Suppressing link with empty target on input line 36.
 
-<images/units_logo.jpg, id=281, 702.625pt x 702.625pt>
+<images/units_logo.jpg, id=289, 702.625pt x 702.625pt>
 File: images/units_logo.jpg Graphic file (type jpg)
 
 <use images/units_logo.jpg>
@@ -2101,51 +2101,56 @@ Chapter 1.
 
 
 
-] [2] [3] [4]
-LaTeX Font Info:    Try loading font information for OMS+lmr on input line 52.
+]
+Underfull \hbox (badness 10000) in paragraph at lines 16--17
+[][]\OT1/lmr/m/n/12 1.3.0.2[][]).
+ []
+
+[2]
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 34.
  (/usr/local/texlive/2017/texmf-dist/tex/latex/lm/omslmr.fd
 File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 52.
-
-Overfull \hbox (3.31946pt too wide) in paragraph at lines 60--61
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 34.
+ [3]
+Overfull \hbox (3.31946pt too wide) in paragraph at lines 42--43
 []\OT1/lmr/m/n/12 The ap-pli-ca-tion shall run com-pat-i-bly at least on Win-do
 ws (ver-sion 7 or greater),
  []
 
-[5] [6]
+[4] [5]
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 84.
+(hyperref)                than one, level fixed on input line 66.
 
-[7]) (./chapters/MaterialsAndMethods.tex [8]
+[6]) (./chapters/MaterialsAndMethods.tex [7]
 Chapter 2.
 ------------------------------------------------------------------------------
  2 Materials and Methods
 ------------------------------------------------------------------------------
-[9
+[8
 
-] [10] [11]) (./chapters/Results.tex [12]
+] [9] [10]) (./chapters/Results.tex [11]
 Chapter 3.
 ------------------------------------------------------------------------------
  3 Results
 ------------------------------------------------------------------------------
-[13
+[12
 
-]) (./chapters/Discussion.tex [14]
+]) (./chapters/Discussion.tex [13]
 Chapter 4.
 ------------------------------------------------------------------------------
  4 Discussion
 ------------------------------------------------------------------------------
-[15
+[14
 
-]) (./chapters/HowToDo.tex [16]
+]) (./chapters/HowToDo.tex [15]
 Chapter 5.
 ------------------------------------------------------------------------------
  5 How to Do
 ------------------------------------------------------------------------------
-[17
+[16
 
 ]
 LaTeX Font Info:    External font `lmex10' loaded for size
@@ -2155,11 +2160,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 44--45
 
  []
 
-[18] [19]
+[17] [18]
 Overfull \vbox (23.9183pt too high) has occurred while \output is active []
 
 
-[20]
+[19]
 Overfull \hbox (13.60051pt too wide) in paragraph at lines 146--147
 []\OT1/lmr/m/n/12 Then I can go for \OT1/lmr/m/n/14.4 large\OT1/lmr/m/n/12 , or
  \OT1/lmr/m/n/17.28 Large\OT1/lmr/m/n/12 , or \OT1/lmr/m/n/20.74 Larger\OT1/lmr
@@ -2167,13 +2172,13 @@ Overfull \hbox (13.60051pt too wide) in paragraph at lines 146--147
 8 HUGE\OT1/lmr/m/n/12 . 
  []
 
-[21] <images/living.jpg, id=601, 1062.97125pt x 830.10126pt>
+[20] <images/living.jpg, id=606, 1062.97125pt x 830.10126pt>
 File: images/living.jpg Graphic file (type jpg)
 
 <use images/living.jpg>
 Package pdftex.def Info: images/living.jpg used on input line 180.
 (pdftex.def)             Requested size: 426.79135pt x 333.30125pt.
- [22]) (./appendices/Appendix.tex [23 <./images/living.jpg>] [24]
+ [21]) (./appendices/Appendix.tex [22 <./images/living.jpg>] [23]
 Appendix A.
 ------------------------------------------------------------------------------
  A Data set elaboration: VBA expressions
@@ -2191,9 +2196,9 @@ Overfull \hbox (248.5364pt too wide) in alignment at lines 58--76
 Underfull \vbox (badness 10000) detected at line 76
  []
 
-[25
+[24
 
-] [26] [27] [28] [29] [30] [31] [32] [33] [34]) [35] [36]
+] [25] [26] [27] [28] [29] [30] [31] [32] [33]) [34] [35]
 ------------------------------------------------------------------------------
  Bibliography
 ------------------------------------------------------------------------------
@@ -2203,7 +2208,7 @@ Underfull \hbox (badness 8000) in paragraph at lines 37--41
  / FOGLIA51/$[][] \OT1/lmr/m/n/12 [ac-
  []
 
-) [37
+) [36
 
 
 ]
@@ -2213,7 +2218,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 72.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 72.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 72.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: CA7EE2E22AAFFAF63A6D4EBC7560B084;12567.
+(rerunfilecheck)             Checksum: FCAB29A03F6E0CF0500E813CEF8FD486;12905.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -2224,14 +2229,14 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 72.
  ) 
 Here is how much of TeX's memory you used:
- 38733 strings out of 492995
- 725394 string characters out of 6132704
+ 38738 strings out of 492995
+ 725482 string characters out of 6132704
  1061833 words of memory out of 5000000
- 41111 multiletter control sequences out of 15000+600000
+ 41115 multiletter control sequences out of 15000+600000
  95811 words of font info for 87 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  64i,17n,65p,13109b,2298s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{Hfootnote.128} has been referenced but does not e
+pdfTeX warning (dest): name{Hfootnote.130} has been referenced but does not e
 xist, replaced by a fixed one
 
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/local/t
@@ -2253,10 +2258,10 @@ dist/fonts/type1/public/lm/lmss12.pfb></usr/local/texlive/2017/texmf-dist/fonts
 /type1/public/lm/lmsy10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/pub
 lic/lm/lmtt12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmt
 t8.pfb>
-Output written on main.pdf (48 pages, 790360 bytes).
+Output written on main.pdf (47 pages, 787026 bytes).
 PDF statistics:
- 1206 PDF objects out of 1440 (max. 8388607)
- 1123 compressed objects within 12 object streams
- 529 named destinations out of 1000 (max. 500000)
- 567 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1211 PDF objects out of 1440 (max. 8388607)
+ 1129 compressed objects within 12 object streams
+ 530 named destinations out of 1000 (max. 500000)
+ 583 words of extra memory for PDF output out of 10000 (max. 10000000)
 
