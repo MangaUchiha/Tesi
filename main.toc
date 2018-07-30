@@ -6,67 +6,65 @@
 \contentsline {chapter}{List of Tables}{ix}{dummy.8}
 \contentsline {chapter}{Abbreviations}{x}{dummy.10}
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.13}
-\contentsline {section}{\numberline {1.1}International Adoptees}{1}{section.14}
-\contentsline {subsection}{\numberline {1.1.1}Levels and trends in the total number of adoptions}{3}{subsection.15}
-\contentsline {subsection}{\numberline {1.1.2}Levels and trends in intercountry adoption}{3}{subsection.16}
-\contentsline {subsection}{\numberline {1.1.3}International adoptions in Italy}{3}{subsection.17}
-\contentsline {subsection}{\numberline {1.1.4}Adoptions in Europe and in the world}{4}{subsection.18}
-\contentsline {section}{\numberline {1.2}Health status and screening protocols}{4}{section.19}
-\contentsline {subsection}{\numberline {1.2.1}Health status and screening protocols in Italy}{5}{subsection.20}
-\contentsline {subsection}{\numberline {1.2.2}Health status and screening protocols in the world}{5}{subsection.21}
-\contentsline {section}{\numberline {1.3}Illnesses and dysfunctions under exam}{5}{section.22}
-\contentsline {subsubsection}{\numberline {1.3.0.1}Infectious diseases}{6}{subsubsection.23}
-\contentsline {subsubsection}{\numberline {1.3.0.2}Blood count disorders and deficiency states}{6}{subsubsection.24}
-\contentsline {paragraph}{Iron-deficient anemia}{6}{section*.25}
-\contentsline {paragraph}{Vitamin D deficiency}{6}{section*.26}
-\contentsline {subsubsection}{\numberline {1.3.0.3}Height-weight disorders}{7}{subsubsection.27}
-\contentsline {chapter}{\numberline {2}Materials and Methods}{8}{chapter.28}
-\contentsline {section}{\numberline {2.1}The data set}{8}{section.29}
-\contentsline {subsection}{\numberline {2.1.1}The population in exam}{8}{subsection.30}
-\contentsline {subsection}{\numberline {2.1.2}Inclusion and exclusion citeria}{9}{subsection.31}
-\contentsline {section}{\numberline {2.2}Data set elaboration}{9}{section.32}
-\contentsline {subsection}{\numberline {2.2.1}VBA expressions}{9}{subsection.33}
-\contentsline {subsection}{\numberline {2.2.2}Cut-off values}{10}{subsection.34}
-\contentsline {subsubsection}{\numberline {2.2.2.1}Haemoglobin}{10}{subsubsection.35}
-\contentsline {subsubsection}{\numberline {2.2.2.2}MCV}{10}{subsubsection.36}
-\contentsline {subsubsection}{\numberline {2.2.2.3}Circulating Iron}{10}{subsubsection.37}
-\contentsline {subsubsection}{\numberline {2.2.2.4}Vitamin D}{10}{subsubsection.38}
-\contentsline {section}{\numberline {2.3}Statistical Analyses}{10}{section.39}
-\contentsline {chapter}{\numberline {3}Results}{12}{chapter.40}
-\contentsline {section}{\numberline {3.1}Introduction}{12}{section.41}
-\contentsline {section}{\numberline {3.2}Risultati 1}{12}{section.42}
-\contentsline {section}{\numberline {3.3}Risultati 2}{13}{section.43}
-\contentsline {section}{\numberline {3.4}Risultati 3}{13}{section.44}
-\contentsline {chapter}{\numberline {4}Discussion}{14}{chapter.45}
-\contentsline {section}{\numberline {4.1}Objectives achieved}{14}{section.46}
-\contentsline {section}{\numberline {4.2}Our recommendations}{15}{section.47}
-\contentsline {section}{\numberline {4.3}Future work}{15}{section.48}
-\contentsline {chapter}{\numberline {5}How to Do}{16}{chapter.49}
-\contentsline {section}{\numberline {5.1}Including Sections and Subsections}{16}{section.50}
-\contentsline {subsection}{\numberline {5.1.1}I like myself}{16}{subsection.51}
-\contentsline {subsection}{\numberline {5.1.2}but I'm weird}{16}{subsection.52}
-\contentsline {subsubsection}{\numberline {5.1.2.1}LOST OF FUN!}{16}{subsubsection.53}
-\contentsline {subsubsection}{\numberline {5.1.2.2}I'm calm and shit}{17}{subsubsection.54}
-\contentsline {section}{\numberline {5.2}Including references and citations}{17}{section.56}
-\contentsline {subsection}{\numberline {5.2.1}Referencing images and tables!}{17}{subsection.57}
-\contentsline {subsection}{\numberline {5.2.2}Referencing chapters and subchapters}{17}{subsection.58}
-\contentsline {subsection}{\numberline {5.2.3}Using footnotes}{17}{subsection.59}
-\contentsline {section}{\numberline {5.3}Including quotes}{18}{section.63}
-\contentsline {section}{\numberline {5.4}Including URLs}{18}{section.64}
-\contentsline {section}{\numberline {5.5}Including code}{18}{section.65}
-\contentsline {section}{\numberline {5.6}Formatting Text}{20}{section.116}
-\contentsline {section}{\numberline {5.7}Including bulleted list}{20}{section.117}
-\contentsline {section}{\numberline {5.8}Including Figures}{21}{section.121}
-\contentsline {section}{\numberline {5.9}Including Tables}{21}{section.123}
+\contentsline {section}{\numberline {1.1}Intercountry and international adoptees}{1}{section.14}
+\contentsline {subsection}{\numberline {1.1.1}Levels and trends in intercountry adoption worldwide}{3}{subsection.15}
+\contentsline {subsection}{\numberline {1.1.2}International adoptions in Italy}{3}{subsection.16}
+\contentsline {section}{\numberline {1.2}Health status and screening protocols}{4}{section.17}
+\contentsline {subsection}{\numberline {1.2.1}Health status and screening protocols in Italy}{4}{subsection.18}
+\contentsline {subsection}{\numberline {1.2.2}Health status and screening protocols in the world}{5}{subsection.19}
+\contentsline {section}{\numberline {1.3}Illnesses and dysfunctions under exam}{5}{section.20}
+\contentsline {subsubsection}{\numberline {1.3.0.1}Infectious diseases}{5}{subsubsection.21}
+\contentsline {subsubsection}{\numberline {1.3.0.2}Blood count disorders and deficiency states}{6}{subsubsection.22}
+\contentsline {paragraph}{Iron-deficient anemia}{6}{section*.23}
+\contentsline {paragraph}{Vitamin D deficiency}{6}{section*.24}
+\contentsline {subsubsection}{\numberline {1.3.0.3}Height-weight disorders}{6}{subsubsection.25}
+\contentsline {chapter}{\numberline {2}Materials and Methods}{7}{chapter.26}
+\contentsline {section}{\numberline {2.1}The data set}{7}{section.27}
+\contentsline {subsection}{\numberline {2.1.1}The population in exam}{7}{subsection.28}
+\contentsline {subsection}{\numberline {2.1.2}Inclusion and exclusion citeria}{8}{subsection.29}
+\contentsline {section}{\numberline {2.2}Data set elaboration}{8}{section.30}
+\contentsline {subsection}{\numberline {2.2.1}VBA expressions}{8}{subsection.31}
+\contentsline {subsection}{\numberline {2.2.2}Cut-off values}{9}{subsection.32}
+\contentsline {subsubsection}{\numberline {2.2.2.1}Haemoglobin}{9}{subsubsection.33}
+\contentsline {subsubsection}{\numberline {2.2.2.2}MCV}{9}{subsubsection.34}
+\contentsline {subsubsection}{\numberline {2.2.2.3}Circulating Iron}{9}{subsubsection.35}
+\contentsline {subsubsection}{\numberline {2.2.2.4}Vitamin D}{9}{subsubsection.36}
+\contentsline {section}{\numberline {2.3}Statistical Analyses}{9}{section.37}
+\contentsline {chapter}{\numberline {3}Results}{11}{chapter.38}
+\contentsline {section}{\numberline {3.1}Introduction}{11}{section.39}
+\contentsline {section}{\numberline {3.2}Risultati 1}{11}{section.40}
+\contentsline {section}{\numberline {3.3}Risultati 2}{12}{section.41}
+\contentsline {section}{\numberline {3.4}Risultati 3}{12}{section.42}
+\contentsline {chapter}{\numberline {4}Discussion}{13}{chapter.43}
+\contentsline {section}{\numberline {4.1}Objectives achieved}{13}{section.44}
+\contentsline {section}{\numberline {4.2}Our recommendations}{14}{section.45}
+\contentsline {section}{\numberline {4.3}Future work}{14}{section.46}
+\contentsline {chapter}{\numberline {5}How to Do}{15}{chapter.47}
+\contentsline {section}{\numberline {5.1}Including Sections and Subsections}{15}{section.48}
+\contentsline {subsection}{\numberline {5.1.1}I like myself}{15}{subsection.49}
+\contentsline {subsection}{\numberline {5.1.2}but I'm weird}{15}{subsection.50}
+\contentsline {subsubsection}{\numberline {5.1.2.1}LOST OF FUN!}{15}{subsubsection.51}
+\contentsline {subsubsection}{\numberline {5.1.2.2}I'm calm and shit}{16}{subsubsection.52}
+\contentsline {section}{\numberline {5.2}Including references and citations}{16}{section.54}
+\contentsline {subsection}{\numberline {5.2.1}Referencing images and tables!}{16}{subsection.55}
+\contentsline {subsection}{\numberline {5.2.2}Referencing chapters and subchapters}{16}{subsection.56}
+\contentsline {subsection}{\numberline {5.2.3}Using footnotes}{16}{subsection.57}
+\contentsline {section}{\numberline {5.3}Including quotes}{17}{section.61}
+\contentsline {section}{\numberline {5.4}Including URLs}{17}{section.62}
+\contentsline {section}{\numberline {5.5}Including code}{17}{section.63}
+\contentsline {section}{\numberline {5.6}Formatting Text}{19}{section.114}
+\contentsline {section}{\numberline {5.7}Including bulleted list}{19}{section.115}
+\contentsline {section}{\numberline {5.8}Including Figures}{20}{section.119}
+\contentsline {section}{\numberline {5.9}Including Tables}{20}{section.121}
 \vspace {2em}
-\contentsline {chapter}{\numberline {A}Data set elaboration: VBA expressions}{24}{appendix.126}
-\contentsline {section}{\numberline {A.1}Age (in months)}{25}{section.133}
-\contentsline {section}{\numberline {A.2}Geographic area of origin}{25}{section.143}
-\contentsline {section}{\numberline {A.3}Pathological values}{27}{section.194}
-\contentsline {subsection}{\numberline {A.3.1}Weight and height}{27}{subsection.195}
-\contentsline {subsection}{\numberline {A.3.2}Haemoglobin}{27}{subsection.206}
-\contentsline {subsection}{\numberline {A.3.3}MCV}{29}{subsection.287}
-\contentsline {subsection}{\numberline {A.3.4}Circulating iron}{32}{subsection.408}
-\contentsline {subsection}{\numberline {A.3.5}Ferritin}{33}{subsection.422}
-\contentsline {subsection}{\numberline {A.3.6}Vitamin D}{33}{subsection.450}
-\contentsline {chapter}{Bibliography}{36}{dummy.478}
+\contentsline {chapter}{\numberline {A}Data set elaboration: VBA expressions}{23}{appendix.124}
+\contentsline {section}{\numberline {A.1}Age (in months)}{24}{section.131}
+\contentsline {section}{\numberline {A.2}Geographic area of origin}{24}{section.141}
+\contentsline {section}{\numberline {A.3}Pathological values}{26}{section.192}
+\contentsline {subsection}{\numberline {A.3.1}Weight and height}{26}{subsection.193}
+\contentsline {subsection}{\numberline {A.3.2}Haemoglobin}{26}{subsection.204}
+\contentsline {subsection}{\numberline {A.3.3}MCV}{28}{subsection.285}
+\contentsline {subsection}{\numberline {A.3.4}Circulating iron}{31}{subsection.406}
+\contentsline {subsection}{\numberline {A.3.5}Ferritin}{32}{subsection.420}
+\contentsline {subsection}{\numberline {A.3.6}Vitamin D}{32}{subsection.448}
+\contentsline {chapter}{Bibliography}{35}{dummy.476}
