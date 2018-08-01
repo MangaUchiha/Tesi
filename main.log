@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.1.18)  1 AUG 2018 20:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.1.18)  1 AUG 2018 20:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2148,34 +2148,34 @@ Overfull \hbox (4.02962pt too wide) in paragraph at lines 25--42
  [][] 
  []
 
+
+Package xcolor Warning: Incompatible color definition on input line 62.
+
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 47.
+(Font)              <5> on input line 74.
 
-Package xcolor Warning: Incompatible color definition on input line 64.
-
-
-Package xcolor Warning: Incompatible color definition on input line 90.
+Package xcolor Warning: Incompatible color definition on input line 88.
 
 
-Overfull \hbox (28.25446pt too wide) in paragraph at lines 84--94
+Overfull \hbox (28.25446pt too wide) in paragraph at lines 82--92
  [][] 
  []
 
 
-Overfull \hbox (12.36201pt too wide) in paragraph at lines 100--110
+Overfull \hbox (12.36201pt too wide) in paragraph at lines 98--108
  [][] 
  []
 
 [3] [4]
-LaTeX Font Info:    Try loading font information for OMS+lmr on input line 133.
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 131.
 
  (/usr/local/texlive/2017/texmf-dist/tex/latex/lm/omslmr.fd
 File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 133.
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 131.
 
-Overfull \hbox (3.31946pt too wide) in paragraph at lines 141--142
+Overfull \hbox (3.31946pt too wide) in paragraph at lines 139--140
 []\OT1/lmr/m/n/12 The ap-pli-ca-tion shall run com-pat-i-bly at least on Win-do
 ws (ver-sion 7 or greater),
  []
@@ -2183,7 +2183,7 @@ ws (ver-sion 7 or greater),
 [5] [6]
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 163.
+(hyperref)                than one, level fixed on input line 161.
 
 [7]) (./chapters/MaterialsAndMethods.tex [8]
 Chapter 2.
@@ -2230,7 +2230,7 @@ Overfull \hbox (13.60051pt too wide) in paragraph at lines 146--147
 8 HUGE\OT1/lmr/m/n/12 . 
  []
 
-[21] <images/living.jpg, id=623, 1062.97125pt x 830.10126pt>
+[21] <images/living.jpg, id=622, 1062.97125pt x 830.10126pt>
 File: images/living.jpg Graphic file (type jpg)
 
 <use images/living.jpg>
@@ -2379,10 +2379,10 @@ dist/fonts/type1/public/lm/lmss12.pfb></usr/local/texlive/2017/texmf-dist/fonts
 /type1/public/lm/lmsy10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/pub
 lic/lm/lmtt12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmt
 t8.pfb>
-Output written on main.pdf (49 pages, 796793 bytes).
+Output written on main.pdf (49 pages, 796816 bytes).
 PDF statistics:
- 1239 PDF objects out of 1440 (max. 8388607)
- 1152 compressed objects within 12 object streams
+ 1238 PDF objects out of 1440 (max. 8388607)
+ 1151 compressed objects within 12 object streams
  535 named destinations out of 1000 (max. 500000)
  567 words of extra memory for PDF output out of 10000 (max. 10000000)
 
