@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.1.18)  30 JUL 2018 21:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.1.18)  1 AUG 2018 18:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2110,50 +2110,60 @@ Underfull \hbox (badness 10000) in paragraph at lines 16--17
  []
 
 [2]
-LaTeX Font Info:    Try loading font information for OMS+lmr on input line 34.
+Overfull \hbox (28.25446pt too wide) in paragraph at lines 26--36
+ [][] 
+ []
+
+
+Overfull \hbox (12.36201pt too wide) in paragraph at lines 42--52
+ [][] 
+ []
+
+[3]
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 75.
  (/usr/local/texlive/2017/texmf-dist/tex/latex/lm/omslmr.fd
 File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 34.
- [3]
-Overfull \hbox (3.31946pt too wide) in paragraph at lines 42--43
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 75.
+
+Overfull \hbox (3.31946pt too wide) in paragraph at lines 83--84
 []\OT1/lmr/m/n/12 The ap-pli-ca-tion shall run com-pat-i-bly at least on Win-do
 ws (ver-sion 7 or greater),
  []
 
-[4]
+[4] [5]
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 64.
+(hyperref)                than one, level fixed on input line 105.
 
-[5]) (./chapters/MaterialsAndMethods.tex [6]
+[6]) (./chapters/MaterialsAndMethods.tex [7]
 Chapter 2.
 ------------------------------------------------------------------------------
  2 Materials and Methods
 ------------------------------------------------------------------------------
-[7
+[8
 
-] [8] [9]) (./chapters/Results.tex [10]
+] [9] [10]) (./chapters/Results.tex [11]
 Chapter 3.
 ------------------------------------------------------------------------------
  3 Results
 ------------------------------------------------------------------------------
-[11
+[12
 
-]) (./chapters/Discussion.tex [12]
+]) (./chapters/Discussion.tex [13]
 Chapter 4.
 ------------------------------------------------------------------------------
  4 Discussion
 ------------------------------------------------------------------------------
-[13
+[14
 
-]) (./chapters/HowToDo.tex [14]
+]) (./chapters/HowToDo.tex [15]
 Chapter 5.
 ------------------------------------------------------------------------------
  5 How to Do
 ------------------------------------------------------------------------------
-[15
+[16
 
 ]
 LaTeX Font Info:    External font `lmex10' loaded for size
@@ -2163,11 +2173,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 44--45
 
  []
 
-[16] [17]
+[17] [18]
 Overfull \vbox (23.9183pt too high) has occurred while \output is active []
 
 
-[18]
+[19]
 Overfull \hbox (13.60051pt too wide) in paragraph at lines 146--147
 []\OT1/lmr/m/n/12 Then I can go for \OT1/lmr/m/n/14.4 large\OT1/lmr/m/n/12 , or
  \OT1/lmr/m/n/17.28 Large\OT1/lmr/m/n/12 , or \OT1/lmr/m/n/20.74 Larger\OT1/lmr
@@ -2175,13 +2185,13 @@ Overfull \hbox (13.60051pt too wide) in paragraph at lines 146--147
 8 HUGE\OT1/lmr/m/n/12 . 
  []
 
-[19] <images/living.jpg, id=595, 1062.97125pt x 830.10126pt>
+[20] <images/living.jpg, id=608, 1062.97125pt x 830.10126pt>
 File: images/living.jpg Graphic file (type jpg)
 
 <use images/living.jpg>
 Package pdftex.def Info: images/living.jpg used on input line 180.
 (pdftex.def)             Requested size: 426.79135pt x 333.30125pt.
- [20]) (./appendices/Appendix.tex [21 <./images/living.jpg>] [22]
+ [21]) (./appendices/Appendix.tex [22 <./images/living.jpg>] [23]
 Appendix A.
 ------------------------------------------------------------------------------
  A Data set elaboration: VBA expressions
@@ -2199,9 +2209,9 @@ Overfull \hbox (248.5364pt too wide) in alignment at lines 58--76
 Underfull \vbox (badness 10000) detected at line 76
  []
 
-[23
+[24
 
-] [24] [25] [26] [27] [28] [29] [30] [31] [32]) [33] [34]
+] [25] [26] [27] [28] [29] [30] [31] [32] [33]) [34] [35]
 ------------------------------------------------------------------------------
  Bibliography
 ------------------------------------------------------------------------------
@@ -2253,7 +2263,7 @@ Overfull \hbox (59.29776pt too wide) in paragraph at lines 31--36
 nce-[]2005-[]heres-[]why-[]91809$[][] 
  []
 
-[35
+[36
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{cite.usreport
@@ -2272,7 +2282,7 @@ Underfull \hbox (badness 8000) in paragraph at lines 55--59
 
 Package natbib Warning: There were multiply defined citations.
 
-[36]
+[37]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 72.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 72.
  (./main.aux
@@ -2284,7 +2294,7 @@ Package natbib Warning: Citation(s) may have changed.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 72.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 72.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: A1728AED6A534E5FB3C65478B4EAA137;12395.
+(rerunfilecheck)             Checksum: 4678F47777915A0B258D8CFB2D1A0012;12395.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -2295,22 +2305,22 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 72.
  ) 
 Here is how much of TeX's memory you used:
- 38740 strings out of 492995
- 725520 string characters out of 6132704
+ 38747 strings out of 492995
+ 725669 string characters out of 6132704
  1061833 words of memory out of 5000000
- 41117 multiletter control sequences out of 15000+600000
+ 41122 multiletter control sequences out of 15000+600000
  95811 words of font info for 87 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  64i,17n,65p,13109b,2298s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{Hfootnote.128} has been referenced but does not e
+pdfTeX warning (dest): name{Hfootnote.129} has been referenced but does not e
 xist, replaced by a fixed one
 
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/local/t
 exlive/2017/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/201
 7/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2017/texmf-dist/f
-onts/enc/dvips/lm/lm-rmsc.enc}{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvi
-ps/lm/lm-rmtt.enc}{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/lm/lm-mat
-hsy.enc}</usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></
+onts/enc/dvips/lm/lm-rmtt.enc}{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvi
+ps/lm/lm-mathsy.enc}{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/lm/lm-r
+msc.enc}</usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></
 usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb></usr/local
 /texlive/2017/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/local/texlive/2
 017/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2017/texmf-d
@@ -2324,10 +2334,10 @@ dist/fonts/type1/public/lm/lmss12.pfb></usr/local/texlive/2017/texmf-dist/fonts
 /type1/public/lm/lmsy10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/pub
 lic/lm/lmtt12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmt
 t8.pfb>
-Output written on main.pdf (47 pages, 788778 bytes).
+Output written on main.pdf (48 pages, 793728 bytes).
 PDF statistics:
- 1212 PDF objects out of 1440 (max. 8388607)
- 1130 compressed objects within 12 object streams
- 530 named destinations out of 1000 (max. 500000)
+ 1222 PDF objects out of 1440 (max. 8388607)
+ 1138 compressed objects within 12 object streams
+ 532 named destinations out of 1000 (max. 500000)
  567 words of extra memory for PDF output out of 10000 (max. 10000000)
 
