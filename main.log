@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.1.18)  1 AUG 2018 20:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.1.18)  3 AUG 2018 19:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1207,12 +1207,19 @@ Package: translator 2010/06/12 ver 1.10
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/beamer/translator/translator-lang
 uage-mappings.tex)))
+(/usr/local/texlive/2017/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2016/11/25 v2.2 Span multiple rows of a table
+\multirow@colwidth=\skip91
+\multirow@cntb=\count194
+\multirow@dima=\skip92
+\bigstrutjot=\dimen198
+)
 (/usr/local/texlive/2017/texmf-dist/tex/latex/natbib/natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
-\bibhang=\skip91
-\bibsep=\skip92
+\bibhang=\skip93
+\bibsep=\skip94
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count194
+\c@NAT@ctr=\count195
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/tools/verbatim.sty
 Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
@@ -1225,14 +1232,14 @@ Package: csquotes 2017/03/11 v5.2b context-sensitive quotations (JAW)
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2017/01/02 v2.4 e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count195
+\etb@tempcnta=\count196
 )
-\csq@reset=\count196
-\csq@gtype=\count197
-\csq@glevel=\count198
-\csq@qlevel=\count199
-\csq@maxlvl=\count266
-\csq@tshold=\count267
+\csq@reset=\count197
+\csq@gtype=\count198
+\csq@glevel=\count199
+\csq@qlevel=\count266
+\csq@maxlvl=\count267
+\csq@tshold=\count268
 \csq@ltx@everypar=\toks36
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/csquotes/csquotes.def
@@ -1253,8 +1260,8 @@ Package: pgfgantt 2013/06/01 v4.0 Draw Gantt diagrams with TikZ
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.te
 x
 \pgfutil@everybye=\toks37
-\pgfutil@tempdima=\dimen198
-\pgfutil@tempdimb=\dimen199
+\pgfutil@tempdima=\dimen199
+\pgfutil@tempdimb=\dimen256
 
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-li
 sts.tex))
@@ -1279,20 +1286,20 @@ Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
 ode.tex
 \pgfkeys@tmptoks=\toks40
 ))
-\pgf@x=\dimen256
-\pgf@y=\dimen257
-\pgf@xa=\dimen258
-\pgf@ya=\dimen259
-\pgf@xb=\dimen260
-\pgf@yb=\dimen261
-\pgf@xc=\dimen262
-\pgf@yc=\dimen263
+\pgf@x=\dimen257
+\pgf@y=\dimen258
+\pgf@xa=\dimen259
+\pgf@ya=\dimen260
+\pgf@xb=\dimen261
+\pgf@yb=\dimen262
+\pgf@xc=\dimen263
+\pgf@yc=\dimen264
 \w@pgf@writea=\write3
 \r@pgf@reada=\read3
-\c@pgf@counta=\count268
-\c@pgf@countb=\count269
-\c@pgf@countc=\count270
-\c@pgf@countd=\count271
+\c@pgf@counta=\count269
+\c@pgf@countb=\count270
+\c@pgf@countc=\count271
+\c@pgf@countd=\count272
 \t@pgf@toka=\toks41
 \t@pgf@tokb=\toks42
 \t@pgf@tokc=\toks43
@@ -1313,8 +1320,8 @@ File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.
 code.tex
 File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
-\pgfsyssoftpath@smallbuffer@items=\count272
-\pgfsyssoftpath@bigbuffer@items=\count273
+\pgfsyssoftpath@smallbuffer@items=\count273
+\pgfsyssoftpath@bigbuffer@items=\count274
 )
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.
 code.tex
@@ -1343,8 +1350,8 @@ Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
-\pgfmath@dimen=\dimen264
-\pgfmath@count=\count274
+\pgfmath@dimen=\dimen265
+\pgfmath@count=\count275
 \pgfmath@box=\box59
 \pgfmath@toks=\toks44
 \pgfmath@stack@operand=\toks45
@@ -1369,37 +1376,37 @@ code.tex)
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integ
 erarithmetics.code.tex)))
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count275
+\c@pgfmathroundto@lastzeros=\count276
 ))
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.co
 de.tex
 File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
-\pgf@picminx=\dimen265
-\pgf@picmaxx=\dimen266
-\pgf@picminy=\dimen267
-\pgf@picmaxy=\dimen268
-\pgf@pathminx=\dimen269
-\pgf@pathmaxx=\dimen270
-\pgf@pathminy=\dimen271
-\pgf@pathmaxy=\dimen272
-\pgf@xx=\dimen273
-\pgf@xy=\dimen274
-\pgf@yx=\dimen275
-\pgf@yy=\dimen276
-\pgf@zx=\dimen277
-\pgf@zy=\dimen278
+\pgf@picminx=\dimen266
+\pgf@picmaxx=\dimen267
+\pgf@picminy=\dimen268
+\pgf@picmaxy=\dimen269
+\pgf@pathminx=\dimen270
+\pgf@pathmaxx=\dimen271
+\pgf@pathminy=\dimen272
+\pgf@pathmaxy=\dimen273
+\pgf@xx=\dimen274
+\pgf@xy=\dimen275
+\pgf@yx=\dimen276
+\pgf@yy=\dimen277
+\pgf@zx=\dimen278
+\pgf@zy=\dimen279
 )
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconst
 ruct.code.tex
 File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
-\pgf@path@lastx=\dimen279
-\pgf@path@lasty=\dimen280
+\pgf@path@lastx=\dimen280
+\pgf@path@lasty=\dimen281
 )
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage
 .code.tex
 File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
-\pgf@shorten@end@additional=\dimen281
-\pgf@shorten@start@additional=\dimen282
+\pgf@shorten@end@additional=\dimen282
+\pgf@shorten@start@additional=\dimen283
 )
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.co
 de.tex
@@ -1407,19 +1414,19 @@ File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
 \pgfpic=\box60
 \pgf@hbox=\box61
 \pgf@layerbox@main=\box62
-\pgf@picture@serial@count=\count276
+\pgf@picture@serial@count=\count277
 )
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicst
 ate.code.tex
 File: pgfcoregraphicstate.code.tex 2014/11/02  (rcs-revision 1.12)
-\pgflinewidth=\dimen283
+\pgflinewidth=\dimen284
 )
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransform
 ations.code.tex
 File: pgfcoretransformations.code.tex 2015/08/07  (rcs-revision 1.20)
-\pgf@pt@x=\dimen284
-\pgf@pt@y=\dimen285
-\pgf@pt@temp=\dimen286
+\pgf@pt@x=\dimen285
+\pgf@pt@y=\dimen286
+\pgf@pt@temp=\dimen287
 )
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.cod
 e.tex
@@ -1436,13 +1443,13 @@ File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.co
 de.tex
 File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
-\pgfarrowsep=\dimen287
+\pgfarrowsep=\dimen288
 )
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.cod
 e.tex
 File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
-\pgf@max=\dimen288
-\pgf@sys@shading@range@num=\count277
+\pgf@max=\dimen289
+\pgf@sys@shading@range@num=\count278
 )
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.cod
 e.tex
@@ -1477,8 +1484,8 @@ File: pgfmoduleplot.code.tex 2015/08/03  (rcs-revision 1.13)
 (/usr/local/texlive/2017/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
 -0-65.sty
 Package: pgfcomp-version-0-65 2007/07/03 v3.0.1a (rcs-revision 1.7)
-\pgf@nodesepstart=\dimen289
-\pgf@nodesepend=\dimen290
+\pgf@nodesepstart=\dimen290
+\pgf@nodesepend=\dimen291
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
 -1-18.sty
@@ -1493,8 +1500,8 @@ Package: pgfcomp-version-1-18 2007/07/23 v3.0.1a (rcs-revision 1.1)
 Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
 
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
-\pgffor@iter=\dimen291
-\pgffor@skip=\dimen292
+\pgffor@iter=\dimen292
+\pgffor@skip=\dimen293
 \pgffor@stack=\toks47
 \pgffor@toks=\toks48
 ))
@@ -1505,32 +1512,32 @@ Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothan
 dlers.code.tex
 File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
-\pgf@plot@mark@count=\count278
-\pgfplotmarksize=\dimen293
+\pgf@plot@mark@count=\count279
+\pgfplotmarksize=\dimen294
 )
-\tikz@lastx=\dimen294
-\tikz@lasty=\dimen295
-\tikz@lastxsaved=\dimen296
-\tikz@lastysaved=\dimen297
-\tikzleveldistance=\dimen298
-\tikzsiblingdistance=\dimen299
+\tikz@lastx=\dimen295
+\tikz@lasty=\dimen296
+\tikz@lastxsaved=\dimen297
+\tikz@lastysaved=\dimen298
+\tikzleveldistance=\dimen299
+\tikzsiblingdistance=\dimen300
 \tikz@figbox=\box65
 \tikz@figbox@bg=\box66
 \tikz@tempbox=\box67
 \tikz@tempbox@bg=\box68
-\tikztreelevel=\count279
-\tikznumberofchildren=\count280
-\tikznumberofcurrentchild=\count281
-\tikz@fig@count=\count282
+\tikztreelevel=\count280
+\tikznumberofchildren=\count281
+\tikznumberofcurrentchild=\count282
+\tikz@fig@count=\count283
 
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.cod
 e.tex
 File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
-\pgfmatrixcurrentrow=\count283
-\pgfmatrixcurrentcolumn=\count284
-\pgf@matrix@numberofcolumns=\count285
+\pgfmatrixcurrentrow=\count284
+\pgfmatrixcurrentcolumn=\count285
+\pgf@matrix@numberofcolumns=\count286
 )
-\tikz@expandcount=\count286
+\tikz@expandcount=\count287
 
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
 s/tikzlibrarytopaths.code.tex
@@ -1543,7 +1550,7 @@ File: tikzlibraryarrows.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.
 code.tex
 File: pgflibraryarrows.code.tex 2013/09/23 v3.0.1a (rcs-revision 1.16)
-\arrowsize=\dimen300
+\arrowsize=\dimen301
 ))
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
 s/tikzlibrarybackgrounds.code.tex
@@ -1581,25 +1588,25 @@ File: pgflibraryshapes.geometric.code.tex 2008/06/26 v3.0.1a (rcs-revision 1.1)
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/utilities/pgfcalendar.code.
 tex
 File: pgfcalendar.code.tex 2007/07/23 v3.0.1a (rcs-revision 1.11)
-\pgfcalendarcurrentjulian=\count287
+\pgfcalendarcurrentjulian=\count288
 ))
-\gtt@currentline=\count288
-\gtt@lasttitleline=\count289
-\gtt@currgrid=\count290
-\gtt@chartwidth=\count291
-\gtt@lasttitleslot=\count292
-\gtt@elementid=\count293
-\gtt@today@slot=\count294
-\gtt@startjulian=\count295
-\gtt@endjulian=\count296
-\gtt@calendar@slots=\count297
-\gtt@calendar@weeknumber=\count298
-\gtt@calendar@startofweek=\count299
-\gtt@left@slot=\count300
-\gtt@right@slot=\count301
+\gtt@currentline=\count289
+\gtt@lasttitleline=\count290
+\gtt@currgrid=\count291
+\gtt@chartwidth=\count292
+\gtt@lasttitleslot=\count293
+\gtt@elementid=\count294
+\gtt@today@slot=\count295
+\gtt@startjulian=\count296
+\gtt@endjulian=\count297
+\gtt@calendar@slots=\count298
+\gtt@calendar@weeknumber=\count299
+\gtt@calendar@startofweek=\count300
+\gtt@left@slot=\count301
+\gtt@right@slot=\count302
 ) (/usr/local/texlive/2017/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count302
+\c@float@type=\count303
 \float@exts=\toks49
 \float@box=\box71
 \@float@everytoks=\toks50
@@ -1610,124 +1617,117 @@ Document Style `easytable' v1.0 <2001/06/13>.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/easy/easy.sty
 Document Style `easy' v1.1 <2001/05/31>.
 Package: easy 2001/05/31 v1.1
-\@easy@level=\count303
-\@easy@ncol=\count304
-\@easy@nrow=\count305
-\@easy@cnt=\count306
+\@easy@level=\count304
+\@easy@ncol=\count305
+\@easy@nrow=\count306
+\@easy@cnt=\count307
 \@easy@boxviii=\box73
-\@easy@minxviii=\dimen301
-\@easy@minyviii=\dimen302
-\@easy@maxxviii=\dimen303
-\@easy@maxyviii=\dimen304
+\@easy@minxviii=\dimen302
+\@easy@minyviii=\dimen303
+\@easy@maxxviii=\dimen304
+\@easy@maxyviii=\dimen305
 \@easy@boxvii=\box74
-\@easy@minxvii=\dimen305
-\@easy@minyvii=\dimen306
-\@easy@maxxvii=\dimen307
-\@easy@maxyvii=\dimen308
+\@easy@minxvii=\dimen306
+\@easy@minyvii=\dimen307
+\@easy@maxxvii=\dimen308
+\@easy@maxyvii=\dimen309
 \@easy@boxvi=\box75
-\@easy@minxvi=\dimen309
-\@easy@minyvi=\dimen310
-\@easy@maxxvi=\dimen311
-\@easy@maxyvi=\dimen312
+\@easy@minxvi=\dimen310
+\@easy@minyvi=\dimen311
+\@easy@maxxvi=\dimen312
+\@easy@maxyvi=\dimen313
 \@easy@boxv=\box76
-\@easy@minxv=\dimen313
-\@easy@minyv=\dimen314
-\@easy@maxxv=\dimen315
-\@easy@maxyv=\dimen316
+\@easy@minxv=\dimen314
+\@easy@minyv=\dimen315
+\@easy@maxxv=\dimen316
+\@easy@maxyv=\dimen317
 \@easy@boxiv=\box77
-\@easy@minxiv=\dimen317
-\@easy@minyiv=\dimen318
-\@easy@maxxiv=\dimen319
-\@easy@maxyiv=\dimen320
+\@easy@minxiv=\dimen318
+\@easy@minyiv=\dimen319
+\@easy@maxxiv=\dimen320
+\@easy@maxyiv=\dimen321
 \@easy@boxiii=\box78
-\@easy@minxiii=\dimen321
-\@easy@minyiii=\dimen322
-\@easy@maxxiii=\dimen323
-\@easy@maxyiii=\dimen324
+\@easy@minxiii=\dimen322
+\@easy@minyiii=\dimen323
+\@easy@maxxiii=\dimen324
+\@easy@maxyiii=\dimen325
 \@easy@boxii=\box79
-\@easy@minxii=\dimen325
-\@easy@minyii=\dimen326
-\@easy@maxxii=\dimen327
-\@easy@maxyii=\dimen328
+\@easy@minxii=\dimen326
+\@easy@minyii=\dimen327
+\@easy@maxxii=\dimen328
+\@easy@maxyii=\dimen329
 \@easy@boxi=\box80
-\@easy@minxi=\dimen329
-\@easy@minyi=\dimen330
-\@easy@maxxi=\dimen331
-\@easy@maxyi=\dimen332
-\@easy@hsizexxx=\dimen333
-\@easy@vsizexxx=\dimen334
-\@easy@hsizexxix=\dimen335
-\@easy@vsizexxix=\dimen336
-\@easy@hsizexxviii=\dimen337
-\@easy@vsizexxviii=\dimen338
-\@easy@hsizexxvii=\dimen339
-\@easy@vsizexxvii=\dimen340
-\@easy@hsizexxvi=\dimen341
-\@easy@vsizexxvi=\dimen342
-\@easy@hsizexxv=\dimen343
-\@easy@vsizexxv=\dimen344
-\@easy@hsizexxiv=\dimen345
-\@easy@vsizexxiv=\dimen346
-\@easy@hsizexxiii=\dimen347
-\@easy@vsizexxiii=\dimen348
-\@easy@hsizexxii=\dimen349
-\@easy@vsizexxii=\dimen350
-\@easy@hsizexxi=\dimen351
-\@easy@vsizexxi=\dimen352
-\@easy@hsizexx=\dimen353
-\@easy@vsizexx=\dimen354
-\@easy@hsizexix=\dimen355
-\@easy@vsizexix=\dimen356
-\@easy@hsizexviii=\dimen357
-\@easy@vsizexviii=\dimen358
-\@easy@hsizexvii=\dimen359
-\@easy@vsizexvii=\dimen360
-\@easy@hsizexvi=\dimen361
-\@easy@vsizexvi=\dimen362
-\@easy@hsizexv=\dimen363
-\@easy@vsizexv=\dimen364
-\@easy@hsizexiv=\dimen365
-\@easy@vsizexiv=\dimen366
-\@easy@hsizexiii=\dimen367
-\@easy@vsizexiii=\dimen368
-\@easy@hsizexii=\dimen369
-\@easy@vsizexii=\dimen370
-\@easy@hsizexi=\dimen371
-\@easy@vsizexi=\dimen372
-\@easy@hsizex=\dimen373
-\@easy@vsizex=\dimen374
-\@easy@hsizeix=\dimen375
-\@easy@vsizeix=\dimen376
-\@easy@hsizeviii=\dimen377
-\@easy@vsizeviii=\dimen378
-\@easy@hsizevii=\dimen379
-\@easy@vsizevii=\dimen380
-\@easy@hsizevi=\dimen381
-\@easy@vsizevi=\dimen382
-\@easy@hsizev=\dimen383
-\@easy@vsizev=\dimen384
-\@easy@hsizeiv=\dimen385
-\@easy@vsizeiv=\dimen386
-\@easy@hsizeiii=\dimen387
-\@easy@vsizeiii=\dimen388
-\@easy@hsizeii=\dimen389
-\@easy@vsizeii=\dimen390
-\@easy@hsizei=\dimen391
-\@easy@vsizei=\dimen392
-\@easy@dash@len=\dimen393
-\@easy@dash@sep=\dimen394
+\@easy@minxi=\dimen330
+\@easy@minyi=\dimen331
+\@easy@maxxi=\dimen332
+\@easy@maxyi=\dimen333
+\@easy@hsizexxx=\dimen334
+\@easy@vsizexxx=\dimen335
+\@easy@hsizexxix=\dimen336
+\@easy@vsizexxix=\dimen337
+\@easy@hsizexxviii=\dimen338
+\@easy@vsizexxviii=\dimen339
+\@easy@hsizexxvii=\dimen340
+\@easy@vsizexxvii=\dimen341
+\@easy@hsizexxvi=\dimen342
+\@easy@vsizexxvi=\dimen343
+\@easy@hsizexxv=\dimen344
+\@easy@vsizexxv=\dimen345
+\@easy@hsizexxiv=\dimen346
+\@easy@vsizexxiv=\dimen347
+\@easy@hsizexxiii=\dimen348
+\@easy@vsizexxiii=\dimen349
+\@easy@hsizexxii=\dimen350
+\@easy@vsizexxii=\dimen351
+\@easy@hsizexxi=\dimen352
+\@easy@vsizexxi=\dimen353
+\@easy@hsizexx=\dimen354
+\@easy@vsizexx=\dimen355
+\@easy@hsizexix=\dimen356
+\@easy@vsizexix=\dimen357
+\@easy@hsizexviii=\dimen358
+\@easy@vsizexviii=\dimen359
+\@easy@hsizexvii=\dimen360
+\@easy@vsizexvii=\dimen361
+\@easy@hsizexvi=\dimen362
+\@easy@vsizexvi=\dimen363
+\@easy@hsizexv=\dimen364
+\@easy@vsizexv=\dimen365
+\@easy@hsizexiv=\dimen366
+\@easy@vsizexiv=\dimen367
+\@easy@hsizexiii=\dimen368
+\@easy@vsizexiii=\dimen369
+\@easy@hsizexii=\dimen370
+\@easy@vsizexii=\dimen371
+\@easy@hsizexi=\dimen372
+\@easy@vsizexi=\dimen373
+\@easy@hsizex=\dimen374
+\@easy@vsizex=\dimen375
+\@easy@hsizeix=\dimen376
+\@easy@vsizeix=\dimen377
+\@easy@hsizeviii=\dimen378
+\@easy@vsizeviii=\dimen379
+\@easy@hsizevii=\dimen380
+\@easy@vsizevii=\dimen381
+\@easy@hsizevi=\dimen382
+\@easy@vsizevi=\dimen383
+\@easy@hsizev=\dimen384
+\@easy@vsizev=\dimen385
+\@easy@hsizeiv=\dimen386
+\@easy@vsizeiv=\dimen387
+\@easy@hsizeiii=\dimen388
+\@easy@vsizeiii=\dimen389
+\@easy@hsizeii=\dimen390
+\@easy@vsizeii=\dimen391
+\@easy@hsizei=\dimen392
+\@easy@vsizei=\dimen393
+\@easy@dash@len=\dimen394
+\@easy@dash@sep=\dimen395
 )
 Package: easytable 2001/05/31v1.1
-\@tab@size@rule=\dimen395
-\@tab@size@dash=\dimen396
-) (/usr/local/texlive/2017/texmf-dist/tex/latex/multirow/multirow.sty
-Package: multirow 2016/11/25 v2.2 Span multiple rows of a table
-\multirow@colwidth=\skip93
-\multirow@cntb=\count307
-\multirow@dima=\skip94
-\bigstrutjot=\dimen397
-)
-(/usr/local/texlive/2017/texmf-dist/tex/latex/colortbl/colortbl.sty
+\@tab@size@rule=\dimen396
+\@tab@size@dash=\dimen397
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/colortbl/colortbl.sty
 Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
 \everycr=\toks51
 \minrowclearance=\skip95
@@ -1772,7 +1772,7 @@ LaTeX Info: Redefining \addtolength on input line 81.
 \calc@Ccount=\count313
 \calc@Cskip=\skip98
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 68.
+Package hyperref Info: Option `colorlinks' set `true' on input line 69.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
