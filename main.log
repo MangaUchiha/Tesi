@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.1.18)  3 AUG 2018 19:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.1.18)  3 AUG 2018 19:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -877,6 +877,16 @@ Package: subcaption 2016/05/22 v1.1-161 Sub-captions (AR)
 \c@subfigure=\count133
 \c@subtable=\count134
 )
+(/usr/local/texlive/2017/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count135
+\float@exts=\toks32
+\float@box=\box35
+\@float@everytoks=\toks33
+\@floatcapt=\box36
+)
+\@float@every@table=\toks34
+
 (/usr/local/texlive/2017/texmf-dist/tex/latex/tools/tabularx.sty
 Package: tabularx 2016/02/03 v2.11 `tabularx' package (DPC)
 
@@ -884,7 +894,7 @@ Package: tabularx 2016/02/03 v2.11 `tabularx' package (DPC)
 Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
 \col@sep=\dimen148
 \extrarowheight=\dimen149
-\NC@list=\toks32
+\NC@list=\toks35
 \extratabsurround=\skip65
 \backup@length=\skip66
 )
@@ -893,8 +903,8 @@ Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
 \TX@old@col=\dimen152
 \TX@target=\dimen153
 \TX@delta=\dimen154
-\TX@cols=\count135
-\TX@ftn=\toks33
+\TX@cols=\count136
+\TX@ftn=\toks36
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/ms/ragged2e.sty
 Package: ragged2e 2009/05/21 v2.1 ragged2e Package (MS)
@@ -934,17 +944,17 @@ Package: expl3 2017/05/13 L3 programming layer (loader)
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/l3kernel/expl3-code.tex
 Package: expl3 2017/05/13 L3 programming layer (code)
-\c_max_int=\count136
-\l_tmpa_int=\count137
-\l_tmpb_int=\count138
-\g_tmpa_int=\count139
-\g_tmpb_int=\count140
-\g__prg_map_int=\count141
-\c_log_iow=\count142
-\l_iow_line_count_int=\count143
-\l__iow_line_target_int=\count144
-\l__iow_one_indent_int=\count145
-\l__iow_indent_int=\count146
+\c_max_int=\count137
+\l_tmpa_int=\count138
+\l_tmpb_int=\count139
+\g_tmpa_int=\count140
+\g_tmpb_int=\count141
+\g__prg_map_int=\count142
+\c_log_iow=\count143
+\l_iow_line_count_int=\count144
+\l__iow_line_target_int=\count145
+\l__iow_one_indent_int=\count146
+\l__iow_indent_int=\count147
 \c_zero_dim=\dimen155
 \c_max_dim=\dimen156
 \l_tmpa_dim=\dimen157
@@ -963,35 +973,35 @@ Package: expl3 2017/05/13 L3 programming layer (code)
 \l_tmpb_muskip=\muskip15
 \g_tmpa_muskip=\muskip16
 \g_tmpb_muskip=\muskip17
-\l_keys_choice_int=\count147
-\c__fp_leading_shift_int=\count148
-\c__fp_middle_shift_int=\count149
-\c__fp_trailing_shift_int=\count150
-\c__fp_big_leading_shift_int=\count151
-\c__fp_big_middle_shift_int=\count152
-\c__fp_big_trailing_shift_int=\count153
-\c__fp_Bigg_leading_shift_int=\count154
-\c__fp_Bigg_middle_shift_int=\count155
-\c__fp_Bigg_trailing_shift_int=\count156
-\c__fp_rand_size_int=\count157
-\c__fp_rand_four_int=\count158
-\c__fp_rand_eight_int=\count159
-\l__sort_length_int=\count160
-\l__sort_min_int=\count161
-\l__sort_top_int=\count162
-\l__sort_max_int=\count163
-\l__sort_true_max_int=\count164
-\l__sort_block_int=\count165
-\l__sort_begin_int=\count166
-\l__sort_end_int=\count167
-\l__sort_A_int=\count168
-\l__sort_B_int=\count169
-\l__sort_C_int=\count170
-\c_empty_box=\box35
-\l_tmpa_box=\box36
-\l_tmpb_box=\box37
-\g_tmpa_box=\box38
-\g_tmpb_box=\box39
+\l_keys_choice_int=\count148
+\c__fp_leading_shift_int=\count149
+\c__fp_middle_shift_int=\count150
+\c__fp_trailing_shift_int=\count151
+\c__fp_big_leading_shift_int=\count152
+\c__fp_big_middle_shift_int=\count153
+\c__fp_big_trailing_shift_int=\count154
+\c__fp_Bigg_leading_shift_int=\count155
+\c__fp_Bigg_middle_shift_int=\count156
+\c__fp_Bigg_trailing_shift_int=\count157
+\c__fp_rand_size_int=\count158
+\c__fp_rand_four_int=\count159
+\c__fp_rand_eight_int=\count160
+\l__sort_length_int=\count161
+\l__sort_min_int=\count162
+\l__sort_top_int=\count163
+\l__sort_max_int=\count164
+\l__sort_true_max_int=\count165
+\l__sort_block_int=\count166
+\l__sort_begin_int=\count167
+\l__sort_end_int=\count168
+\l__sort_A_int=\count169
+\l__sort_B_int=\count170
+\l__sort_C_int=\count171
+\c_empty_box=\box37
+\l_tmpa_box=\box38
+\l_tmpb_box=\box39
+\g_tmpa_box=\box40
+\g_tmpb_box=\box41
 \l__box_top_dim=\dimen161
 \l__box_bottom_dim=\dimen162
 \l__box_left_dim=\dimen163
@@ -1000,8 +1010,8 @@ Package: expl3 2017/05/13 L3 programming layer (code)
 \l__box_bottom_new_dim=\dimen166
 \l__box_left_new_dim=\dimen167
 \l__box_right_new_dim=\dimen168
-\l__box_internal_box=\box40
-\l__coffin_internal_box=\box41
+\l__box_internal_box=\box42
+\l__coffin_internal_box=\box43
 \l__coffin_internal_dim=\dimen169
 \l__coffin_offset_x_dim=\dimen170
 \l__coffin_offset_y_dim=\dimen171
@@ -1009,14 +1019,14 @@ Package: expl3 2017/05/13 L3 programming layer (code)
 \l__coffin_y_dim=\dimen173
 \l__coffin_x_prime_dim=\dimen174
 \l__coffin_y_prime_dim=\dimen175
-\c_empty_coffin=\box42
-\l__coffin_aligned_coffin=\box43
-\l__coffin_aligned_internal_coffin=\box44
-\l_tmpa_coffin=\box45
-\l_tmpb_coffin=\box46
-\l__coffin_display_coffin=\box47
-\l__coffin_display_coord_coffin=\box48
-\l__coffin_display_pole_coffin=\box49
+\c_empty_coffin=\box44
+\l__coffin_aligned_coffin=\box45
+\l__coffin_aligned_internal_coffin=\box46
+\l_tmpa_coffin=\box47
+\l_tmpb_coffin=\box48
+\l__coffin_display_coffin=\box49
+\l__coffin_display_coord_coffin=\box50
+\l__coffin_display_pole_coffin=\box51
 \l__coffin_display_offset_dim=\dimen176
 \l__coffin_display_x_dim=\dimen177
 \l__coffin_display_y_dim=\dimen178
@@ -1030,45 +1040,45 @@ Package: expl3 2017/05/13 L3 programming layer (code)
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/l3kernel/l3pdfmode.def
 File: l3pdfmode.def 2017/03/18 v L3 Experimental driver: PDF mode
-\l__driver_color_stack_int=\count171
-\l__driver_tmp_box=\box50
+\l__driver_color_stack_int=\count172
+\l__driver_tmp_box=\box52
 ))
 (/usr/local/texlive/2017/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
 Package: xparse 2017/05/13 L3 Experimental document command parser
-\l__xparse_current_arg_int=\count172
-\g__xparse_grabber_int=\count173
-\l__xparse_m_args_int=\count174
-\l__xparse_mandatory_args_int=\count175
-\l__xparse_v_nesting_int=\count176
+\l__xparse_current_arg_int=\count173
+\g__xparse_grabber_int=\count174
+\l__xparse_m_args_int=\count175
+\l__xparse_mandatory_args_int=\count176
+\l__xparse_v_nesting_int=\count177
 )
 Package: siunitx 2017/05/19 v2.7g A comprehensive (SI) units package
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
 Package: l3keys2e 2017/05/13 LaTeX2e option processing using LaTeX3 keys
 )
-\l__siunitx_tmp_box=\box51
+\l__siunitx_tmp_box=\box53
 \l__siunitx_tmp_dim=\dimen186
-\l__siunitx_tmp_int=\count177
-\l__siunitx_number_mantissa_length_int=\count178
-\l__siunitx_number_uncert_length_int=\count179
-\l__siunitx_round_int=\count180
-\l__siunitx_process_decimal_int=\count181
-\l__siunitx_process_uncertainty_int=\count182
-\l__siunitx_process_fixed_int=\count183
-\l__siunitx_process_integer_min_int=\count184
-\l__siunitx_process_precision_int=\count185
-\l__siunitx_group_min_int=\count186
-\l__siunitx_angle_marker_box=\box52
-\l__siunitx_angle_unit_box=\box53
+\l__siunitx_tmp_int=\count178
+\l__siunitx_number_mantissa_length_int=\count179
+\l__siunitx_number_uncert_length_int=\count180
+\l__siunitx_round_int=\count181
+\l__siunitx_process_decimal_int=\count182
+\l__siunitx_process_uncertainty_int=\count183
+\l__siunitx_process_fixed_int=\count184
+\l__siunitx_process_integer_min_int=\count185
+\l__siunitx_process_precision_int=\count186
+\l__siunitx_group_min_int=\count187
+\l__siunitx_angle_marker_box=\box54
+\l__siunitx_angle_unit_box=\box55
 \l__siunitx_angle_marker_dim=\dimen187
 \l__siunitx_angle_unit_dim=\dimen188
-\l__siunitx_unit_int=\count187
-\l__siunitx_unit_denominator_int=\count188
-\l__siunitx_unit_numerator_int=\count189
-\l__siunitx_unit_prefix_int=\count190
-\l__siunitx_unit_prefix_base_int=\count191
-\l__siunitx_unit_prefix_gram_int=\count192
-\l__siunitx_number_product_int=\count193
+\l__siunitx_unit_int=\count188
+\l__siunitx_unit_denominator_int=\count189
+\l__siunitx_unit_numerator_int=\count190
+\l__siunitx_unit_prefix_int=\count191
+\l__siunitx_unit_prefix_base_int=\count192
+\l__siunitx_unit_prefix_gram_int=\count193
+\l__siunitx_number_product_int=\count194
 \c__siunitx_one_fill_skip=\skip87
 \l__siunitx_table_unit_align_skip=\skip88
 \l__siunitx_table_exponent_dim=\dimen189
@@ -1080,10 +1090,10 @@ Package: l3keys2e 2017/05/13 LaTeX2e option processing using LaTeX3 keys
 \l__siunitx_table_fill_pre_dim=\dimen195
 \l__siunitx_table_fill_post_dim=\dimen196
 \l__siunitx_table_fill_mid_dim=\dimen197
-\l__siunitx_table_pre_box=\box54
-\l__siunitx_table_post_box=\box55
-\l__siunitx_table_mantissa_box=\box56
-\l__siunitx_table_result_box=\box57
+\l__siunitx_table_pre_box=\box56
+\l__siunitx_table_post_box=\box57
+\l__siunitx_table_mantissa_box=\box58
+\l__siunitx_table_result_box=\box59
 \l__siunitx_table_number_align_skip=\skip89
 \l__siunitx_table_text_align_skip=\skip90
 .................................................
@@ -1210,7 +1220,7 @@ uage-mappings.tex)))
 (/usr/local/texlive/2017/texmf-dist/tex/latex/multirow/multirow.sty
 Package: multirow 2016/11/25 v2.2 Span multiple rows of a table
 \multirow@colwidth=\skip91
-\multirow@cntb=\count194
+\multirow@cntb=\count195
 \multirow@dima=\skip92
 \bigstrutjot=\dimen198
 )
@@ -1219,12 +1229,12 @@ Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip93
 \bibsep=\skip94
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count195
+\c@NAT@ctr=\count196
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/tools/verbatim.sty
 Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks34
-\verbatim@line=\toks35
+\every@verbatim=\toks37
+\verbatim@line=\toks38
 \verbatim@in@stream=\read2
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/csquotes/csquotes.sty
@@ -1232,15 +1242,15 @@ Package: csquotes 2017/03/11 v5.2b context-sensitive quotations (JAW)
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2017/01/02 v2.4 e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count196
+\etb@tempcnta=\count197
 )
-\csq@reset=\count197
-\csq@gtype=\count198
-\csq@glevel=\count199
-\csq@qlevel=\count266
-\csq@maxlvl=\count267
-\csq@tshold=\count268
-\csq@ltx@everypar=\toks36
+\csq@reset=\count198
+\csq@gtype=\count199
+\csq@glevel=\count266
+\csq@qlevel=\count267
+\csq@maxlvl=\count268
+\csq@tshold=\count269
+\csq@ltx@everypar=\toks39
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/csquotes/csquotes.def
 File: csquotes.def 2017/03/11 v5.2b csquotes generic definitions (JAW)
@@ -1259,14 +1269,14 @@ Package: pgfgantt 2013/06/01 v4.0 Draw Gantt diagrams with TikZ
 (/usr/local/texlive/2017/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.te
 x
-\pgfutil@everybye=\toks37
+\pgfutil@everybye=\toks40
 \pgfutil@tempdima=\dimen199
 \pgfutil@tempdimb=\dimen256
 
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-li
 sts.tex))
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
-\pgfutil@abb=\box58
+\pgfutil@abb=\box60
 (/usr/local/texlive/2017/texmf-dist/tex/latex/ms/everyshi.sty
 Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
 ))
@@ -1279,12 +1289,12 @@ Package: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
 Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks38
-\pgfkeys@temptoks=\toks39
+\pgfkeys@pathtoks=\toks41
+\pgfkeys@temptoks=\toks42
 
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.c
 ode.tex
-\pgfkeys@tmptoks=\toks40
+\pgfkeys@tmptoks=\toks43
 ))
 \pgf@x=\dimen257
 \pgf@y=\dimen258
@@ -1296,13 +1306,13 @@ ode.tex
 \pgf@yc=\dimen264
 \w@pgf@writea=\write3
 \r@pgf@reada=\read3
-\c@pgf@counta=\count269
-\c@pgf@countb=\count270
-\c@pgf@countc=\count271
-\c@pgf@countd=\count272
-\t@pgf@toka=\toks41
-\t@pgf@tokb=\toks42
-\t@pgf@tokc=\toks43
+\c@pgf@counta=\count270
+\c@pgf@countb=\count271
+\c@pgf@countc=\count272
+\c@pgf@countd=\count273
+\t@pgf@toka=\toks44
+\t@pgf@tokb=\toks45
+\t@pgf@tokc=\toks46
 
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
@@ -1320,8 +1330,8 @@ File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.
 code.tex
 File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
-\pgfsyssoftpath@smallbuffer@items=\count273
-\pgfsyssoftpath@bigbuffer@items=\count274
+\pgfsyssoftpath@smallbuffer@items=\count274
+\pgfsyssoftpath@bigbuffer@items=\count275
 )
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.
 code.tex
@@ -1351,11 +1361,11 @@ Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
 \pgfmath@dimen=\dimen265
-\pgfmath@count=\count275
-\pgfmath@box=\box59
-\pgfmath@toks=\toks44
-\pgfmath@stack@operand=\toks45
-\pgfmath@stack@operation=\toks46
+\pgfmath@count=\count276
+\pgfmath@box=\box61
+\pgfmath@toks=\toks47
+\pgfmath@stack@operand=\toks48
+\pgfmath@stack@operation=\toks49
 )
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.
 tex
@@ -1376,7 +1386,7 @@ code.tex)
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integ
 erarithmetics.code.tex)))
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count276
+\c@pgfmathroundto@lastzeros=\count277
 ))
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.co
 de.tex
@@ -1411,10 +1421,10 @@ File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.co
 de.tex
 File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
-\pgfpic=\box60
-\pgf@hbox=\box61
-\pgf@layerbox@main=\box62
-\pgf@picture@serial@count=\count277
+\pgfpic=\box62
+\pgf@hbox=\box63
+\pgf@layerbox@main=\box64
+\pgf@picture@serial@count=\count278
 )
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicst
 ate.code.tex
@@ -1449,7 +1459,7 @@ File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
 e.tex
 File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
 \pgf@max=\dimen289
-\pgf@sys@shading@range@num=\count278
+\pgf@sys@shading@range@num=\count279
 )
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.cod
 e.tex
@@ -1458,7 +1468,7 @@ File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.
 code.tex
 File: pgfcoreexternal.code.tex 2014/07/09  (rcs-revision 1.21)
-\pgfexternal@startupbox=\box63
+\pgfexternal@startupbox=\box65
 ))
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.co
 de.tex
@@ -1475,7 +1485,7 @@ File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.cod
 e.tex
 File: pgfmoduleshapes.code.tex 2014/03/21  (rcs-revision 1.35)
-\pgfnodeparttextbox=\box64
+\pgfnodeparttextbox=\box66
 )
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.
 tex
@@ -1502,8 +1512,8 @@ Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
 \pgffor@iter=\dimen292
 \pgffor@skip=\dimen293
-\pgffor@stack=\toks47
-\pgffor@toks=\toks48
+\pgffor@stack=\toks50
+\pgffor@toks=\toks51
 ))
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.cod
 e.tex
@@ -1512,7 +1522,7 @@ Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothan
 dlers.code.tex
 File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
-\pgf@plot@mark@count=\count279
+\pgf@plot@mark@count=\count280
 \pgfplotmarksize=\dimen294
 )
 \tikz@lastx=\dimen295
@@ -1521,23 +1531,23 @@ File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
 \tikz@lastysaved=\dimen298
 \tikzleveldistance=\dimen299
 \tikzsiblingdistance=\dimen300
-\tikz@figbox=\box65
-\tikz@figbox@bg=\box66
-\tikz@tempbox=\box67
-\tikz@tempbox@bg=\box68
-\tikztreelevel=\count280
-\tikznumberofchildren=\count281
-\tikznumberofcurrentchild=\count282
-\tikz@fig@count=\count283
+\tikz@figbox=\box67
+\tikz@figbox@bg=\box68
+\tikz@tempbox=\box69
+\tikz@tempbox@bg=\box70
+\tikztreelevel=\count281
+\tikznumberofchildren=\count282
+\tikznumberofcurrentchild=\count283
+\tikz@fig@count=\count284
 
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.cod
 e.tex
 File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
-\pgfmatrixcurrentrow=\count284
-\pgfmatrixcurrentcolumn=\count285
-\pgf@matrix@numberofcolumns=\count286
+\pgfmatrixcurrentrow=\count285
+\pgfmatrixcurrentcolumn=\count286
+\pgf@matrix@numberofcolumns=\count287
 )
-\tikz@expandcount=\count287
+\tikz@expandcount=\count288
 
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
 s/tikzlibrarytopaths.code.tex
@@ -1555,8 +1565,8 @@ File: pgflibraryarrows.code.tex 2013/09/23 v3.0.1a (rcs-revision 1.16)
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
 s/tikzlibrarybackgrounds.code.tex
 File: tikzlibrarybackgrounds.code.tex 2013/07/18 v3.0.1a (rcs-revision 1.3)
-\pgf@layerbox@background=\box69
-\pgf@layerboxsaved@background=\box70
+\pgf@layerbox@background=\box71
+\pgf@layerboxsaved@background=\box72
 )
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
 s/tikzlibrarycalc.code.tex
@@ -1588,31 +1598,23 @@ File: pgflibraryshapes.geometric.code.tex 2008/06/26 v3.0.1a (rcs-revision 1.1)
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/utilities/pgfcalendar.code.
 tex
 File: pgfcalendar.code.tex 2007/07/23 v3.0.1a (rcs-revision 1.11)
-\pgfcalendarcurrentjulian=\count288
+\pgfcalendarcurrentjulian=\count289
 ))
-\gtt@currentline=\count289
-\gtt@lasttitleline=\count290
-\gtt@currgrid=\count291
-\gtt@chartwidth=\count292
-\gtt@lasttitleslot=\count293
-\gtt@elementid=\count294
-\gtt@today@slot=\count295
-\gtt@startjulian=\count296
-\gtt@endjulian=\count297
-\gtt@calendar@slots=\count298
-\gtt@calendar@weeknumber=\count299
-\gtt@calendar@startofweek=\count300
-\gtt@left@slot=\count301
-\gtt@right@slot=\count302
-) (/usr/local/texlive/2017/texmf-dist/tex/latex/float/float.sty
-Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count303
-\float@exts=\toks49
-\float@box=\box71
-\@float@everytoks=\toks50
-\@floatcapt=\box72
-)
-(/usr/local/texlive/2017/texmf-dist/tex/latex/easy/easytable.sty
+\gtt@currentline=\count290
+\gtt@lasttitleline=\count291
+\gtt@currgrid=\count292
+\gtt@chartwidth=\count293
+\gtt@lasttitleslot=\count294
+\gtt@elementid=\count295
+\gtt@today@slot=\count296
+\gtt@startjulian=\count297
+\gtt@endjulian=\count298
+\gtt@calendar@slots=\count299
+\gtt@calendar@weeknumber=\count300
+\gtt@calendar@startofweek=\count301
+\gtt@left@slot=\count302
+\gtt@right@slot=\count303
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/easy/easytable.sty
 Document Style `easytable' v1.0 <2001/06/13>.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/easy/easy.sty
 Document Style `easy' v1.1 <2001/05/31>.
@@ -1729,7 +1731,7 @@ Package: easytable 2001/05/31v1.1
 \@tab@size@dash=\dimen397
 ) (/usr/local/texlive/2017/texmf-dist/tex/latex/colortbl/colortbl.sty
 Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
-\everycr=\toks51
+\everycr=\toks52
 \minrowclearance=\skip95
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/hyphenat/hyphenat.sty
@@ -1757,7 +1759,7 @@ Package: geometry 2010/09/12 v5.6 Page Geometry
 \Gm@layoutheight=\dimen403
 \Gm@layouthoffset=\dimen404
 \Gm@layoutvoffset=\dimen405
-\Gm@dimlist=\toks52
+\Gm@dimlist=\toks53
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
@@ -1772,7 +1774,7 @@ LaTeX Info: Redefining \addtolength on input line 81.
 \calc@Ccount=\count313
 \calc@Cskip=\skip98
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 69.
+Package hyperref Info: Option `colorlinks' set `true' on input line 71.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
@@ -1834,12 +1836,12 @@ Package caption Info: End \AtBeginDocument code.
 \scratchbox=\box81
 \nofMPsegments=\count315
 \nofMParguments=\count316
-\everyMPshowfont=\toks53
+\everyMPshowfont=\toks54
 \MPscratchCnt=\count317
 \MPscratchDim=\dimen409
 \MPnumerator=\count318
 \makeMPintoPDFobject=\count319
-\everyMPtoPDFconversion=\toks54
+\everyMPtoPDFconversion=\toks55
 )
 \c@lstlisting=\count320
 \AtBeginShipoutBox=\box82
@@ -2151,8 +2153,10 @@ Overfull \hbox (4.02962pt too wide) in paragraph at lines 25--42
 
 Package xcolor Warning: Incompatible color definition on input line 62.
 
+[3]
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 74.
+
 
 Package xcolor Warning: Incompatible color definition on input line 88.
 
@@ -2166,7 +2170,7 @@ Overfull \hbox (12.36201pt too wide) in paragraph at lines 98--108
  [][] 
  []
 
-[3] [4]
+[4]
 LaTeX Font Info:    Try loading font information for OMS+lmr on input line 131.
 
  (/usr/local/texlive/2017/texmf-dist/tex/latex/lm/omslmr.fd
@@ -2174,13 +2178,13 @@ File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 131.
-
+ [5]
 Overfull \hbox (3.31946pt too wide) in paragraph at lines 139--140
 []\OT1/lmr/m/n/12 The ap-pli-ca-tion shall run com-pat-i-bly at least on Win-do
 ws (ver-sion 7 or greater),
  []
 
-[5] [6]
+[6]
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
 (hyperref)                than one, level fixed on input line 161.
@@ -2230,7 +2234,7 @@ Overfull \hbox (13.60051pt too wide) in paragraph at lines 146--147
 8 HUGE\OT1/lmr/m/n/12 . 
  []
 
-[21] <images/living.jpg, id=622, 1062.97125pt x 830.10126pt>
+[21] <images/living.jpg, id=659, 1062.97125pt x 830.10126pt>
 File: images/living.jpg Graphic file (type jpg)
 
 <use images/living.jpg>
@@ -2338,9 +2342,15 @@ Package natbib Warning: Citation(s) may have changed.
 )
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 72.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 72.
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: C26CDA38754EBE7E126503CC7CF6F607;12395.
 
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: C26CDA38754EBE7E126503CC7CF6F607;12395
+(rerunfilecheck)             After:  FAA87CDF9A1BCDB494844502A2345B7A;12394.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -2350,15 +2360,177 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 72.
  ) 
 Here is how much of TeX's memory you used:
- 38969 strings out of 492995
- 729487 string characters out of 6132704
- 1066279 words of memory out of 5000000
- 41334 multiletter control sequences out of 15000+600000
+ 39031 strings out of 492995
+ 730197 string characters out of 6132704
+ 1066316 words of memory out of 5000000
+ 41339 multiletter control sequences out of 15000+600000
  95811 words of font info for 87 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  64i,17n,65p,13109b,2298s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{Hfootnote.131} has been referenced but does not e
+pdfTeX warning (dest): name{Hfootnote.133} has been referenced but does not e
 xist, replaced by a fixed one
+
+pdfTeX warning (dest): name{table.caption.128} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{table.132} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{table.caption.126} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{table.caption.125} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{table.caption.18} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{table.caption.17} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{table.caption.16} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.123} has been referenced but does no
+t exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{dummy.479} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.451} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.423} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.409} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.288} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.207} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.196} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.195} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.144} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.134} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{appendix.127} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.124} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.122} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.117} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.64} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.58} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.57} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.54} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.52} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.51} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{chapter.50} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{section.47} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{chapter.46} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{section.42} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{chapter.41} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{section.40} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.36} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.34} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.33} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.31} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.30} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{chapter.29} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.28} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{section*.26} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.24} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.23} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.21} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.20} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.19} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.15} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.14} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{chapter.13} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{dummy.10} has been referenced but does not exist, r
+eplaced by a fixed one
+
+pdfTeX warning (dest): name{dummy.8} has been referenced but does not exist, re
+placed by a fixed one
+
+pdfTeX warning (dest): name{dummy.6} has been referenced but does not exist, re
+placed by a fixed one
+
+pdfTeX warning (dest): name{dummy.4} has been referenced but does not exist, re
+placed by a fixed one
 
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/local/t
 exlive/2017/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/201
@@ -2379,10 +2551,10 @@ dist/fonts/type1/public/lm/lmss12.pfb></usr/local/texlive/2017/texmf-dist/fonts
 /type1/public/lm/lmsy10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/pub
 lic/lm/lmtt12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmt
 t8.pfb>
-Output written on main.pdf (49 pages, 796816 bytes).
+Output written on main.pdf (49 pages, 797688 bytes).
 PDF statistics:
- 1238 PDF objects out of 1440 (max. 8388607)
- 1151 compressed objects within 12 object streams
- 535 named destinations out of 1000 (max. 500000)
+ 1307 PDF objects out of 1440 (max. 8388607)
+ 1219 compressed objects within 13 object streams
+ 592 named destinations out of 1000 (max. 500000)
  567 words of extra memory for PDF output out of 10000 (max. 10000000)
 
