@@ -11,10 +11,10 @@
 \contentsline {subsection}{\numberline {1.1.2}International adoptions in Italy}{5}{subsection.20}
 \contentsline {section}{\numberline {1.2}Health status and screening protocols}{6}{section.21}
 \contentsline {subsection}{\numberline {1.2.1}Health status and screening protocols in Italy}{6}{subsection.22}
-\contentsline {subsection}{\numberline {1.2.2}Health status and screening protocols in the world}{7}{subsection.23}
+\contentsline {subsection}{\numberline {1.2.2}Health status and screening protocols in the world}{6}{subsection.23}
 \contentsline {section}{\numberline {1.3}Illnesses and dysfunctions under exam}{7}{section.24}
 \contentsline {subsection}{\numberline {1.3.1}Infectious diseases}{7}{subsection.25}
-\contentsline {subsection}{\numberline {1.3.2}Blood count disorders and deficiency states}{8}{subsection.26}
+\contentsline {subsection}{\numberline {1.3.2}Blood count disorders and deficiency states}{7}{subsection.26}
 \contentsline {subsubsection}{\numberline {1.3.2.1}Iron-deficient anemia}{8}{subsubsection.27}
 \contentsline {subsubsection}{\numberline {1.3.2.2}Vitamin D deficiency}{8}{subsubsection.28}
 \contentsline {subsection}{\numberline {1.3.3}Height-weight disorders}{8}{subsection.29}
