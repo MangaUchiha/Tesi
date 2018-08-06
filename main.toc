@@ -8,7 +8,7 @@
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.12}
 \contentsline {section}{\numberline {1.1}Intercountry and international adoptees}{1}{section.13}
 \contentsline {subsection}{\numberline {1.1.1}Levels and trends in intercountry adoption worldwide}{3}{subsection.14}
-\contentsline {subsection}{\numberline {1.1.2}International adoptions in Italy}{5}{subsection.20}
+\contentsline {subsection}{\numberline {1.1.2}International adoptions in Italy}{6}{subsection.20}
 \contentsline {section}{\numberline {1.2}Health status and screening protocols}{6}{section.21}
 \contentsline {subsection}{\numberline {1.2.1}Health status and screening protocols in Italy}{6}{subsection.22}
 \contentsline {subsection}{\numberline {1.2.2}Health status and screening protocols in the world}{6}{subsection.23}
