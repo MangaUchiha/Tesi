@@ -19,7 +19,6 @@ Moreover, as in \cite{unreport}, internationally adopted children may withstand 
 
 \subsection{Levels and trends in intercountry adoption worldwide}\label{sub:levelsintercountry}
 International adoption is increasingly considered a measure of last resort worldwide, if the child's birth family or community are unable or unwilling to care for him anymore (see \cite{nelson}), justifying the downward trend on international adoptions across the globe. 
-%INSERISCI ARTICOLO
 
 The United Nations Population Division estimates that about 40.000 intercountry adoptions took place each year around 2005, accounting for 15\% of the total number of adoptions (see \cite{unreport}). As shown in Table \ref{tab:intadoptcountriesdestination} and \ref{tab:intadoptcountriesorigin}, the involved countries, both for destination and origin, are relatively few.
 
@@ -123,6 +122,59 @@ In Table \ref{tab:intadoptpercentcountries} the leading countries both of origin
     \label{tab:intadoptpercentcountries}
 \end{table}
 
+As explained in \cite{adoptdropping_article} and \cite{adoptdropping_book}, in recent years, international adoption rate have been dropping. As shown in the Graph \ref{fig:usadoptionsdropping}, the United States' foreign adoptions have dramatically dropped from 18.856 children per year in 2000 to 2.681: more than 75\% has been cut. 
+This is a world-wide problem since the motivation for this is found in policy changes in the countries of origin.
+
+% US Adotpions are dropping
+\begin{figure}[h]
+\centering
+\begin{tikzpicture}
+	\begin{axis}[
+		stack plots=y,
+		area style,
+		enlarge x limits=false,
+		enlarge y limits=false,
+		width=0.9\textwidth,
+		height=8cm,
+		xlabel = Years,
+         ylabel = U.S. Adoptions per year,
+         ytick = {5000, 10000, 15000},
+         ytick style={draw=none},
+         xtick style={draw=none},
+         yticklabel = {\pgfmathparse{\tick/1000} \pgfmathprintnumber{\pgfmathresult}\,k},
+         x tick label style={/pgf/number format/.cd,%
+          scaled x ticks = false,
+          set thousands separator={},
+          fixed},
+         y tick label style={/pgf/number format/.cd,%
+          scaled y ticks = false,
+          set thousands separator={},
+          fixed},
+         ymajorgrids=true]
+	\addplot coordinates
+		{(1999,42) (2000,95) (2001	,165) (2002,105) (2003,165)( 2004,284) (2005,442) (2006,731) (2007	,1254)(2008,1723) (2009,2275) (2010,2511) (2011,1732) (2012,1567) (2013,993) (2014,716) (2015,335) (2016,183)} 
+		\closedcycle;
+	\addplot coordinates
+		{(1999, 4108) (2000, 5058) (2001, 4705) (2002, 6116) (2003, 6857) (2004, 7038) (2005, 7903) (2006, 6492) (2007, 5453) (2008, 3912)  (2009, 3000)  (2010, 3401) (2011, 2587) (2012, 2696) (2013, 2306) (2014, 2040) (2015, 2354) (2016, 2231)}
+		\closedcycle;
+		\addplot coordinates
+		{(1999, 1994) (2000, 1784) (2001, 1862) (2002	, 1776) (2003, 1793) (2004, 1713) (2005, 1628) (2006, 1373) (2007, 938) (2008, 1064) (2009, 1079) (2010, 865) (2011, 736) (2012, 627) (2013, 138) (2014	, 370) (2015, 318) (2016, 260)}
+		\closedcycle;
+		\addplot coordinates
+		{(1999, 4381) (2000, 4286) (2001, 4292) (2002, 4950) (2003, 5221) (2004, 5862) (2005, 4631) (2006, 3702) (2007, 2303) (2008, 1857) (2009, 1586) (2010, 1079) (2011, 962) (2012, 749) (2013, 250) (2014, 2) (2015, 0) (2016, 0)}
+		\closedcycle;
+		\addplot coordinates
+		{(1999, 611) (2000, 1119) (2001, 777) (2002, 169) (2003, 200) (2004, 57) (2005, 2) (2006, 0) (2007, 3) (2008, 2) (2009, 5) (2010, 0) (2011, 0) (2012, 0) (2013, 0) (2014, 3) (2015, 3) (2016, 5)}
+		\closedcycle;
+		\addplot coordinates
+		{(1999, 1002) (2000, 1516) (2001, 1610) (2002, 2419) (2003, 2328) (2004, 3264) (2005, 3783) (2006, 4135) (2007, 4726) (2008, 4112) (2009, 754) (2010, 50) (2011, 32) (2012, 7) (2013, 23) (2014, 29) (2015, 13) (2016, 2)}
+		\closedcycle;
+	\end{axis}
+\end{tikzpicture}
+\caption{Adoptions to US by top countries from 1999 to 2016.}
+\source{U.S. State Department}
+\label{fig:usadoptionsdropping}
+\end{figure}
 
 \subsection{International adoptions in Italy}\label{sub:intadoptionsinitaly}
 According to \cite{notonlyinfectious}, \cite{nonsoloinfezioni} and \cite{cai2014}, Italy is the European country with the highest rate of adoptions and the second one worldwide, following the United States. This major role was kept in the next two-year period: 2.716 children were internationally adopted in Italy in 2016-17 (see \cite{cai2016}).
