@@ -122,7 +122,7 @@ In Table \ref{tab:intadoptpercentcountries} the leading countries both of origin
     \label{tab:intadoptpercentcountries}
 \end{table}
 
-As explained in \cite{adoptdropping_article} and \cite{adoptdropping_book}, in recent years, international adoption rates have been dropping. As shown in the Graph \ref{fig:usadoptionsdropping}, the United States' foreign adoptions have dramatically fallen from 18.856 children per year in 2000 to 2.681 in 2016: more than 75\% has been cut. This isn't a U.S. isolated problem, though; world-wide international adoption rates are on the fall in the past two decades, due to policy changes in the countries of origin. In recent decades South Korea, Romania, Guatemala, China, Kazakhistan and Russia, all former leaders in foreign adoption (see \cite{unreport} and Table \ref{tab:intadoptcountriesorigin}), have banned or cut back on international custody transfers. For example, the number of Guatemalan children adopted by foreign parents dropped from 4100 in 2008 to a stunning 58 in 2010, after the country drastically curtailed the practice and China decreased its foreign adoptions by 86\% in a decade.
+As explained in \cite{adoptdropping_article} and \cite{adoptdropping_book}, in recent years, international adoption rates have been dropping. As shown in the Figure \ref{fig:usadoptionsdropping}, the United States' foreign adoptions have dramatically fallen from 18.856 children per year in 2000 to 2.681 in 2016: more than 75\% has been cut. This isn't a U.S. isolated problem, though; world-wide international adoption rates are on the fall in the past two decades, due to policy changes in the countries of origin. In recent decades South Korea, Romania, Guatemala, China, Kazakhistan and Russia, all former leaders in foreign adoption (see \cite{unreport} and Table \ref{tab:intadoptcountriesorigin}), have banned or cut back on international custody transfers. For example, the number of Guatemalan children adopted by foreign parents dropped from 4100 in 2008 to a stunning 58 in 2010 (\ref{figdata:guatemala} in Figure \ref{fig:usadoptionsdropping}), after the country drastically curtailed the practice and China decreased its foreign adoptions by 86\% in a decade (\ref{figdata:china} in Figure \ref{fig:usadoptionsdropping}).
 
 % US Adotpions are dropping
 \vspace*{0.8cm}
@@ -158,6 +158,7 @@ As explained in \cite{adoptdropping_article} and \cite{adoptdropping_book}, in r
 	\addplot coordinates
 		{(1999, 4108) (2000, 5058) (2001, 4705) (2002, 6116) (2003, 6857) (2004, 7038) (2005, 7903) (2006, 6492) (2007, 5453) (2008, 3912)  (2009, 3000)  (2010, 3401) (2011, 2587) (2012, 2696) (2013, 2306) (2014, 2040) (2015, 2354) (2016, 2231)}
 		\closedcycle;
+		\label{figdata:china}
 		\addplot coordinates
 		{(1999, 1994) (2000, 1784) (2001, 1862) (2002	, 1776) (2003, 1793) (2004, 1713) (2005, 1628) (2006, 1373) (2007, 938) (2008, 1064) (2009, 1079) (2010, 865) (2011, 736) (2012, 627) (2013, 138) (2014	, 370) (2015, 318) (2016, 260)}
 		\closedcycle;
@@ -170,7 +171,8 @@ As explained in \cite{adoptdropping_article} and \cite{adoptdropping_book}, in r
 		\addplot [draw={orange!80!white},fill={orange!20!white}] coordinates
 		{(1999, 1002) (2000, 1516) (2001, 1610) (2002, 2419) (2003, 2328) (2004, 3264) (2005, 3783) (2006, 4135) (2007, 4726) (2008, 4112) (2009, 754) (2010, 50) (2011, 32) (2012, 7) (2013, 23) (2014, 29) (2015, 13) (2016, 2)}
 		\closedcycle;
-		\legend{\textit{Ethoipia},\textit{Cina},\textit{South Korea},\textit{Russia},\textit{Romania},\textit{Guatemala}}
+		\label{figdata:guatemala}
+		\legend{\textit{Ethoipia},\textit{China},\textit{South Korea},\textit{Russia},\textit{Romania},\textit{Guatemala}}
 	\end{axis}
 \end{tikzpicture}
 \caption{Adoptions to US by top countries from 1999 to 2016.}
