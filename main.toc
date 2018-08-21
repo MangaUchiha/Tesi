@@ -57,13 +57,13 @@
 \contentsline {section}{\numberline {5.9}Including Tables}{27}{section.127}
 \vspace {2em}
 \contentsline {chapter}{\numberline {A}Data set elaboration: VBA expressions}{30}{appendix.130}
-\contentsline {section}{\numberline {A.1}Age (in months)}{31}{section.137}
-\contentsline {section}{\numberline {A.2}Geographic area of origin}{31}{section.147}
-\contentsline {section}{\numberline {A.3}Pathological values}{33}{section.198}
-\contentsline {subsection}{\numberline {A.3.1}Weight and height}{33}{subsection.199}
-\contentsline {subsection}{\numberline {A.3.2}Haemoglobin}{33}{subsection.210}
-\contentsline {subsection}{\numberline {A.3.3}MCV}{35}{subsection.291}
-\contentsline {subsection}{\numberline {A.3.4}Circulating iron}{38}{subsection.412}
-\contentsline {subsection}{\numberline {A.3.5}Ferritin}{39}{subsection.426}
-\contentsline {subsection}{\numberline {A.3.6}Vitamin D}{39}{subsection.454}
-\contentsline {chapter}{Bibliography}{42}{dummy.482}
+\contentsline {section}{\numberline {A.1}Age (in months)}{33}{section.133}
+\contentsline {section}{\numberline {A.2}Geographic area of origin}{33}{section.143}
+\contentsline {section}{\numberline {A.3}Pathological values}{34}{section.194}
+\contentsline {subsection}{\numberline {A.3.1}Weight and height}{35}{subsection.195}
+\contentsline {subsection}{\numberline {A.3.2}Haemoglobin}{35}{subsection.206}
+\contentsline {subsection}{\numberline {A.3.3}MCV}{37}{subsection.287}
+\contentsline {subsection}{\numberline {A.3.4}Circulating iron}{40}{subsection.408}
+\contentsline {subsection}{\numberline {A.3.5}Ferritin}{40}{subsection.422}
+\contentsline {subsection}{\numberline {A.3.6}Vitamin D}{41}{subsection.450}
+\contentsline {chapter}{Bibliography}{43}{dummy.478}

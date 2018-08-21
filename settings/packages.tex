@@ -14,8 +14,9 @@
 \usepackage{float} %These 2 enable "H" and can avoid tables from floating 
 %\restylefloat{table} %Commented because captions disappear
 \usepackage{longtable} % Use multipage tables
+\usepackage{array} %Include stuff
 \usepackage{tabularx, ragged2e} % For defining table width
-\newcolumntype{C}{>{\Centering\arraybackslash}X} % New column type for centered and fill column
+\newcolumntype{C}[1]{>{\centering\arraybackslash}p{#1}} % New column type for centered and fill column
 
 \usepackage[usenames, dvipsnames]{color} %Including more colors
 

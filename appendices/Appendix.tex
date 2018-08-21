@@ -3,77 +3,89 @@ This appendix provides all the code used in this thesis to elaborate the data se
 
 In the following appendix, cells are indicated as combination of a letter (identifying the column) and a number (identifying the line), as they originally were in the database. Every line represents a single child's evaluation; every column represents one of the examined parameters. The full column-parameter correspondence can be found in following Table \ref{tab:columnparameter}.
 
+%Setting mylength
+\newlength\mylength
+\setlength\mylength{\dimexpr\textwidth-5\arrayrulewidth-8\tabcolsep}
+
 % Column-parameter correspondence table
-\begin{table}[ht!]
-	\centering 
-	\def\arraystretch{1.5}
-	\begin{tabularx}{\textwidth}{|C|C|C|C|}
-		\hline
-		\textbf{Column} & \textbf{Parameter} & \textbf{Unit of measure (or cell content type)} & \textbf{Description} \\
-		\hline \hline
-		A & First and last name & \textit{text} & The name of the kid.\footnote{Although registering the name of the patient posed a risk in terms of possible privacy breach, it was added nonetheless to easily identify each patient as the data set got larger through the years.}\\
-		\hline
-		B & Sex & \textit{text} & The sex of the kid.\\
-		\hline
-		C & Age (in months) & months & The age of the kid.  \\
-		\hline
-		D & Age (in years) & years & *. For further information, see Section \ref{sec:ageinmonths}. \\
-		\hline
-		E & Nation of origin & \textit{text} & *. \\
-		\hline
-		F & Geographic area of origin & \textit{text} & *. \\
-		\hline
-		G & Residency time in Italy (in months) & months & *. \\
-		\hline
-		H & Weight & percentile & *. \\
-		\hline
-		I & Pathological weight & \textit{boolean} & *. \\
-		\hline
-		J & Height & percentile & *. \\
-		\hline
-		K & Pathological height & \textit{boolean} & *. \\
-		\hline
-		L & Haemoglobin & \si{\gram}/\si{\deci\litre} & *. \\
-		\hline
-		M & Pathological haemoglobin & \textit{boolean} & *. \\
-		\hline
-		N & MCV & \si{\femto\litre} & *. \\
-		\hline
-		O & Pathological MCV & \textit{boolean} & *. \\
-		\hline
-		P & Circulating iron & \si{\micro\gram}/\si{\deci\litre} & *. \\
-		\hline
-		Q & Pathological circulating iron & \textit{boolean} & *. \\
-		\hline
-		R & Ferritin & \si{\nano\gram}/\si{\milli\litre} & *. \\
-		\hline
-		S & Pathological ferritin & \textit{boolean} & *. \\
-		\hline
-	\end{tabularx}
-	\captionof{table}{Column-parameter correspondence}
-	\label{tab:columnparameter2}
-\end{table}
-
-
-\begin{longtable}{|l|l|l|l|}
+\begin{footnotesize}
+	\centering
+	\begin{longtable}{C{.09\mylength} p{.25\mylength} C{.20\mylength} p{.40\mylength}}
+	Column & Parameter & Units or cell type & Description\\
 	\hline
-	\textbf{Column} & \textbf{Parameter} & \textbf{Unit of measure (or cell content type)} & \textbf{Description} \\[6pt]
-	\hline \hline
-	$A$ & First and last name & \textit{text} & The name of the kid.\footnote{Although registering the name of the patient posed a risk in terms of possible privacy breach, it was added nonetheless to easily identify each patient as the data set got larger through the years.}\\[6pt]
-		\hline
-		$B$ & Sex & \textit{text} & The sex of the kid.\\[6pt]
-		\hline
-		$C$ & Age (in months) & months & The age of the kid.  \\[6pt]
-		\hline
-		$D$ & Age (in years) & years & *. For further information, see Section \ref{sec:ageinmonths}. \\[6pt]
-		\hline
-		$E$ & Nation of origin & \textit{text} & *. \\[6pt]
-		\hline
-		$F$ & Geographic area of origin & \textit{text} & *. \\[6pt]
-		\hline
-		\caption{Column-parameter correspondence} \\
-		\label{tab:columnparameter}
-\end{longtable} 
+	$A$ & First and last name & \textit{text} & The name of the kid.\footnote{Although registering the patient's full name exposed the research to a possible privacy breach risk, it was added nonetheless to easily identify each patient as the data set got larger through the years.}\\
+	$B$ & Sex & \textit{text} & The sex of the child.\\
+	$C$ & Age (in months) & months & The age of the child.\\
+	$D$ & Age (in years) & years & The age of the child. Further information on how this was obtained can be found at Section \ref{sec:ageinmonths}.\\
+	$E$ & Country of origin & \textit{text} & Where the child comes from.\\
+	$F$ & Geographic area of origin & \textit{text} & $E$ was divided in 4 macro-geographic areas. See \ref{sec:geographicarea} for further information.\\
+	$G$ & Time in Italy & months &  Months spent in Italy before being examined by our physicians.\\
+	$H$ & Weight & percentile & Percentile in which the child fits for his weight at time of examination.\\
+	$I$ & Pathological weight & \textit{boolean} & Is the child underweight for his/her age?\\
+	$J$ & Height & percentile & Percentile in which the child fits for his height at time of examination.\\
+	$K$ & Pathological height & \textit{boolean} & Is the child short for his/her age?\\
+	$L$ & Haemoglobin & \si{\gram}/\si{\deci\litre} & Is the child short for his/her age?\\
+	$M$ & Pathological haemoglobin & \textit{boolean} & Is the child short for his/her age?\\
+	$N$ & MCV & \si{\femto\litre} & Is the child short for his/her age?\\
+	$O$ & Pathological MCV & \textit{boolean} & Is the child short for his/her age?\\
+	$P$ & Circulating iron & \si{\micro\gram}/\si{\deci\litre} & Is the child short for his/her age?\\
+	$Q$ & Pathological circulating iron & \textit{boolean} & Is the child short for his/her age?\\
+	$R$ & Ferritin & \si{\nano\gram}/\si{\milli\litre} & Is the child short for his/her age?\\
+	$S$ & Pathological ferritin & \textit{boolean} & Is the child short for his/her age?\\
+	$T$ & Pathological ferritin & \textit{boolean} & Is the child short for his/her age?\\
+	$U$ & Pathological ferritin & \textit{boolean} & Is the child short for his/her age?\\
+	$V$ & Pathological ferritin & \textit{boolean} & Is the child short for his/her age?\\
+	$X$ & Pathological ferritin & \textit{boolean} & Is the child short for his/her age?\\
+	$W$ & Pathological ferritin & \textit{boolean} & Is the child short for his/her age?\\
+	$Y$ & Pathological ferritin & \textit{boolean} & Is the child short for his/her age?\\
+	$Z$ & Pathological ferritin & \textit{boolean} & Is the child short for his/her age?\\
+	$AA$ & Pathological ferritin & \textit{boolean} & Is the child short for his/her age?\\
+	$AB$ & Pathological ferritin & \textit{boolean} & Is the child short for his/her age?\\
+	$AA$ & Pathological ferritin & \textit{boolean} & Is the child short for his/her age?\\
+	$AB$ & Pathological ferritin & \textit{boolean} & Is the child short for his/her age?\\
+	$AA$ & Pathological ferritin & \textit{boolean} & Is the child short for his/her age?\\
+	$AB$ & Pathological ferritin & \textit{boolean} & Is the child short for his/her age?\\
+	$AA$ & Pathological ferritin & \textit{boolean} & Is the child short for his/her age?\\
+	$AB$ & Pathological ferritin & \textit{boolean} & Is the child short for his/her age?\\
+	$AA$ & Pathological ferritin & \textit{boolean} & Is the child short for his/her age?\\
+	$AB$ & Pathological ferritin & \textit{boolean} & Is the child short for his/her age?\\
+	$AA$ & Pathological ferritin & \textit{boolean} & Is the child short for his/her age?\\
+	$AB$ & Pathological ferritin & \textit{boolean} & Is the child short for his/her age?\\
+	$AA$ & Pathological ferritin & \textit{boolean} & Is the child short for his/her age?\\
+	$AB$ & Pathological ferritin & \textit{boolean} & Is the child short for his/her age?\\
+	$AA$ & Pathological ferritin & \textit{boolean} & Is the child short for his/her age?\\
+	$AB$ & Pathological ferritin & \textit{boolean} & Is the child short for his/her age?\\
+	$AA$ & Pathological ferritin & \textit{boolean} & Is the child short for his/her age?\\
+	$AB$ & Pathological ferritin & \textit{boolean} & Is the child short for his/her age?\\
+	$AA$ & Pathological ferritin & \textit{boolean} & Is the child short for his/her age?\\
+	$AB$ & Pathological ferritin & \textit{boolean} & Is the child short for his/her age?\\
+	$AA$ & Pathological ferritin & \textit{boolean} & Is the child short for his/her age?\\
+	$AB$ & Pathological ferritin & \textit{boolean} & Is the child short for his/her age?\\
+	$AA$ & Pathological ferritin & \textit{boolean} & Is the child short for his/her age?\\
+	$AB$ & Pathological ferritin & \textit{boolean} & Is the child short for his/her age?\\
+	$AA$ & Pathological ferritin & \textit{boolean} & Is the child short for his/her age?\\
+	$AB$ & Pathological ferritin & \textit{boolean} & Is the child short for his/her age?\\
+	$AA$ & Pathological ferritin & \textit{boolean} & Is the child short for his/her age?\\
+	$AB$ & Pathological ferritin & \textit{boolean} & Is the child short for his/her age?\\
+	$AA$ & Pathological ferritin & \textit{boolean} & Is the child short for his/her age?\\
+	$AB$ & Pathological ferritin & \textit{boolean} & Is the child short for his/her age?\\
+	$AA$ & Pathological ferritin & \textit{boolean} & Is the child short for his/her age?\\
+	$AB$ & Pathological ferritin & \textit{boolean} & Is the child short for his/her age?\\
+	$AA$ & Pathological ferritin & \textit{boolean} & Is the child short for his/her age?\\
+	$AB$ & Pathological ferritin & \textit{boolean} & Is the child short for his/her age?\\
+	$AA$ & Pathological ferritin & \textit{boolean} & Is the child short for his/her age?\\
+	$AB$ & Pathological ferritin & \textit{boolean} & Is the child short for his/her age?\\
+	$AA$ & Pathological ferritin & \textit{boolean} & Is the child short for his/her age?\\
+	$AB$ & Pathological ferritin & \textit{boolean} & Is the child short for his/her age?\\
+	$AA$ & Pathological ferritin & \textit{boolean} & Is the child short for his/her age?\\
+	$AB$ & Pathological ferritin & \textit{boolean} & Is the child short for his/her age?\\
+	$AA$ & Pathological ferritin & \textit{boolean} & Is the child short for his/her age?\\
+	$AB$ & Pathological ferritin & \textit{boolean} & Is the child short for his/her age?\\
+	%\vspace{10px}
+	\caption{Column-parameter correspondence}
+	\label{tab:columnparameter}
+	\end{longtable}
+\end{footnotesize}
 
 \section{Age (in months)}\label{sec:ageinmonths}
 This VBA expression checks the \textit{Age (in months)} column (C) and, if it's not empty, it divides it's value by 12, rounding it down, just as age works.\\
@@ -95,6 +107,7 @@ The \texttt{ROUNDOWN} function was implemented in order to avoid overestimating 
 
 \section{Geographic area of origin}\label{sec:geographicarea}
 To further understand how geographic origin influenced the results of our screening program, every nation was grouped up in 4 major continents or areas with the following excel expression.
+Add itemize with areas %TODO
 
 % Excel equation of nationality
 % No minipage so it can page break
