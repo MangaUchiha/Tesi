@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.1.18)  21 AUG 2018 16:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.1.18)  21 AUG 2018 16:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2367,7 +2367,7 @@ File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 152.
  [26]
-<images/living.jpg, id=700, 1062.97125pt x 830.10126pt>
+<images/living.jpg, id=701, 1062.97125pt x 830.10126pt>
 File: images/living.jpg Graphic file (type jpg)
 
 <use images/living.jpg>
@@ -2405,7 +2405,7 @@ File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) [30
 
 ] [31] [32]
-[33] [34] [35] [36] [37] [38] [39] [40] [41]) [42]
+[33] [34] [35] [36] [37] [38] [39] [40]) [41]
 ------------------------------------------------------------------------------
  Bibliography
 ------------------------------------------------------------------------------
@@ -2457,7 +2457,7 @@ Overfull \hbox (59.29776pt too wide) in paragraph at lines 31--36
 nce-[]2005-[]heres-[]why-[]91809$[][] 
  []
 
-[43
+[42
 
 
 ]
@@ -2490,13 +2490,13 @@ Underfull \hbox (badness 3281) in paragraph at lines 87--93
 il-able
  []
 
-[44]
+[43]
 Underfull \hbox (badness 8000) in paragraph at lines 136--140
 \OT1/lmtt/c/n/12 cms / RAFVG / salute-[]sociale / sistema-[]sociale-[]sanitario
  / FOGLIA51/$[][] \OT1/lmr/m/n/12 [ac-
  []
 
-) [45]
+) [44]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 72.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 72.
  (./main.aux)
@@ -2511,9 +2511,9 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 72.
  ) 
 Here is how much of TeX's memory you used:
- 49206 strings out of 492995
- 1071268 string characters out of 6132704
- 1549844 words of memory out of 5000000
+ 49205 strings out of 492995
+ 1071261 string characters out of 6132704
+ 1549994 words of memory out of 5000000
  51411 multiletter control sequences out of 15000+600000
  100014 words of font info for 88 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
@@ -2540,10 +2540,10 @@ dist/fonts/type1/public/lm/lmss12.pfb></usr/local/texlive/2017/texmf-dist/fonts
 /type1/public/lm/lmsy10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/pub
 lic/lm/lmtt12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmt
 t8.pfb>
-Output written on main.pdf (56 pages, 825383 bytes).
+Output written on main.pdf (55 pages, 828098 bytes).
 PDF statistics:
- 1333 PDF objects out of 1440 (max. 8388607)
- 1241 compressed objects within 13 object streams
- 554 named destinations out of 1000 (max. 500000)
+ 1330 PDF objects out of 1440 (max. 8388607)
+ 1239 compressed objects within 13 object streams
+ 553 named destinations out of 1000 (max. 500000)
  559 words of extra memory for PDF output out of 10000 (max. 10000000)
 
