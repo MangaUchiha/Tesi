@@ -59,11 +59,11 @@
 \contentsline {chapter}{\numberline {A}Data set elaboration: VBA expressions}{30}{appendix.130}
 \contentsline {section}{\numberline {A.1}Age (in months)}{32}{section.133}
 \contentsline {section}{\numberline {A.2}Geographic area of origin}{32}{section.143}
-\contentsline {section}{\numberline {A.3}Pathological values}{33}{section.194}
+\contentsline {section}{\numberline {A.3}Pathological values}{34}{section.194}
 \contentsline {subsection}{\numberline {A.3.1}Weight and height}{34}{subsection.195}
 \contentsline {subsection}{\numberline {A.3.2}Haemoglobin}{34}{subsection.206}
 \contentsline {subsection}{\numberline {A.3.3}MCV}{36}{subsection.287}
 \contentsline {subsection}{\numberline {A.3.4}Circulating iron}{39}{subsection.408}
-\contentsline {subsection}{\numberline {A.3.5}Ferritin}{39}{subsection.422}
+\contentsline {subsection}{\numberline {A.3.5}Ferritin}{40}{subsection.422}
 \contentsline {subsection}{\numberline {A.3.6}Vitamin D}{40}{subsection.450}
 \contentsline {chapter}{Bibliography}{42}{dummy.478}
