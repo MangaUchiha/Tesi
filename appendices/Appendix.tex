@@ -1,5 +1,5 @@
 \chap{Data set elaboration: VBA expressions}\label{chap:appendixvbaexpressions}
-This appendix provides all the code used in this thesis to elaborate the data set. Visual Basic for Application (VBA) is the programming language chosen for this purpose, as the most effective and manageable way of elaborating data in excel sheets. Further information can be found throughout this thesis, especially in Section \ref{sec:datasetelaboration} at page \pageref{sec:datasetelaboration}.
+This appendix provides all the code used in this thesis to elaborate the data set. Visual Basic for Application (VBA) is the programming language chosen for this purpose, as the most effective and manageable way of elaborating data in excel sheets. Further information can be found throughout this thesis, especially in Section \ref{sec:datasetelaboration} at page \pageref{sec:datasetelaboration} and cut-off values, parameter by parameter, can be found at Section \ref{sec:cutoffvalues}
 
 In the following appendix, cells are indicated as combination of a letter (identifying the column) and a number (identifying the line), as they originally were in the database. Every line represents a single child's evaluation; every column represents one of the examined parameters. The full column-parameter correspondence can be found in following Table \ref{tab:columnparameter}.
 
@@ -14,40 +14,52 @@ In the following appendix, cells are indicated as combination of a letter (ident
 	Column & Parameter & Units or cell type & Description\\
 	\hline
 	$A$ & First and last name & \textit{text} & The name of the kid.\footnote{Although registering the patient's full name exposed the research to a possible privacy breach risk, it was added nonetheless to easily identify each patient as the data set got larger through the years.}\\
-	$B$ & Sex & \textit{text} & The sex of the child.\\
-	$C$ & Age (in months) & $months$ & The age of the child.\\
-	$D$ & Age (in years) & $years$ & The age of the child. Further information on how this was obtained can be found at Section \ref{sec:ageinmonths}.\\
+	$B$ & Sex & \textit{text} & The sex of the child, as $M$ or $F$.\\
+	$C$ & Age (in months) & $months$ & The age of the child. Further information on how this was obtained can be found at Section \ref{sec:ageinmonths}.\\
+	$D$ & Age (in years) & $years$ & The age of the child.\\
 	$E$ & Country of origin & \textit{text} & Where the child comes from.\\
-	$F$ & Geographic area of origin & \textit{text} & $E$ was divided in 4 macro-geographic areas. See \ref{sec:geographicarea} for further information.\\
+	$F$ & Geographic area of origin & \textit{text} & $E-field$ was divided in 4 macro-geographic areas. See Section \ref{sec:geographicarea} for further information.\\
 	$G$ & Time in Italy & $months$ &  Months spent in Italy before being examined by our physicians.\\
 	$H$ & Weight & $percentile$ & Percentile in which the child fits for his weight at time of examination.\\
-	$I$ & Pathological weight & \textit{boolean} & Is the child underweight for his/her age?\\
+	$I$ & Pathological weight & \textit{boolean} & Is the child underweight for his or her age?\\
 	$J$ & Height & $percentile$ & Percentile in which the child fits for his height at time of examination.\\
-	$K$ & Pathological height & \textit{boolean} & Is the child short for his/her age?\\
-	$L$ & Haemoglobin & $\si{\gram}/\si{\deci\litre}$ & Is the child short for his/her age?\\
-	$M$ & Pathological haemoglobin & \textit{boolean} & Is the child short for his/her age?\\
-	$N$ & MCV & $\si{\femto\litre}$ & Is the child short for his/her age?\\
-	$O$ & Pathological MCV & \textit{boolean} & Is the child short for his/her age?\\
-	$P$ & Circulating iron & $\si{\micro\gram}/\si{\deci\litre}$ & Is the child short for his/her age?\\
-	$Q$ & Pathological circulating iron & \textit{boolean} & Is the child short for his/her age?\\
-	$R$ & Ferritin & $\si{\nano\gram}/\si{\milli\litre}$ & Is the child short for his/her age?\\
-	$S$ & Pathological ferritin & \textit{boolean} & Is the child short for his/her age?\\
-	$T$ & Pathological ferritin & \textit{boolean} & Is the child short for his/her age?\\
-	$U$ & Pathological ferritin & \textit{boolean} & Is the child short for his/her age?\\
-	$V$ & Pathological ferritin & \textit{boolean} & Is the child short for his/her age?\\
-	$X$ & Pathological ferritin & \textit{boolean} & Is the child short for his/her age?\\
-	$W$ & Pathological ferritin & \textit{boolean} & Is the child short for his/her age?\\
-	$Y$ & Pathological ferritin & \textit{boolean} & Is the child short for his/her age?\\
-	$Z$ & Pathological ferritin & \textit{boolean} & Is the child short for his/her age?\\
-	$AA$ & Pathological ferritin & \textit{boolean} & Is the child short for his/her age?\\
-	$AB$ & Pathological ferritin & \textit{boolean} & Is the child short for his/her age?\\
+	$K$ & Pathological height & \textit{boolean} & Is the child short for his or her age?\\
+	$L$ & Haemoglobin & $\si{\gram}/\si{\deci\litre}$ & Used to determine whether the child is anemic.\\
+	$M$ & Pathological haemoglobin & \textit{boolean} & Is the child anemic?\\
+	$N$ & MCV & $\si{\femto\litre}$ & Mean corpuscular volume of red blood cells. This was used to evaluate anemias and determine whether they were secondary to iron (\textit{microcytic}) or Vitamin B\textsubscript{12} (\textit{macrocytic}) deficiencies.\\
+	$O$ & Pathological MCV & \textit{boolean} & Is the $N-field$ low, high or normal?\\
+	$P$ & Circulating iron & $\si{\micro\gram}/\si{\deci\litre}$ & How much free iron is circulating in the child's blood?\\
+	$Q$ & Pathological circulating iron & \textit{boolean} & Is the $Q-field$ low or not?\\
+	$R$ & Ferritin & $\si{\nano\gram}/\si{\milli\litre}$ & Amount of circulating ferritin. This was used to confirm iron-deficiency anemia.\\
+	$S$ & Pathological ferritin & \textit{boolean} & Is the $R-field$ low or not?\\
+	$T$ & Feces & \textit{text} & List of microorganisms found in triple direct microscopical exams on three fecal samples. The ``\textit{negative}" string was used to indicate negativity to all examinations.\\
+	$U$ & \textit{Group 1} parasites & \textit{boolean} & Is the $T-field$ positive for one of the following parasites?\\
+	$V$ & Entamoeba & \textit{boolean} & Is the child infected with \textit{Entamoeba}? This parasite belongs to \textit{Group 1}.\\
+	$W$ & Ancylostoma & \textit{boolean} & Is the child infected with \textit{Ancylostoma}? This parasite belongs to \textit{Group 1}.\\
+	$X$ & Trichuris & \textit{boolean} & Is the child infected with \textit{Trichuris}? This parasite belongs to \textit{Group 1}.\\
+	$Y$ & \textit{Group 2} parasites & \textit{boolean} & Is the $T-field$ positive for one of the following parasites?\\
+	$Z$ & Giardia & \textit{boolean} & Is the child infected with \textit{Giardia}? This parasite belongs to \textit{Group 2}.\\
+	$AA$ & Strongyloides & \textit{boolean} & Is the child infected with \textit{Strongyloides}? This parasite belongs to \textit{Group 2}.\\
+	$AB$ & Hymenolepis & \textit{boolean} & Is the child infected with \textit{Hymenolepis}? This parasite belongs to \textit{Group 2}.\\
+	$AC$ &  Blastocystis & \textit{boolean} & Is the child infected with \textit{Blastocystis}? This parasite belongs to \textit{Group 2}.\\
+	$AD$ & Endolimax & \textit{boolean} & Is the child infected with \textit{Endolimax}? This parasite belongs to \textit{Group 2}.\\
+	$AE$ & Immunization status & \textit{text} & \textit{Complete}, \textit{incomplete} or \textit{negative} immunization statuses on mandatory vaccines in Italy.\\
+	$AF$ & HCVab & \textit{boolean} & Is the child positive to hepatitis C antibodies?\\
+	$AG$ & HBsAg & \textit{boolean} & Is the child positive to the hepatitis B superficial antigen?\\
+	$AH$ & HBVab & \textit{boolean} & Is the child positive to hepatitis B antibodies?\\
+	$AI$ & HIV & \textit{boolean} & Is the child positive to HIV antibodies?\\
+	$AJ$ & Lue & \textit{boolean} & Is the child positive to syphilis antibodies?\\
+	$AK$ & Vitamin D & $\si{\nano\gram}/\si{\milli\litre}$ & \textit{25-hydroxycholecalciferol} serum levels.\\
+	$AL$ & Pathological Vitamin D & \textit{boolean} & Is $AK-field$ deficient?\\
+	$AM$ & Mantoux & \textit{boolean} & Did the Mantoux turn out positive?\\
+	$AN$ & Mantoux hive size & $\si{\milli\metre}$ & Dimensions of the Mantoux hive size.\\
 	\caption{Full column-parameter correspondence, including units of measurement or cell type and a short description}
 	\label{tab:columnparameter}
 	\end{longtable}
 \end{footnotesize}
 
 \section{Age (in months)}\label{sec:ageinmonths}
-This VBA expression checks the \textit{Age (in months)} column (C) and, if it's not empty, it divides it's value by 12, rounding it down, just as age works.\\
+This VBA expression checks the \textit{Age (in months)} (column C) and, if it's not empty, it divides it's value by 12, rounding it down, just as age counting works.\\
 The \texttt{ROUNDOWN} function was implemented in order to avoid overestimating child's age.
 
 % Excel equation of age (in months)
