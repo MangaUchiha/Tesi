@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.1.18)  22 AUG 2018 18:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.1.18)  24 AUG 2018 16:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1635,17 +1635,31 @@ Package: multirow 2016/11/25 v2.2 Span multiple rows of a table
 \multirow@dima=\skip92
 \bigstrutjot=\dimen314
 )
+(/usr/local/texlive/2017/texmf-dist/tex/latex/footmisc/footmisc.sty
+Package: footmisc 2011/06/06 v5.5b a miscellany of footnote facilities
+\FN@temptoken=\toks52
+\footnotemargin=\dimen315
+\c@pp@next@reset=\count289
+Package footmisc Info: Declaring symbol style bringhurst on input line 855.
+Package footmisc Info: Declaring symbol style chicago on input line 863.
+Package footmisc Info: Declaring symbol style wiley on input line 872.
+Package footmisc Info: Declaring symbol style lamport-robust on input line 883.
+
+Package footmisc Info: Declaring symbol style lamport* on input line 903.
+Package footmisc Info: Declaring symbol style lamport*-robust on input line 924
+.
+)
 (/usr/local/texlive/2017/texmf-dist/tex/latex/natbib/natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip93
 \bibsep=\skip94
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count289
+\c@NAT@ctr=\count290
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/tools/verbatim.sty
 Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks52
-\verbatim@line=\toks53
+\every@verbatim=\toks53
+\verbatim@line=\toks54
 \verbatim@in@stream=\read3
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/csquotes/csquotes.sty
@@ -1653,15 +1667,15 @@ Package: csquotes 2017/03/11 v5.2b context-sensitive quotations (JAW)
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2017/01/02 v2.4 e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count290
+\etb@tempcnta=\count291
 )
-\csq@reset=\count291
-\csq@gtype=\count292
-\csq@glevel=\count293
-\csq@qlevel=\count294
-\csq@maxlvl=\count295
-\csq@tshold=\count296
-\csq@ltx@everypar=\toks54
+\csq@reset=\count292
+\csq@gtype=\count293
+\csq@glevel=\count294
+\csq@qlevel=\count295
+\csq@maxlvl=\count296
+\csq@tshold=\count297
+\csq@ltx@everypar=\toks55
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/csquotes/csquotes.def
 File: csquotes.def 2017/03/11 v5.2b csquotes generic definitions (JAW)
@@ -1682,7 +1696,7 @@ File: tikzlibraryarrows.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.
 code.tex
 File: pgflibraryarrows.code.tex 2013/09/23 v3.0.1a (rcs-revision 1.16)
-\arrowsize=\dimen315
+\arrowsize=\dimen316
 ))
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
 s/tikzlibrarybackgrounds.code.tex
@@ -1720,140 +1734,140 @@ File: pgflibraryshapes.geometric.code.tex 2008/06/26 v3.0.1a (rcs-revision 1.1)
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/utilities/pgfcalendar.code.
 tex
 File: pgfcalendar.code.tex 2007/07/23 v3.0.1a (rcs-revision 1.11)
-\pgfcalendarcurrentjulian=\count297
+\pgfcalendarcurrentjulian=\count298
 ))
-\gtt@currentline=\count298
-\gtt@lasttitleline=\count299
-\gtt@currgrid=\count300
-\gtt@chartwidth=\count301
-\gtt@lasttitleslot=\count302
-\gtt@elementid=\count303
-\gtt@today@slot=\count304
-\gtt@startjulian=\count305
-\gtt@endjulian=\count306
-\gtt@calendar@slots=\count307
-\gtt@calendar@weeknumber=\count308
-\gtt@calendar@startofweek=\count309
-\gtt@left@slot=\count310
-\gtt@right@slot=\count311
+\gtt@currentline=\count299
+\gtt@lasttitleline=\count300
+\gtt@currgrid=\count301
+\gtt@chartwidth=\count302
+\gtt@lasttitleslot=\count303
+\gtt@elementid=\count304
+\gtt@today@slot=\count305
+\gtt@startjulian=\count306
+\gtt@endjulian=\count307
+\gtt@calendar@slots=\count308
+\gtt@calendar@weeknumber=\count309
+\gtt@calendar@startofweek=\count310
+\gtt@left@slot=\count311
+\gtt@right@slot=\count312
 ) (/usr/local/texlive/2017/texmf-dist/tex/latex/easy/easytable.sty
 Document Style `easytable' v1.0 <2001/06/13>.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/easy/easy.sty
 Document Style `easy' v1.1 <2001/05/31>.
 Package: easy 2001/05/31 v1.1
-\@easy@level=\count312
-\@easy@ncol=\count313
-\@easy@nrow=\count314
-\@easy@cnt=\count315
+\@easy@level=\count313
+\@easy@ncol=\count314
+\@easy@nrow=\count315
+\@easy@cnt=\count316
 \@easy@boxviii=\box74
-\@easy@minxviii=\dimen316
-\@easy@minyviii=\dimen317
-\@easy@maxxviii=\dimen318
-\@easy@maxyviii=\dimen319
+\@easy@minxviii=\dimen317
+\@easy@minyviii=\dimen318
+\@easy@maxxviii=\dimen319
+\@easy@maxyviii=\dimen320
 \@easy@boxvii=\box75
-\@easy@minxvii=\dimen320
-\@easy@minyvii=\dimen321
-\@easy@maxxvii=\dimen322
-\@easy@maxyvii=\dimen323
+\@easy@minxvii=\dimen321
+\@easy@minyvii=\dimen322
+\@easy@maxxvii=\dimen323
+\@easy@maxyvii=\dimen324
 \@easy@boxvi=\box76
-\@easy@minxvi=\dimen324
-\@easy@minyvi=\dimen325
-\@easy@maxxvi=\dimen326
-\@easy@maxyvi=\dimen327
+\@easy@minxvi=\dimen325
+\@easy@minyvi=\dimen326
+\@easy@maxxvi=\dimen327
+\@easy@maxyvi=\dimen328
 \@easy@boxv=\box77
-\@easy@minxv=\dimen328
-\@easy@minyv=\dimen329
-\@easy@maxxv=\dimen330
-\@easy@maxyv=\dimen331
+\@easy@minxv=\dimen329
+\@easy@minyv=\dimen330
+\@easy@maxxv=\dimen331
+\@easy@maxyv=\dimen332
 \@easy@boxiv=\box78
-\@easy@minxiv=\dimen332
-\@easy@minyiv=\dimen333
-\@easy@maxxiv=\dimen334
-\@easy@maxyiv=\dimen335
+\@easy@minxiv=\dimen333
+\@easy@minyiv=\dimen334
+\@easy@maxxiv=\dimen335
+\@easy@maxyiv=\dimen336
 \@easy@boxiii=\box79
-\@easy@minxiii=\dimen336
-\@easy@minyiii=\dimen337
-\@easy@maxxiii=\dimen338
-\@easy@maxyiii=\dimen339
+\@easy@minxiii=\dimen337
+\@easy@minyiii=\dimen338
+\@easy@maxxiii=\dimen339
+\@easy@maxyiii=\dimen340
 \@easy@boxii=\box80
-\@easy@minxii=\dimen340
-\@easy@minyii=\dimen341
-\@easy@maxxii=\dimen342
-\@easy@maxyii=\dimen343
+\@easy@minxii=\dimen341
+\@easy@minyii=\dimen342
+\@easy@maxxii=\dimen343
+\@easy@maxyii=\dimen344
 \@easy@boxi=\box81
-\@easy@minxi=\dimen344
-\@easy@minyi=\dimen345
-\@easy@maxxi=\dimen346
-\@easy@maxyi=\dimen347
-\@easy@hsizexxx=\dimen348
-\@easy@vsizexxx=\dimen349
-\@easy@hsizexxix=\dimen350
-\@easy@vsizexxix=\dimen351
-\@easy@hsizexxviii=\dimen352
-\@easy@vsizexxviii=\dimen353
-\@easy@hsizexxvii=\dimen354
-\@easy@vsizexxvii=\dimen355
-\@easy@hsizexxvi=\dimen356
-\@easy@vsizexxvi=\dimen357
-\@easy@hsizexxv=\dimen358
-\@easy@vsizexxv=\dimen359
-\@easy@hsizexxiv=\dimen360
-\@easy@vsizexxiv=\dimen361
-\@easy@hsizexxiii=\dimen362
-\@easy@vsizexxiii=\dimen363
-\@easy@hsizexxii=\dimen364
-\@easy@vsizexxii=\dimen365
-\@easy@hsizexxi=\dimen366
-\@easy@vsizexxi=\dimen367
-\@easy@hsizexx=\dimen368
-\@easy@vsizexx=\dimen369
-\@easy@hsizexix=\dimen370
-\@easy@vsizexix=\dimen371
-\@easy@hsizexviii=\dimen372
-\@easy@vsizexviii=\dimen373
-\@easy@hsizexvii=\dimen374
-\@easy@vsizexvii=\dimen375
-\@easy@hsizexvi=\dimen376
-\@easy@vsizexvi=\dimen377
-\@easy@hsizexv=\dimen378
-\@easy@vsizexv=\dimen379
-\@easy@hsizexiv=\dimen380
-\@easy@vsizexiv=\dimen381
-\@easy@hsizexiii=\dimen382
-\@easy@vsizexiii=\dimen383
-\@easy@hsizexii=\dimen384
-\@easy@vsizexii=\dimen385
-\@easy@hsizexi=\dimen386
-\@easy@vsizexi=\dimen387
-\@easy@hsizex=\dimen388
-\@easy@vsizex=\dimen389
-\@easy@hsizeix=\dimen390
-\@easy@vsizeix=\dimen391
-\@easy@hsizeviii=\dimen392
-\@easy@vsizeviii=\dimen393
-\@easy@hsizevii=\dimen394
-\@easy@vsizevii=\dimen395
-\@easy@hsizevi=\dimen396
-\@easy@vsizevi=\dimen397
-\@easy@hsizev=\dimen398
-\@easy@vsizev=\dimen399
-\@easy@hsizeiv=\dimen400
-\@easy@vsizeiv=\dimen401
-\@easy@hsizeiii=\dimen402
-\@easy@vsizeiii=\dimen403
-\@easy@hsizeii=\dimen404
-\@easy@vsizeii=\dimen405
-\@easy@hsizei=\dimen406
-\@easy@vsizei=\dimen407
-\@easy@dash@len=\dimen408
-\@easy@dash@sep=\dimen409
+\@easy@minxi=\dimen345
+\@easy@minyi=\dimen346
+\@easy@maxxi=\dimen347
+\@easy@maxyi=\dimen348
+\@easy@hsizexxx=\dimen349
+\@easy@vsizexxx=\dimen350
+\@easy@hsizexxix=\dimen351
+\@easy@vsizexxix=\dimen352
+\@easy@hsizexxviii=\dimen353
+\@easy@vsizexxviii=\dimen354
+\@easy@hsizexxvii=\dimen355
+\@easy@vsizexxvii=\dimen356
+\@easy@hsizexxvi=\dimen357
+\@easy@vsizexxvi=\dimen358
+\@easy@hsizexxv=\dimen359
+\@easy@vsizexxv=\dimen360
+\@easy@hsizexxiv=\dimen361
+\@easy@vsizexxiv=\dimen362
+\@easy@hsizexxiii=\dimen363
+\@easy@vsizexxiii=\dimen364
+\@easy@hsizexxii=\dimen365
+\@easy@vsizexxii=\dimen366
+\@easy@hsizexxi=\dimen367
+\@easy@vsizexxi=\dimen368
+\@easy@hsizexx=\dimen369
+\@easy@vsizexx=\dimen370
+\@easy@hsizexix=\dimen371
+\@easy@vsizexix=\dimen372
+\@easy@hsizexviii=\dimen373
+\@easy@vsizexviii=\dimen374
+\@easy@hsizexvii=\dimen375
+\@easy@vsizexvii=\dimen376
+\@easy@hsizexvi=\dimen377
+\@easy@vsizexvi=\dimen378
+\@easy@hsizexv=\dimen379
+\@easy@vsizexv=\dimen380
+\@easy@hsizexiv=\dimen381
+\@easy@vsizexiv=\dimen382
+\@easy@hsizexiii=\dimen383
+\@easy@vsizexiii=\dimen384
+\@easy@hsizexii=\dimen385
+\@easy@vsizexii=\dimen386
+\@easy@hsizexi=\dimen387
+\@easy@vsizexi=\dimen388
+\@easy@hsizex=\dimen389
+\@easy@vsizex=\dimen390
+\@easy@hsizeix=\dimen391
+\@easy@vsizeix=\dimen392
+\@easy@hsizeviii=\dimen393
+\@easy@vsizeviii=\dimen394
+\@easy@hsizevii=\dimen395
+\@easy@vsizevii=\dimen396
+\@easy@hsizevi=\dimen397
+\@easy@vsizevi=\dimen398
+\@easy@hsizev=\dimen399
+\@easy@vsizev=\dimen400
+\@easy@hsizeiv=\dimen401
+\@easy@vsizeiv=\dimen402
+\@easy@hsizeiii=\dimen403
+\@easy@vsizeiii=\dimen404
+\@easy@hsizeii=\dimen405
+\@easy@vsizeii=\dimen406
+\@easy@hsizei=\dimen407
+\@easy@vsizei=\dimen408
+\@easy@dash@len=\dimen409
+\@easy@dash@sep=\dimen410
 )
 Package: easytable 2001/05/31v1.1
-\@tab@size@rule=\dimen410
-\@tab@size@dash=\dimen411
+\@tab@size@rule=\dimen411
+\@tab@size@dash=\dimen412
 ) (/usr/local/texlive/2017/texmf-dist/tex/latex/colortbl/colortbl.sty
 Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
-\everycr=\toks55
+\everycr=\toks56
 \minrowclearance=\skip95
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/hyphenat/hyphenat.sty
@@ -1870,33 +1884,33 @@ Package hyphenat Warning: *******************************
 LaTeX Info: Redefining \_ on input line 43.
 ) (/usr/local/texlive/2017/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2010/09/12 v5.6 Page Geometry
-\Gm@cnth=\count316
-\Gm@cntv=\count317
-\c@Gm@tempcnt=\count318
-\Gm@bindingoffset=\dimen412
-\Gm@wd@mp=\dimen413
-\Gm@odd@mp=\dimen414
-\Gm@even@mp=\dimen415
-\Gm@layoutwidth=\dimen416
-\Gm@layoutheight=\dimen417
-\Gm@layouthoffset=\dimen418
-\Gm@layoutvoffset=\dimen419
-\Gm@dimlist=\toks56
+\Gm@cnth=\count317
+\Gm@cntv=\count318
+\c@Gm@tempcnt=\count319
+\Gm@bindingoffset=\dimen413
+\Gm@wd@mp=\dimen414
+\Gm@odd@mp=\dimen415
+\Gm@even@mp=\dimen416
+\Gm@layoutwidth=\dimen417
+\Gm@layoutheight=\dimen418
+\Gm@layouthoffset=\dimen419
+\Gm@layoutvoffset=\dimen420
+\Gm@dimlist=\toks57
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count319
-\calc@Bcount=\count320
-\calc@Adimen=\dimen420
-\calc@Bdimen=\dimen421
+\calc@Acount=\count320
+\calc@Bcount=\count321
+\calc@Adimen=\dimen421
+\calc@Bdimen=\dimen422
 \calc@Askip=\skip96
 \calc@Bskip=\skip97
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count321
+\calc@Ccount=\count322
 \calc@Cskip=\skip98
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 77.
+Package hyperref Info: Option `colorlinks' set `true' on input line 79.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
@@ -1947,19 +1961,19 @@ Package caption Info: End \AtBeginDocument code.
 
 (/usr/local/texlive/2017/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count322
-\scratchdimen=\dimen422
+\scratchcounter=\count323
+\scratchdimen=\dimen423
 \scratchbox=\box82
-\nofMPsegments=\count323
-\nofMParguments=\count324
-\everyMPshowfont=\toks57
-\MPscratchCnt=\count325
-\MPscratchDim=\dimen423
-\MPnumerator=\count326
-\makeMPintoPDFobject=\count327
-\everyMPtoPDFconversion=\toks58
+\nofMPsegments=\count324
+\nofMParguments=\count325
+\everyMPshowfont=\toks58
+\MPscratchCnt=\count326
+\MPscratchDim=\dimen424
+\MPnumerator=\count327
+\makeMPintoPDFobject=\count328
+\everyMPtoPDFconversion=\toks59
 )
-\c@lstlisting=\count328
+\c@lstlisting=\count329
 \AtBeginShipoutBox=\box83
 Package hyperref Info: Link coloring ON on input line 9.
  (/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/nameref.sty
@@ -1968,7 +1982,7 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count329
+\c@section@level=\count330
 )
 LaTeX Info: Redefining \ref on input line 9.
 LaTeX Info: Redefining \pageref on input line 9.
@@ -2107,7 +2121,7 @@ LaTeX Font Warning: Font shape `OT1/lmtt/m/In' undefined
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\c__siunitx_mathsf_int=\count330
+\c__siunitx_mathsf_int=\count331
 LaTeX Font Info:    Try loading font information for OML+lmm on input line 9.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -2143,13 +2157,13 @@ LaTeX Font Info:    Try loading font information for OT1+lmss on input line 9.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/lm/ot1lmss.fd
 File: ot1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-\c__siunitx_mathtt_int=\count331
+\c__siunitx_mathtt_int=\count332
 
 (./frontpages/fixed/Title.tex
 
 Package hyperref Warning: Suppressing link with empty target on input line 36.
 
-<images/units_logo.jpg, id=277, 702.625pt x 702.625pt>
+<images/units_logo.jpg, id=281, 702.625pt x 702.625pt>
 File: images/units_logo.jpg Graphic file (type jpg)
 
 <use images/units_logo.jpg>
@@ -2367,7 +2381,7 @@ File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 152.
  [26]
-<images/living.jpg, id=707, 1062.97125pt x 830.10126pt>
+<images/living.jpg, id=715, 1062.97125pt x 830.10126pt>
 File: images/living.jpg Graphic file (type jpg)
 
 <use images/living.jpg>
@@ -2378,10 +2392,6 @@ Appendix A.
 ------------------------------------------------------------------------------
  A Data set elaboration: VBA expressions
 ------------------------------------------------------------------------------
-
-LaTeX Warning: Reference `sec:cutoffvalues' on page 30 undefined on input line 
-2.
-
 \mylength=\skip99
 
 Overfull \hbox (0.5339pt too wide) in paragraph at lines 14--14
@@ -2541,27 +2551,45 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 72.
  (./main.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 72.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 72.
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 14D8748CB420A44C3D5BD0F14E46D700;11827.
 
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: 16B7D85337354B0DD722D123800F1724;12011
+(rerunfilecheck)             After:  4032DF584D1803F8571F9C6BDF7AFF60;11998.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
-LaTeX Warning: There were undefined references.
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 72.
  ) 
 Here is how much of TeX's memory you used:
- 49232 strings out of 492995
- 1071723 string characters out of 6132704
- 1523090 words of memory out of 5000000
- 51430 multiletter control sequences out of 15000+600000
+ 49336 strings out of 492995
+ 1073399 string characters out of 6132704
+ 1524830 words of memory out of 5000000
+ 51528 multiletter control sequences out of 15000+600000
  100014 words of font info for 88 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  66i,19n,111p,13109b,2298s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{Hfootnote.132} has been referenced but does not e
+pdfTeX warning (dest): name{Hfootnote.133} has been referenced but does not e
 xist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.67} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.66} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.65} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.35} has been referenced but does not exi
+st, replaced by a fixed one
 
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/local/t
 exlive/2017/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/201
@@ -2582,10 +2610,10 @@ dist/fonts/type1/public/lm/lmss12.pfb></usr/local/texlive/2017/texmf-dist/fonts
 /type1/public/lm/lmsy10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/pub
 lic/lm/lmtt12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmt
 t8.pfb>
-Output written on main.pdf (57 pages, 838047 bytes).
+Output written on main.pdf (57 pages, 838668 bytes).
 PDF statistics:
- 1357 PDF objects out of 1440 (max. 8388607)
- 1264 compressed objects within 13 object streams
- 561 named destinations out of 1000 (max. 500000)
- 559 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1366 PDF objects out of 1440 (max. 8388607)
+ 1273 compressed objects within 13 object streams
+ 563 named destinations out of 1000 (max. 500000)
+ 567 words of extra memory for PDF output out of 10000 (max. 10000000)
 
