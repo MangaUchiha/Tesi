@@ -2,9 +2,9 @@
 \contentsline {chapter}{Abstract}{iii}{dummy.3}
 \contentsline {chapter}{Acknowledgements}{iv}{dummy.4}
 \vspace {1em}
-\contentsline {chapter}{List of Figures}{viii}{dummy.6}
-\contentsline {chapter}{List of Tables}{ix}{dummy.8}
-\contentsline {chapter}{Abbreviations}{x}{dummy.10}
+\contentsline {chapter}{List of Figures}{vii}{dummy.6}
+\contentsline {chapter}{List of Tables}{viii}{dummy.8}
+\contentsline {chapter}{Abbreviations}{ix}{dummy.10}
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.13}
 \contentsline {section}{\numberline {1.1}Intercountry and international adoptees}{1}{section.14}
 \contentsline {subsection}{\numberline {1.1.1}Levels and trends in intercountry adoption worldwide}{3}{subsection.15}
@@ -39,32 +39,15 @@
 \contentsline {section}{\numberline {4.1}Objectives achieved}{21}{section.51}
 \contentsline {section}{\numberline {4.2}Our recommendations}{22}{section.52}
 \contentsline {section}{\numberline {4.3}Future work}{22}{section.53}
-\contentsline {chapter}{\numberline {5}How to Do}{23}{chapter.54}
-\contentsline {section}{\numberline {5.1}Including Sections and Subsections}{23}{section.55}
-\contentsline {subsection}{\numberline {5.1.1}I like myself}{23}{subsection.56}
-\contentsline {subsection}{\numberline {5.1.2}but I'm weird}{23}{subsection.57}
-\contentsline {subsubsection}{\numberline {5.1.2.1}LOST OF FUN!}{23}{subsubsection.58}
-\contentsline {subsubsection}{\numberline {5.1.2.2}I'm calm and shit}{24}{subsubsection.59}
-\contentsline {section}{\numberline {5.2}Including references and citations}{24}{section.61}
-\contentsline {subsection}{\numberline {5.2.1}Referencing images and tables!}{24}{subsection.62}
-\contentsline {subsection}{\numberline {5.2.2}Referencing chapters and subchapters}{24}{subsection.63}
-\contentsline {subsection}{\numberline {5.2.3}Using footnotes}{24}{subsection.64}
-\contentsline {section}{\numberline {5.3}Including quotes}{25}{section.68}
-\contentsline {section}{\numberline {5.4}Including URLs}{25}{section.69}
-\contentsline {section}{\numberline {5.5}Including code}{25}{section.70}
-\contentsline {section}{\numberline {5.6}Formatting Text}{27}{section.121}
-\contentsline {section}{\numberline {5.7}Including bulleted list}{27}{section.122}
-\contentsline {section}{\numberline {5.8}Including Figures}{28}{section.126}
-\contentsline {section}{\numberline {5.9}Including Tables}{28}{section.128}
 \vspace {2em}
-\contentsline {chapter}{\numberline {A}Data set elaboration: VBA expressions}{31}{appendix.131}
-\contentsline {section}{\numberline {A.1}Age (in months)}{34}{section.134}
-\contentsline {section}{\numberline {A.2}Geographic area of origin}{35}{section.144}
-\contentsline {section}{\numberline {A.3}Pathological values}{36}{section.195}
-\contentsline {subsection}{\numberline {A.3.1}Weight and height}{36}{subsection.196}
-\contentsline {subsection}{\numberline {A.3.2}Haemoglobin}{37}{subsection.207}
-\contentsline {subsection}{\numberline {A.3.3}MCV}{39}{subsection.288}
-\contentsline {subsection}{\numberline {A.3.4}Circulating iron}{42}{subsection.409}
-\contentsline {subsection}{\numberline {A.3.5}Ferritin}{42}{subsection.423}
-\contentsline {subsection}{\numberline {A.3.6}Vitamin D}{43}{subsection.451}
-\contentsline {chapter}{Bibliography}{44}{dummy.479}
+\contentsline {chapter}{\numberline {A}Data set elaboration: VBA expressions}{23}{appendix.54}
+\contentsline {section}{\numberline {A.1}Age (in months)}{26}{section.57}
+\contentsline {section}{\numberline {A.2}Geographic area of origin}{27}{section.67}
+\contentsline {section}{\numberline {A.3}Pathological values}{28}{section.118}
+\contentsline {subsection}{\numberline {A.3.1}Weight and height}{28}{subsection.119}
+\contentsline {subsection}{\numberline {A.3.2}Haemoglobin}{29}{subsection.130}
+\contentsline {subsection}{\numberline {A.3.3}MCV}{31}{subsection.211}
+\contentsline {subsection}{\numberline {A.3.4}Circulating iron}{34}{subsection.332}
+\contentsline {subsection}{\numberline {A.3.5}Ferritin}{34}{subsection.346}
+\contentsline {subsection}{\numberline {A.3.6}Vitamin D}{35}{subsection.374}
+\contentsline {chapter}{Bibliography}{36}{dummy.402}
