@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.1.18)  27 AUG 2018 13:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.1.18)  27 AUG 2018 13:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2381,7 +2381,7 @@ File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 152.
  [27]
-<images/living.jpg, id=726, 1062.97125pt x 830.10126pt>
+<images/living.jpg, id=735, 1062.97125pt x 830.10126pt>
 File: images/living.jpg Graphic file (type jpg)
 
 <use images/living.jpg>
@@ -2540,7 +2540,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 145--149
  []
 
 [46]
-Underfull \hbox (badness 8000) in paragraph at lines 189--193
+Underfull \hbox (badness 8000) in paragraph at lines 214--218
 \OT1/lmtt/c/n/12 cms / RAFVG / salute-[]sociale / sistema-[]sociale-[]sanitario
  / FOGLIA51/$[][] \OT1/lmr/m/n/12 [ac-
  []
@@ -2560,10 +2560,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 72.
  ) 
 Here is how much of TeX's memory you used:
- 49344 strings out of 492995
- 1073529 string characters out of 6132704
- 1524857 words of memory out of 5000000
- 51534 multiletter control sequences out of 15000+600000
+ 49356 strings out of 492995
+ 1073696 string characters out of 6132704
+ 1524905 words of memory out of 5000000
+ 51543 multiletter control sequences out of 15000+600000
  100014 words of font info for 88 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  66i,19n,111p,13109b,2298s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2598,10 +2598,10 @@ dist/fonts/type1/public/lm/lmri12.pfb></usr/local/texlive/2017/texmf-dist/fonts
 /type1/public/lm/lmss12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/pub
 lic/lm/lmsy10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmt
 t12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmtt8.pfb>
-Output written on main.pdf (58 pages, 843514 bytes).
+Output written on main.pdf (58 pages, 844817 bytes).
 PDF statistics:
- 1385 PDF objects out of 1440 (max. 8388607)
- 1290 compressed objects within 13 object streams
- 565 named destinations out of 1000 (max. 500000)
+ 1397 PDF objects out of 1440 (max. 8388607)
+ 1301 compressed objects within 14 object streams
+ 568 named destinations out of 1000 (max. 500000)
  567 words of extra memory for PDF output out of 10000 (max. 10000000)
 
