@@ -10,44 +10,44 @@
 \contentsline {subsection}{\numberline {1.1.1}Levels and trends in intercountry adoption worldwide}{3}{subsection.15}
 \contentsline {subsection}{\numberline {1.1.2}International adoption in Italy}{8}{subsection.22}
 \contentsline {section}{\numberline {1.2}Role of the pediatrician}{10}{section.24}
-\contentsline {section}{\numberline {1.3}Illnesses and dysfunctions under exam}{13}{section.25}
-\contentsline {subsection}{\numberline {1.3.1}Infectious diseases}{13}{subsection.26}
-\contentsline {subsubsection}{\numberline {1.3.1.1}Tuberculosis}{13}{subsubsection.27}
-\contentsline {subsection}{\numberline {1.3.2}Blood count disorders and deficiency states}{13}{subsection.28}
-\contentsline {subsubsection}{\numberline {1.3.2.1}Iron-deficient anemia}{14}{subsubsection.29}
-\contentsline {subsubsection}{\numberline {1.3.2.2}Vitamin D deficiency}{14}{subsubsection.30}
-\contentsline {subsection}{\numberline {1.3.3}Height-weight disorders}{14}{subsection.31}
-\contentsline {chapter}{\numberline {2}Materials and Methods}{15}{chapter.32}
-\contentsline {section}{\numberline {2.1}The population in exam}{15}{section.33}
-\contentsline {subsection}{\numberline {2.1.1}Inclusion and exclusion citeria}{16}{subsection.34}
-\contentsline {section}{\numberline {2.2}The data set}{16}{section.35}
-\contentsline {section}{\numberline {2.3}Data set elaboration}{16}{section.36}
-\contentsline {subsection}{\numberline {2.3.1}VBA expressions}{17}{subsection.37}
-\contentsline {subsection}{\numberline {2.3.2}Cut-off values}{17}{subsection.38}
-\contentsline {subsubsection}{\numberline {2.3.2.1}Haemoglobin}{17}{subsubsection.39}
-\contentsline {subsubsection}{\numberline {2.3.2.2}MCV}{17}{subsubsection.40}
-\contentsline {subsubsection}{\numberline {2.3.2.3}Circulating Iron}{18}{subsubsection.41}
-\contentsline {subsubsection}{\numberline {2.3.2.4}Vitamin D}{18}{subsubsection.42}
-\contentsline {subsection}{\numberline {2.3.3}Parasites grouping}{18}{subsection.43}
-\contentsline {section}{\numberline {2.4}Statistical Analyses}{18}{section.44}
-\contentsline {chapter}{\numberline {3}Results}{19}{chapter.45}
-\contentsline {section}{\numberline {3.1}Introduction}{19}{section.46}
-\contentsline {section}{\numberline {3.2}Risultati 1}{19}{section.47}
-\contentsline {section}{\numberline {3.3}Risultati 2}{20}{section.48}
-\contentsline {section}{\numberline {3.4}Risultati 3}{20}{section.49}
-\contentsline {chapter}{\numberline {4}Discussion}{21}{chapter.50}
-\contentsline {section}{\numberline {4.1}Objectives achieved}{21}{section.51}
-\contentsline {section}{\numberline {4.2}Our recommendations}{22}{section.52}
-\contentsline {section}{\numberline {4.3}Future work}{22}{section.53}
+\contentsline {section}{\numberline {1.3}Illnesses and dysfunctions under exam}{14}{section.28}
+\contentsline {subsection}{\numberline {1.3.1}Infectious diseases}{14}{subsection.29}
+\contentsline {subsubsection}{\numberline {1.3.1.1}Tuberculosis}{14}{subsubsection.30}
+\contentsline {subsection}{\numberline {1.3.2}Blood count disorders and deficiency states}{14}{subsection.31}
+\contentsline {subsubsection}{\numberline {1.3.2.1}Iron-deficient anemia}{15}{subsubsection.32}
+\contentsline {subsubsection}{\numberline {1.3.2.2}Vitamin D deficiency}{15}{subsubsection.33}
+\contentsline {subsection}{\numberline {1.3.3}Height-weight disorders}{15}{subsection.34}
+\contentsline {chapter}{\numberline {2}Materials and Methods}{16}{chapter.35}
+\contentsline {section}{\numberline {2.1}The population in exam}{16}{section.36}
+\contentsline {subsection}{\numberline {2.1.1}Inclusion and exclusion citeria}{17}{subsection.37}
+\contentsline {section}{\numberline {2.2}The data set}{17}{section.38}
+\contentsline {section}{\numberline {2.3}Data set elaboration}{17}{section.39}
+\contentsline {subsection}{\numberline {2.3.1}VBA expressions}{18}{subsection.40}
+\contentsline {subsection}{\numberline {2.3.2}Cut-off values}{18}{subsection.41}
+\contentsline {subsubsection}{\numberline {2.3.2.1}Haemoglobin}{18}{subsubsection.42}
+\contentsline {subsubsection}{\numberline {2.3.2.2}MCV}{18}{subsubsection.43}
+\contentsline {subsubsection}{\numberline {2.3.2.3}Circulating Iron}{19}{subsubsection.44}
+\contentsline {subsubsection}{\numberline {2.3.2.4}Vitamin D}{19}{subsubsection.45}
+\contentsline {subsection}{\numberline {2.3.3}Parasites grouping}{19}{subsection.46}
+\contentsline {section}{\numberline {2.4}Statistical Analyses}{19}{section.47}
+\contentsline {chapter}{\numberline {3}Results}{20}{chapter.48}
+\contentsline {section}{\numberline {3.1}Introduction}{20}{section.49}
+\contentsline {section}{\numberline {3.2}Risultati 1}{20}{section.50}
+\contentsline {section}{\numberline {3.3}Risultati 2}{21}{section.51}
+\contentsline {section}{\numberline {3.4}Risultati 3}{21}{section.52}
+\contentsline {chapter}{\numberline {4}Discussion}{22}{chapter.53}
+\contentsline {section}{\numberline {4.1}Objectives achieved}{22}{section.54}
+\contentsline {section}{\numberline {4.2}Our recommendations}{23}{section.55}
+\contentsline {section}{\numberline {4.3}Future work}{23}{section.56}
 \vspace {2em}
-\contentsline {chapter}{\numberline {A}Data set elaboration: VBA expressions}{23}{appendix.54}
-\contentsline {section}{\numberline {A.1}Age (in months)}{26}{section.57}
-\contentsline {section}{\numberline {A.2}Geographic area of origin}{27}{section.67}
-\contentsline {section}{\numberline {A.3}Pathological values}{28}{section.118}
-\contentsline {subsection}{\numberline {A.3.1}Weight and height}{28}{subsection.119}
-\contentsline {subsection}{\numberline {A.3.2}Haemoglobin}{29}{subsection.130}
-\contentsline {subsection}{\numberline {A.3.3}MCV}{31}{subsection.211}
-\contentsline {subsection}{\numberline {A.3.4}Circulating iron}{34}{subsection.332}
-\contentsline {subsection}{\numberline {A.3.5}Ferritin}{34}{subsection.346}
-\contentsline {subsection}{\numberline {A.3.6}Vitamin D}{35}{subsection.374}
-\contentsline {chapter}{Bibliography}{36}{dummy.402}
+\contentsline {chapter}{\numberline {A}Data set elaboration: VBA expressions}{24}{appendix.57}
+\contentsline {section}{\numberline {A.1}Age (in months)}{27}{section.60}
+\contentsline {section}{\numberline {A.2}Geographic area of origin}{28}{section.70}
+\contentsline {section}{\numberline {A.3}Pathological values}{29}{section.121}
+\contentsline {subsection}{\numberline {A.3.1}Weight and height}{29}{subsection.122}
+\contentsline {subsection}{\numberline {A.3.2}Haemoglobin}{30}{subsection.133}
+\contentsline {subsection}{\numberline {A.3.3}MCV}{32}{subsection.214}
+\contentsline {subsection}{\numberline {A.3.4}Circulating iron}{35}{subsection.335}
+\contentsline {subsection}{\numberline {A.3.5}Ferritin}{35}{subsection.349}
+\contentsline {subsection}{\numberline {A.3.6}Vitamin D}{36}{subsection.377}
+\contentsline {chapter}{Bibliography}{37}{dummy.405}
