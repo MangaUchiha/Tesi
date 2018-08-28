@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.1.18)  27 AUG 2018 18:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.1.18)  28 AUG 2018 16:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2328,23 +2328,28 @@ Chapter 2.
 ------------------------------------------------------------------------------
  2 Materials and Methods
 ------------------------------------------------------------------------------
+Package pgfplots info on input line 45: Using 'lua backend=false' for axis: sta
+cked plots unsupported (yet).
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 [16
 
-] [17] [18]) (./chapters/Results.tex [19]
+] [17] [18] [19]) (./chapters/Results.tex [20]
 Chapter 3.
 ------------------------------------------------------------------------------
  3 Results
 ------------------------------------------------------------------------------
-[20
+[21
 
-]) (./chapters/Discussion.tex [21]
+]) (./chapters/Discussion.tex [22]
 Chapter 4.
 ------------------------------------------------------------------------------
  4 Discussion
 ------------------------------------------------------------------------------
-[22
+[23
 
-]) (./appendices/Appendix.tex [23]
+]) (./appendices/Appendix.tex [24]
 Appendix A.
 ------------------------------------------------------------------------------
  A Data set elaboration: VBA expressions
@@ -2403,16 +2408,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 52--53
 []|\OT1/lmr/m/it/10 25-hydroxycholecalciferol \OT1/lmr/m/n/10 serum
  []
 
-[24
+[25
 
-] [25] [26] [27]
+] [26] [27] [28]
 LaTeX Font Info:    Try loading font information for OMS+lmr on input line 82.
  (/usr/local/texlive/2017/texmf-dist/tex/latex/lm/omslmr.fd
 File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 82.
-[28] [29] [30] [31] [32] [33] [34] [35]) [36]
+[29] [30] [31] [32] [33] [34] [35] [36]) [37]
 ------------------------------------------------------------------------------
  Bibliography
 ------------------------------------------------------------------------------
@@ -2464,7 +2469,7 @@ Overfull \hbox (59.29776pt too wide) in paragraph at lines 31--36
 nce-[]2005-[]heres-[]why-[]91809$[][] 
  []
 
-[37
+[38
 
 
 ]
@@ -2497,26 +2502,26 @@ Underfull \hbox (badness 3281) in paragraph at lines 87--93
 il-able
  []
 
-[38]
+[39]
 Underfull \hbox (badness 10000) in paragraph at lines 145--149
 [][]$\OT1/lmtt/c/n/12 http : / / www . glnbi . org / documenti / 7dc63f2c92f238
 28da9b9727d0a2779d .
  []
 
-[39]
+[40]
 Underfull \hbox (badness 8000) in paragraph at lines 214--218
 \OT1/lmtt/c/n/12 cms / RAFVG / salute-[]sociale / sistema-[]sociale-[]sanitario
  / FOGLIA51/$[][] \OT1/lmr/m/n/12 [ac-
  []
 
-) [40]
+) [41]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 72.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 72.
  (./main.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 72.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 72.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 2D8181D0207991A572A3005674615A89;8823.
+(rerunfilecheck)             Checksum: 85032FA2873BB84A3AE82F375F908C8B;8823.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -2524,14 +2529,14 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 72.
  ) 
 Here is how much of TeX's memory you used:
- 49226 strings out of 492995
- 1071995 string characters out of 6132704
- 1524400 words of memory out of 5000000
- 51500 multiletter control sequences out of 15000+600000
+ 49265 strings out of 492995
+ 1072808 string characters out of 6132704
+ 1528076 words of memory out of 5000000
+ 51533 multiletter control sequences out of 15000+600000
  97051 words of font info for 87 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  66i,19n,111p,13109b,2298s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{Hfootnote.59} has been referenced but does not ex
+pdfTeX warning (dest): name{Hfootnote.64} has been referenced but does not ex
 ist, replaced by a fixed one
 
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/lm/lm-rmtt.enc}{/usr/local/
@@ -2552,10 +2557,10 @@ al/texlive/2017/texmf-dist/fonts/type1/public/lm/lmri10.pfb></usr/local/texlive
 f-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2017/texmf-dist/fon
 ts/type1/public/lm/lmtt12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/p
 ublic/lm/lmtt8.pfb>
-Output written on main.pdf (50 pages, 720530 bytes).
+Output written on main.pdf (51 pages, 723324 bytes).
 PDF statistics:
- 1184 PDF objects out of 1200 (max. 8388607)
- 1101 compressed objects within 12 object streams
- 486 named destinations out of 1000 (max. 500000)
+ 1196 PDF objects out of 1200 (max. 8388607)
+ 1112 compressed objects within 12 object streams
+ 492 named destinations out of 1000 (max. 500000)
  426 words of extra memory for PDF output out of 10000 (max. 10000000)
 

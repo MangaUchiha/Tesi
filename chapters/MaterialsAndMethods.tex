@@ -15,6 +15,57 @@ The study period spanned from 2002 to 2017. They increased year after year as gr
 %QUI SPIEGHI COME È FATTA LA POPOLAZIONE
 %INSERISCI GRAFICO DELL'ANDAMENTO DEL NUMERO DI BAMBINI NEGLI ANNI
 
+% US Adotpions are dropping
+\vspace*{0.8cm}
+\begin{figure}[h]
+\centering
+\begin{tikzpicture}
+	\begin{axis}[
+		stack plots=y,
+		area style,
+		enlarge x limits=false,
+		enlarge y limits=upper,
+		width=0.9\textwidth,
+		height=8cm,
+		xlabel = \textit{Years},
+         ylabel = \textit{Number of children per year},
+         ytick = {10, 20, 30},
+         ytick style={draw=none},
+         xtick style={draw=none},
+         x tick label style={/pgf/number format/.cd,%
+          scaled x ticks = false,
+          set thousands separator={},
+          fixed},
+         y tick label style={/pgf/number format/.cd,%
+          scaled y ticks = false,
+          set thousands separator={},
+          fixed},
+         ymajorgrids=true,
+         legend style={column sep=8pt},
+         legend pos = north west]
+    \addplot [draw={orange!80!white},fill={orange!20!white}] coordinates %Africa
+		{(2002, 0) (2003, 0) (2004, 0) (2005, 1) (2006, 0) (2007,1 ) (2008, 0) (2009, 3) (2010, 9) (2011, 2) (2012, 5) (2013, 12) (2014, 1) (2015, 7) (2016, 2) (2017, 3)} 
+		\closedcycle;
+		\label{figdata:africa}
+	\addplot coordinates % Eastern Europe
+		{(2002, 0) (2003, 0) (2004, 1) (2005, 4) (2006, 0) (2007, 0) (2008, 2) (2009, 2) (2010, 8) (2011, 4) (2012, 14) (2013, 13) (2014, 14) (2015, 10) (2016, 11) (2017, 7)} 
+		\closedcycle;
+		\label{figdata:easterneurope}
+	\addplot [draw={cyan!80!white},fill={cyan!20!white}] coordinates % Latin America
+		{(2002, 2) (2003, 2) (2004, 0) (2005, 0) (2006, 1) (2007, 1) (2008, 3) (2009, 4) (2010, 11) (2011, 11) (2012, 6) (2013, 8) (2014, 11) (2015, 1) (2016, 7) (2017, 8)} 
+		\closedcycle;
+		\label{figdata:latinamerica}
+		\addplot [draw={violet!80!white},fill={violet!20!white}] coordinates  % Asia
+		{(2002, 0) (2003, 1) (2004, 0) (2005, 0) (2006, 0) (2007, 3) (2008, 6) (2009, 7) (2010, 4) (2011, 6) (2012, 4) (2013, 9) (2014, 8) (2015, 3) (2016, 9) (2017, 12)} 
+		\closedcycle;
+		\label{figdata:asia}
+		\legend{\textit{Africa},\textit{Eastern Europe},\textit{Latin America},\textit{Asia}}
+	\end{axis}
+\end{tikzpicture}
+\caption{Our population distribution - Total of children visited via the screening protocol, stratified by geographic area of origin}
+\label{fig:populationperyear}
+\end{figure}
+
 \subsection{Inclusion and exclusion citeria}\label{sub:inclusionandexclusionciteria}
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque nibh metus, suscipit a scelerisque sit amet, rhoncus et lectus. Mauris eget erat rutrum, euismod massa id, maximus mauris. Nulla maximus, ex sit amet lacinia consequat, enim ante mollis dui, sit amet tincidunt massa felis id magna. Aenean gravida ante nec volutpat rutrum. Cras eget ullamcorper leo. Curabitur eu volutpat tellus. Integer nec ornare sapien. Fusce ipsum justo, interdum quis libero a, mattis tristique velit. Phasellus rhoncus lorem non ultrices luctus.
 
