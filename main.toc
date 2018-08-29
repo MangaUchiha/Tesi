@@ -11,12 +11,12 @@
 \contentsline {subsection}{\numberline {1.1.2}International adoption in Italy}{8}{subsection.22}
 \contentsline {section}{\numberline {1.2}Role of the pediatrician}{10}{section.24}
 \contentsline {section}{\numberline {1.3}Illnesses and dysfunctions under exam}{15}{section.29}
-\contentsline {subsection}{\numberline {1.3.1}Infectious diseases}{15}{subsection.30}
+\contentsline {subsection}{\numberline {1.3.1}Infectious diseases}{16}{subsection.30}
 \contentsline {subsubsection}{\numberline {1.3.1.1}Tuberculosis}{16}{subsubsection.31}
 \contentsline {subsection}{\numberline {1.3.2}Blood count disorders and deficiency states}{16}{subsection.32}
 \contentsline {subsubsection}{\numberline {1.3.2.1}Iron-deficient anemia}{16}{subsubsection.33}
 \contentsline {subsubsection}{\numberline {1.3.2.2}Vitamin D deficiency}{16}{subsubsection.34}
-\contentsline {subsection}{\numberline {1.3.3}Height-weight disorders}{16}{subsection.35}
+\contentsline {subsection}{\numberline {1.3.3}Height-weight disorders}{17}{subsection.35}
 \contentsline {chapter}{\numberline {2}Materials and Methods}{18}{chapter.36}
 \contentsline {section}{\numberline {2.1}The population in exam}{18}{section.37}
 \contentsline {subsection}{\numberline {2.1.1}Inclusion and exclusion citeria}{19}{subsection.47}
