@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.1.18)  29 AUG 2018 11:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.1.18)  29 AUG 2018 11:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2454,70 +2454,70 @@ Underfull \hbox (badness 10000) in paragraph at lines 26--29
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 31--36
+Underfull \hbox (badness 10000) in paragraph at lines 31--38
 []\OT1/lmr/m/n/12 Montgomery M, Pow-ell I. \OT1/lmr/m/it/12 In-ter-na-tional ad
 op-tions have dropped
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 31--36
+Underfull \hbox (badness 10000) in paragraph at lines 31--38
 \OT1/lmr/m/it/12 72 per-cent since 2005 { here's why\OT1/lmr/m/n/12 . The Con-v
 er-sa-tion web-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 31--36
+Underfull \hbox (badness 10000) in paragraph at lines 31--38
 \OT1/lmr/m/n/12 site. Febru-ary 2018. Avail-able at: [][]$\OT1/lmtt/c/n/12 http
  : / / theconversation . com /
  []
 
 
-Overfull \hbox (59.29776pt too wide) in paragraph at lines 31--36
+Overfull \hbox (3.23674pt too wide) in paragraph at lines 31--38
 \OT1/lmtt/c/n/12 international-[]adoptions-[]have-[]dropped-[]72-[]percent-[]si
-nce-[]2005-[]heres-[]why-[]91809$[][] 
+nce-[]2005-[]heres-[]$ 
  []
 
 [39
 
 
 ]
-Underfull \hbox (badness 4193) in paragraph at lines 62--68
+Underfull \hbox (badness 4193) in paragraph at lines 64--70
 []\OT1/lmr/m/n/12 Italian Pres-i-dency of Coun-cil of Min-is-ters, Com-mis-sion
  for In-ter-na-
  []
 
 
-Underfull \hbox (badness 1308) in paragraph at lines 62--68
+Underfull \hbox (badness 1308) in paragraph at lines 64--70
 \OT1/lmr/m/n/12 tional Adop-tions. \OT1/lmr/m/it/12 Data e per-spec-tives in in
 -ter-na-tional adop-tions: years
  []
 
 
-Underfull \hbox (badness 7379) in paragraph at lines 62--68
+Underfull \hbox (badness 7379) in paragraph at lines 64--70
 \OT1/lmr/m/it/12 2014-2015\OT1/lmr/m/n/12 . In-ter-na-tional Adop-tions. pp.  6
 -25. 2016. Avail-able at:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 62--68
+Underfull \hbox (badness 10000) in paragraph at lines 64--70
 [][]$\OT1/lmtt/c/n/12 http : / / www . commissioneadozioni . it / media / 15304
 3 / report _ statistico _
  []
 
 
-Underfull \hbox (badness 3281) in paragraph at lines 87--93
+Underfull \hbox (badness 3281) in paragraph at lines 89--95
 \OT1/lmr/m/n/12 Pe-di-atrics. Vol 88, No. 3. pp.  642-644. Septem-ber 1991. Ava
 il-able
  []
 
 [40]
-Underfull \hbox (badness 10000) in paragraph at lines 145--149
+Underfull \hbox (badness 10000) in paragraph at lines 147--151
 [][]$\OT1/lmtt/c/n/12 http : / / www . glnbi . org / documenti / 7dc63f2c92f238
 28da9b9727d0a2779d .
  []
 
 [41] [42] [43]
-Underfull \hbox (badness 8000) in paragraph at lines 297--301
+Underfull \hbox (badness 8000) in paragraph at lines 299--303
 \OT1/lmtt/c/n/12 cms / RAFVG / salute-[]sociale / sistema-[]sociale-[]sanitario
  / FOGLIA51/$[][] \OT1/lmr/m/n/12 [ac-
  []
@@ -2568,10 +2568,10 @@ al/texlive/2017/texmf-dist/fonts/type1/public/lm/lmri10.pfb></usr/local/texlive
 f-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2017/texmf-dist/fon
 ts/type1/public/lm/lmtt12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/p
 ublic/lm/lmtt8.pfb>
-Output written on main.pdf (54 pages, 733527 bytes).
+Output written on main.pdf (54 pages, 733505 bytes).
 PDF statistics:
- 1270 PDF objects out of 1440 (max. 8388607)
- 1183 compressed objects within 12 object streams
+ 1271 PDF objects out of 1440 (max. 8388607)
+ 1184 compressed objects within 12 object streams
  517 named destinations out of 1000 (max. 500000)
  434 words of extra memory for PDF output out of 10000 (max. 10000000)
 
