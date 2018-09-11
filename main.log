@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.1.18)  29 AUG 2018 17:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.1.18)  11 SEP 2018 19:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2306,11 +2306,7 @@ Overfull \hbox (12.36201pt too wide) in paragraph at lines 105--115
 [5]
 Package pgfplots info on input line 152: Using 'lua backend=false' for axis: st
 acked plots unsupported (yet).
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[6] [7]
+ [6] [7]
 
 Package xcolor Warning: Incompatible color definition on input line 210.
 
@@ -2329,7 +2325,7 @@ Package xcolor Warning: Incompatible color definition on input line 210.
 [8] [9] [10] [11] [12]
 \mylength=\skip99
 
-Underfull \vbox (badness 10000) detected at line 287
+Underfull \vbox (badness 10000) detected at line 286
  []
 
 [13] [14] [15] [16]) (./chapters/MaterialsAndMethods.tex [17]
@@ -2559,7 +2555,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 72.
 Here is how much of TeX's memory you used:
  49328 strings out of 492995
  1073779 string characters out of 6132704
- 1529494 words of memory out of 5000000
+ 1528499 words of memory out of 5000000
  51567 multiletter control sequences out of 15000+600000
  99997 words of font info for 88 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
@@ -2586,7 +2582,7 @@ e/2017/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2017/texmf
 s/type1/public/lm/lmri12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/pu
 blic/lm/lmsy10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lm
 tt12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmtt8.pfb>
-Output written on main.pdf (56 pages, 771758 bytes).
+Output written on main.pdf (56 pages, 771819 bytes).
 PDF statistics:
  1301 PDF objects out of 1440 (max. 8388607)
  1209 compressed objects within 13 object streams
