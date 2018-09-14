@@ -1,5 +1,5 @@
 \chap{Data set elaboration: VBA expressions}\label{chap:appendixvbaexpressions}
-This appendix provides all the code used in this thesis to elaborate the data set. Visual Basic for Application (VBA) is the programming language chosen for this purpose, as the most effective and manageable way of elaborating data in excel sheets. Further information can be found throughout this thesis, especially in Section \ref{sec:datasetelaboration} at page \pageref{sec:datasetelaboration} and cut-off values, parameter by parameter, can be found at Section \ref{sub:cutoffvalues}
+This appendix provides the full code used in this thesis to elaborate the data set. Visual Basic for Application (VBA) is the programming language chosen for this purpose, as the most effective and manageable way of elaborating data in Excel spreadsheets. Further information can be found throughout this thesis, especially in Section \ref{sec:datasetelaboration} at page \pageref{sec:datasetelaboration} and cut-off values, parameter by parameter, can be found at Section \ref{sub:cutoffvalues}.
 
 In the following appendix, cells are indicated as combination of a letter (identifying the column) and a number (identifying the line), as they originally were in the database. Every line represents a single child's evaluation; every column represents one of the examined parameters. The full column-parameter correspondence can be found in following Table \ref{tab:columnparameter}.
 
@@ -56,9 +56,8 @@ In the following appendix, cells are indicated as combination of a letter (ident
 	\end{longtable}
 \end{footnotesize}
 
-\section{Age (in months)}\label{sec:ageinmonths}
-This VBA expression checks the \textit{Age (in months)} (column C) and, if it's not empty, it divides it's value by 12, rounding it down, just as age counting works.\\
-The \texttt{ROUNDOWN} function was implemented in order to avoid overestimating child's age.
+\section{Age (in years)}\label{asec:ageinyears}
+This VBA expression checks the \textit{Age (in months)} parameter (column C) and, if it's not empty, it divides it's value by 12, rounding it down, just as age counting works. This was achieved via the \texttt{ROUNDOWN} function, in order to avoid overestimating children's age.
 
 % Excel equation of age (in months)
 \begin{minipage}{\linewidth}
@@ -74,14 +73,17 @@ The \texttt{ROUNDOWN} function was implemented in order to avoid overestimating 
 \end{lstlisting}
 \end{minipage}
 
-\section{Geographic area of origin}\label{sec:geographicarea}
-To further understand how geographic origin influenced the results of our screening program, the countries of origin were grouped up in 4 major continents or zones with the following excel expression. The chosen zones were:
+\section{Geographic area of origin}\label{asec:geographicarea}
+To further understand how geographic origin influenced the results of our screening program, the countries of origin were grouped up in 4 major continents or zones with the following Excel expression. The chosen zones were:
+
 \begin{itemize}
     \item Africa
     \item Asia
     \item Eastern Europe
     \item Latin America
 \end{itemize}
+
+A more in-depth overview on how geographic zones where dealt with can be found in the Introduction to Chapter \ref{chap:materialsandmethods}.
 
 % Excel equation of nationality
 % No minipage so it can page break
@@ -137,11 +139,11 @@ To further understand how geographic origin influenced the results of our screen
 )
 \end{lstlisting}
 
-\section{Pathological values}\label{sec:pathologicalvalues}
-The data set contained numerical values for many laboratory analyses. Cut-off values for these results were established via the most recent literature review, as explained in Section \ref{sub:cutoffvalues}. In the following sections, the code used to establish which ones where pathological and which were not, is displayed and shortly explained.
+\section{Pathological values}\label{asec:pathologicalvalues}
+The data set contained numerical values of results from many laboratory tests. Cut-off values for these results were established via the most recent literature review, as explained in Section \ref{sub:cutoffvalues}. In the following sections, the code used to establish which of these results where pathological and which were not, is displayed and shortly explained.
 
-\subsection{Weight and height}\label{sub:patweightandheight}
-These parameters, since they had already been converted to percentile values, were easily implemented with the following simple VBA expression:
+\subsection{Weight and height}\label{asub:patweightandheight}
+Height and weight were easy to evaluate, since they had already been converted to percentile value. It was enough to just compare them to the cut-off value, as follows:
 
 % Excel equation of pathological weight and height
 \begin{minipage}{\linewidth}
@@ -158,8 +160,8 @@ These parameters, since they had already been converted to percentile values, we
 \end{lstlisting}\
 \end{minipage}
 
-\subsection{Haemoglobin}\label{sub:pathaemoglobin}
-Hemoglobin required a more complicated and sophisticated expression, in order to be stratified, because hemoglobin pathological cut-offs depend on various factors, as described in Section \ref{sub:haemoglobin}. Moreover mild, moderate and severe anemias had to be separated in order to properly evaluate the child's health status; each one had an arbitrary value of 1 (\textit{mild}), 2 (\textit{moderate}) or 3 (\textit{severe}) associated to it.
+\subsection{Haemoglobin}\label{asub:pathaemoglobin}
+Hemoglobin required a more complicated and sophisticated expression, in order to be stratified, because hemoglobin pathological cut-offs depend on various factors, as described in Section \ref{sub:haemoglobin}. Moreover mild, moderate and severe anemias had to be differentiated from one another in order to properly evaluate the child's health status. Each one had an arbitrary value of 1 (\textit{mild}), 2 (\textit{moderate}) or 3 (\textit{severe}) associated to it.
 
 % Excel equation of pathological hemoglobin
 % No minipage so it can page break
@@ -245,8 +247,8 @@ Hemoglobin required a more complicated and sophisticated expression, in order to
 )
 \end{lstlisting}
 
-\subsection{MCV}\label{sub:patmcv}
-As just described for haemoglobin, MCV required more complicated techniques in order to be stratified, because of its variability (through age, sex, ecc\dots), as described in Section \ref{sub:mcv}. Moreover, boolean results couldn't be accepted for this parameter, so arbitrary values were used to appropriately identify microcytic (\textit{1}) and macrocytic (\textit{2}) anemias.
+\subsection{MCV}\label{asub:patmcv}
+Just as described for haemoglobin, MCV required more complicated techniques in order to be stratified, because of its variability (through age, sex, \textit{etc}\dots), as described in Section \ref{sub:mcv}. Moreover, boolean results couldn't be accepted for this parameter, so arbitrary values were used to appropriately identify microcytic (\textit{1}) and macrocytic (\textit{2}) anemias.
 
 % Excel equation of pathological mcv
 % No minipage so it can page break
@@ -372,8 +374,8 @@ As just described for haemoglobin, MCV required more complicated techniques in o
 )
 \end{lstlisting}
 
-\subsection{Circulating iron}\label{sub:patiron}
-The following VBA expression was used to establish whether circulating iron levels were insufficient. 
+\subsection{Circulating iron}\label{asub:patiron}
+The following VBA expression was used to establish whether circulating iron levels were insufficient, by simply comparing the result to the normality interval:
 
 % Excel equation of pathological iron
 \begin{minipage}{\linewidth}
@@ -393,8 +395,8 @@ The following VBA expression was used to establish whether circulating iron leve
 \end{lstlisting}
 \end{minipage}
 
-\subsection{Ferritin}\label{sub:patferritin}
-The following VBA expression was used to identify pathological ferritin values. These were, again, stratified for \textit{mild} (\textit{1}), \textit{moderate} (\textit{2}) and \textit{severe} (\textit{3}) deficiencies. 
+\subsection{Ferritin}\label{asub:patferritin}
+The following VBA expression was used to identify pathological ferritin values. These were, again, stratified in \textit{mild} (\textit{1}), \textit{moderate} (\textit{2}) and \textit{severe} (\textit{3}) deficiencies.
 
 % Excel equation of pathological ferritin
 % No minipage so it can page break
@@ -427,31 +429,31 @@ The following VBA expression was used to identify pathological ferritin values. 
 )
 \end{lstlisting}
 
-\subsection{Vitamin D}\label{sub:patvitaminD}
+\subsection{Vitamin D}\label{asub:patvitaminD}
 The following VBA expression was used to establish whether Vitamin D (serum \textit{25-hydroxycholecalciferol}) values were \textit{insufficient} (\textit{1}), \textit{deficient} (\textit{2}) or \textit{severely deficient} (\textit{3}). The predictive choice for this marker is explained at Section \ref{sub:vitaminD}.
 
 % Excel equation of pathological vitamin D
 % No minipage so it can page break
 \begin{lstlisting}
 =IF(
-   AA2 <> "";
+   AK2 <> "";
    IF(
-      AA2 >= 50;
+      AK2 >= 50;
       0;
       IF(
          AND(
-            AA2 < 50;
-            AA2 >= 25
+            AK2 < 50;
+            AK2 >= 25
          );
          1;
          IF(
             AND(
-               AA2 < 25;
-               AA2 >= 10
+               AK2 < 25;
+               AK2 >= 10
             );
             2;
             IF(
-               AA2 < 10;
+               AK2 < 10;
                3
             )
          )
@@ -460,3 +462,28 @@ The following VBA expression was used to establish whether Vitamin D (serum \tex
    ""
 )
 \end{lstlisting}
+
+\section{Parasite}\label{asec:parasite}
+We divided in groups, as listed and explained in Section \ref{sub:parasites}.
+
+\subsection{Parasite positivity}\label{asub:parasitespos}
+Since the \textit{Feces} parameter (Column T2) was registered in the data set as a listing of the parasites found in the examined stool specimens, we had to proceed with a research in this cell. The string \texttt{negative} was used when all three analyses resulted negative.\\
+The \texttt{FIND} function is a function that, given as an argument two strings, returns the number of the starting position of the first text string from the first character of the second text string. On this result, the \texttt{IS.NUMBER} function was implemented to test if \texttt{FIND} resulted positive and, therefore, returned an integer or not; \texttt{IS.NUMBER} returned a boolean (\textit{true} or \textit{false}). This was then integrated in the parasite grouping, as explained in the next Section.\\
+The following VBA expression is the one used for \textit{Entamoebas}:
+
+\begin{lstlisting}
+=IF(
+   T2 <> "";
+   IS.NUMBER(
+      FIND(
+         "Entamoeba";
+         T2
+      )
+   );
+   ""
+)
+\end{lstlisting}
+
+This method was used for all the considered pathogens (listed in Section \ref{sub:parasites}) by changing the first argument of the \texttt{FIND} function.
+
+\subsection{Parasite grouping}\label{asub:parasitegrouping}

@@ -27,29 +27,31 @@
 \contentsline {subsection}{\numberline {2.3.2}Cut-off values}{23}{subsection.52}
 \contentsline {subsubsection}{\numberline {2.3.2.1}Haemoglobin}{23}{subsubsection.53}
 \contentsline {subsubsection}{\numberline {2.3.2.2}MCV}{24}{subsubsection.61}
-\contentsline {subsubsection}{\numberline {2.3.2.3}Circulating Iron}{24}{subsubsection.62}
-\contentsline {subsubsection}{\numberline {2.3.2.4}MCV}{24}{subsubsection.63}
-\contentsline {subsubsection}{\numberline {2.3.2.5}Vitamin D}{24}{subsubsection.64}
-\contentsline {subsection}{\numberline {2.3.3}Parasites grouping}{25}{subsection.65}
-\contentsline {section}{\numberline {2.4}Statistical Analyses}{25}{section.66}
-\contentsline {chapter}{\numberline {3}Results}{26}{chapter.67}
-\contentsline {section}{\numberline {3.1}Introduction}{26}{section.68}
-\contentsline {section}{\numberline {3.2}Risultati 1}{26}{section.69}
-\contentsline {section}{\numberline {3.3}Risultati 2}{27}{section.70}
-\contentsline {section}{\numberline {3.4}Risultati 3}{27}{section.71}
-\contentsline {chapter}{\numberline {4}Discussion}{28}{chapter.72}
-\contentsline {section}{\numberline {4.1}Objectives achieved}{28}{section.73}
-\contentsline {section}{\numberline {4.2}Our recommendations}{29}{section.74}
-\contentsline {section}{\numberline {4.3}Future work}{29}{section.75}
+\contentsline {subsubsection}{\numberline {2.3.2.3}Circulating Iron}{24}{subsubsection.65}
+\contentsline {subsubsection}{\numberline {2.3.2.4}Vitamin D}{24}{subsubsection.66}
+\contentsline {subsection}{\numberline {2.3.3}Parasites grouping}{25}{subsection.67}
+\contentsline {section}{\numberline {2.4}Statistical Analyses}{26}{section.76}
+\contentsline {chapter}{\numberline {3}Results}{27}{chapter.77}
+\contentsline {section}{\numberline {3.1}Introduction}{27}{section.78}
+\contentsline {section}{\numberline {3.2}Risultati 1}{27}{section.79}
+\contentsline {section}{\numberline {3.3}Risultati 2}{28}{section.80}
+\contentsline {section}{\numberline {3.4}Risultati 3}{28}{section.81}
+\contentsline {chapter}{\numberline {4}Discussion}{29}{chapter.82}
+\contentsline {section}{\numberline {4.1}Objectives achieved}{29}{section.83}
+\contentsline {section}{\numberline {4.2}Our recommendations}{30}{section.84}
+\contentsline {section}{\numberline {4.3}Future work}{30}{section.85}
 \vspace {2em}
-\contentsline {chapter}{\numberline {A}Data set elaboration: VBA expressions}{30}{appendix.76}
-\contentsline {section}{\numberline {A.1}Age (in months)}{33}{section.79}
-\contentsline {section}{\numberline {A.2}Geographic area of origin}{34}{section.89}
-\contentsline {section}{\numberline {A.3}Pathological values}{35}{section.140}
-\contentsline {subsection}{\numberline {A.3.1}Weight and height}{35}{subsection.141}
-\contentsline {subsection}{\numberline {A.3.2}Haemoglobin}{36}{subsection.152}
-\contentsline {subsection}{\numberline {A.3.3}MCV}{38}{subsection.233}
-\contentsline {subsection}{\numberline {A.3.4}Circulating iron}{41}{subsection.354}
-\contentsline {subsection}{\numberline {A.3.5}Ferritin}{41}{subsection.368}
-\contentsline {subsection}{\numberline {A.3.6}Vitamin D}{42}{subsection.396}
-\contentsline {chapter}{Bibliography}{43}{dummy.424}
+\contentsline {chapter}{\numberline {A}Data set elaboration: VBA expressions}{31}{appendix.86}
+\contentsline {section}{\numberline {A.1}Age (in years)}{34}{section.89}
+\contentsline {section}{\numberline {A.2}Geographic area of origin}{35}{section.99}
+\contentsline {section}{\numberline {A.3}Pathological values}{36}{section.150}
+\contentsline {subsection}{\numberline {A.3.1}Weight and height}{36}{subsection.151}
+\contentsline {subsection}{\numberline {A.3.2}Haemoglobin}{37}{subsection.162}
+\contentsline {subsection}{\numberline {A.3.3}MCV}{39}{subsection.243}
+\contentsline {subsection}{\numberline {A.3.4}Circulating iron}{42}{subsection.364}
+\contentsline {subsection}{\numberline {A.3.5}Ferritin}{42}{subsection.378}
+\contentsline {subsection}{\numberline {A.3.6}Vitamin D}{43}{subsection.406}
+\contentsline {section}{\numberline {A.4}Parasite}{44}{section.434}
+\contentsline {subsection}{\numberline {A.4.1}Parasite positivity}{44}{subsection.435}
+\contentsline {subsection}{\numberline {A.4.2}Parasite grouping}{44}{subsection.447}
+\contentsline {chapter}{Bibliography}{45}{dummy.448}
