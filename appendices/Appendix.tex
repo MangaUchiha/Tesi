@@ -13,10 +13,10 @@ In the following appendix, cells are indicated as combination of a letter (ident
 		\hline
 		$A$ & First and last name & \textit{text} & The name of the kid.\footnote{Although registering the patient's full name exposed the research to a possible privacy breach risk, it was added nonetheless to easily identify each patient as the data set got larger through the years.}\\
 		$B$ & Sex & \textit{text} & The sex of the child, as $M$ or $F$.\\
-		$C$ & Age (in months) & $months$ & The age of the child. Further information on how this was obtained can be found at Section \ref{sec:ageinmonths}.\\
-		$D$ & Age (in years) & $years$ & The age of the child.\\
+		$C$ & Age (in months) & $months$ & The age of the child.\\
+		$D$ & Age (in years) & $years$ & The age of the child. Further information on how this was obtained can be found at Section \ref{asec:ageinyears}.\\
 		$E$ & Country of origin & \textit{text} & Where the child comes from.\\
-		$F$ & Geographic area of origin & \textit{text} & $E-field$ was divided in 4 macro-geographic areas. See Section \ref{sec:geographicarea} for further information.\\
+		$F$ & Geographic area of origin & \textit{text} & $E-field$ was divided in 4 macro-geographic areas. See Section \ref{asec:geographicarea} for further information.\\
 		$G$ & Time in Italy & $months$ &  Months spent in Italy before being examined by our physicians.\\
 		$H$ & Weight & $percentile$ & Percentile in which the child fits for his weight at time of examination.\\
 		$I$ & Pathological weight & \textit{boolean} & Is the child underweight for his or her age?\\
@@ -463,13 +463,13 @@ The following VBA expression was used to establish whether Vitamin D (serum \tex
 )
 \end{lstlisting}
 
-\section{Parasite}\label{asec:parasite}
-We divided in groups, as listed and explained in Section \ref{sub:parasites}.
+\section{Parasitic Infections}\label{asec:parasiticinfections}
+As explained in Section \ref{sub:parasites} at page \pageref{sub:parasites}, parasites were subdivided in two groups. In the following sections, it's explained how this was achieved.
 
 \subsection{Parasite positivity}\label{asub:parasitespos}
-Since the \textit{Feces} parameter (Column T2) was registered in the data set as a listing of the parasites found in the examined stool specimens, we had to proceed with a research in this cell. The string \texttt{negative} was used when all three analyses resulted negative.\\
-The \texttt{FIND} function is a function that, given as an argument two strings, returns the number of the starting position of the first text string from the first character of the second text string. On this result, the \texttt{IS.NUMBER} function was implemented to test if \texttt{FIND} resulted positive and, therefore, returned an integer or not; \texttt{IS.NUMBER} returned a boolean (\textit{true} or \textit{false}). This was then integrated in the parasite grouping, as explained in the next Section.\\
-The following VBA expression is the one used for \textit{Entamoebas}:
+Since the \textit{Feces} parameter (column T2) was registered in the data set as a list of the parasites found positive in the examined stool specimens, we had to proceed with a research in this cell. The string \texttt{negative} was used when all three analyses resulted negative.\\
+The \texttt{FIND} function is a function that, given as argument two strings, returns the number of the starting position of the first text string from the first character of the second text string. On this result, the \texttt{IS.NUMBER} function was implemented to test if \texttt{FIND} resulted positive and, therefore, returned an integer or not; \texttt{IS.NUMBER} returned a boolean (\textit{true} or \textit{false}). This was then integrated in the parasite grouping, as explained in the next Section.\\
+The following VBA expression is the one used for \textit{Entamoebas} (column V):
 
 \begin{lstlisting}
 =IF(
@@ -487,3 +487,52 @@ The following VBA expression is the one used for \textit{Entamoebas}:
 This method was used for all the considered pathogens (listed in Section \ref{sub:parasites}) by changing the first argument of the \texttt{FIND} function.
 
 \subsection{Parasite grouping}\label{asub:parasitegrouping}
+To understand whether a child was infected with group 1 or group 2 parasites, a VBA expression was build to check the corresponding cells (V, W and X columns for group 1; Z, AA, AB, AC, and AD for group 2) and check if at least one of them contained a \textit{true} value.
+
+The following expression was used for \textit{group 1 }parasites:
+
+\begin{lstlisting}
+=IF(
+   AND(
+      V2<>"";
+      W2<>"";
+      X2<>""
+   );
+   IF(
+      OR(
+         V2;
+         W2;
+         X2
+      );
+      1;
+      0
+   );
+   ""
+)
+\end{lstlisting}
+
+The following expression was used for \textit{group 2} parasites:
+
+\begin{lstlisting}
+=IF(
+   AND(
+      Z2<>"";
+      AA2<>"";
+      AB2<>"";
+      AC2<>"";
+      AD2<>""
+   );
+      IF(
+         OR(
+            Z2;
+            AA2;
+            AB2;
+            AC2;
+            AD2
+         );
+         1;
+         0
+   );
+   ""
+)
+\end{lstlisting}

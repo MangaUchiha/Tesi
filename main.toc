@@ -19,39 +19,39 @@
 \contentsline {subsubsection}{\numberline {1.3.2.2}Vitamin D deficiency}{17}{subsubsection.35}
 \contentsline {subsection}{\numberline {1.3.3}Height-weight disorders}{17}{subsection.36}
 \contentsline {chapter}{\numberline {2}Materials and Methods}{18}{chapter.37}
-\contentsline {section}{\numberline {2.1}The population in exam}{21}{section.38}
-\contentsline {subsection}{\numberline {2.1.1}Inclusion and exclusion citeria}{22}{subsection.48}
-\contentsline {section}{\numberline {2.2}The data set}{22}{section.49}
-\contentsline {section}{\numberline {2.3}Data set elaboration}{22}{section.50}
-\contentsline {subsection}{\numberline {2.3.1}VBA expressions}{23}{subsection.51}
-\contentsline {subsection}{\numberline {2.3.2}Cut-off values}{23}{subsection.52}
-\contentsline {subsubsection}{\numberline {2.3.2.1}Haemoglobin}{23}{subsubsection.53}
-\contentsline {subsubsection}{\numberline {2.3.2.2}MCV}{24}{subsubsection.61}
-\contentsline {subsubsection}{\numberline {2.3.2.3}Circulating Iron}{24}{subsubsection.65}
-\contentsline {subsubsection}{\numberline {2.3.2.4}Vitamin D}{24}{subsubsection.66}
-\contentsline {subsection}{\numberline {2.3.3}Parasites grouping}{25}{subsection.67}
-\contentsline {section}{\numberline {2.4}Statistical Analyses}{26}{section.76}
-\contentsline {chapter}{\numberline {3}Results}{27}{chapter.77}
-\contentsline {section}{\numberline {3.1}Introduction}{27}{section.78}
-\contentsline {section}{\numberline {3.2}Risultati 1}{27}{section.79}
-\contentsline {section}{\numberline {3.3}Risultati 2}{28}{section.80}
-\contentsline {section}{\numberline {3.4}Risultati 3}{28}{section.81}
-\contentsline {chapter}{\numberline {4}Discussion}{29}{chapter.82}
-\contentsline {section}{\numberline {4.1}Objectives achieved}{29}{section.83}
-\contentsline {section}{\numberline {4.2}Our recommendations}{30}{section.84}
-\contentsline {section}{\numberline {4.3}Future work}{30}{section.85}
+\contentsline {section}{\numberline {2.1}The population in exam}{19}{section.39}
+\contentsline {subsection}{\numberline {2.1.1}Inclusion and exclusion citeria}{21}{subsection.49}
+\contentsline {section}{\numberline {2.2}The data set}{22}{section.50}
+\contentsline {section}{\numberline {2.3}Data set elaboration}{22}{section.51}
+\contentsline {subsection}{\numberline {2.3.1}VBA expressions}{23}{subsection.52}
+\contentsline {subsection}{\numberline {2.3.2}Cut-off values}{23}{subsection.53}
+\contentsline {subsubsection}{\numberline {2.3.2.1}Haemoglobin}{23}{subsubsection.54}
+\contentsline {subsubsection}{\numberline {2.3.2.2}MCV}{24}{subsubsection.62}
+\contentsline {subsubsection}{\numberline {2.3.2.3}Circulating Iron}{24}{subsubsection.66}
+\contentsline {subsubsection}{\numberline {2.3.2.4}Vitamin D}{24}{subsubsection.67}
+\contentsline {subsection}{\numberline {2.3.3}Parasites grouping}{25}{subsection.68}
+\contentsline {section}{\numberline {2.4}Statistical Analyses}{26}{section.77}
+\contentsline {chapter}{\numberline {3}Results}{27}{chapter.78}
+\contentsline {section}{\numberline {3.1}Introduction}{27}{section.79}
+\contentsline {section}{\numberline {3.2}Risultati 1}{27}{section.80}
+\contentsline {section}{\numberline {3.3}Risultati 2}{28}{section.81}
+\contentsline {section}{\numberline {3.4}Risultati 3}{28}{section.82}
+\contentsline {chapter}{\numberline {4}Discussion}{29}{chapter.83}
+\contentsline {section}{\numberline {4.1}Objectives achieved}{29}{section.84}
+\contentsline {section}{\numberline {4.2}Our recommendations}{30}{section.85}
+\contentsline {section}{\numberline {4.3}Future work}{30}{section.86}
 \vspace {2em}
-\contentsline {chapter}{\numberline {A}Data set elaboration: VBA expressions}{31}{appendix.86}
-\contentsline {section}{\numberline {A.1}Age (in years)}{34}{section.89}
-\contentsline {section}{\numberline {A.2}Geographic area of origin}{35}{section.99}
-\contentsline {section}{\numberline {A.3}Pathological values}{36}{section.150}
-\contentsline {subsection}{\numberline {A.3.1}Weight and height}{36}{subsection.151}
-\contentsline {subsection}{\numberline {A.3.2}Haemoglobin}{37}{subsection.162}
-\contentsline {subsection}{\numberline {A.3.3}MCV}{39}{subsection.243}
-\contentsline {subsection}{\numberline {A.3.4}Circulating iron}{42}{subsection.364}
-\contentsline {subsection}{\numberline {A.3.5}Ferritin}{42}{subsection.378}
-\contentsline {subsection}{\numberline {A.3.6}Vitamin D}{43}{subsection.406}
-\contentsline {section}{\numberline {A.4}Parasite}{44}{section.434}
-\contentsline {subsection}{\numberline {A.4.1}Parasite positivity}{44}{subsection.435}
-\contentsline {subsection}{\numberline {A.4.2}Parasite grouping}{44}{subsection.447}
-\contentsline {chapter}{Bibliography}{45}{dummy.448}
+\contentsline {chapter}{\numberline {A}Data set elaboration: VBA expressions}{31}{appendix.87}
+\contentsline {section}{\numberline {A.1}Age (in years)}{34}{section.90}
+\contentsline {section}{\numberline {A.2}Geographic area of origin}{35}{section.100}
+\contentsline {section}{\numberline {A.3}Pathological values}{36}{section.151}
+\contentsline {subsection}{\numberline {A.3.1}Weight and height}{36}{subsection.152}
+\contentsline {subsection}{\numberline {A.3.2}Haemoglobin}{37}{subsection.163}
+\contentsline {subsection}{\numberline {A.3.3}MCV}{39}{subsection.244}
+\contentsline {subsection}{\numberline {A.3.4}Circulating iron}{42}{subsection.365}
+\contentsline {subsection}{\numberline {A.3.5}Ferritin}{42}{subsection.379}
+\contentsline {subsection}{\numberline {A.3.6}Vitamin D}{43}{subsection.407}
+\contentsline {section}{\numberline {A.4}Parasitic Infections}{44}{section.435}
+\contentsline {subsection}{\numberline {A.4.1}Parasite positivity}{44}{subsection.436}
+\contentsline {subsection}{\numberline {A.4.2}Parasite grouping}{45}{subsection.448}
+\contentsline {chapter}{Bibliography}{47}{dummy.489}
