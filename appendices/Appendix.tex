@@ -1,7 +1,7 @@
-\chap{Data set elaboration: VBA expressions}\label{chap:appendixvbaexpressions}
-This appendix provides the full code used in this thesis to elaborate the data set. Visual Basic for Application (VBA) is the programming language chosen for this purpose, as the most effective and manageable way of elaborating data in Excel spreadsheets. Further information can be found throughout this thesis, especially in Section \ref{sec:datasetelaboration} at page \pageref{sec:datasetelaboration} and cut-off values, parameter by parameter, can be found at Section \ref{sub:cutoffvalues}.
+\chap{Dataset elaboration: VBA expressions}\label{chap:appendixvbaexpressions}
+This appendix provides the full code used in this thesis to elaborate the dataset. Visual Basic for Application (VBA) is the programming language chosen for this purpose, as the most effective and manageable way of elaborating data in Excel spreadsheets. Further information can be found throughout this thesis, especially in Section \ref{sec:datasetelaboration} on page \pageref{sec:datasetelaboration} and cut-off values, parameter by parameter, can be found at Section \ref{sub:cutoffvalues}.
 
-In the following appendix, cells are indicated as combination of a letter (identifying the column) and a number (identifying the line), as they originally were in the database. Every line represents a single child's evaluation; every column represents one of the examined parameters. The full column-parameter correspondence can be found in following Table \ref{tab:columnparameter}.
+In the following appendix, cells are identified by a combination of a letter (identifying the column) and a number (identifying the line), as they originally were in the database. Every line represents a single child's evaluation; every column represents one of the examined parameters. The full column-parameter correspondence can be found in the following Table \ref{tab:columnparameter}.
 
 %mylength has been set in Introduction
 
@@ -11,7 +11,7 @@ In the following appendix, cells are indicated as combination of a letter (ident
 	\begin{longtable}{C{.09\mylength} p{.25\mylength} C{.20\mylength} p{.40\mylength}}
 		Column & Parameter & Units or cell type & Description\\
 		\hline
-		$A$ & First and last name & \textit{text} & The name of the kid.\footnote{Although registering the patient's full name exposed the research to a possible privacy breach risk, it was added nonetheless to easily identify each patient as the data set got larger through the years.}\\
+		$A$ & First and last name & \textit{text} & The name of the kid.\footnote{Although registering the patient's full name exposed the research to a possible privacy breach risk, it was added nonetheless to easily identify each patient as the dataset got larger through the years.}\\
 		$B$ & Sex & \textit{text} & The sex of the child, as $M$ or $F$.\\
 		$C$ & Age (in months) & $months$ & The age of the child.\\
 		$D$ & Age (in years) & $years$ & The age of the child. Further information on how this was obtained can be found at Section \ref{asec:ageinyears}.\\
@@ -57,7 +57,7 @@ In the following appendix, cells are indicated as combination of a letter (ident
 \end{footnotesize}
 
 \section{Age (in years)}\label{asec:ageinyears}
-This VBA expression checks the \textit{Age (in months)} parameter (column C) and, if it's not empty, it divides it's value by 12, rounding it down, just as age counting works. This was achieved via the \texttt{ROUNDOWN} function, in order to avoid overestimating children's age.
+This VBA expression checks the \textit{Age (in months)} parameter (column C) and, if it's not empty, it divides its value by 12, rounding it down, just as age counting works. This was achieved via the \texttt{ROUNDOWN} function, in order to avoid overestimating children's age.
 
 % Excel equation of age (in months)
 \begin{minipage}{\linewidth}
@@ -83,7 +83,7 @@ To further understand how geographic origin influenced the results of our screen
     \item Latin America
 \end{itemize}
 
-A more in-depth overview on how geographic zones where dealt with can be found in the Introduction to Chapter \ref{chap:materialsandmethods}.
+A more in-depth overview on how geographic zones where dealt with can be found in the Section  \ref{sec:thepopulationinexam}.
 
 % Excel equation of nationality
 % No minipage so it can page break
@@ -140,10 +140,10 @@ A more in-depth overview on how geographic zones where dealt with can be found i
 \end{lstlisting}
 
 \section{Pathological values}\label{asec:pathologicalvalues}
-The data set contained numerical values of results from many laboratory tests. Cut-off values for these results were established via the most recent literature review, as explained in Section \ref{sub:cutoffvalues}. In the following sections, the code used to establish which of these results where pathological and which were not, is displayed and shortly explained.
+The dataset contained numerical values of results from many laboratory tests. Cut-off values for these results were established via the most recent literature review, as explained in Section \ref{sub:cutoffvalues}. In the following sections, the code used to establish which of these results where pathological and which were not is displayed and shortly explained.
 
 \subsection{Weight and height}\label{asub:patweightandheight}
-Height and weight were easy to evaluate, since they had already been converted to percentile value. It was enough to just compare them to the cut-off value, as follows:
+Height and weight were easy to evaluate since they had already been converted to percentile value. It was enough to just compare them to the cut-off value, as follows:
 
 % Excel equation of pathological weight and height
 \begin{minipage}{\linewidth}
@@ -248,7 +248,7 @@ Hemoglobin required a more complicated and sophisticated expression, in order to
 \end{lstlisting}
 
 \subsection{MCV}\label{asub:patmcv}
-Just as described for haemoglobin, MCV required more complicated techniques in order to be stratified, because of its variability (through age, sex, \textit{etc}\dots), as described in Section \ref{sub:mcv}. Moreover, boolean results couldn't be accepted for this parameter, so arbitrary values were used to appropriately identify microcytic (\textit{1}) and macrocytic (\textit{2}) anemias.
+Just as described for hemoglobin, MCV required more complicated techniques in order to be stratified, because of its variability (through age, sex, \textit{etc}\dots), as described in Section \ref{sub:mcv}. Moreover, boolean results couldn't be accepted for this parameter, so arbitrary values were used to appropriately identify microcytic (\textit{1}) and macrocytic (\textit{2}) anemias.
 
 % Excel equation of pathological mcv
 % No minipage so it can page break
@@ -430,7 +430,7 @@ The following VBA expression was used to identify pathological ferritin values. 
 \end{lstlisting}
 
 \subsection{Vitamin D}\label{asub:patvitaminD}
-The following VBA expression was used to establish whether Vitamin D (serum \textit{25-hydroxycholecalciferol}) values were \textit{insufficient} (\textit{1}), \textit{deficient} (\textit{2}) or \textit{severely deficient} (\textit{3}). The predictive choice for this marker is explained at Section \ref{sub:vitaminD}.
+The following VBA expression was used to establish whether Vitamin D (serum \textit{25-hydroxycholecalciferol}) values were \textit{insufficient} (\textit{1}), \textit{deficient} (\textit{2}) or \textit{severely deficient} (\textit{3}). The predictive choice for this marker is explained in Section \ref{sub:vitaminD}.
 
 % Excel equation of pathological vitamin D
 % No minipage so it can page break
@@ -464,11 +464,11 @@ The following VBA expression was used to establish whether Vitamin D (serum \tex
 \end{lstlisting}
 
 \section{Parasitic Infections}\label{asec:parasiticinfections}
-As explained in Section \ref{sub:parasites} at page \pageref{sub:parasites}, parasites were subdivided in two groups. In the following sections, it's explained how this was achieved.
+As explained in Section \ref{sub:parasites} on page \pageref{sub:parasites}, parasites were subdivided into two groups. In the following sections, it's explained how this was achieved.
 
 \subsection{Parasite positivity}\label{asub:parasitespos}
-Since the \textit{Feces} parameter (column T2) was registered in the data set as a list of the parasites found positive in the examined stool specimens, we had to proceed with a research in this cell. The string \texttt{negative} was used when all three analyses resulted negative.\\
-The \texttt{FIND} function is a function that, given as argument two strings, returns the number of the starting position of the first text string from the first character of the second text string. On this result, the \texttt{IS.NUMBER} function was implemented to test if \texttt{FIND} resulted positive and, therefore, returned an integer or not; \texttt{IS.NUMBER} returned a boolean (\textit{true} or \textit{false}). This was then integrated in the parasite grouping, as explained in the next Section.\\
+Since the \textit{Feces} parameter (column T2) was registered in the dataset as a list of the parasites found positive in the examined stool specimens, we had to proceed with a research in this cell. The string \texttt{negative} was used when all three analyses resulted negative.\\
+The \texttt{FIND} function is a function that, given as argument two strings, returns the number of the starting position of the first text string from the first character of the second text string. On this result, the \texttt{IS.NUMBER} function was implemented to test if \texttt{FIND} resulted positive and, therefore, returned an integer or not; \texttt{IS.NUMBER} returned a boolean (\textit{true} or \textit{false}). This was then integrated into the parasite grouping, as explained in the next Section.\\
 The following VBA expression is the one used for \textit{Entamoebas} (column V):
 
 \begin{lstlisting}
