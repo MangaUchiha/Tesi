@@ -159,10 +159,9 @@ An explained overview of all the employed expressions can be found in Appendix \
 At this point, it was necessary to understand which values of each parameter were to be considered positive, negative or anything in between. Therefore, cut-off values were established via an extensive research of the most recent medical literature. Every parameter will be now discussed on its own in the following sections.
 
 \subsubsection{Height and Weight}\label{sub:heightandweight}
-According to , height and weight are fundamental parameters to appropriately establish whether a child is generically ill, as many infancy diseases disturb statural and ponderal growth; they can alter the first, the latter or both axes. We decided to focus on height and weight mainly as markers of malnutrition or chronic systemic disease.
+According to \cite{height1}, \cite{height4}, and \cite{height5} height and weight are fundamental parameters to appropriately establish whether a child is generically ill, as many infancy diseases disturb statural and ponderal growth; they can alter the first, the latter or both axes. We decided to focus on height and weight mainly as markers of malnutrition or chronic systemic disease.
 
-Despite medical literature being unanimously decisive on setting the cut-off for both height and weight at the \nth{3} percentile (see ), we decided to consider pathological values under the \nth{10}. This finds reason in that we preferred losing on some specificity, but ensuring the best sensibility, rather than the opposite. Measuring a child maybe a hard task, and growth curves may not always be coherent with one another, so we preferred stick to \textit{``better safe than sorry"}. 
-%Insert literature x2 %TODO
+Despite medical literature being unanimously decisive on setting the cut-off for both height and weight at the \nth{3} percentile (see \cite{height1}, \cite{height2} (from WHO), and \cite{height3}), we decided to consider pathological values under the \nth{10} percentile instead. This finds reason in that we preferred losing on some specificity, but ensuring the best sensibility, rather than the opposite. Measuring a child maybe a hard task, and growth curves may not always be coherent with one another, so we preferred stick to \textit{``better safe than sorry"}. 
 
 \subsubsection{Haemoglobin}\label{sub:haemoglobin}
 This was a little prick, but we managed with \cite{Hbcutoff} (from WHO).
@@ -249,7 +248,7 @@ These are the considered pathogens.
 
 \section{Statistical Analyses}\label{sec:statisticalanalyses}
 The population-describing analyses were conducted using relative frequencies and percentages for categorical variables, and means and standard deviations or medians and inter-quartile intervals for continuous ones. We preferred to use the latter because the scarcity of data prevented us from checking for normal distribution.\\
-Nonparametric tests, such as \textit{Mann-Whitney} or \textit{Kruskal-Wallis} tests, were employed to evaluate the difference between continuous variables in different groups. One test or the other was performed based on the number of groups, case by case: if two, the \textit{Mann-Whitney} test was used, if more than two, \textit{Krusal-Wallis}. To study the relation between two dichotomous variables, or one dichotomous and one categorical, we used the \textit{two-tailed Fisher's exact test}. To study whether a dichotomous event was associated with one or more independent variables, we used logistic regression.\\
-In order to study the correlation between continuous variables, we preferred using \textit{Spearman's rank correlation}.
+Nonparametric tests, such as \textit{Mann-Whitney} or \textit{Kruskal-Wallis} tests, were employed to evaluate the difference between continuous variables in different groups. One test or the other was performed based on the number of groups, case by case: if two, the \textit{Mann-Whitney} test was used, if more than two, \textit{Krusal-Wallis}. To study the relation between two dichotomous variables, or one dichotomous and one categorical, we used the \textit{two-tailed Fisher's exact test} and, to study whether a dichotomous event was associated with one or more independent variables, we preferred using logistic regression.\\
+Lastly, in order to study the correlation between continuous variables, we preferred using \textit{Spearman's rank correlation}.
 
 All statistical analyses were conducted using the Stata/IC software, version 14.2 (StataCorp LLC, College Station, USA).
