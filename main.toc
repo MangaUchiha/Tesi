@@ -25,12 +25,12 @@
 \contentsline {section}{\numberline {2.3}Data set elaboration}{23}{section.51}
 \contentsline {subsection}{\numberline {2.3.1}VBA expressions}{24}{subsection.52}
 \contentsline {subsection}{\numberline {2.3.2}Cut-off values}{24}{subsection.53}
-\contentsline {subsubsection}{\numberline {2.3.2.1}Haemoglobin}{24}{subsubsection.54}
+\contentsline {subsubsection}{\numberline {2.3.2.1}Haemoglobin}{25}{subsubsection.54}
 \contentsline {subsubsection}{\numberline {2.3.2.2}MCV}{25}{subsubsection.62}
 \contentsline {subsubsection}{\numberline {2.3.2.3}Circulating Iron}{25}{subsubsection.66}
-\contentsline {subsubsection}{\numberline {2.3.2.4}Vitamin D}{25}{subsubsection.67}
+\contentsline {subsubsection}{\numberline {2.3.2.4}Vitamin D}{26}{subsubsection.67}
 \contentsline {subsection}{\numberline {2.3.3}Parasites grouping}{26}{subsection.68}
-\contentsline {section}{\numberline {2.4}Statistical Analyses}{26}{section.77}
+\contentsline {section}{\numberline {2.4}Statistical Analyses}{27}{section.77}
 \contentsline {chapter}{\numberline {3}Results}{28}{chapter.78}
 \contentsline {section}{\numberline {3.1}Introduction}{28}{section.79}
 \contentsline {section}{\numberline {3.2}Risultati 1}{28}{section.80}

@@ -12,7 +12,7 @@ From \nth{1} January 2002 to \nth{31} December 2017 data was collected of all ch
 Laboratory blood tests included serological research of vaccine immunization (Diphtheria, Tetanus, Pertussis, Poliomyelitis, Rubella, Mumps and Measles), serological tests for ongoing or previous infections with HIV, Syphilis, HBV, HCV, blood count, and dosing of ferritin, calcium, magnesium, phosphorus, alkaline phosphatase, vitamin D and parathormone. Moreover, Mantoux test, aiming to evaluate any ongoing or previous tubercular infection, microbiological test of fecal samples for parasitological investigation and thyroid hormones levels were performed.
 Along with these laboratory tests, a complete physical examination for assessing the overall child health status was performed and, when facing potential specific pathology, a specialist’s visit (paediatric orthopaedist, dermatologist, otorhinolaryngologist, endocrinologist, surgeon, ECG or echocardiogram) were prescribed.
 
-A statistical evaluation on the collected data was conducted; $p value < 0.05$ was considered statistically significant. For more information on the statistical tests we employed, please see Section \ref{sec:statisticalanalyses}.
+A statistical evaluation on the collected data was conducted; $p$ $value < 0.05$ was considered statistically significant. For more information on the statistical tests we employed, please see Section \ref{sec:statisticalanalyses}.
 
 \paragraph*{Ethics committee approval} This study was approved by the ethics committee of the \textit{Burlo Garofolo Children's Hospital}, before beginning, and was conducted always bearing in mind the children's best interest. 
 
@@ -20,7 +20,7 @@ A statistical evaluation on the collected data was conducted; $p value < 0.05$ w
 
 \section{The population in exam}\label{sec:thepopulationinexam}
 285 internationally adopted children were evaluated from January \nth{1} 2002 to December \nth{31} 2017; 102 were female (36.17\%) and 180 male (63.83\%). The 3 missing children are due to this parameter never being registered in the dataset. The mean ($m$) age at time of evaluation was 5.2 years (67.8 months), with a standard deviation ($\sigma$) of 2.98 years. The age range spanned from 6 to 156 months. Age overlapped in females and males: for the first group, $m$ was 5.53 and $\sigma$ 3.01; in the latter, $m$ was 5.06 and $\sigma$ 2.97.\\
-Moreover, children were evaluated approximately 2 months after their arrival in Italy ($m$ 2.23 months, $\sigma$ 2.07).
+Moreover, children were evaluated approximately 2 months after their arrival in Italy ($m = 2.23$ and $\sigma = 2.07$).
 
 The study sample was highly representative of the original population, since 99.65\% ($284/285$) of the internationally adopted children in Friuli-Venezia Giulia during the this period were included. See Section \ref{sub:inclusionandexclusionciteria} for more information on the inclusion and exclusion criteria used.
 
@@ -136,21 +136,30 @@ The data was collected on a Excel spreadsheet during the years, normally twice p
 In the Introduction to Appendix \ref{chap:appendixvbaexpressions}, on page \pageref{chap:appendixvbaexpressions}, Table \ref{tab:columnparameter} portrays the spreadsheet's full column-parameter correspondence, including units of measurement or cell type and a short description.
 
 \section{Data set elaboration}\label{sec:datasetelaboration}
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque nibh metus, suscipit a scelerisque sit amet, rhoncus et lectus. Mauris eget erat rutrum, euismod massa id, maximus mauris. Nulla maximus, ex sit amet lacinia consequat, enim ante mollis dui, sit amet tincidunt massa felis id magna. Aenean gravida ante nec volutpat rutrum. Cras eget ullamcorper leo. Curabitur eu volutpat tellus. Integer nec ornare sapien. Fusce ipsum justo, interdum quis libero a, mattis tristique velit. Phasellus rhoncus lorem non ultrices luctus.
-
-%QUI SPIEGHI quello che dirai dopo di cosa è stato fatto.
+At this point, it should be clear how data were collected, from which population of patients, and how this data was stored. In following sections, it will be explained how the data was handled in order to produce the results illustrated in Chapter \ref{chap:results} on page \pageref{chap:results}. In particular, specific expression were set up in the Excel spreadsheet via the VBA programming language, in order to understand which registered values were pathological and which were not (see Section \ref{sub:vbaexpressions}). In Section \ref{sub:cutoffvalues} it will be exaplined how and which cut-off values were chosen for this study and later implemented in the data set elaboration and lastly, in Section \ref{sub:parasites}, a particular mention will be made on gastrointestinal parasites.
 
 \subsection{VBA expressions}\label{sub:vbaexpressions}
-In order to allow a precise statistical analysis, the dataset had to be tuned for this purpose. This was achieved via the implementation of VBA expressions in the Excel spreadsheet in \textit{ad hoc} columns. An explained overview of all the employed expressions can be found in Appendix \ref{chap:appendixvbaexpressions} at page \pageref{chap:appendixvbaexpressions}.
+In order to allow a precise statistical analysis, the dataset had to be tuned for this purpose. This was achieved via the implementation of VBA expressions in the Excel spreadsheet in \textit{ad hoc} columns. In particular, they were used to understand whether a specific value was pathological or not. This method was applied to:
+
+\begin{itemize}
+	\item Age in years (in Section \ref{asec:ageinyears})
+	\item Geographic area of origin (in Section \ref{asec:geographicarea})
+	\item Weight and height (in Section \ref{asub:patweightandheight})
+	\item Haemoglobin (in Section \ref{asub:pathaemoglobin})
+	\item MCV (in Section \ref{asub:patmcv})
+	\item Circulating iron (in Section \ref{asub:patiron})
+	\item Ferritin (in Section \ref{asub:patferritin})
+	\item Vitamin D (in Section \ref{asub:patvitaminD})
+	\item Parasitic infections and their groupings (in Sections \ref{asec:parasiticinfections}, \ref{asub:parasitespos}, and \ref{asub:parasitegrouping})
+\end{itemize}
+
+An explained overview of all the employed expressions can be found in Appendix \ref{chap:appendixvbaexpressions} at page \pageref{chap:appendixvbaexpressions}.
 
 \subsection{Cut-off values}\label{sub:cutoffvalues}
 Cut-off values for these results were established via the most recent literature review.
 
 %INSERT WHERE THEY COME FROM
 %INSERT TABLES HERE
-
-%RIFERMIENTI ALL'APPENDIX
-% \cite{sec:ageinyears} \cite{asec:geographicarea} \cite{asec:pathologicalvalues} \cite{asub:patweightandheight} \cite{asub:pathaemoglobin} \cite{asub:patmcv} \cite{asub:patiron} \cite{asub:patferritin} \cite{asub:patvitaminD} \cite{asec:parasiticinfections} \cite{asub:parasitespos} \cite{asub:parasitegrouping}
 
 \subsubsection{Haemoglobin}\label{sub:haemoglobin}
 This was a little prick, but we managed with \cite{Hbcutoff} (from WHO).
