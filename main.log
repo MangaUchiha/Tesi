@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.1.18)  19 SEP 2018 17:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.1.18)  19 SEP 2018 18:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2352,7 +2352,7 @@ Package pgfplots info on input line 100: Using 'lua backend=false' for axis: st
 acked plots unsupported (yet).
 
 [21] [22] [23] [24]
-Overfull \hbox (38.7679pt too wide) in paragraph at lines 209--212
+Overfull \hbox (38.7679pt too wide) in paragraph at lines 206--209
 \OT1/lmr/m/n/12 Vitamin D is healthy. We dosed $25-\OML/lmm/m/it/12 OH$ \OT1/lm
 r/m/n/12 or \OT1/lmr/m/it/12 cole-cal-cif-erol \OT1/lmr/m/n/12 (1,25(OH)2D: 1,2
 5-dihydroxyvitamin
@@ -2586,7 +2586,7 @@ ts/type1/public/lm/lmri10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/p
 ublic/lm/lmri12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/l
 msy10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
 </usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmtt8.pfb>
-Output written on main.pdf (63 pages, 803905 bytes).
+Output written on main.pdf (63 pages, 804102 bytes).
 PDF statistics:
  1460 PDF objects out of 1728 (max. 8388607)
  1359 compressed objects within 14 object streams
