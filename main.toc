@@ -37,22 +37,22 @@
 \contentsline {section}{\numberline {3.2}Risultati 1}{29}{section.81}
 \contentsline {section}{\numberline {3.3}Risultati 2}{30}{section.82}
 \contentsline {section}{\numberline {3.4}Risultati 3}{30}{section.83}
-\contentsline {chapter}{\numberline {4}Discussion}{31}{chapter.84}
-\contentsline {section}{\numberline {4.1}Objectives achieved}{31}{section.85}
-\contentsline {section}{\numberline {4.2}Our recommendations}{32}{section.86}
-\contentsline {section}{\numberline {4.3}Future work}{32}{section.87}
+\contentsline {chapter}{\numberline {4}Discussion}{32}{chapter.85}
+\contentsline {section}{\numberline {4.1}Objectives achieved}{32}{section.86}
+\contentsline {section}{\numberline {4.2}Our recommendations}{33}{section.87}
+\contentsline {section}{\numberline {4.3}Future work}{33}{section.88}
 \vspace {2em}
-\contentsline {chapter}{\numberline {A}Dataset elaboration: VBA expressions}{33}{appendix.88}
-\contentsline {section}{\numberline {A.1}Age (in years)}{36}{section.91}
-\contentsline {section}{\numberline {A.2}Geographic area of origin}{37}{section.101}
-\contentsline {section}{\numberline {A.3}Pathological values}{38}{section.152}
-\contentsline {subsection}{\numberline {A.3.1}Weight and height}{38}{subsection.153}
-\contentsline {subsection}{\numberline {A.3.2}Haemoglobin}{39}{subsection.164}
-\contentsline {subsection}{\numberline {A.3.3}MCV}{41}{subsection.245}
-\contentsline {subsection}{\numberline {A.3.4}Circulating iron}{44}{subsection.366}
-\contentsline {subsection}{\numberline {A.3.5}Ferritin}{44}{subsection.380}
-\contentsline {subsection}{\numberline {A.3.6}Vitamin D}{45}{subsection.408}
-\contentsline {section}{\numberline {A.4}Parasitic Infections}{46}{section.436}
-\contentsline {subsection}{\numberline {A.4.1}Parasite positivity}{46}{subsection.437}
-\contentsline {subsection}{\numberline {A.4.2}Parasite grouping}{47}{subsection.449}
-\contentsline {chapter}{Bibliography}{49}{dummy.490}
+\contentsline {chapter}{\numberline {A}Dataset elaboration: VBA expressions}{34}{appendix.89}
+\contentsline {section}{\numberline {A.1}Age (in years)}{37}{section.92}
+\contentsline {section}{\numberline {A.2}Geographic area of origin}{38}{section.102}
+\contentsline {section}{\numberline {A.3}Pathological values}{39}{section.153}
+\contentsline {subsection}{\numberline {A.3.1}Weight and height}{39}{subsection.154}
+\contentsline {subsection}{\numberline {A.3.2}Haemoglobin}{40}{subsection.165}
+\contentsline {subsection}{\numberline {A.3.3}MCV}{42}{subsection.246}
+\contentsline {subsection}{\numberline {A.3.4}Circulating iron}{45}{subsection.367}
+\contentsline {subsection}{\numberline {A.3.5}Ferritin}{45}{subsection.381}
+\contentsline {subsection}{\numberline {A.3.6}Vitamin D}{46}{subsection.409}
+\contentsline {section}{\numberline {A.4}Parasitic Infections}{47}{section.437}
+\contentsline {subsection}{\numberline {A.4.1}Parasite positivity}{47}{subsection.438}
+\contentsline {subsection}{\numberline {A.4.2}Parasite grouping}{48}{subsection.450}
+\contentsline {chapter}{Bibliography}{50}{dummy.491}
