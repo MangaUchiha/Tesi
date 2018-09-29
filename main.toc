@@ -20,7 +20,7 @@
 \contentsline {subsection}{\numberline {1.3.3}Height-weight disorders}{17}{subsection.36}
 \contentsline {chapter}{\numberline {2}Materials and Methods}{18}{chapter.37}
 \contentsline {section}{\numberline {2.1}The population in exam}{19}{section.39}
-\contentsline {subsection}{\numberline {2.1.1}Inclusion and exclusion citeria}{22}{subsection.49}
+\contentsline {subsection}{\numberline {2.1.1}Inclusion and exclusion criteria}{22}{subsection.49}
 \contentsline {section}{\numberline {2.2}The dataset}{23}{section.50}
 \contentsline {section}{\numberline {2.3}Data set elaboration}{23}{section.51}
 \contentsline {subsection}{\numberline {2.3.1}VBA expressions}{24}{subsection.52}
@@ -31,17 +31,17 @@
 \contentsline {subsubsection}{\numberline {2.3.2.4}Circulating Iron}{26}{subsubsection.67}
 \contentsline {subsubsection}{\numberline {2.3.2.5}Vitamin D}{26}{subsubsection.68}
 \contentsline {subsection}{\numberline {2.3.3}Parasites grouping}{27}{subsection.69}
-\contentsline {section}{\numberline {2.4}Statistical Analyses}{27}{section.78}
+\contentsline {section}{\numberline {2.4}Statistical Analyses}{28}{section.78}
 \contentsline {chapter}{\numberline {3}Results}{29}{chapter.79}
 \contentsline {section}{\numberline {3.1}Descriptive analyses}{29}{section.80}
-\contentsline {section}{\numberline {3.2}Cost-benefit analysis}{30}{section.81}
-\contentsline {section}{\numberline {3.3}Correlations among parameters}{30}{section.83}
+\contentsline {section}{\numberline {3.2}Analyzing the costs}{30}{section.81}
+\contentsline {section}{\numberline {3.3}Statistical inference of data}{30}{section.83}
 \contentsline {chapter}{\numberline {4}Discussion}{32}{chapter.85}
-\contentsline {section}{\numberline {4.1}Diseases of internationally adopted children}{32}{section.86}
+\contentsline {section}{\numberline {4.1}Health status of internationally adopted children}{32}{section.86}
 \contentsline {section}{\numberline {4.2}Is everything we do worthwile?}{33}{section.87}
-\contentsline {subsection}{\numberline {4.2.1}What we believe is worthwile}{33}{subsection.88}
-\contentsline {subsection}{\numberline {4.2.2}And we believe is not}{33}{subsection.89}
-\contentsline {section}{\numberline {4.3}Searching for help: looking for correlations}{34}{section.90}
+\contentsline {subsection}{\numberline {4.2.1}What we believe to be worthwile}{33}{subsection.88}
+\contentsline {subsection}{\numberline {4.2.2}And what may not be}{33}{subsection.89}
+\contentsline {section}{\numberline {4.3}Seeking for support: building correlations}{34}{section.90}
 \contentsline {section}{\numberline {4.4}Objectives achieved}{34}{section.91}
 \contentsline {section}{\numberline {4.5}Future work}{34}{section.92}
 \vspace {2em}
