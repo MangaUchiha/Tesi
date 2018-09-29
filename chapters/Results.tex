@@ -25,6 +25,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque nibh metus
 		height=8cm,
 		xtick pos=left,
 		ytick pos=left,
+		legend style={area legend, legend columns=-1, anchor=north, at={(0.5,1.15)},column sep=8pt},
 		boxplot={
 		    %
 		    % Idea: 
@@ -40,22 +41,22 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque nibh metus
 		    box extend=0.3,
 		},
 		% ... it also means that 1 unit in x controls the width:
-		x=2.65cm,
+		x=2.7cm,
 		% ... and it means that we should describe intervals:
 		xtick={0,1,2,...,10},
 		x tick label as interval,
 		xticklabels={%
-		    {{\scriptsize Negative Positive}\\Africa},%
-		    {{\scriptsize Negative Positive}\\Asia},%
-		    {{\scriptsize Negative Positive}\\Eastern Europe},%
-		    {{\scriptsize Negative Positive}\\Latin America},%
+		    {Africa},
+		    {Asia},
+		    {Eastern Europe},
+		    {Latin America},
 		},
 		    x tick label style={
 		        text width=2.8cm,
 		        align=center
 		    },
 		cycle list={{red!70!white},{cyan}},
-		every axis plot/.append style={fill,fill opacity=0.3}
+		every axis plot/.append style={fill,fill opacity=0.3,mark=*}
 		]
 		
 		%Africa
@@ -145,6 +146,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque nibh metus
 		138\\
 		138\\
 		};
+		\legend{Negative,Positive}
 		
 		\end{axis}
 	\end{tikzpicture}
