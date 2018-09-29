@@ -135,8 +135,8 @@ The data was collected on a Excel spreadsheet during the years, normally twice p
 
 In the Introduction to Appendix \ref{chap:appendixvbaexpressions}, on page \pageref{chap:appendixvbaexpressions}, Table \ref{tab:columnparameter} portrays the spreadsheet's full column-parameter correspondence, including units of measurement or cell type and a short description.
 
-\section{Data set elaboration}\label{sec:datasetelaboration}
-At this point, it should be clear how data were collected, from which population of patients, and how this data was stored. In following sections, it will be explained how the data was handled in order to produce the results illustrated in Chapter \ref{chap:results} on page \pageref{chap:results}. In particular, specific expression were set up in the Excel spreadsheet via the VBA programming language, in order to understand which registered values were pathological and which were not (see Section \ref{sub:vbaexpressions}). In Section \ref{sub:cutoffvalues} it will be exaplined how and which cut-off values were chosen for this study and later implemented in the data set elaboration and lastly, in Section \ref{sub:parasites}, a particular mention will be made on gastrointestinal parasites.
+\section{Dataset elaboration}\label{sec:datasetelaboration}
+At this point, it should be clear how data were collected, from which population of patients, and how this data was stored. In following sections, it will be explained how the data was handled in order to produce the results illustrated in Chapter \ref{chap:results} on page \pageref{chap:results}. In particular, specific expression were set up in the Excel spreadsheet via the VBA programming language, in order to understand which registered values were pathological and which were not (see Section \ref{sub:vbaexpressions}). In Section \ref{sub:cutoffvalues} it will be exaplined how and which cut-off values were chosen for this study and later implemented in the dataset elaboration and lastly, in Section \ref{sub:parasites}, a particular mention will be made on gastrointestinal parasites.
 
 \subsection{VBA expressions}\label{sub:vbaexpressions}
 In order to allow a precise statistical analysis, the dataset had to be tuned for this purpose. This was achieved via the implementation of VBA expressions in the Excel spreadsheet in \textit{ad hoc} columns. In particular, they were used to understand whether a specific value was pathological or not. This method was applied to:
@@ -166,11 +166,37 @@ Despite medical literature being unanimously decisive on setting the cut-off for
 \subsubsection{Haemoglobin}\label{sub:haemoglobin}
 Any physician knows that determining whether an haemoglobin value is pathological or not is impossible without any other knowledge of the patient's demographic information, physiological state, usual habits, \textit{etc}\dots The major factors that modulate haemoglobin serum levels are the following:
 \begin{enumerate}
-	\item Sex
-	\item Age
-	\item Altitude (looking only at sea level)
+	\item Age: main one when studying a pediatric population.
+	\item Sex: not relevant in pediatric age.
+	\item Altitude: wasn't considered in our study, because of the impossibility of retrieving such an information from adoption records.
 \end{enumerate}
-Therefore we studied This was a little prick, but we managed with \cite{Hbcutoff} (from WHO).
+Therefore, we elaborated the scheme illustrated in Table \ref{tab:cutoffhaemo}, based of the World's Health Organization (WHO) international 2017 guidlines. These can be found at \cite{Hbcutoff}. As briefly explained above, not having to consider sex or altitude, made study anemia easier.
+
+%Begin Table on Cutoff of Haemoglobin
+\begin{table}[H]
+   \centering
+   \begin{tabular}{l c c c c}
+   	  & & \multicolumn{3}{c}{Anemia}\\
+   	 \cline{3-5}
+      Population & Non-anemia & Mild & Moderate & Severe\\
+      \hline
+      1 & United States of America & 19.056 & 15 & China\\
+      2 & France & 3.995 & 90 & Haiti\\
+      3 & Spain & 3.951 & 82 & Russia\\
+      \textcolor{BrickRed}{\textbf{4}} & \textcolor{BrickRed}{\textbf{Italy}} & \textcolor{BrickRed}{\textbf{2.177}} & \textcolor{BrickRed}{\textbf{68}} & \textcolor{BrickRed}{\textbf{Russia}}\\
+      5 & Germany & 1.919 & 34 & Russia\\
+      6 & Canada & 1.875 & 46 & China\\
+      7 & Sweden & 1.093 & 65 & China\\
+      8 & Netherlands & 1.069 & 78 & China\\
+      9 & Denmark & 688 & 55 & China\\
+      10 & Norway & 664 & 76 & China\\
+      11 & Switzerland & 558 & 79 & Colombia\\
+   \end{tabular}
+   \caption{Employed haemoglobin cut-off values.}
+    \source{World's Health Organization international 2017 guidlines for the diagnosis and treament of anemia (see \cite{cutoffhaemo})}
+    \label{tab:cutoffhaemo}
+\end{table}
+
 Based on Haemoglobin levels, we stratified anemias in:
 \begin{enumerate}
 	\item Non-Anemia

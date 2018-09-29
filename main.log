@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.1.18)  29 SEP 2018 19:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.1.18)  29 SEP 2018 19:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2353,19 +2353,47 @@ LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
 Package pgfplots info on input line 100: Using 'lua backend=false' for axis: st
 acked plots unsupported (yet).
 
-[21] [22] [23] [24] [25]
-Overfull \hbox (38.7679pt too wide) in paragraph at lines 211--214
+[21] [22] [23] [24]
+
+LaTeX Warning: Reference `tab:cutoffhaemo' on page 25 undefined on input line 1
+73.
+
+
+Package xcolor Warning: Incompatible color definition on input line 186.
+
+
+Package xcolor Warning: Incompatible color definition on input line 186.
+
+
+Package xcolor Warning: Incompatible color definition on input line 186.
+
+
+Package xcolor Warning: Incompatible color definition on input line 186.
+
+
+Package xcolor Warning: Incompatible color definition on input line 186.
+
+
+Package natbib Warning: Citation `cutoffhaemo' on page 25 undefined on input li
+ne 196.
+
+
+Package natbib Warning: Citation `cutoffhaemo' on page 25 undefined on input li
+ne 196.
+
+[25] [26]
+Overfull \hbox (38.7679pt too wide) in paragraph at lines 237--240
 \OT1/lmr/m/n/12 Vitamin D is healthy. We dosed $25-\OML/lmm/m/it/12 OH$ \OT1/lm
 r/m/n/12 or \OT1/lmr/m/it/12 cole-cal-cif-erol \OT1/lmr/m/n/12 (1,25(OH)2D: 1,2
 5-dihydroxyvitamin
  []
 
-[26] [27]) (./chapters/Results.tex [28]
+[27] [28]) (./chapters/Results.tex [29]
 Chapter 3.
 ------------------------------------------------------------------------------
  3 Results
 ------------------------------------------------------------------------------
-[29
+[30
 
 ]
 Package pgfplots info on input line 66: boxplot: got lower quartile=2.6e1
@@ -2421,19 +2449,19 @@ e2
 Package pgfplots info on input line 114: boxplot: got sample size=3.0e0
 Package pgfplots info on input line 114: boxplot: got lower whisker=1.08e2
 Package pgfplots info on input line 114: boxplot: got upper whisker=1.38e2
- [30]) (./chapters/Discussion.tex [31]
+ [31]) (./chapters/Discussion.tex [32]
 Chapter 4.
 ------------------------------------------------------------------------------
  4 Discussion
 ------------------------------------------------------------------------------
-[32
+[33
 
-] [33]) (./appendices/Appendix.tex [34]
+] [34]) (./appendices/Appendix.tex [35]
 Appendix A.
 ------------------------------------------------------------------------------
  A Dataset elaboration: VBA expressions
 ------------------------------------------------------------------------------
-[35
+[36
 
 ]
 Overfull \hbox (0.5339pt too wide) in paragraph at lines 14--14
@@ -2488,7 +2516,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 52--53
 []|\OT1/lmr/m/it/10 25-hydroxycholecalciferol \OT1/lmr/m/n/10 serum
  []
 
-[36] [37] [38] [39] [40] [41] [42] [43] [44] [45] [46] [47] [48] [49]) [50]
+[37] [38] [39] [40] [41] [42] [43] [44] [45] [46] [47] [48] [49] [50]) [51]
 ------------------------------------------------------------------------------
  Bibliography
 ------------------------------------------------------------------------------
@@ -2552,7 +2580,7 @@ Overfull \hbox (3.23674pt too wide) in paragraph at lines 33--40
 nce-[]2005-[]heres-[]$ 
  []
 
-[51
+[52
 
 
 ]
@@ -2585,13 +2613,13 @@ Underfull \hbox (badness 3281) in paragraph at lines 91--97
 il-able
  []
 
-[52]
+[53]
 Underfull \hbox (badness 10000) in paragraph at lines 149--153
 [][]$\OT1/lmtt/c/n/12 http : / / www . glnbi . org / documenti / 7dc63f2c92f238
 28da9b9727d0a2779d .
  []
 
-[53] [54] [55]
+[54] [55] [56]
 Underfull \hbox (badness 6188) in paragraph at lines 301--306
 []\OT1/lmr/m/n/12 World Health Or-ga-ni-za-tion (WHO). \OT1/lmr/m/it/12 WHO Chi
 ld Growth Stan-dards:
@@ -2603,36 +2631,136 @@ Underfull \hbox (badness 1009) in paragraph at lines 301--306
 /n/12 . pp.  139-226. 2006.
  []
 
-[56]
+[57]
 Underfull \hbox (badness 8000) in paragraph at lines 339--343
 \OT1/lmtt/c/n/12 cms / RAFVG / salute-[]sociale / sistema-[]sociale-[]sanitario
  / FOGLIA51/$[][] \OT1/lmr/m/n/12 [ac-
  []
 
-) [57]
+)
+
+Package natbib Warning: There were undefined citations.
+
+[58]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 72.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 72.
  (./main.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 72.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 72.
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: F7801E9E89D9A5524D59C17C594FB40E;11044.
 
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: F7801E9E89D9A5524D59C17C594FB40E;11044
+(rerunfilecheck)             After:  1DA8D42070582EB475C9A703B2E2BC86;11036.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 72.
  ) 
 Here is how much of TeX's memory you used:
- 50344 strings out of 492995
- 1096648 string characters out of 6132704
- 1555036 words of memory out of 5000000
- 52487 multiletter control sequences out of 15000+600000
+ 50376 strings out of 492995
+ 1097047 string characters out of 6132704
+ 1555037 words of memory out of 5000000
+ 52489 multiletter control sequences out of 15000+600000
  104223 words of font info for 89 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  66i,19n,111p,13109b,2346s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{Hfootnote.95} has been referenced but does not ex
+pdfTeX warning (dest): name{Hfootnote.96} has been referenced but does not ex
 ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{table.94} has been referenced but does not exist, r
+eplaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.84} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.82} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{dummy.495} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.454} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.442} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.441} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.413} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.385} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.371} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.250} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.169} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.158} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.157} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.106} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.96} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{appendix.93} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.90} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.88} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.86} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{chapter.85} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{section.83} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{section.80} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{chapter.79} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{section.78} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.69} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.67} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.63} has been referenced but does not 
+exist, replaced by a fixed one
 
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/lm/lm-rmtt.enc}{/usr/local/
 texlive/2017/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/local/texlive/2017/
@@ -2654,10 +2782,10 @@ ts/type1/public/lm/lmri10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/p
 ublic/lm/lmri12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/l
 msy10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
 </usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmtt8.pfb>
-Output written on main.pdf (67 pages, 828221 bytes).
+Output written on main.pdf (68 pages, 831323 bytes).
 PDF statistics:
- 1524 PDF objects out of 1728 (max. 8388607)
- 1418 compressed objects within 15 object streams
- 608 named destinations out of 1000 (max. 500000)
+ 1563 PDF objects out of 1728 (max. 8388607)
+ 1456 compressed objects within 15 object streams
+ 638 named destinations out of 1000 (max. 500000)
  490 words of extra memory for PDF output out of 10000 (max. 10000000)
 
