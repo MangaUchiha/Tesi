@@ -23,6 +23,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque nibh metus
 		boxplot/draw direction=y,
 		ylabel={Age in months},
 		height=8cm,
+		xtick pos=left,
+		ytick pos=left,
 		boxplot={
 		    %
 		    % Idea: 
@@ -38,96 +40,110 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque nibh metus
 		    box extend=0.3,
 		},
 		% ... it also means that 1 unit in x controls the width:
-		x=2.6cm,
+		x=2.65cm,
 		% ... and it means that we should describe intervals:
 		xtick={0,1,2,...,10},
 		x tick label as interval,
 		xticklabels={%
-		    {{\tiny Negative Positive}\\Africa},%
-		    {{\tiny Negative Positive}\\Asia},%
-		    {{\tiny Negative Positive}\\Eastern Europe},%
-		    {{\tiny Negative Positive}\\Latin America},%
+		    {{\scriptsize Negative Positive}\\Africa},%
+		    {{\scriptsize Negative Positive}\\Asia},%
+		    {{\scriptsize Negative Positive}\\Eastern Europe},%
+		    {{\scriptsize Negative Positive}\\Latin America},%
 		},
 		    x tick label style={
-		        text width=3cm,
+		        text width=2.8cm,
 		        align=center
 		    },
+		cycle list={{red!70!white},{cyan}},
+		every axis plot/.append style={fill,fill opacity=0.3}
 		]
 		
+		%Africa
+		%Matnoux negativi
 		\addplot
 		table[row sep=\\,y index=0] {
 		data\\
+		10\\
+		26\\
+		41.5\\
+		64.5\\
+		120\\
+		};
+		%Mantoux positivi
+		\addplot
+		table[row sep=\\,y index=0] {
+		data\\
+		12\\
+		23\\
+		55.5\\
+		87\\
+		108\\
+		};
+		
+		%Asia
+		%Mantoux negativi
+		\addplot
+		table[row sep=\\,y index=0] {
+		data\\
+		6\\
+		31\\
 		60\\
-		516\\
-		710\\
-		503\\
-		1253\\
+		84\\
+		156\\
 		};
+		%Mantoux positivi
 		\addplot
 		table[row sep=\\,y index=0] {
 		data\\
-		759\\
-		419\\
-		309\\
-		883\\
-		299\\
-		};
-		
-		\addplot
-		table[row sep=\\,y index=0] {
-		data\\
-		516\\
-		480\\
-		1356\\
-		200\\
-		736\\
-		};
-		\addplot
-		table[row sep=\\,y index=0] {
-		data\\
-		684\\
-		340\\
-		700\\
-		325\\
-		377\\
+		10\\
+		80\\
+		90\\
+		106\\
+		124\\
 		};
 		
+		%Eastern Europe
+		%Mantoux negativi
 		\addplot
 		table[row sep=\\,y index=0] {
 		data\\
-		956\\
-		320\\
-		811\\
-		330\\
-		381\\
+		8\\
+		36\\
+		58\\
+		85\\
+		136\\
 		};
+		%Mantoux positivi
 		\addplot
 		table[row sep=\\,y index=0] {
 		data\\
-		280\\
-		749\\
-		392\\
-		870\\
-		488\\
+		23\\
+		44\\
+		73\\
+		90\\
+		126\\
 		};
 		
+		%Latin America
+		%Mantoux negativi
 		\addplot
 		table[row sep=\\,y index=0] {
 		data\\
-		658\\
-		579\\
-		891\\
-		545\\
-		558\\
+		12\\
+		58.5\\
+		85.5\\
+		108.5\\
+		156\\
 		};
+		%Mantoux positivi
 		\addplot
 		table[row sep=\\,y index=0] {
 		data\\
-		514\\
-		630\\
-		416\\
-		559\\
-		462\\
+		108\\
+		108\\
+		114\\
+		138\\
+		138\\
 		};
 		
 		\end{axis}
