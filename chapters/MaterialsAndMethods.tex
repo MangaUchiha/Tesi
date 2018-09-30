@@ -209,7 +209,7 @@ Therefore, based on haemoglobin serum levels, children were stratified in:
 A full technical overview of how this was implemented in the dataset elaboration can be found at Section \ref{asub:pathaemoglobin} on page \pageref{asub:pathaemoglobin}.
 
 \subsubsection{MCV}\label{sub:mcv}
-This was ANOTHER little prick, but we managed with \cite{MCVferritincutoff}. It depends on various factors:
+The Mean Corpuscolar Value (MCV) was used in order to identify primarily genetic diseases ($\beta$-thalassemia minor) and carential states (iron and vitamin $B_{12}$ deficiencies). This was ANOTHER little prick, but we managed with \cite{MCVferritincutoff}. It depends on various factors:
 
 \begin{enumerate}
 	\item Sex
@@ -217,7 +217,40 @@ This was ANOTHER little prick, but we managed with \cite{MCVferritincutoff}. It 
 	\item \dots
 \end{enumerate}
 
-%INSERT ELENCO PUNTATO DA COSA DIPENDE
+Therefore we based our cut-off values on a recent review published on the International Journal of Laboratory Hematology (see \cite{MCVferritincutoff}), which evaluated these parameters in a pediatric population. Table \ref{tab:cutoffmcv} summarizes how these values were distributed; moreover, the table shows also ferritin cut-off, because the same review was employed in that parameter as well.
+
+%Begin Table on Cutoff of Haemoglobin
+\begin{table}[H]
+   \centering
+   \begin{tabular}{l r r c r r}
+   	  & \multicolumn{2}{c}{Female} & & \multicolumn{2}{c}{Male}\\
+   	 \cline{2-3} \cline{5-6}
+      Age & Ferritin\footnotemark[1] & MCV\footnotemark[2] & & Ferritin\footnotemark[1] & MCV\footnotemark[2]\\
+      \hline
+      0-4 years of age & $8–82$ & $69–85$ & & $9–85$ & $71–85$\\
+      5–9 years of age & $11–99$ & $75–89$ & & $12–94$ & $76–88$\\
+      10–14 years of age & $8–94$ & $78–92$ & & $14–84$ & $76–90$\\
+      15-19 years of age & $6–109$ & $77–94$ & & $20–191$ & $78–93$\\
+      20-24 years of age & $7–129$ & $78–95$ & & $35–318$ & $82–94$\\
+   \end{tabular}
+   \caption{Employed MCV cut-off values.}
+    \source{Åsberg et al. on International Journal of Laboratory Hematology (see \cite{MCVferritincutoff})}
+    \label{tab:cutoffmcv}
+\end{table}
+
+\footnotetext[1]{All ferritin values are expressed in $\si{\gram/\litre}$}
+\footnotetext[2]{All MCV values are expressed in $\si{\gram/\litre}$}
+
+A full technical overview of how this was implemented in the dataset elaboration can be found at Section \ref{asub:patmcv} on page \pageref{asub:patmcv}.
+
+%Completa elenco puntato
+%Sistema Unità di misura!
+%Vedi se devi dire altro ma non credo
+
+\subsubsection{Ferritin}\label{sub:ferritin}
+This was easy.
+
+%INSERT WHAT IT MEANS
 %INSERT TABLE HERE
 %OCCHIO ALLE UNITÀ DI MISURA!
 %Fai riferimento all'Appendice corrispondente.
