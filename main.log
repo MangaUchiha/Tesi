@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.1.18)  1 OCT 2018 10:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.1.18)  1 OCT 2018 10:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2415,7 +2415,7 @@ LaTeX Warning: Command \textendash invalid in math mode on input line 238.
 LaTeX Warning: Command \textendash invalid in math mode on input line 238.
 
 [27]
-Overfull \hbox (38.7679pt too wide) in paragraph at lines 267--270
+Overfull \hbox (38.7679pt too wide) in paragraph at lines 264--267
 \OT1/lmr/m/n/12 Vitamin D is healthy. We dosed $25-\OML/lmm/m/it/12 OH$ \OT1/lm
 r/m/n/12 or \OT1/lmr/m/it/12 cole-cal-cif-erol \OT1/lmr/m/n/12 (1,25(OH)2D: 1,2
 5-dihydroxyvitamin
@@ -2716,10 +2716,10 @@ ublic/lm/lmri12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/l
 msy10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
 </usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmtt8.pfb></usr/local
 /texlive/2017/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on main.pdf (70 pages, 844234 bytes).
+Output written on main.pdf (70 pages, 844614 bytes).
 PDF statistics:
- 1563 PDF objects out of 1728 (max. 8388607)
- 1451 compressed objects within 15 object streams
+ 1566 PDF objects out of 1728 (max. 8388607)
+ 1454 compressed objects within 15 object streams
  616 named destinations out of 1000 (max. 500000)
  498 words of extra memory for PDF output out of 10000 (max. 10000000)
 
