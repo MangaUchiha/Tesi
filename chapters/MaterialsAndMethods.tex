@@ -176,16 +176,16 @@ Therefore, we elaborated the scheme illustrated in Table \ref{tab:cutoffhaemo}, 
 \begin{table}[H]
    \centering
    \begin{tabular}{l c c c c}
-   	  & & \multicolumn{3}{c}{Anemia}\footnotemark[1]\\
+   	  & & \multicolumn{3}{c}{Anemia\footnotemark[1]}\\
    	 \cline{3-5}
       Population & Non-anemia\footnotemark[1] & Mild\footnotemark[2] & Moderate & Severe\\
       \hline
-      Children 6-59 months of age & $\geqslant 110$ & $100-109$ & $70-99$ & $\leqslant 70$\\
-      Children 5-11 years of age & $\geqslant115$ & $110-114$ & $80-109$ & $\leqslant 80$\\
-      Children 12-14 years of age & $\geqslant120$ & $110-119$ & $80-109$ & $\leqslant 80$\\
-      Non-pregnant women & $\geqslant120$ & $110-119$ & $80-109$ & $\leqslant 80$\\
-      Pregnant women & $\geqslant110$ & $100-109$ & $70-99$ & $\leqslant 70$\\
-      Men & $\geqslant130$ & $110-129$ & $80-109$ & $\leqslant 80$\\
+      Children 6-59 months of age & $\geqslant 110$ & $100-109$ & $70-99$ & $\leqslant 69$\\
+      Children 5-11 years of age & $\geqslant115$ & $110-114$ & $80-109$ & $\leqslant 79$\\
+      Children 12-14 years of age & $\geqslant120$ & $110-119$ & $80-109$ & $\leqslant 79$\\
+      Non-pregnant women & $\geqslant120$ & $110-119$ & $80-109$ & $\leqslant 79$\\
+      Pregnant women & $\geqslant110$ & $100-109$ & $70-99$ & $\leqslant 69$\\
+      Men & $\geqslant130$ & $110-129$ & $80-109$ & $\leqslant 79$\\
    \end{tabular}
    \caption{Employed haemoglobin cut-off values.}
     \source{World's Health Organization international 2017 guidlines for the diagnosis and treament of anemia (see \cite{Hbcutoff})}
@@ -209,12 +209,16 @@ Therefore, based on haemoglobin serum levels, children were stratified in:
 A full technical overview of how this was implemented in the dataset elaboration can be found at Section \ref{asub:pathaemoglobin} on page \pageref{asub:pathaemoglobin}.
 
 \subsubsection{MCV}\label{sub:mcv}
-The Mean Corpuscolar Value (MCV) was used in order to identify primarily genetic diseases ($\beta$-thalassemia minor) and carential states (iron and vitamin $B_{12}$ deficiencies). This was ANOTHER little prick, but we managed with \cite{MCVferritincutoff}. It depends on various factors:
+The Mean Corpuscolar Value (MCV) was used in order to identify primarily genetic diseases ($\beta$-thalassemia minor) and carential states (iron, vitamin $B_{6}$ and $B_{12}$ deficiencies). In particular, it allowed us to separate macrocytic and microcytic anemias. The mean physiological value for MCV depends on numerous factors:
 
 \begin{enumerate}
 	\item Sex
 	\item Age
-	\item \dots
+	\item Alcohol and nutritional intakes
+	\item Hematopoietic functionality and normal distribution of haemoglobin variants
+	\item Endocrinological disorders (\textit{a.e.} hypothyroidism)
+	\item Chronic intoxication (\textit{a.e.} lead poisoning)
+	\item Consumption of many different medications (\textit{a.e.} colchicine, heparin, estrogens, phenytoin, nitrofurantoin, triamterene and trimethoprim)
 \end{enumerate}
 
 Therefore we based our cut-off values on a recent review published on the International Journal of Laboratory Hematology (see \cite{MCVferritincutoff}), which evaluated these parameters in a pediatric population. Table \ref{tab:cutoffmcv} summarizes how these values were distributed; moreover, the table shows also ferritin cut-off, because the same review was employed in that parameter as well.
@@ -238,14 +242,10 @@ Therefore we based our cut-off values on a recent review published on the Intern
     \label{tab:cutoffmcv}
 \end{table}
 
-\footnotetext[1]{All ferritin values are expressed in $\si{\gram/\litre}$}
-\footnotetext[2]{All MCV values are expressed in $\si{\gram/\litre}$}
+\footnotetext[1]{All ferritin values are expressed in $\si{\nano\gram/\milli\litre}$}
+\footnotetext[2]{All MCV values are expressed in $\si{\femto\litre}$}
 
 A full technical overview of how this was implemented in the dataset elaboration can be found at Section \ref{asub:patmcv} on page \pageref{asub:patmcv}.
-
-%Completa elenco puntato
-%Sistema Unità di misura!
-%Vedi se devi dire altro ma non credo
 
 \subsubsection{Ferritin}\label{sub:ferritin}
 This was easy.
