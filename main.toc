@@ -31,7 +31,7 @@
 \contentsline {subsubsection}{\numberline {2.3.2.4}Ferritin}{28}{subsubsection.71}
 \contentsline {subsubsection}{\numberline {2.3.2.5}Circulating Iron}{28}{subsubsection.72}
 \contentsline {subsubsection}{\numberline {2.3.2.6}Vitamin D}{28}{subsubsection.73}
-\contentsline {subsection}{\numberline {2.3.3}Parasites grouping}{29}{subsection.75}
+\contentsline {subsection}{\numberline {2.3.3}Parasites grouping}{30}{subsection.75}
 \contentsline {section}{\numberline {2.4}Statistical Analyses}{30}{section.84}
 \contentsline {chapter}{\numberline {3}Results}{32}{chapter.85}
 \contentsline {section}{\numberline {3.1}Descriptive analyses}{32}{section.86}

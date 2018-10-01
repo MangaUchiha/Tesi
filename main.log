@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.1.18)  1 OCT 2018 11:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.1.18)  1 OCT 2018 17:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2430,58 +2430,15 @@ LaTeX Warning: Command \textendash invalid in math mode on input line 272.
 LaTeX Warning: Command \textendash invalid in math mode on input line 272.
 
 
-LaTeX Warning: Command \textendash invalid in math mode on input line 272.
-
-
-LaTeX Warning: Command \textendash invalid in math mode on input line 272.
-
-
 LaTeX Warning: Command \textendash invalid in math mode on input line 273.
 
 
 LaTeX Warning: Command \textendash invalid in math mode on input line 273.
 
 
-LaTeX Warning: Command \textendash invalid in math mode on input line 273.
-
-
-LaTeX Warning: Command \textendash invalid in math mode on input line 273.
-
-
-LaTeX Warning: Command \textendash invalid in math mode on input line 274.
-
-
-LaTeX Warning: Command \textendash invalid in math mode on input line 274.
-
-
-LaTeX Warning: Command \textendash invalid in math mode on input line 274.
-
-
-LaTeX Warning: Command \textendash invalid in math mode on input line 274.
-
-
-LaTeX Warning: Command \textendash invalid in math mode on input line 275.
-
-
-LaTeX Warning: Command \textendash invalid in math mode on input line 275.
-
-
-LaTeX Warning: Command \textendash invalid in math mode on input line 275.
-
-
-LaTeX Warning: Command \textendash invalid in math mode on input line 275.
-
-
-LaTeX Warning: Command \textendash invalid in math mode on input line 276.
-
-
-LaTeX Warning: Command \textendash invalid in math mode on input line 276.
-
-
-LaTeX Warning: Command \textendash invalid in math mode on input line 276.
-
-
-LaTeX Warning: Command \textendash invalid in math mode on input line 276.
+Overfull \hbox (1.48956pt too wide) in paragraph at lines 269--275
+ [][] 
+ []
 
 [29] [30]) (./chapters/Results.tex [31]
 Chapter 3.
@@ -2746,7 +2703,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 72.
 Here is how much of TeX's memory you used:
  50365 strings out of 492995
  1096906 string characters out of 6132704
- 1555285 words of memory out of 5000000
+ 1555289 words of memory out of 5000000
  52495 multiletter control sequences out of 15000+600000
  105339 words of font info for 92 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
@@ -2775,7 +2732,7 @@ ublic/lm/lmri12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/l
 msy10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
 </usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmtt8.pfb></usr/local
 /texlive/2017/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on main.pdf (71 pages, 848230 bytes).
+Output written on main.pdf (71 pages, 848421 bytes).
 PDF statistics:
  1584 PDF objects out of 1728 (max. 8388607)
  1470 compressed objects within 15 object streams

@@ -261,26 +261,30 @@ A full technical overview of how this was implemented in the dataset elaboration
 Vitamin D deficiency and insufficiency are a major health issue in internationally adopted children, as explained in \ref{sec:roleofpediatrician} on page \pageref{sec:roleofpediatrician}, because of the profound change in latitude they experience during the adoption phase, or because of malnutrition combined with lack of solar exposure during pre-adoptive care, usually in orphanages. Thus, we dosed serum levels of calcifediol, also known as calcidiol, 25-hydroxycholecalciferol, or 25-hydroxyvitamin D (abbreviated $25(OH)D$).\\
 Recent literature has recenetly openly discussed about how vitamin D deficiency should be defined, especially in pediatric age, and therefore how what we should consider a healthy intake. The general international consensus states that, to define Vitamin D serum cut-off values (intended as 25-hydroxyvitamin D), alkaline phosfatase and calcium serum levels should be taken into aquaintance so to determin a healthy bone devolpment, ignoring the now well-known vitamin D extra-skeletal effects. The strongest recommendation for this comes from the letter addressed to BMJ from the British Society of Pediatric Radiology and child protection and nutrition committees of the Royal College of Pediatrics and Child Health in \cite{vitDcutoff_letter}. Moreover, \cite{vitDcutoff1}, a staticially strong and recent Italian review on a pediatric population, supports this statement, just as the reviews in \cite{vitDcutoff2} and \cite{vitDcutoff3}.
 
-Table \ref{tab:cutoffvitD} summarizes the cut-off values, resulting from this approach, both in $\si{}$ and $\si{}$. 
+Table \ref{tab:cutoffvitD} summarizes the cut-off values, resulting from this approach. Since vitamin D serum levels are variably expressed both in $\si{\nano\gram/\milli\litre}$ and $\si{\nano\mol/\litre}$, both have been included in the following table. For this study $\si{\nano\gram/\milli\litre}$ were used, because this unit of measurement was the one used by our laboratories.
 
 %Begin Table on Cutoff of Haemoglobin
 \begin{table}[H]
    \centering
-   \begin{tabular}{l r r c r r}
-      Age & Ferritin\footnotemark[1] & MCV\footnotemark[2] & & Ferritin\footnotemark[1] & MCV\footnotemark[2]\\
+   \begin{tabular}{l c r r r r}
+      Unit of Measurement & Sufficiency & Insufficiency & Deficiency & Severe Deficiency\\
       \hline
-      0-4 years of age & $8–82$ & $69–85$ & & $9–85$ & $71–85$\\
-      5–9 years of age & $11–99$ & $75–89$ & & $12–94$ & $76–88$\\
-      10–14 years of age & $8–94$ & $78–92$ & & $14–84$ & $76–90$\\
-      15-19 years of age & $6–109$ & $77–94$ & & $20–191$ & $78–93$\\
-      20-24 years of age & $7–129$ & $78–95$ & & $35–318$ & $82–94$\\
+      $\si{\nano\gram/\milli\litre}$ & $\geqslant 20$ & $19–10$ & $9–4$ & $\leqslant 3$\\
+      $\si{\nano\mol/\litre}$ & $\geqslant 50$ & $49–25$ & $24–10$ & $\leqslant 9$\\
    \end{tabular}
    \caption{Employed Vitamin D cut-off values.}
     \source{Saggese G et al. in ``Vitamin D in pediatric age: consensus of the Italian Pediatric Society and the Italian Society of Preventive and Social Pediatrics, jointly with the Italian Federation of Pediatricians" (see \cite{vitDcutoff1})}
     \label{tab:cutoffvitD}
 \end{table}
 
-%EDIT TABLE with ng/dL and nanomol/L (o quel che è) (OCCHIO ALLE UNITÀ DI MISURA!)
+Based on our laboratory findings we therefore scored the child's vitamin D status from 0 to 3, dividing their serum levels in:
+
+\begin{itemize}
+	\item Sufficient
+	\item Insufficient
+	\item Deficient
+	\item Severely Deficient
+\end{itemize}
 
 A full technical overview of how this was implemented in the dataset elaboration can be found at Section \ref{asub:patvitaminD} on page \pageref{asub:patvitaminD}.
 
