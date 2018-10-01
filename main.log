@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.1.18)  1 OCT 2018 10:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.1.18)  1 OCT 2018 10:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2415,7 +2415,7 @@ LaTeX Warning: Command \textendash invalid in math mode on input line 238.
 LaTeX Warning: Command \textendash invalid in math mode on input line 238.
 
 [27]
-Overfull \hbox (38.7679pt too wide) in paragraph at lines 264--267
+Overfull \hbox (38.7679pt too wide) in paragraph at lines 265--268
 \OT1/lmr/m/n/12 Vitamin D is healthy. We dosed $25-\OML/lmm/m/it/12 OH$ \OT1/lm
 r/m/n/12 or \OT1/lmr/m/it/12 cole-cal-cif-erol \OT1/lmr/m/n/12 (1,25(OH)2D: 1,2
 5-dihydroxyvitamin
@@ -2687,7 +2687,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 72.
 Here is how much of TeX's memory you used:
  50356 strings out of 492995
  1096801 string characters out of 6132704
- 1555135 words of memory out of 5000000
+ 1555136 words of memory out of 5000000
  52491 multiletter control sequences out of 15000+600000
  104223 words of font info for 89 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
@@ -2716,10 +2716,10 @@ ublic/lm/lmri12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/l
 msy10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
 </usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmtt8.pfb></usr/local
 /texlive/2017/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on main.pdf (70 pages, 844614 bytes).
+Output written on main.pdf (70 pages, 844921 bytes).
 PDF statistics:
- 1566 PDF objects out of 1728 (max. 8388607)
- 1454 compressed objects within 15 object streams
+ 1572 PDF objects out of 1728 (max. 8388607)
+ 1460 compressed objects within 15 object streams
  616 named destinations out of 1000 (max. 500000)
  498 words of extra memory for PDF output out of 10000 (max. 10000000)
 
