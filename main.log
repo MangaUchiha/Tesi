@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.1.18)  1 OCT 2018 17:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.1.18)  1 OCT 2018 17:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2440,7 +2440,13 @@ Overfull \hbox (1.48956pt too wide) in paragraph at lines 269--275
  [][] 
  []
 
-[29] [30]) (./chapters/Results.tex [31]
+[29]
+Overfull \hbox (0.11166pt too wide) in paragraph at lines 304--305
+[]\OT1/lmr/m/n/12 Parasites usu-ally re-spon-si-ble for gas-troin-testi-nal mal
+-ab-sorb-tion. These
+ []
+
+[30]) (./chapters/Results.tex [31]
 Chapter 3.
 ------------------------------------------------------------------------------
  3 Results
@@ -2732,10 +2738,10 @@ ublic/lm/lmri12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/l
 msy10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
 </usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmtt8.pfb></usr/local
 /texlive/2017/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on main.pdf (71 pages, 848421 bytes).
+Output written on main.pdf (71 pages, 848777 bytes).
 PDF statistics:
- 1584 PDF objects out of 1728 (max. 8388607)
- 1470 compressed objects within 15 object streams
+ 1585 PDF objects out of 1728 (max. 8388607)
+ 1471 compressed objects within 15 object streams
  618 named destinations out of 1000 (max. 500000)
  498 words of extra memory for PDF output out of 10000 (max. 10000000)
 
