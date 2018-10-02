@@ -19,44 +19,44 @@
 \contentsline {subsubsection}{\numberline {1.3.2.2}Vitamin D deficiency}{17}{subsubsection.35}
 \contentsline {subsection}{\numberline {1.3.3}Height-weight disorders}{17}{subsection.36}
 \contentsline {chapter}{\numberline {2}Materials and Methods}{18}{chapter.37}
-\contentsline {section}{\numberline {2.1}The population in exam}{19}{section.39}
-\contentsline {subsection}{\numberline {2.1.1}Inclusion and exclusion criteria}{22}{subsection.49}
-\contentsline {section}{\numberline {2.2}The dataset}{23}{section.50}
-\contentsline {section}{\numberline {2.3}Dataset elaboration}{23}{section.51}
-\contentsline {subsection}{\numberline {2.3.1}VBA expressions}{24}{subsection.52}
-\contentsline {subsection}{\numberline {2.3.2}Cut-off values}{24}{subsection.53}
-\contentsline {subsubsection}{\numberline {2.3.2.1}Height and Weight}{25}{subsubsection.54}
-\contentsline {subsubsection}{\numberline {2.3.2.2}Haemoglobin}{25}{subsubsection.55}
-\contentsline {subsubsection}{\numberline {2.3.2.3}MCV}{26}{subsubsection.62}
-\contentsline {subsubsection}{\numberline {2.3.2.4}Ferritin}{28}{subsubsection.71}
-\contentsline {subsubsection}{\numberline {2.3.2.5}Circulating Iron}{28}{subsubsection.72}
-\contentsline {subsubsection}{\numberline {2.3.2.6}Vitamin D}{28}{subsubsection.73}
-\contentsline {subsection}{\numberline {2.3.3}Parasites grouping}{30}{subsection.75}
-\contentsline {section}{\numberline {2.4}Statistical Analyses}{31}{section.84}
-\contentsline {chapter}{\numberline {3}Results}{32}{chapter.85}
-\contentsline {section}{\numberline {3.1}Descriptive analyses}{32}{section.86}
-\contentsline {section}{\numberline {3.2}Analyzing the costs}{33}{section.87}
-\contentsline {section}{\numberline {3.3}Statistical inference of data}{33}{section.89}
-\contentsline {chapter}{\numberline {4}Discussion}{35}{chapter.91}
-\contentsline {section}{\numberline {4.1}Health status of internationally adopted children}{35}{section.92}
-\contentsline {section}{\numberline {4.2}Is everything we do worthwile?}{36}{section.93}
-\contentsline {subsection}{\numberline {4.2.1}What we believe to be worthwile}{36}{subsection.94}
-\contentsline {subsection}{\numberline {4.2.2}And what may not be}{36}{subsection.95}
-\contentsline {section}{\numberline {4.3}Seeking for support: building correlations}{37}{section.96}
-\contentsline {section}{\numberline {4.4}Objectives achieved}{37}{section.97}
-\contentsline {section}{\numberline {4.5}Future work}{37}{section.98}
+\contentsline {section}{\numberline {2.1}The population in exam}{20}{section.41}
+\contentsline {subsection}{\numberline {2.1.1}Inclusion and exclusion criteria}{23}{subsection.51}
+\contentsline {section}{\numberline {2.2}The dataset}{23}{section.52}
+\contentsline {section}{\numberline {2.3}Dataset elaboration}{24}{section.53}
+\contentsline {subsection}{\numberline {2.3.1}VBA expressions}{24}{subsection.54}
+\contentsline {subsection}{\numberline {2.3.2}Cut-off values}{25}{subsection.55}
+\contentsline {subsubsection}{\numberline {2.3.2.1}Height and Weight}{25}{subsubsection.56}
+\contentsline {subsubsection}{\numberline {2.3.2.2}Haemoglobin}{25}{subsubsection.57}
+\contentsline {subsubsection}{\numberline {2.3.2.3}MCV}{27}{subsubsection.64}
+\contentsline {subsubsection}{\numberline {2.3.2.4}Ferritin}{28}{subsubsection.73}
+\contentsline {subsubsection}{\numberline {2.3.2.5}Circulating Iron}{28}{subsubsection.74}
+\contentsline {subsubsection}{\numberline {2.3.2.6}Vitamin D}{29}{subsubsection.75}
+\contentsline {subsection}{\numberline {2.3.3}Parasites grouping}{30}{subsection.77}
+\contentsline {section}{\numberline {2.4}Statistical Analyses}{31}{section.86}
+\contentsline {chapter}{\numberline {3}Results}{33}{chapter.87}
+\contentsline {section}{\numberline {3.1}Descriptive analyses}{33}{section.88}
+\contentsline {section}{\numberline {3.2}Analyzing the costs}{34}{section.89}
+\contentsline {section}{\numberline {3.3}Statistical inference of data}{34}{section.91}
+\contentsline {chapter}{\numberline {4}Discussion}{36}{chapter.93}
+\contentsline {section}{\numberline {4.1}Health status of internationally adopted children}{36}{section.94}
+\contentsline {section}{\numberline {4.2}Is everything we do worthwile?}{37}{section.95}
+\contentsline {subsection}{\numberline {4.2.1}What we believe to be worthwile}{37}{subsection.96}
+\contentsline {subsection}{\numberline {4.2.2}And what may not be}{37}{subsection.97}
+\contentsline {section}{\numberline {4.3}Seeking for support: building correlations}{38}{section.98}
+\contentsline {section}{\numberline {4.4}Objectives achieved}{38}{section.99}
+\contentsline {section}{\numberline {4.5}Future work}{38}{section.100}
 \vspace {2em}
-\contentsline {chapter}{\numberline {A}Dataset elaboration: VBA expressions}{38}{appendix.99}
-\contentsline {section}{\numberline {A.1}Age (in years)}{41}{section.102}
-\contentsline {section}{\numberline {A.2}Geographic area of origin}{42}{section.112}
-\contentsline {section}{\numberline {A.3}Pathological values}{43}{section.163}
-\contentsline {subsection}{\numberline {A.3.1}Weight and height}{43}{subsection.164}
-\contentsline {subsection}{\numberline {A.3.2}Haemoglobin}{44}{subsection.175}
-\contentsline {subsection}{\numberline {A.3.3}MCV}{46}{subsection.256}
-\contentsline {subsection}{\numberline {A.3.4}Circulating iron}{49}{subsection.377}
-\contentsline {subsection}{\numberline {A.3.5}Ferritin}{49}{subsection.391}
-\contentsline {subsection}{\numberline {A.3.6}Vitamin D}{50}{subsection.419}
-\contentsline {section}{\numberline {A.4}Parasitic Infections}{51}{section.447}
-\contentsline {subsection}{\numberline {A.4.1}Parasite positivity}{51}{subsection.448}
-\contentsline {subsection}{\numberline {A.4.2}Parasite grouping}{52}{subsection.460}
-\contentsline {chapter}{Bibliography}{54}{dummy.501}
+\contentsline {chapter}{\numberline {A}Dataset elaboration: VBA expressions}{39}{appendix.101}
+\contentsline {section}{\numberline {A.1}Age (in years)}{42}{section.104}
+\contentsline {section}{\numberline {A.2}Geographic area of origin}{43}{section.114}
+\contentsline {section}{\numberline {A.3}Pathological values}{44}{section.165}
+\contentsline {subsection}{\numberline {A.3.1}Weight and height}{44}{subsection.166}
+\contentsline {subsection}{\numberline {A.3.2}Haemoglobin}{45}{subsection.177}
+\contentsline {subsection}{\numberline {A.3.3}MCV}{47}{subsection.258}
+\contentsline {subsection}{\numberline {A.3.4}Circulating iron}{50}{subsection.379}
+\contentsline {subsection}{\numberline {A.3.5}Ferritin}{50}{subsection.393}
+\contentsline {subsection}{\numberline {A.3.6}Vitamin D}{51}{subsection.421}
+\contentsline {section}{\numberline {A.4}Parasitic Infections}{52}{section.449}
+\contentsline {subsection}{\numberline {A.4.1}Parasite positivity}{52}{subsection.450}
+\contentsline {subsection}{\numberline {A.4.2}Parasite grouping}{53}{subsection.462}
+\contentsline {chapter}{Bibliography}{55}{dummy.503}
