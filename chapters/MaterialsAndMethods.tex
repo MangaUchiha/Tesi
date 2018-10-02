@@ -198,7 +198,7 @@ Therefore, we elaborated the scheme illustrated in Table \ref{tab:cutoffhaemo}, 
     \label{tab:cutoffhaemo}
 \end{table}
 
-\footnotetext[1]{All haemoglobin values are expressed in $\si{\gram/\litre}$}
+\footnotetext[1]{All haemoglobin values are expressed in $\si{\gram/\litre}$.}
 \footnotetext[2]{\textit{Mild} is a misnomer: iron deficiency is already advanced by the time anemia is detected. The deficiency has consequences even when no anemia is clinically apparent.}
 
 Therefore, based on haemoglobin serum levels, children were stratified as affected with the following conditions:
@@ -248,8 +248,8 @@ Therefore we based our cut-off values for MCV on a recent review published on th
     \label{tab:cutoffmcv}
 \end{table}
 
-\footnotetext[3]{All ferritin values are expressed in $\si{\nano\gram/\milli\litre}$}
-\footnotetext[4]{All MCV values are expressed in $\si{\femto\litre}$}
+\footnotetext[3]{All ferritin values are expressed in $\si{\nano\gram/\milli\litre}$.}
+\footnotetext[4]{All MCV values are expressed in $\si{\femto\litre}$.}
 
 A full technical overview of how this was implemented in the dataset elaboration can be found at Section \ref{asub:patmcv} on page \pageref{asub:patmcv}.
 
@@ -259,20 +259,20 @@ Serum ferritin dosage is a direct marker of the patient's iron storage status. T
 A full technical overview of how this was implemented in the dataset elaboration can be found at Section \ref{asub:patferritin} on page \pageref{asub:patferritin}.
 
 \subsubsection{Circulating Iron}\label{sub:iron}
-The serum circulating iron value was defined as normal if it was included in the interval $16–129 \si{\micro\gram/\deci\litre}$, extremes included. This parameter was considered just as a countercheck for establishing the patient's iron storage status, that we deduced from serum ferritin.
+The serum circulating iron value was defined as normal if it belonged to the interval $16–129 \si{\micro\gram/\deci\litre}$, extremes included. This parameter was considered just as a countercheck for establishing the patient's iron storage status, that we deduced from serum ferritin.
 
 A full technical overview of how this was implemented in the dataset elaboration can be found at Section \ref{asub:patiron} on page \pageref{asub:patiron}.
 
 \subsubsection{Vitamin D}\label{sub:vitaminD}
 Vitamin D deficiency and insufficiency are a major health issue in internationally adopted children, as explained in \ref{sec:roleofpediatrician} on page \pageref{sec:roleofpediatrician}, because of the profound change in latitude they experience during the adoption phase, or because of malnutrition combined with lack of solar exposure during pre-adoptive care, usually in orphanages. Thus, we dosed serum levels of calcifediol, also known as calcidiol, 25-hydroxycholecalciferol, or 25-hydroxyvitamin D (abbreviated $25(OH)D$).\\
-Recent literature has recently openly discussed how vitamin D deficiency should be defined, especially in pediatric age, and therefore how what we should consider a healthy intake. The general international consensus states that to define Vitamin D serum cut-off values (intended as 25-hydroxyvitamin D), alkaline phosphatase and calcium serum levels should be taken into acquaintance so to determine a healthy bone development, ignoring the now well-known vitamin D extra-skeletal effects. The strongest recommendation for this comes from the letter addressed to BMJ from the British Society of Pediatric Radiology and child protection and nutrition committees of the Royal College of Pediatrics and Child Health in \cite{vitDcutoff_letter}. Moreover, \cite{vitDcutoff1}, a statistically strong and recent Italian review on a pediatric population, supports this statement, just as the reviews in \cite{vitDcutoff2} and \cite{vitDcutoff3}.
+Recent literature has recently openly discussed how vitamin D deficiency should be defined, especially in pediatric age, and therefore what we should consider a healthy intake. The general international consensus states that to define Vitamin D serum cut-off values (intended as 25-hydroxyvitamin D), alkaline phosphatase and calcium serum levels should be taken into acquaintance so to determine a healthy bone development, ignoring the now well-known vitamin D extra-skeletal effects. The strongest recommendation for this comes from the letter addressed to BMJ from the \textit{British Society of Pediatric Radiology and Child Protection and Nutrition Committees} of the \textit{Royal College of Pediatrics and Child Health} in \cite{vitDcutoff_letter}. Moreover, \cite{vitDcutoff1}, a statistically strong and recent Italian review on a pediatric population, supports this statement, just as the reviews in \cite{vitDcutoff2} and \cite{vitDcutoff3}.
 
 Table \ref{tab:cutoffvitD} summarizes the cut-off values, resulting from this approach. Since vitamin D serum levels are variably expressed both in $\si{\nano\gram/\milli\litre}$ and $\si{\nano\mol/\litre}$, both have been included in the following table. For this study, $\si{\nano\gram/\milli\litre}$ were used because this unit of measurement was the one used by our laboratories.
 
 %Begin Table on Cutoff of Haemoglobin
 \begin{table}[H]
    \centering
-   \begin{tabular}{l c r r r r}
+   \begin{tabular}{l r r r r}
       Unit of Measurement & Sufficiency & Insufficiency & Deficiency & Severe Deficiency\\
       \hline
       $\si{\nano\gram/\milli\litre}$ & $\geqslant 20$ & $19–10$ & $9–4$ & $\leqslant 3$\\
@@ -295,7 +295,7 @@ Based on our laboratory findings we, therefore, scored the child's vitamin D sta
 A full technical overview of how this was implemented in the dataset elaboration can be found at Section \ref{asub:patvitaminD} on page \pageref{asub:patvitaminD}.
 
 \subsection{Parasites grouping}\label{sub:parasites}
-Gastrointestinal infestations are a common disease in internationally adopted children, as stated in \ref{sec:roleofpediatrician}. We found 8 different \textit{genera}, most of them co-infecting the same child. Because of the scarceness of data per genus, though, we decided to group them up into two separate groups, to increase statistical significance.
+Gastrointestinal infestations are a common disease in internationally adopted children, as stated in \ref{sec:roleofpediatrician}. We found 8 different \textit{genera}, most of them co-infecting the same child. Because of the scarceness of data per \textit{genus}, though, we decided to group them up into two separate groups, in order to increase statistical significance.
 
 The found pathogens are the following:
 
@@ -325,7 +325,7 @@ A full technical overview of how this was implemented in the dataset elaboration
 
 \section{Statistical Analyses}\label{sec:statisticalanalyses}
 The population-describing analyses were conducted using relative frequencies and percentages for categorical variables, and means and standard deviations or medians and inter-quartile intervals for continuous ones. We preferred to use the latter because the scarcity of data prevented us from checking for normal distribution.\\
-Nonparametric tests, such as the \textit{Mann-Whitney-Wilcoxon rank-sum test} or \textit{Kruskal-Wallis equality-of-populations rank test}, were employed to evaluate the difference between continuous variables in different groups. One test or the other was performed based on the number of groups, case by case: if two, the \textit{Mann-Whitney-Wilcoxon} test was used, if more than two, \textit{Kruskal-Wallis} test, instead. To study the relation between two dichotomous variables, or one dichotomous and one categorical, we used the \textit{two-tailed Fisher's exact test} and, to study whether a dichotomous event was associated with one or more independent variables, we preferred using logistic regression.\\
+Nonparametric tests, such as the \textit{Mann-Whitney-Wilcoxon rank-sum test} or the \textit{Kruskal-Wallis equality-of-populations rank test}, were employed to evaluate the difference between continuous variables in different groups. One test or the other was performed based on the number of groups, case by case: if two, the \textit{Mann-Whitney-Wilcoxon} test was used, if more than two, \textit{Kruskal-Wallis} test, instead. To study the relation between two dichotomous variables, or one dichotomous and one categorical, we used the \textit{two-tailed Fisher's exact test} and, to study whether a dichotomous event was associated with one or more independent variables, we preferred using logistic regression.\\
 Lastly, in order to study the correlation between continuous variables, we preferred using \textit{Spearman's rank correlation}.
 
-All statistical analyses were conducted using the Stata/IC software, version 14.2 (StataCorp LLC, College Station, USA).
+All statistical analyses were conducted using the Stata/IC software, version 14.2 (\textit{StataCorp LLC}, College Station, USA).
