@@ -4,7 +4,7 @@
 % This will make the text at the top-left of the page be the same as the chapter
 
 \chap{Results}\label{chap:results}
-In the following chapter, the numerical results of this study will be displayed and explained; the full discussion will be tackled in Chapter \ref{chap:discussion} on page \pageref{chap:discussion}.
+In the following chapter, the numerical results of this study will be displayed and explained. This work was accomplished through the priceless collaboration with Dott. Monasta L. The full discussion will be tackled in Chapter \ref{chap:discussion} on page \pageref{chap:discussion}.
 
 \section{Descriptive analyses}\label{sec:descriptiveanalyses}
 As stated in Section \ref{sec:thepopulationinexam}, 285 internationally adopted children were evaluated from January \nth{1}, 2002 to December \nth{31}, 2017; 102 were female (36.17\%) and 180 male (63.83\%). The 3 missing children are due to sex never being registered in the dataset. Males were numerically dominant in all considered regions (55-79\%).\\
@@ -54,10 +54,31 @@ The \textit{Kruskal-Wallis equality-of-populations rank test} was performed in o
 
 \footnotetext[2]{Regions were ordered by the ascending mean levels of serum vitamin D.}
 
+During our analysis, six countries presented extremely low mean vitamin D serum levels; they are listed in Table \ref{tab:vitamindpercountry}, alongside the number of considered cases per country and the standard deviation.
+
+%Begin Table on Vitamind D levels per country
+\begin{table}[H]
+   \centering
+   \begin{tabular}{l r r r}
+      Country\footnotemark[3] & $n$ & $m$ & $\sigma$\\
+      \hline
+      Ukraine & 1 & 14.00 & -\\
+      China & 9 & 15.63 & 7.00\\
+      Bulgaria & 2 & 16.00 & 2.97\\
+      Romania & 2 & 16.90 & 0.57\\
+      Hungary & 3 & 17.63 & 5.29\\
+      Benin & 1 & 17.9 & -\\
+      Vietnam & 5 & 21.1 & 12.79\\
+   \end{tabular}
+   \caption{Mean vitamin D serum levels and relative standard deviation of the lowest mean vitamin D values in our population.}
+    \label{tab:vitamindpercountry}
+\end{table}
+
+\footnotetext[3]{Regions were ordered by the ascending mean levels of serum vitamin D.}
+
 Parasitic gastrointestinal infections were very frequent in our population: 102, out of the total 245 performed tests (41.63\%), resulted positive for at least out of considered intestinal parasites (listed in Section \ref{sub:parasites}).
 
-Out of 273 performed Mantoux tests, 46 (16.84\%) resulted positive: a considerable amount. Table \ref{tab:mantouxbyregion} displays all the data on this matter, again, divided by region. A \textit{Fisher's exact test} demonstrated a positive statistical correlation between Mantoux test positivity and area of origin ($p$\textless$value=0.002$).\\
-In Section \ref{sec:seekingforsupport}, the correlation that was found between Mantoux test positivity and age per region will be discussed.
+Out of 273 performed Mantoux tests, 46 (16.84\%) resulted positive: a considerable amount. Table \ref{tab:mantouxbyregion} displays all the data on this matter, again, divided by region. Eastern Europe and Africa (as one would expect) resulted to be the region with the highest percentage of positive cases. A \textit{Fisher's exact test} demonstrated a positive statistical correlation between Mantoux test positivity and area of origin ($p$\textless$value=0.002$).
 
 %Begin Table on Mantoux positivity per region
 \begin{table}[H]
@@ -65,7 +86,7 @@ In Section \ref{sec:seekingforsupport}, the correlation that was found between M
    \begin{tabular}{l r r | r}
    	  & \multicolumn{2}{c}{Mantoux test result} & \\
    	  \cline{2-3}
-      Region\footnotemark[3] & Positive & Negative & Total\\
+      Region\footnotemark[4] & Positive & Negative & Total\\
       \hline
       Eastern Europe & 22 (25.29\%) & 65 (74.71\%) & 87 (31.87\%)\\
       Africa & 10 (21.74\%) & 36 (78.26\%) & 46 (16.85\%)\\
@@ -78,10 +99,10 @@ In Section \ref{sec:seekingforsupport}, the correlation that was found between M
     \label{tab:mantouxbyregion}
 \end{table}
 
-\footnotetext[3]{Regions were ordered by the descending percentage of positive tests.}
+\footnotetext[4]{Regions were ordered by the descending percentage of positive tests.}
 
-\section{Analyzing the costs}\label{sec:analyzingcosts}
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque nibh metus, suscipit a scelerisque sit amet, rhoncus et lectus. Mauris eget erat rutrum, euismod massa id, maximus mauris. Nulla maximus, ex sit amet lacinia consequat, enim ante mollis dui, sit amet tincidunt massa felis id magna. Aenean gravida ante nec volutpat rutrum. Cras eget ullamcorper leo. Curabitur eu volutpat tellus. Integer nec ornare sapien. Fusce ipsum justo, interdum quis libero a, mattis tristique velit. Phasellus rhoncus lorem non ultrices luctus.
+The \textit{two-sample Mann-Whitney-Wilcoxon rank-sum test} was performed on each region between Mantoux test results and mean age in the positive and negative groups. It returned a statistically significant (($p$\textgreater$|z|=0.028$) result only for Asia: positive Asiatic children had a mean age of 85 month ($\sigma=31.61$), negative 62 months ($\sigma=37.56$). We believe that with a bigger sample size, this would be found true for Latin America as well.\\
+Figure \ref{fig:boxplot_Mantoux} below portrays our population's age distribution (in months) stratified by our four zones and Mantoux test results, perfectly representing this conclusion.
 
 % Mantoux Boxplot
 \vspace*{0.8cm}
@@ -190,6 +211,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque nibh metus
 \caption{Boxplot of our population's age distribution (in months) stratified by our four zones and Mantoux test results.}
 \label{fig:boxplot_Mantoux}
 \end{figure}
+
+\section{Analyzing the costs}\label{sec:analyzingcosts}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque nibh metus, suscipit a scelerisque sit amet, rhoncus et lectus. Mauris eget erat rutrum, euismod massa id, maximus mauris. Nulla maximus, ex sit amet lacinia consequat, enim ante mollis dui, sit amet tincidunt massa felis id magna. Aenean gravida ante nec volutpat rutrum. Cras eget ullamcorper leo. Curabitur eu volutpat tellus. Integer nec ornare sapien. Fusce ipsum justo, interdum quis libero a, mattis tristique velit. Phasellus rhoncus lorem non ultrices luctus.
 
 \section{Statistical inference of data}\label{sec:statisticalinference}
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque nibh metus, suscipit a scelerisque sit amet, rhoncus et lectus. Mauris eget erat rutrum, euismod massa id, maximus mauris. Nulla maximus, ex sit amet lacinia consequat, enim ante mollis dui, sit amet tincidunt massa felis id magna. Aenean gravida ante nec volutpat rutrum. Cras eget ullamcorper leo. Curabitur eu volutpat tellus. Integer nec ornare sapien. Fusce ipsum justo, interdum quis libero a, mattis tristique velit. Phasellus rhoncus lorem non ultrices luctus.
