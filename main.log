@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.1.18)  3 OCT 2018 13:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.1.18)  3 OCT 2018 15:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2463,74 +2463,75 @@ Chapter 3.
 ------------------------------------------------------------------------------
 [33
 
-]
-Package pgfplots info on input line 91: boxplot: got lower quartile=2.6e1
-Package pgfplots info on input line 91: boxplot: got median=4.1e1
-Package pgfplots info on input line 91: boxplot: got upper quartile=6.2e1
-Package pgfplots info on input line 91: boxplot: got sample size=3.6e1
-Package pgfplots info on input line 91: boxplot: got lower whisker=1.0e1
-Package pgfplots info on input line 91: boxplot: got upper whisker=1.02e2
-Package pgfplots info on input line 97: boxplot: got lower quartile=2.15e1
-Package pgfplots info on input line 97: boxplot: got median=3.0e1
-Package pgfplots info on input line 97: boxplot: got upper quartile=8.550003e1
-Package pgfplots info on input line 97: boxplot: got sample size=1.0e1
-Package pgfplots info on input line 97: boxplot: got lower whisker=1.2e1
-Package pgfplots info on input line 97: boxplot: got upper whisker=1.08e2
-Package pgfplots info on input line 105: boxplot: got lower quartile=3.1e1
-Package pgfplots info on input line 105: boxplot: got median=6.0e1
-Package pgfplots info on input line 105: boxplot: got upper quartile=8.4000015e
-1
-Package pgfplots info on input line 105: boxplot: got sample size=5.8e1
-Package pgfplots info on input line 105: boxplot: got lower whisker=6.0e0
-Package pgfplots info on input line 105: boxplot: got upper whisker=1.56e2
-Package pgfplots info on input line 111: boxplot: got lower quartile=6.5e1
-Package pgfplots info on input line 111: boxplot: got median=8.800003e1
-Package pgfplots info on input line 111: boxplot: got upper quartile=1.03499985
-e2
-Package pgfplots info on input line 111: boxplot: got sample size=1.1e1
-Package pgfplots info on input line 111: boxplot: got lower whisker=1.0e1
-Package pgfplots info on input line 111: boxplot: got upper whisker=1.24e2
-Package pgfplots info on input line 119: boxplot: got lower quartile=3.5e1
-Package pgfplots info on input line 119: boxplot: got median=5.800003e1
-Package pgfplots info on input line 119: boxplot: got upper quartile=8.449997e1
+] [34]
+Package pgfplots info on input line 115: boxplot: got lower quartile=2.6e1
+Package pgfplots info on input line 115: boxplot: got median=4.1e1
+Package pgfplots info on input line 115: boxplot: got upper quartile=6.2e1
+Package pgfplots info on input line 115: boxplot: got sample size=3.6e1
+Package pgfplots info on input line 115: boxplot: got lower whisker=1.0e1
+Package pgfplots info on input line 115: boxplot: got upper whisker=1.02e2
+Package pgfplots info on input line 121: boxplot: got lower quartile=2.15e1
+Package pgfplots info on input line 121: boxplot: got median=3.0e1
+Package pgfplots info on input line 121: boxplot: got upper quartile=8.550003e1
 
-Package pgfplots info on input line 119: boxplot: got sample size=6.5e1
-Package pgfplots info on input line 119: boxplot: got lower whisker=8.0e0
-Package pgfplots info on input line 119: boxplot: got upper whisker=1.36e2
-Package pgfplots info on input line 125: boxplot: got lower quartile=4.35e1
-Package pgfplots info on input line 125: boxplot: got median=7.2e1
-Package pgfplots info on input line 125: boxplot: got upper quartile=8.8499985e
+Package pgfplots info on input line 121: boxplot: got sample size=1.0e1
+Package pgfplots info on input line 121: boxplot: got lower whisker=1.2e1
+Package pgfplots info on input line 121: boxplot: got upper whisker=1.08e2
+Package pgfplots info on input line 129: boxplot: got lower quartile=3.1e1
+Package pgfplots info on input line 129: boxplot: got median=6.0e1
+Package pgfplots info on input line 129: boxplot: got upper quartile=8.4000015e
 1
-Package pgfplots info on input line 125: boxplot: got sample size=2.2e1
-Package pgfplots info on input line 125: boxplot: got lower whisker=2.3e1
-Package pgfplots info on input line 125: boxplot: got upper whisker=1.26e2
-Package pgfplots info on input line 133: boxplot: got lower quartile=5.7e1
-Package pgfplots info on input line 133: boxplot: got median=8.4e1
-Package pgfplots info on input line 133: boxplot: got upper quartile=1.08e2
-Package pgfplots info on input line 133: boxplot: got sample size=6.8e1
-Package pgfplots info on input line 133: boxplot: got lower whisker=1.2e1
-Package pgfplots info on input line 133: boxplot: got upper whisker=1.56e2
-Package pgfplots info on input line 139: boxplot: got lower quartile=1.0800003e
-2
-Package pgfplots info on input line 139: boxplot: got median=1.10999985e2
-Package pgfplots info on input line 139: boxplot: got upper quartile=1.25999985
+Package pgfplots info on input line 129: boxplot: got sample size=5.8e1
+Package pgfplots info on input line 129: boxplot: got lower whisker=6.0e0
+Package pgfplots info on input line 129: boxplot: got upper whisker=1.56e2
+Package pgfplots info on input line 135: boxplot: got lower quartile=6.5e1
+Package pgfplots info on input line 135: boxplot: got median=8.800003e1
+Package pgfplots info on input line 135: boxplot: got upper quartile=1.03499985
 e2
-Package pgfplots info on input line 139: boxplot: got sample size=3.0e0
-Package pgfplots info on input line 139: boxplot: got lower whisker=1.08e2
-Package pgfplots info on input line 139: boxplot: got upper whisker=1.38e2
- [34]) [35] (./chapters/Discussion.tex [36]
+Package pgfplots info on input line 135: boxplot: got sample size=1.1e1
+Package pgfplots info on input line 135: boxplot: got lower whisker=1.0e1
+Package pgfplots info on input line 135: boxplot: got upper whisker=1.24e2
+Package pgfplots info on input line 143: boxplot: got lower quartile=3.5e1
+Package pgfplots info on input line 143: boxplot: got median=5.800003e1
+Package pgfplots info on input line 143: boxplot: got upper quartile=8.449997e1
+
+Package pgfplots info on input line 143: boxplot: got sample size=6.5e1
+Package pgfplots info on input line 143: boxplot: got lower whisker=8.0e0
+Package pgfplots info on input line 143: boxplot: got upper whisker=1.36e2
+Package pgfplots info on input line 149: boxplot: got lower quartile=4.35e1
+Package pgfplots info on input line 149: boxplot: got median=7.2e1
+Package pgfplots info on input line 149: boxplot: got upper quartile=8.8499985e
+1
+Package pgfplots info on input line 149: boxplot: got sample size=2.2e1
+Package pgfplots info on input line 149: boxplot: got lower whisker=2.3e1
+Package pgfplots info on input line 149: boxplot: got upper whisker=1.26e2
+Package pgfplots info on input line 157: boxplot: got lower quartile=5.7e1
+Package pgfplots info on input line 157: boxplot: got median=8.4e1
+Package pgfplots info on input line 157: boxplot: got upper quartile=1.08e2
+Package pgfplots info on input line 157: boxplot: got sample size=6.8e1
+Package pgfplots info on input line 157: boxplot: got lower whisker=1.2e1
+Package pgfplots info on input line 157: boxplot: got upper whisker=1.56e2
+Package pgfplots info on input line 163: boxplot: got lower quartile=1.0800003e
+2
+Package pgfplots info on input line 163: boxplot: got median=1.10999985e2
+Package pgfplots info on input line 163: boxplot: got upper quartile=1.25999985
+e2
+Package pgfplots info on input line 163: boxplot: got sample size=3.0e0
+Package pgfplots info on input line 163: boxplot: got lower whisker=1.08e2
+Package pgfplots info on input line 163: boxplot: got upper whisker=1.38e2
+ [35]) [36] (./chapters/Discussion.tex [37]
 Chapter 4.
 ------------------------------------------------------------------------------
  4 Discussion
 ------------------------------------------------------------------------------
-[37
+[38
 
-] [38]) (./appendices/Appendix.tex [39]
+] [39]) (./appendices/Appendix.tex [40]
 Appendix A.
 ------------------------------------------------------------------------------
  A Dataset elaboration: VBA expressions
 ------------------------------------------------------------------------------
-[40
+[41
 
 ]
 Overfull \hbox (0.5339pt too wide) in paragraph at lines 14--14
@@ -2582,7 +2583,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 52--53
 []|\OT1/lmr/m/it/10 25-hydroxycholecalciferol \OT1/lmr/m/n/10 serum
  []
 
-[41] [42] [43] [44] [45] [46] [47] [48] [49] [50] [51] [52] [53] [54]) [55]
+[42] [43] [44] [45] [46] [47] [48] [49] [50] [51] [52] [53] [54] [55]) [56]
 ------------------------------------------------------------------------------
  Bibliography
 ------------------------------------------------------------------------------
@@ -2646,7 +2647,7 @@ Overfull \hbox (3.23674pt too wide) in paragraph at lines 33--40
 nce-[]2005-[]heres-[]$ 
  []
 
-[56
+[57
 
 
 ]
@@ -2679,13 +2680,13 @@ Underfull \hbox (badness 3281) in paragraph at lines 91--97
 il-able
  []
 
-[57]
+[58]
 Underfull \hbox (badness 10000) in paragraph at lines 149--153
 [][]$\OT1/lmtt/c/n/12 http : / / www . glnbi . org / documenti / 7dc63f2c92f238
 28da9b9727d0a2779d .
  []
 
-[58] [59] [60]
+[59] [60] [61]
 Underfull \hbox (badness 6188) in paragraph at lines 301--306
 []\OT1/lmr/m/n/12 World Health Or-ga-ni-za-tion (WHO). \OT1/lmr/m/it/12 WHO Chi
 ld Growth Stan-dards:
@@ -2697,20 +2698,20 @@ Underfull \hbox (badness 1009) in paragraph at lines 301--306
 /n/12 . pp.  139-226. 2006.
  []
 
-[61]
+[62]
 Underfull \hbox (badness 8000) in paragraph at lines 339--343
 \OT1/lmtt/c/n/12 cms / RAFVG / salute-[]sociale / sistema-[]sociale-[]sanitario
  / FOGLIA51/$[][] \OT1/lmr/m/n/12 [ac-
  []
 
-) [62]
+) [63]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 72.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 72.
  (./main.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 72.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 72.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 17A42312140079CCE61F0BA873846BD9;11191.
+(rerunfilecheck)             Checksum: C5A3FF8D15832F1ADF3EF550B629E3E3;11192.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -2718,14 +2719,14 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 72.
  ) 
 Here is how much of TeX's memory you used:
- 50386 strings out of 492995
- 1097243 string characters out of 6132704
- 1564918 words of memory out of 5000000
- 52508 multiletter control sequences out of 15000+600000
+ 50389 strings out of 492995
+ 1097291 string characters out of 6132704
+ 1565038 words of memory out of 5000000
+ 52509 multiletter control sequences out of 15000+600000
  105339 words of font info for 92 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  66i,19n,111p,13109b,2346s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{Hfootnote.104} has been referenced but does not e
+pdfTeX warning (dest): name{Hfootnote.105} has been referenced but does not e
 xist, replaced by a fixed one
 
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/lm/lm-rmtt.enc}{/usr/local/
@@ -2749,10 +2750,10 @@ ublic/lm/lmri12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/l
 msy10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
 </usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmtt8.pfb></usr/local
 /texlive/2017/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on main.pdf (73 pages, 855889 bytes).
+Output written on main.pdf (74 pages, 858130 bytes).
 PDF statistics:
- 1609 PDF objects out of 1728 (max. 8388607)
- 1493 compressed objects within 15 object streams
- 623 named destinations out of 1000 (max. 500000)
+ 1620 PDF objects out of 1728 (max. 8388607)
+ 1502 compressed objects within 16 object streams
+ 625 named destinations out of 1000 (max. 500000)
  498 words of extra memory for PDF output out of 10000 (max. 10000000)
 
