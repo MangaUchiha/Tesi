@@ -15,7 +15,23 @@ The evaluated children came from all over the globe, but mostly from Russia ($n 
 
 117 children out of 271 (43.17\%) had a pathologically underweight, 96 out of 270 (35.55\%) were short for their age.
 
-Haemoglobin was found pathologically low in 22 patients out of 280 (7.86\%). Among these, 9 were moderate, constituting 40.91\% of anemias. Moreover, 9 also presented a pathological MCV and 15 a low ferritin. These findings will be discussed in Section \ref{sec:healthstatusofIAC}.
+Haemoglobin was found pathologically low in 22 patients out of 280 (7.86\%). Among these, 9 were moderate, constituting 40.91\% of anemias. Moreover, 9 also presented a pathological MCV and 15 a low ferritin. These findings will be discussed in Section \ref{sec:healthstatusofIAC}.\\
+Ferritin was found pathological in 87 out of 251 children (34.66\%): most of these cases were mild deficiencies, but 18 (7.17\%) were very severe. This data can be found in Table \ref{tab:ferritinpatfreq}.
+
+%Begin Table on Ferritin pat freq by region
+\begin{table}[H]
+   \centering
+   \begin{tabular}{l c c c c | r}
+   	  & & \multicolumn{3}{c}{Ferritin deficiency} & \\
+   	 \cline{3-5}
+       & Absent & Mild & Moderate & Severe & Total\\
+      \hline
+      Frequencies & 164 & 41 & 28 & 18 & 251\\
+      Percentages & 65.34\% & 16.33\% & 11.16\% & 7.17\% & 100.00\%\\
+   \end{tabular}
+   \caption{Absolute frequencies and percentages of ferritin deficiencies in our population.}
+    \label{tab:ferritinpatfreq}
+\end{table}
 
 As for the immunization status, only 87 (34.25\%) showed a completely valid immunization to vaccine-preventable disease. Almost 65\% of all children was found to have insufficient antibody levels for at least one of the considered diseases. 3 children were \textit{completely} exposed. The following Table \ref{tab:immunizationperregion} shows the immunization status, considered as \textit{complete}, \textit{incomplete} or \textit{absent} for every considered geographical region. Africa resulted being the region with lowest immunization rate (just over ~10\%.).
 
@@ -80,7 +96,7 @@ During our analysis, six countries presented extremely low mean vitamin D serum 
 
 \footnotetext[3]{Countries were ordered by the ascending mean levels of serum vitamin D.}
 
-Parasitic gastrointestinal infections were very frequent in our population: 101, out of the total 245 performed tests (41.22\%), resulted positive for at least out of considered intestinal parasites (listed in Section \ref{sub:parasites}). Group 1 parasites were more common in children coming from Latin American and less in Asia; group 2 parasites infected more African children and less Eastern Europeans. None of these results were statistically significant, though: group 1 parasitosis resulted in a 0.105 at the \textit{Fisher exact test}, group 2 in 0.122. All our data relative to parasitic infections can be found in Table \ref{tab:parasitesperregion}.
+Parasitic gastrointestinal infections were very frequent in our population: 101, out of the total 245 performed tests (41.22\%), resulted positive for at least out of considered intestinal parasites (listed in Section \ref{sub:parasites}). Group 1 parasites were more common in children coming from Latin American and less in Asia; group 2 parasites infected more African children and less Eastern Europeans. None of these results were statistically significant, though: group 1 parasitosis resulted in a 0.105 at the \textit{Fisher's exact test}, group 2 in 0.122. All our data relative to parasitic infections can be found in Table \ref{tab:parasitesperregion}.
 
 %Begin Table on Parasites per region
 \begin{table}[H]
@@ -242,8 +258,12 @@ Concerning other infectious diseases, no patients were found positive to hepatit
 \section{Analyzing the costs}\label{sec:analyzingcosts}
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque nibh metus, suscipit a scelerisque sit amet, rhoncus et lectus. Mauris eget erat rutrum, euismod massa id, maximus mauris. Nulla maximus, ex sit amet lacinia consequat, enim ante mollis dui, sit amet tincidunt massa felis id magna. Aenean gravida ante nec volutpat rutrum. Cras eget ullamcorper leo. Curabitur eu volutpat tellus. Integer nec ornare sapien. Fusce ipsum justo, interdum quis libero a, mattis tristique velit. Phasellus rhoncus lorem non ultrices luctus.
 
+%Integra qui tabella dei costi da Excel
+
 \section{Statistical inference of data}\label{sec:statisticalinference}
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque nibh metus, suscipit a scelerisque sit amet, rhoncus et lectus. Mauris eget erat rutrum, euismod massa id, maximus mauris. Nulla maximus, ex sit amet lacinia consequat, enim ante mollis dui, sit amet tincidunt massa felis id magna. Aenean gravida ante nec volutpat rutrum. Cras eget ullamcorper leo. Curabitur eu volutpat tellus. Integer nec ornare sapien. Fusce ipsum justo, interdum quis libero a, mattis tristique velit. Phasellus rhoncus lorem non ultrices luctus.
+Statistical inference was one of the main focus points of this study. As explained in \ref{sec:aim}, the research for correlations amongst the considered variables is considered to be one the our major objectives, because it could have meant spare some hospitalization time and some invasive tests from the children brought to our attention, achieving benefits both on an economical, health and comfort level.
+
+First of all, we investigated vitamin D deficits. It was reasonable to us that vitamin D serum levels were correlated to iron-deficient anemias, because of their shared natures as deficiency states. Therefore we ran \textit{Spearman's rank correlation test} on haemoglobin and vitamin D values, which resulted in the two variables being independent ($p>|t|=0.3086$). The results were plotted in Figure \ref{fig:scatterplot_VitD_Hb} and summarized in Table \ref{tab:TODO}.
 
 %Scatter Plot VitD-Hb
 \vspace*{0.8cm}
@@ -447,3 +467,33 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque nibh metus
 \caption{Scatter plot of Vitamin D and Haemoglobin values}
 \label{fig:scatterplot_VitD_Hb}
 \end{figure}
+
+%TODO
+%Insert Tab vitaminD-Hb (TAB 1) HERE e aggiungi reference sopra.
+
+Moreover, we tried to correlate vitamin D serum levels with ferritin as well: \textit{Spearman's rank correlation test} was performed again and it confirmed the independent nature of these variables. Figure \ref{fig:TODO} and Table \ref{tab:TODO} show our results
+
+%TODO
+%Insert Scatterplot vitaminD-Hb (FIG 1) HERE e aggiungi reference sopra.
+
+%TODO
+%Insert Tab vitaminD-Ferritin (TAB 2) HERE e aggiungi reference sopra.
+
+Then, we further studied anemias, by running a \textit{logistic regression}. Anemia was considered as a dichotomous variable (a children was either anemic or he wasn't), and so was done for parasitic infections, MCV and ferritin serum levels. We found that anemia is negatively correlated with MCV levels ($z=-3.18$, $p>|z|=0.001$ with a $CI_{95\%} =[0.75,0.93]$) (this stands out in Table \ref{tab:TODO} very well). Out of 22 anemias, 9 also had a pathological MCV (~41\%); only 11\% of non anemic children presented a pathological MCV value.\\
+There weren't any other statistically relevant correlations amongst the listed variables.
+
+%TODO
+%Insert Tab HB-MCV (TAB 4) HERE e aggiungi reference sopra.
+
+Bacuase of this strong relation between low-MCV and low-Hb, we decided to consider the population with these two parameters offset and try to find out more (3.25\%). We found that there was a positive correlation between ferritin low serum levels and the a low-MCV anemia, confirming the high prevalence of iron-deficiency in our population. This was confirmed at the \textit{Fisher's exact test} ($p=0.001$). Table \ref{tab:TODO} shows our data for this consideration.
+
+%TODO
+%Insert Tab Ferritin-MCV+HB (TAB 5) HERE e aggiungi reference sopra.
+
+Moreover, we tried to look even closer at anemias and parasitic infections: the variables were found still to be independent at \textit{Fisher's exact test} ($p=0.935$). No correlation was found (leaving us pretty surprised) neither between anemia and group 1 and 2 gastrointestinal infestations, with a \textit{Fisher's exact test} result of $p=0.205$ and $p=0.669$ respectively. Tables \ref{tab:TODO}, \ref{tab:TODO}, and \ref{tab:TODO} summarize our findings.
+
+%TODO
+%Insert Tab Parassiti-Anemia (TAB 3) HERE e aggiungi reference sopra.
+
+%TODO
+%Insert Tab Parassiti-Anemia (TAB 6 e 7) HERE e aggiungi reference sopra.
