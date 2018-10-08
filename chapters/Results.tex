@@ -263,7 +263,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque nibh metus
 \section{Statistical inference of data}\label{sec:statisticalinference}
 Statistical inference was one of the main focus points of this study. As explained in \ref{sec:aim}, the research for correlations amongst the considered variables is considered to be one the our major objectives, because it could have meant spare some hospitalization time and some invasive tests from the children brought to our attention, achieving benefits both on an economical, health and comfort level.
 
-First of all, we investigated vitamin D deficits. It was reasonable to us that vitamin D serum levels were correlated to iron-deficient anemias, because of their shared natures as deficiency states. Therefore we ran \textit{Spearman's rank correlation test} on haemoglobin and vitamin D values, which resulted in the two variables being independent ($p>|t|=0.3086$). The results were plotted in Figure \ref{fig:scatterplot_VitD_Hb} and summarized in Table \ref{tab:TODO}.
+First of all, we investigated vitamin D deficits. It was reasonable to us that vitamin D serum levels were correlated to iron-deficient anemias, because of their shared natures as deficiency states. Therefore we ran \textit{Spearman's rank correlation test} on haemoglobin and vitamin D values, which resulted in the two variables being independent ($p>|t|=0.3086$). The results were plotted in Figure \ref{fig:scatterplot_VitD_Hb} and summarized in Table \ref{tab:VitDHb}.
 
 %Scatter Plot VitD-Hb
 \vspace*{0.8cm}
@@ -468,8 +468,26 @@ First of all, we investigated vitamin D deficits. It was reasonable to us that v
 \label{fig:scatterplot_VitD_Hb}
 \end{figure}
 
+%Begin Table on Vitamin D and Hb
+\begin{table}[H]
+   \centering
+   \begin{tabular}{c l c c c | r}
+   	  & & \multicolumn{3}{c}{Anemia} & \\
+   	  \cline{3-5}
+       & & Absent & Mild & Moderate & Total\\
+      \hline
+       \parbox[t]{1cm}{\multirow{3}{*}{\rotatebox[origin=c]{90}{\begin{footnotesize}\begin{tabular}[t]{@{}c@{}}Vitamin D\\deficiency\end{tabular}\end{footnotesize}}}} & Absent & 65 (74.71\%) & 87 (31.87\%) & 36 (78.26\%) & 46 (16.85\%)\\
+       & Mild & 36 (78.26\%) & 46 (16.85\%) & 36 (78.26\%) & 46 (16.85\%)\\
+       & Moderate & 58 (84.06\%) & 69 (25.27\%) & 36 (78.26\%) & 46 (16.85\%)\\
+      \hline
+       & Total & 227 (83.15\%) & 273 (100.00\%) & 36 (78.26\%) & 46 (16.85\%)\\
+   \end{tabular}
+   \caption{Mantoux test results and relative percentages in each region.}
+    \label{tab:VitDHb}
+\end{table}
+
 %TODO
-%Insert Tab vitaminD-Hb (TAB 1) HERE e aggiungi reference sopra.
+%Compila i dati e cambia Caption
 
 Moreover, we tried to correlate vitamin D serum levels with ferritin as well: \textit{Spearman's rank correlation test} was performed again and it confirmed the independent nature of these variables. Figure \ref{fig:TODO} and Table \ref{tab:TODO} show our results
 
