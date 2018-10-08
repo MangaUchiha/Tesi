@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.1.18)  8 OCT 2018 21:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.1.18)  8 OCT 2018 21:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2545,19 +2545,19 @@ LaTeX Warning: Reference `tab:TODO' on page 40 undefined on input line 494.
 
 LaTeX Warning: Reference `tab:TODO' on page 40 undefined on input line 494.
 
-) (./chapters/Discussion.tex [40]
+[40]) (./chapters/Discussion.tex [41]
 Chapter 4.
 ------------------------------------------------------------------------------
  4 Discussion
 ------------------------------------------------------------------------------
-[41
+[42
 
-] [42]) (./appendices/Appendix.tex [43]
+] [43]) (./appendices/Appendix.tex [44]
 Appendix A.
 ------------------------------------------------------------------------------
  A Dataset elaboration: VBA expressions
 ------------------------------------------------------------------------------
-[44
+[45
 
 ]
 Overfull \hbox (0.5339pt too wide) in paragraph at lines 14--14
@@ -2609,7 +2609,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 52--53
 []|\OT1/lmr/m/it/10 25-hydroxycholecalciferol \OT1/lmr/m/n/10 serum
  []
 
-[45] [46] [47] [48] [49] [50] [51] [52] [53] [54] [55] [56] [57] [58]) [59]
+[46] [47] [48] [49] [50] [51] [52] [53] [54] [55] [56] [57] [58] [59]) [60]
 ------------------------------------------------------------------------------
  Bibliography
 ------------------------------------------------------------------------------
@@ -2673,7 +2673,7 @@ Overfull \hbox (3.23674pt too wide) in paragraph at lines 33--40
 nce-[]2005-[]heres-[]$ 
  []
 
-[60
+[61
 
 
 ]
@@ -2706,13 +2706,13 @@ Underfull \hbox (badness 3281) in paragraph at lines 91--97
 il-able
  []
 
-[61]
+[62]
 Underfull \hbox (badness 10000) in paragraph at lines 149--153
 [][]$\OT1/lmtt/c/n/12 http : / / www . glnbi . org / documenti / 7dc63f2c92f238
 28da9b9727d0a2779d .
  []
 
-[62] [63] [64]
+[63] [64] [65]
 Underfull \hbox (badness 6188) in paragraph at lines 301--306
 []\OT1/lmr/m/n/12 World Health Or-ga-ni-za-tion (WHO). \OT1/lmr/m/it/12 WHO Chi
 ld Growth Stan-dards:
@@ -2724,13 +2724,13 @@ Underfull \hbox (badness 1009) in paragraph at lines 301--306
 /n/12 . pp.  139-226. 2006.
  []
 
-[65]
+[66]
 Underfull \hbox (badness 8000) in paragraph at lines 339--343
 \OT1/lmtt/c/n/12 cms / RAFVG / salute-[]sociale / sistema-[]sociale-[]sanitario
  / FOGLIA51/$[][] \OT1/lmr/m/n/12 [ac-
  []
 
-) [66]
+) [67]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 72.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 72.
  (./main.aux)
@@ -2748,8 +2748,8 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 72.
  ) 
 Here is how much of TeX's memory you used:
- 50406 strings out of 492995
- 1097542 string characters out of 6132704
+ 50407 strings out of 492995
+ 1097549 string characters out of 6132704
  1560437 words of memory out of 5000000
  52518 multiletter control sequences out of 15000+600000
  105339 words of font info for 92 fonts, out of 8000000 for 9000
@@ -2779,10 +2779,10 @@ ublic/lm/lmri12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/l
 msy10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
 </usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmtt8.pfb></usr/local
 /texlive/2017/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on main.pdf (77 pages, 870275 bytes).
+Output written on main.pdf (78 pages, 871444 bytes).
 PDF statistics:
- 1657 PDF objects out of 1728 (max. 8388607)
- 1536 compressed objects within 16 object streams
- 633 named destinations out of 1000 (max. 500000)
+ 1661 PDF objects out of 1728 (max. 8388607)
+ 1539 compressed objects within 16 object streams
+ 634 named destinations out of 1000 (max. 500000)
  506 words of extra memory for PDF output out of 10000 (max. 10000000)
 
