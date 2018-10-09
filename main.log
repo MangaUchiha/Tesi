@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.1.18)  9 OCT 2018 16:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.1.18)  9 OCT 2018 17:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2326,15 +2326,15 @@ Overfull \hbox (0.1896pt too wide) in paragraph at lines 2--2
 r of in-ter-coun-try adop- 
  []
 
-)
+[8
+
+
+
+])
 \tf@lot=\write7
 \openout7 = `main.lot'.
 
- [8
-
-
-
-] [9]) (./frontpages/abbreviations.tex
+ [9]) (./frontpages/abbreviations.tex
 ------------------------------------------------------------------------------
  Abbreviations
 ------------------------------------------------------------------------------
@@ -2351,76 +2351,71 @@ Chapter 1.
 
 
 
-]
+] [2]
 
-LaTeX Warning: Reference `sub:vitaminddeficiency' on page 2 undefined on input 
-line 16.
-
-[2]
-
-Package xcolor Warning: Incompatible color definition on input line 36.
+Package xcolor Warning: Incompatible color definition on input line 37.
 
 
-Package xcolor Warning: Incompatible color definition on input line 36.
+Package xcolor Warning: Incompatible color definition on input line 37.
 
 
-Package xcolor Warning: Incompatible color definition on input line 36.
+Package xcolor Warning: Incompatible color definition on input line 37.
 
 
-Package xcolor Warning: Incompatible color definition on input line 36.
+Package xcolor Warning: Incompatible color definition on input line 37.
 
 
-Package xcolor Warning: Incompatible color definition on input line 36.
+Package xcolor Warning: Incompatible color definition on input line 37.
 
 
-Overfull \hbox (4.02962pt too wide) in paragraph at lines 30--47
+Overfull \hbox (4.02962pt too wide) in paragraph at lines 31--48
  [][] 
  []
 
 [3]
 
-Package xcolor Warning: Incompatible color definition on input line 69.
+Package xcolor Warning: Incompatible color definition on input line 70.
 
 [4]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 81.
+(Font)              <5> on input line 82.
 
 
-Package xcolor Warning: Incompatible color definition on input line 95.
+Package xcolor Warning: Incompatible color definition on input line 96.
 
 
-Overfull \hbox (28.25446pt too wide) in paragraph at lines 89--99
+Overfull \hbox (28.25446pt too wide) in paragraph at lines 90--100
  [][] 
  []
 
 
-Overfull \hbox (12.36201pt too wide) in paragraph at lines 105--115
+Overfull \hbox (12.36201pt too wide) in paragraph at lines 106--116
  [][] 
  []
 
 [5]
-Package pgfplots info on input line 152: Using 'lua backend=false' for axis: st
+Package pgfplots info on input line 153: Using 'lua backend=false' for axis: st
 acked plots unsupported (yet).
  [6] [7]
 
-Package xcolor Warning: Incompatible color definition on input line 210.
+Package xcolor Warning: Incompatible color definition on input line 211.
 
 
-Package xcolor Warning: Incompatible color definition on input line 210.
+Package xcolor Warning: Incompatible color definition on input line 211.
 
 
-Package xcolor Warning: Incompatible color definition on input line 210.
+Package xcolor Warning: Incompatible color definition on input line 211.
 
 
-Package xcolor Warning: Incompatible color definition on input line 210.
+Package xcolor Warning: Incompatible color definition on input line 211.
 
 
-Package xcolor Warning: Incompatible color definition on input line 210.
+Package xcolor Warning: Incompatible color definition on input line 211.
 
 [8] [9] [10] [11] [12]
 \mylength=\skip100
 
-Underfull \vbox (badness 10000) detected at line 286
+Underfull \vbox (badness 10000) detected at line 287
  []
 
 [13] [14]) (./chapters/MaterialsAndMethods.tex [15]
@@ -2625,16 +2620,12 @@ Overfull \hbox (1.19821pt too wide) in paragraph at lines 781--781
 [][] 
  []
 
+[41]
+Overfull \hbox (7.62816pt too wide) in paragraph at lines 804--804
+[][] 
+ []
 
-LaTeX Warning: Reference `tab:TODO' on page 41 undefined on input line 790.
-
-
-LaTeX Warning: Reference `tab:TODO' on page 41 undefined on input line 790.
-
-
-LaTeX Warning: Reference `tab:TODO' on page 41 undefined on input line 790.
-
-[41]) (./chapters/Discussion.tex [42]
+) (./chapters/Discussion.tex [42]
 Chapter 4.
 ------------------------------------------------------------------------------
  4 Discussion
@@ -2832,25 +2823,22 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 70.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 70.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 70.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 0E53F578C792AC1438C1464AEE8E8E36;9814.
+(rerunfilecheck)             Checksum: 3CC2D4881A47E373D02E624FB4C702C4;9820.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: There were undefined references.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 70.
  ) 
 Here is how much of TeX's memory you used:
- 50591 strings out of 492995
- 1099914 string characters out of 6132704
- 1617836 words of memory out of 5000000
- 52700 multiletter control sequences out of 15000+600000
+ 50597 strings out of 492995
+ 1100037 string characters out of 6132704
+ 1618344 words of memory out of 5000000
+ 52705 multiletter control sequences out of 15000+600000
  105339 words of font info for 92 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 66i,20n,111p,13109b,2346s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{Hfootnote.109} has been referenced but does not e
+ 66i,22n,111p,13109b,2346s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{Hfootnote.110} has been referenced but does not e
 xist, replaced by a fixed one
 
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/lm/lm-rmtt.enc}{/usr/local/
@@ -2875,10 +2863,10 @@ ri12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmsy10.pfb><
 /usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmtt12.pfb></usr/local
 /texlive/2017/texmf-dist/fonts/type1/public/lm/lmtt8.pfb></usr/local/texlive/20
 17/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on main.pdf (79 pages, 897764 bytes).
+Output written on main.pdf (79 pages, 899366 bytes).
 PDF statistics:
- 1661 PDF objects out of 1728 (max. 8388607)
- 1536 compressed objects within 16 object streams
- 634 named destinations out of 1000 (max. 500000)
+ 1666 PDF objects out of 1728 (max. 8388607)
+ 1541 compressed objects within 16 object streams
+ 635 named destinations out of 1000 (max. 500000)
  450 words of extra memory for PDF output out of 10000 (max. 10000000)
 
