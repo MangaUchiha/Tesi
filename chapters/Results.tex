@@ -256,9 +256,53 @@ Figure \ref{fig:boxplot_Mantoux} below portrays our population's age distributio
 Concerning other infectious diseases, no patients were found positive to hepatitis C antibodies out of the 282 tested, 4 were positive for hepatitis B superficial antigen (HBsAg) out of 281 (1.42\%), only children was HIV positive out of 282 (0.35\%), and only was positive for syphilis via TPHA out of 256 (0.39\%) performed tests.
 
 \section{Analyzing the costs}\label{sec:analyzingcosts}
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque nibh metus, suscipit a scelerisque sit amet, rhoncus et lectus. Mauris eget erat rutrum, euismod massa id, maximus mauris. Nulla maximus, ex sit amet lacinia consequat, enim ante mollis dui, sit amet tincidunt massa felis id magna. Aenean gravida ante nec volutpat rutrum. Cras eget ullamcorper leo. Curabitur eu volutpat tellus. Integer nec ornare sapien. Fusce ipsum justo, interdum quis libero a, mattis tristique velit. Phasellus rhoncus lorem non ultrices luctus.
+Health care is a huge worldwide industry, worth billions of dollars, and, as such, must undergo market rules. Thus, we decided to analyze the costs, both of the whole screening protocol and of each individual test. All the needed data was found in the 2018 \textit{Nomenclatore tariffario di specialistica ambulatoriale} of Friuli-Venezia Giulia (which can be found in \cite{nomenclatore}).
 
-%Integra qui tabella dei costi da Excel
+%Begin Table on COSTS
+\begin{table}[H]
+   \centering
+   \begin{tabular}{c l r}
+       & Test & Cost\footnotemark[6]\\
+      \hline
+       & Blood sugar levels & 1.20 €\\
+	  & Creatinine & 2.00 €\\
+	  & Blood count & 5.30 €\\
+	  & Alkaline phosphatase & 2.20 €\\
+	  & Calcium & 8.00 €\\
+	  & Phosphorus & 2.10 €\\
+	  & Transaminase & 1.90 €\\
+	  & Ferritin & 13.90 €\\
+	  & $ESR$ & 1.20 €\\
+ 	  & $HCVAb$ & 28.40 €\\
+   	  & $HBsAg$ & 11.40 €\\
+	  & $TPHA$ & 7.20 €\\
+	  & $HIV_{1,2}Ab$ & 13.20 €\\
+	  & 3 Parasitic microscopic exam & 13.50 €\\
+	  & Clinical urine tests & 3.00 €\\
+	  & Mantoux test (PPD) & 7.00 €\\
+	  & Serum protein electrophoresis & 7.00 €\\
+	  & Vitamin D & 20.30 €\\
+	  \cline{2-3}
+	 \parbox[t]{2mm}{\multirow{9}{*}{\rotatebox[origin=c]{90}{Immunization status}}} & Mumps & 11.80 €\\
+	  & Tetanus & 12.70 €\\
+	  & Diphtheria & 12.70 €\\
+	  & Morbillo & 8.40 €\\
+	  & Measles & 5.20 €\\
+	  & Pertussis & 8.20 €\\
+	  & Poliomyelitis & 6.50 €\\
+	  & \textit{Type B Haemophilus} & 5.20 €\\
+	  & HBsAb & 13.20 €\\
+	 \hline
+	 Total & & 232.70 €\\
+   \end{tabular}
+   \caption{Cost of all performed test, as defined by the \textit{GNLBI protocol}.}
+   \source{Nomenclatore tariffario di specialistica ambulatoriale of Friuli-Venezia Giulia (see \cite{nomenclatore}).}
+    \label{tab:costs}
+\end{table}
+
+\footnotetext[6]{All the reported costs are in Euros (€).}
+
+ASD
 
 \section{Statistical inference of data}\label{sec:statisticalinference}
 Statistical inference was one of the main focus points of this study. As explained in \ref{sec:aim}, the research for correlations amongst the considered variables is considered to be one the our major objectives, because it could have meant spare some hospitalization time and some invasive tests from the children brought to our attention, achieving benefits both on an economical, health and comfort level.
