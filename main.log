@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.1.18)  9 OCT 2018 15:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.1.18)  9 OCT 2018 16:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2334,11 +2334,11 @@ r of in-ter-coun-try adop-
 
 
 
-]) (./frontpages/abbreviations.tex
+] [9]) (./frontpages/abbreviations.tex
 ------------------------------------------------------------------------------
  Abbreviations
 ------------------------------------------------------------------------------
-[9
+[10
 
 
 
@@ -2616,34 +2616,37 @@ Overfull \hbox (7.62819pt too wide) in paragraph at lines 739--739
  []
 
 
-LaTeX Warning: Reference `tab:TODO' on page 40 undefined on input line 750.
+Overfull \hbox (2.69345pt too wide) in paragraph at lines 761--761
+[][] 
+ []
 
 [40]
-
-LaTeX Warning: Reference `tab:TODO' on page 41 undefined on input line 756.
-
-
-LaTeX Warning: Reference `tab:TODO' on page 41 undefined on input line 762.
+Overfull \hbox (1.19821pt too wide) in paragraph at lines 781--781
+[][] 
+ []
 
 
-LaTeX Warning: Reference `tab:TODO' on page 41 undefined on input line 762.
+LaTeX Warning: Reference `tab:TODO' on page 41 undefined on input line 790.
 
 
-LaTeX Warning: Reference `tab:TODO' on page 41 undefined on input line 762.
+LaTeX Warning: Reference `tab:TODO' on page 41 undefined on input line 790.
 
-) (./chapters/Discussion.tex [41]
+
+LaTeX Warning: Reference `tab:TODO' on page 41 undefined on input line 790.
+
+[41]) (./chapters/Discussion.tex [42]
 Chapter 4.
 ------------------------------------------------------------------------------
  4 Discussion
 ------------------------------------------------------------------------------
-[42
+[43
 
-] [43]) (./appendices/Appendix.tex [44]
+] [44]) (./appendices/Appendix.tex [45]
 Appendix A.
 ------------------------------------------------------------------------------
  A Dataset elaboration: VBA expressions
 ------------------------------------------------------------------------------
-[45
+[46
 
 ]
 Overfull \hbox (0.5339pt too wide) in paragraph at lines 14--14
@@ -2695,7 +2698,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 52--53
 []|\OT1/lmr/m/it/10 25-hydroxycholecalciferol \OT1/lmr/m/n/10 serum
  []
 
-[46] [47] [48] [49] [50] [51] [52] [53] [54] [55] [56] [57] [58] [59]) [60]
+[47] [48] [49] [50] [51] [52] [53] [54] [55] [56] [57] [58] [59] [60]) [61]
 ------------------------------------------------------------------------------
  Bibliography
 ------------------------------------------------------------------------------
@@ -2759,7 +2762,7 @@ Overfull \hbox (3.23674pt too wide) in paragraph at lines 33--40
 nce-[]2005-[]heres-[]$ 
  []
 
-[61
+[62
 
 
 ]
@@ -2792,13 +2795,13 @@ Underfull \hbox (badness 3281) in paragraph at lines 91--97
 il-able
  []
 
-[62]
+[63]
 Underfull \hbox (badness 10000) in paragraph at lines 149--153
 [][]$\OT1/lmtt/c/n/12 http : / / www . glnbi . org / documenti / 7dc63f2c92f238
 28da9b9727d0a2779d .
  []
 
-[63] [64] [65]
+[64] [65] [66]
 Underfull \hbox (badness 6188) in paragraph at lines 301--306
 []\OT1/lmr/m/n/12 World Health Or-ga-ni-za-tion (WHO). \OT1/lmr/m/it/12 WHO Chi
 ld Growth Stan-dards:
@@ -2810,7 +2813,7 @@ Underfull \hbox (badness 1009) in paragraph at lines 301--306
 /n/12 . pp.  139-226. 2006.
  []
 
-[66]
+[67]
 Underfull \hbox (badness 1210) in paragraph at lines 339--343
 []\OT1/lmr/m/it/12 Nomenclatore tar-if-fario di spe-cial-is-tica am-bu-la-to-ri
 -ale\OT1/lmr/m/n/12 . Re-gione Au-tonoma
@@ -2822,14 +2825,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 339--343
 e-[]sanitario /
  []
 
-) [67]
+) [68]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 70.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 70.
  (./main.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 70.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 70.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: F0F5CEB8E0C04AA0195308006A4B1AF3;9810.
+(rerunfilecheck)             Checksum: 0E53F578C792AC1438C1464AEE8E8E36;9814.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -2840,14 +2843,14 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 70.
  ) 
 Here is how much of TeX's memory you used:
- 50585 strings out of 492995
- 1099833 string characters out of 6132704
- 1617419 words of memory out of 5000000
- 52698 multiletter control sequences out of 15000+600000
+ 50591 strings out of 492995
+ 1099914 string characters out of 6132704
+ 1617836 words of memory out of 5000000
+ 52700 multiletter control sequences out of 15000+600000
  105339 words of font info for 92 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  66i,20n,111p,13109b,2346s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{Hfootnote.107} has been referenced but does not e
+pdfTeX warning (dest): name{Hfootnote.109} has been referenced but does not e
 xist, replaced by a fixed one
 
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/lm/lm-rmtt.enc}{/usr/local/
@@ -2872,10 +2875,10 @@ ri12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmsy10.pfb><
 /usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmtt12.pfb></usr/local
 /texlive/2017/texmf-dist/fonts/type1/public/lm/lmtt8.pfb></usr/local/texlive/20
 17/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on main.pdf (77 pages, 895331 bytes).
+Output written on main.pdf (79 pages, 897764 bytes).
 PDF statistics:
- 1643 PDF objects out of 1728 (max. 8388607)
- 1520 compressed objects within 16 object streams
- 630 named destinations out of 1000 (max. 500000)
+ 1661 PDF objects out of 1728 (max. 8388607)
+ 1536 compressed objects within 16 object streams
+ 634 named destinations out of 1000 (max. 500000)
  450 words of extra memory for PDF output out of 10000 (max. 10000000)
 

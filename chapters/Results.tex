@@ -747,17 +747,45 @@ Moreover, we tried to correlate vitamin D serum levels with ferritin as well: \t
     \end{footnotesize}
 \end{table}
 
-Then, we further studied anemias, by running a \textit{logistic regression}. Anemia was considered as a dichotomous variable (a children was either anemic or he wasn't), and so was done for parasitic infections, MCV and ferritin serum levels. We found that anemia is negatively correlated with MCV levels ($z=-3.18$, $p>|z|=0.001$ with a $CI_{95\%} =[0.75,0.93]$) (this stands out in Table \ref{tab:TODO} very well). Out of 22 anemias, 9 also had a pathological MCV ($\sim 41\%$); only 11\% of non anemic children presented a pathological MCV value.\\
+Then, we further studied anemias, by running a \textit{logistic regression}. Anemia was considered as a dichotomous variable (a children was either anemic or he wasn't), and so was done for parasitic infections, MCV and ferritin serum levels. We found that anemia is negatively correlated with MCV levels ($z=-3.18$, $p>|z|=0.001$ with a $CI_{95\%} =[0.75,0.93]$) (this stands out in Table \ref{tab:HbMCV} very well). Out of 22 anemias, 9 also had a pathological MCV ($\sim 41\%$); only 11\% of non anemic children presented a pathological MCV value.\\
 There weren't any other statistically relevant correlations amongst the listed variables.
 
-%TODO
-%Insert Tab HB-MCV (TAB 4) HERE e aggiungi reference sopra.
+%Begin Table on Hb e MCV
+\begin{table}[H]
+   \centering
+   \begin{tabular}{c l c c | r}
+   	  & & \multicolumn{2}{c}{Anemia} & \\
+   	  \cline{3-4}
+       & & Absent & Present & Total\\
+      \hline
+       \parbox[t]{2mm}{\multirow{2}{*}{\rotatebox[origin=c]{90}{MCV}}} & Normal & 228 (82.31\%) & 27 (9.75\%) & 255 (92.06\%)\\
+       & Pathological & 13 (4.69\%) & 9 (3.25\%) & 22 (7.94\%)\\
+      \hline
+      Total & & 241 (87.00\%) & 36 (13.00\%) & 277 (100.00\%)\\
+   \end{tabular}
+   \caption{Frequencies and percentages of children presenting anemia and low-MCV in our population.}
+    \label{tab:HbMCV}
+\end{table}
 
-Because of this strong relation between low-MCV and low-haemoglobin, we decided to consider the population with these two parameters offset and try to find out more (3.25\%). We found that there was a positive correlation between ferritin low serum levels and the a low-MCV anemia, confirming the high prevalence of iron-deficiency in our population. This was confirmed at the \textit{Fisher's exact test} ($p=0.001$). Table \ref{tab:TODO} shows our data for this consideration.\\
+Because of this strong relation between low-MCV and low-haemoglobin, we decided to consider the population with these two parameters offset and try to find out more (3.25\%). We found that there was a positive correlation between ferritin low serum levels and the a low-MCV anemia, confirming the high prevalence of iron-deficiency in our population. This was confirmed at the \textit{Fisher's exact test} ($p=0.001$). Table \ref{tab:Ferritin_HbMCV} shows our data for this consideration.\\
 This low-MCV low-haemoglobin population all came from Asia ($n=5$, $\sim 55\%$) and Eastern Europe ($n=4$, $\sim 44\%$). This was statically significant, with a Fisher's exact test result of $p=0.033$. In particular, the only involved countries were India ($n=5$, $\sim 55\%$), in Asia, and Russia ($n=2$, $\sim 22\%$) and Bulgaria ($n=2$, $\sim 22\%$), in Eastern Europe.
 
-%TODO
-%Insert Tab Ferritin-MCV+HB (TAB 5) HERE e aggiungi reference sopra.
+%Begin Table on Ferritin and Hb+MCV
+\begin{table}[H]
+   \centering
+   \begin{tabular}{c l c c | r}
+   	  & & \multicolumn{2}{c}{Low-Hb and Low-MCV} & \\
+   	  \cline{3-4}
+       & & Absent & Present & Total\\
+      \hline
+       \parbox[t]{2mm}{\multirow{2}{*}{\rotatebox[origin=c]{90}{\footnotesize{Ferritin}}}} & Normal & 162 (65.32\%) & 1 (0.40\%) & 163 (65.73\%)\\
+       & Pathological & 77 (31.05\%) & 8 (3.23\%) & 85 (34.27\%)\\
+      \hline
+      Total & & 239 (96.37\%) & 9 (3.63\%) & 248 (100.00\%)\\
+   \end{tabular}
+   \caption{Frequencies and percentages of children presenting pathological ferritin in the anemic low-MCV population.}
+    \label{tab:Ferritin_HbMCV}
+\end{table}
 
 Moreover, we tried to look even closer at anemias and parasitic infections: the variables were found still to be independent at \textit{Fisher's exact test} ($p=0.935$). No correlation was found (leaving us pretty surprised) neither between anemia and group 1 and 2 gastrointestinal infestations, with a \textit{Fisher's exact test} result of $p=0.205$ and $p=0.669$ respectively. Tables \ref{tab:TODO}, \ref{tab:TODO}, and \ref{tab:TODO} summarize our findings.\\
 On the other hand, we found a positive correlation between pathological ferritin and group 1 parasitic infection, with a \textit{Fisher's exact test} result of $p=0.003$. This finding is in accordance with our definitions of group 1 and 2 parasites, since the first commonly express their infections through gastrointestinal bleeding.
@@ -768,4 +796,4 @@ On the other hand, we found a positive correlation between pathological ferritin
 %TODO
 %Insert Tab Parassiti-Anemia (TAB 6 e 7) HERE e aggiungi reference sopra.
 
-Lastly, we tried a \textit{logistic regression} on low height for age, anemia, group 1 and 2 parasitic infections, Mantoux test results, and vitamin D serum levels, but no statistically relevant result was found. We believe that through a bigger sample size anemias, Mantoux test results, and group 2 parasitic infections would have found a rather strong correlation with pathological height, as a chronic illness indicator.
+Lastly, we tried a \textit{logistic regression} on low height-for-age, anemia, group 1 and 2 parasitic infections, Mantoux test results, and vitamin D serum levels, but no statistically relevant result was found. We believe that through a bigger sample size anemias, Mantoux test results, and group 2 parasitic infections would have found a rather strong correlation with pathological height, as a chronic illness indicator.

@@ -4,7 +4,7 @@
 \vspace {1em}
 \contentsline {chapter}{List of Figures}{vii}{dummy.6}
 \contentsline {chapter}{List of Tables}{viii}{dummy.8}
-\contentsline {chapter}{Abbreviations}{ix}{dummy.10}
+\contentsline {chapter}{Abbreviations}{x}{dummy.10}
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.13}
 \contentsline {section}{\numberline {1.1}Intercountry and international adoptees}{1}{section.14}
 \contentsline {subsection}{\numberline {1.1.1}Levels and trends in intercountry adoption worldwide}{3}{subsection.15}
@@ -31,26 +31,26 @@
 \contentsline {section}{\numberline {3.1}Descriptive analyses}{31}{section.82}
 \contentsline {section}{\numberline {3.2}Analyzing the costs}{36}{section.90}
 \contentsline {section}{\numberline {3.3}Statistical inference of data}{38}{section.92}
-\contentsline {chapter}{\numberline {4}Discussion}{42}{chapter.97}
-\contentsline {section}{\numberline {4.1}Health status of internationally adopted children}{42}{section.98}
-\contentsline {section}{\numberline {4.2}Is everything we do worthwhile?}{43}{section.99}
-\contentsline {subsection}{\numberline {4.2.1}What we believe to be worthwhile}{43}{subsection.100}
-\contentsline {subsection}{\numberline {4.2.2}And what may not be}{43}{subsection.101}
-\contentsline {section}{\numberline {4.3}Seeking for support: building correlations}{44}{section.102}
-\contentsline {section}{\numberline {4.4}Objectives achieved}{44}{section.103}
-\contentsline {section}{\numberline {4.5}Future work}{44}{section.104}
+\contentsline {chapter}{\numberline {4}Discussion}{43}{chapter.99}
+\contentsline {section}{\numberline {4.1}Health status of internationally adopted children}{43}{section.100}
+\contentsline {section}{\numberline {4.2}Is everything we do worthwhile?}{44}{section.101}
+\contentsline {subsection}{\numberline {4.2.1}What we believe to be worthwhile}{44}{subsection.102}
+\contentsline {subsection}{\numberline {4.2.2}And what may not be}{44}{subsection.103}
+\contentsline {section}{\numberline {4.3}Seeking for support: building correlations}{45}{section.104}
+\contentsline {section}{\numberline {4.4}Objectives achieved}{45}{section.105}
+\contentsline {section}{\numberline {4.5}Future work}{45}{section.106}
 \vspace {2em}
-\contentsline {chapter}{\numberline {A}Dataset elaboration: VBA expressions}{45}{appendix.105}
-\contentsline {section}{\numberline {A.1}Age (in years)}{48}{section.108}
-\contentsline {section}{\numberline {A.2}Geographic area of origin}{49}{section.118}
-\contentsline {section}{\numberline {A.3}Pathological values}{50}{section.169}
-\contentsline {subsection}{\numberline {A.3.1}Weight and height}{50}{subsection.170}
-\contentsline {subsection}{\numberline {A.3.2}Haemoglobin}{51}{subsection.181}
-\contentsline {subsection}{\numberline {A.3.3}MCV}{53}{subsection.262}
-\contentsline {subsection}{\numberline {A.3.4}Circulating iron}{56}{subsection.383}
-\contentsline {subsection}{\numberline {A.3.5}Ferritin}{56}{subsection.397}
-\contentsline {subsection}{\numberline {A.3.6}Vitamin D}{57}{subsection.425}
-\contentsline {section}{\numberline {A.4}Parasitic Infections}{58}{section.453}
-\contentsline {subsection}{\numberline {A.4.1}Parasite positivity}{58}{subsection.454}
-\contentsline {subsection}{\numberline {A.4.2}Parasite grouping}{59}{subsection.466}
-\contentsline {chapter}{Bibliography}{61}{dummy.507}
+\contentsline {chapter}{\numberline {A}Dataset elaboration: VBA expressions}{46}{appendix.107}
+\contentsline {section}{\numberline {A.1}Age (in years)}{49}{section.110}
+\contentsline {section}{\numberline {A.2}Geographic area of origin}{50}{section.120}
+\contentsline {section}{\numberline {A.3}Pathological values}{51}{section.171}
+\contentsline {subsection}{\numberline {A.3.1}Weight and height}{51}{subsection.172}
+\contentsline {subsection}{\numberline {A.3.2}Haemoglobin}{52}{subsection.183}
+\contentsline {subsection}{\numberline {A.3.3}MCV}{54}{subsection.264}
+\contentsline {subsection}{\numberline {A.3.4}Circulating iron}{57}{subsection.385}
+\contentsline {subsection}{\numberline {A.3.5}Ferritin}{57}{subsection.399}
+\contentsline {subsection}{\numberline {A.3.6}Vitamin D}{58}{subsection.427}
+\contentsline {section}{\numberline {A.4}Parasitic Infections}{59}{section.455}
+\contentsline {subsection}{\numberline {A.4.1}Parasite positivity}{59}{subsection.456}
+\contentsline {subsection}{\numberline {A.4.2}Parasite grouping}{60}{subsection.468}
+\contentsline {chapter}{Bibliography}{62}{dummy.509}
