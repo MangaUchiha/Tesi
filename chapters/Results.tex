@@ -263,7 +263,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque nibh metus
 \section{Statistical inference of data}\label{sec:statisticalinference}
 Statistical inference was one of the main focus points of this study. As explained in \ref{sec:aim}, the research for correlations amongst the considered variables is considered to be one the our major objectives, because it could have meant spare some hospitalization time and some invasive tests from the children brought to our attention, achieving benefits both on an economical, health and comfort level.
 
-First of all, we investigated vitamin D deficits. It was reasonable to us that vitamin D serum levels were correlated to iron-deficient anemias, because of their shared natures as deficiency states. Therefore we ran \textit{Spearman's rank correlation test} on haemoglobin and vitamin D values, which resulted in the two variables being independent ($p>|t|=0.3086$). The results were plotted in Figure \ref{fig:scatterplot_VitD_Hb} and summarized in Table \ref{tab:VitDHb}.
+First of all, we investigated vitamin D deficits. It was reasonable to us that vitamin D serum levels were correlated to iron-deficient anemias, because of their shared natures as deficiency states. Therefore we ran \textit{Spearman's rank correlation test} on haemoglobin and vitamin D values, which resulted in the two variables being independent ($p>|t|=0.3086$). This result was later confirmed by performing a \textit{Fisher's exact test} ($p=0.082$). The results were plotted in Figure \ref{fig:scatterplot_VitD_Hb} and summarized in Table \ref{tab:VitDHb}.
 
 %Scatter Plot VitD-Hb
 \vspace*{0.8cm}
@@ -464,7 +464,7 @@ First of all, we investigated vitamin D deficits. It was reasonable to us that v
 				};
 		\end{axis}
 	\end{tikzpicture}
-\caption{Scatter plot of Vitamin D and Haemoglobin values}
+\caption{Scatter plot of Vitamin D and Haemoglobin serum levels.}
 \label{fig:scatterplot_VitD_Hb}
 \end{figure}
 
@@ -486,13 +486,222 @@ First of all, we investigated vitamin D deficits. It was reasonable to us that v
     \label{tab:VitDHb}
 \end{table}
 
-Moreover, we tried to correlate vitamin D serum levels with ferritin as well: \textit{Spearman's rank correlation test} was performed again and it confirmed the independent nature of these variables. Figure \ref{fig:TODO} and Table \ref{tab:TODO} show our results
+Moreover, we tried to correlate vitamin D serum levels with ferritin as well: \textit{Spearman's rank correlation test} was performed again and it confirmed the independent nature of these variables ($p>|t|=0.2734$). This result was later confirmed by performing a \textit{Fisher's exact test} ($p=0.220$).Figure \ref{fig:scatterplot_VitD_Ferritin} and Table \ref{tab:VitDFerritin} show our results.
 
-%TODO
-%Insert Scatterplot vitaminD-Hb (FIG 1) HERE e aggiungi reference sopra.
+%Scatter Plot VitD-Ferritin
+\vspace*{0.8cm}
+\begin{figure}[H]
+\centering
+	\begin{tikzpicture}
+		\begin{axis}[scatter/classes={
+			a={mark=*,cyan, fill opacity=0.3}},
+			width=0.9\textwidth,
+			height=8cm,
+			xlabel = \textit{Vitamin D serum levels} $\si{\nano\gram/\milli\liter}$,
+         	ylabel = \textit{Ferritin serum levels} $\si{\nano\gram/\milli\liter}$,
+         	ytick pos=left,
+         	xtick pos=left]
+			\addplot[scatter,only marks,
+				scatter src=explicit symbolic]
+				coordinates {
+					(20,6) [a]
+					(8,27) [a]
+					(23.8,56) [a]
+					(7.7,31) [a]
+					(11.7,54) [a]
+					(8.1,23) [a]
+					(21.7,39) [a]
+					(12.5,57) [a]
+					(11.6,20) [a]
+					(32.3,31) [a]
+					(22.5,31) [a]
+					(25,42) [a]
+					(30.2,66) [a]
+					(31.8,47) [a]
+					(16.3,27) [a]
+					(17,6) [a]
+					(10.9,13) [a]
+					(31.4,16) [a]
+					(18.4,43) [a]
+					(27.1,39) [a]
+					(29.5,29) [a]
+					(13.5,15) [a]
+					(26.3,79) [a]
+					(30.4,34) [a]
+					(36.2,14) [a]
+					(31.9,18) [a]
+					(31.7,15) [a]
+					(28.2,30) [a]
+					(35.6,63) [a]
+					(36.5,16) [a]
+					(23.2,34) [a]
+					(21.6,11) [a]
+					(20.4,73) [a]
+					(35,33) [a]
+					(7.7,24) [a]
+					(16.3,8) [a]
+					(13.9,4) [a]
+					(26.7,62) [a]
+					(15.9,40) [a]
+					(27.7,22) [a]
+					(28.6,24) [a]
+					(41,70) [a]
+					(23,51) [a]
+					(27.2,84) [a]
+					(22,12) [a]
+					(17.3,11) [a]
+					(18.1,22) [a]
+					(17.9,16) [a]
+					(6.3,7) [a]
+					(16.5,51) [a]
+					(20.4,21) [a]
+					(23.7,59) [a]
+					(25.5,26) [a]
+					(31.3,28) [a]
+					(32.4,33) [a]
+					(24.7,41) [a]
+					(21.1,69) [a]
+					(26.4,18) [a]
+					(20.5,19) [a]
+					(30.2,11) [a]
+					(18.7,17) [a]
+					(18.6,32) [a]
+					(11.5,47) [a]
+					(18.1,15) [a]
+					(29.3,15) [a]
+					(34.9,12) [a]
+					(54.6,31) [a]
+					(15.9,28) [a]
+					(10.5,42) [a]
+					(14.2,18) [a]
+					(23.1,15) [a]
+					(32.7,17) [a]
+					(13,13) [a]
+					(24.7,23) [a]
+					(20.3,18) [a]
+					(30.2,17) [a]
+					(20,39) [a]
+					(24.2,15) [a]
+					(17.8,30) [a]
+					(24.5,32) [a]
+					(29.2,18) [a]
+					(13.2,15) [a]
+					(20.2,65) [a]
+					(13.7,43) [a]
+					(8.3,49) [a]
+					(9.4,32) [a]
+					(13.2,15) [a]
+					(20,35) [a]
+					(17.8,35) [a]
+					(20.6,16) [a]
+					(41.4,17) [a]
+					(31.5,5) [a]
+					(27.3,25) [a]
+					(44.6,29) [a]
+					(24.7,10) [a]
+					(14,7) [a]
+					(33.7,77) [a]
+					(29.1,36) [a]
+					(27.9,7) [a]
+					(26.3,26) [a]
+					(24.7,63) [a]
+					(14.2,19) [a]
+					(20.2,39) [a]
+					(20.7,23) [a]
+					(15.4,30) [a]
+					(21,41) [a]
+					(26.2,11) [a]
+					(17.6,13) [a]
+					(33,37) [a]
+					(23.8,27) [a]
+					(23.9,31) [a]
+					(30,43) [a]
+					(18.8,23) [a]
+					(18.1,19) [a]
+					(21.9,72) [a]
+					(25.9,46) [a]
+					(27.5,46) [a]
+					(19.8,23) [a]
+					(15.4,33) [a]
+					(50.6,26) [a]
+					(19.4,11) [a]
+					(25.1,16) [a]
+					(25,20) [a]
+					(18,13) [a]
+					(17,11) [a]
+					(39,5) [a]
+					(23,18) [a]
+					(17,18) [a]
+					(23,28) [a]
+					(30,25) [a]
+					(18,38) [a]
+					(14,55) [a]
+					(14,12) [a]
+					(23,16) [a]
+					(15,20) [a]
+					(19,11) [a]
+					(26,27) [a]
+					(22,15) [a]
+					(29,28) [a]
+					(26,20) [a]
+					(18,52) [a]
+					(23,31) [a]
+					(34,105) [a]
+					(47,19) [a]
+					(51,42) [a]
+					(18,60) [a]
+					(19,11) [a]
+					(22,72) [a]
+					(30,11) [a]
+					(28,13) [a]
+					(21,49) [a]
+					(29,49) [a]
+					(27,12) [a]
+					(31,17) [a]
+					(17.1,40) [a]
+					(20.2,21) [a]
+					(31.8,17) [a]
+					(40.8,73) [a]
+					(17.4,29) [a]
+					(8.7,16) [a]
+					(17.4,72) [a]
+					(36.1,21) [a]
+					(19.2,19) [a]
+					(47.2,19) [a]
+					(33.2,33) [a]
+					(9,5) [a]
+					(18.1,24) [a]
+					(17.6,36) [a]
+					(9.8,25) [a]
+					(18.5,27) [a]
+					(19.6,20) [a]
+					(15.2,24) [a]
+				};
+		\end{axis}
+	\end{tikzpicture}
+\caption{Scatter plot of Vitamin D and Ferritin serum levels.}
+\label{fig:scatterplot_VitD_Ferritin}
+\end{figure}
 
-%TODO
-%Insert Tab vitaminD-Ferritin (TAB 2) HERE e aggiungi reference sopra.
+%Begin Table on Vitamin D and Ferritin
+\begin{table}[H]
+   \centering
+   \begin{footnotesize}
+   \begin{tabular}{c l c c c c | r}
+   	  & & \multicolumn{3}{c}{Ferritin deficiency} & \\
+   	  \cline{3-6}
+       & & Absent & Mild & Moderate & Severe & Total\\
+      \hline
+       \parbox[t]{0.6cm}{\multirow{3}{*}{\rotatebox[origin=c]{90}{\begin{scriptsize}\begin{tabular}[t]{@{}c@{}}Vitamin D\\deficiency\end{tabular}\end{scriptsize}}}} & Absent & 68 (39.53\%) & 23 (13.37\%) & 10 (5.81\%) & 4 (2.33\%) & 105 (61.05\%)\\
+       & Mild & 32 (18.60\%) & 11 (6.40\%) & 10 (5.81\%) & 4 (2.33\%) & 57 (33.14\%)\\
+       & Moderate & 7 (4.07\%) & 1 (0.58\%) & 0 (0.00\%) & 2 (1.16\%) & 10 (5.81\%)\\
+      \hline
+       & Total & 107 (62.21\%) & 35 (20.35\%) & 20 (11.63\%) & 10 (5.81\%) & 172 (100.00\%)\\
+   \end{tabular}
+   \caption{Frequencies and percentages of ferritin and vitamin D deficient children in our population.}
+    \label{tab:VitDFerritin}
+    \end{footnotesize}
+\end{table}
 
 Then, we further studied anemias, by running a \textit{logistic regression}. Anemia was considered as a dichotomous variable (a children was either anemic or he wasn't), and so was done for parasitic infections, MCV and ferritin serum levels. We found that anemia is negatively correlated with MCV levels ($z=-3.18$, $p>|z|=0.001$ with a $CI_{95\%} =[0.75,0.93]$) (this stands out in Table \ref{tab:TODO} very well). Out of 22 anemias, 9 also had a pathological MCV ($\sim 41\%$); only 11\% of non anemic children presented a pathological MCV value.\\
 There weren't any other statistically relevant correlations amongst the listed variables.
