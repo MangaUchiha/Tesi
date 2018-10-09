@@ -40,8 +40,8 @@
 \contentsline {section}{\numberline {3.3}Statistical inference of data}{40}{section.99}
 \contentsline {chapter}{\numberline {4}Discussion}{44}{chapter.104}
 \contentsline {section}{\numberline {4.1}Health status of internationally adopted children}{44}{section.105}
-\contentsline {section}{\numberline {4.2}Is everything we do worthwile?}{45}{section.106}
-\contentsline {subsection}{\numberline {4.2.1}What we believe to be worthwile}{45}{subsection.107}
+\contentsline {section}{\numberline {4.2}Is everything we do worthwhile?}{45}{section.106}
+\contentsline {subsection}{\numberline {4.2.1}What we believe to be worthwhile}{45}{subsection.107}
 \contentsline {subsection}{\numberline {4.2.2}And what may not be}{45}{subsection.108}
 \contentsline {section}{\numberline {4.3}Seeking for support: building correlations}{46}{section.109}
 \contentsline {section}{\numberline {4.4}Objectives achieved}{46}{section.110}

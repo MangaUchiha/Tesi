@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.1.18)  9 OCT 2018 15:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.1.18)  9 OCT 2018 15:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2600,33 +2600,33 @@ Overfull \hbox (2.69345pt too wide) in paragraph at lines 286--286
 [][] 
  []
 
-[38] [39]
-Overfull \hbox (2.7473pt too wide) in paragraph at lines 521--521
-[][] 
- []
-
-[40]
-Overfull \hbox (7.62819pt too wide) in paragraph at lines 737--737
+[38] [39] [40]
+Overfull \hbox (2.7473pt too wide) in paragraph at lines 523--523
 [][] 
  []
 
 [41]
-
-LaTeX Warning: Reference `tab:TODO' on page 42 undefined on input line 748.
-
-
-LaTeX Warning: Reference `tab:TODO' on page 42 undefined on input line 754.
+Overfull \hbox (7.62819pt too wide) in paragraph at lines 739--739
+[][] 
+ []
 
 
-LaTeX Warning: Reference `tab:TODO' on page 42 undefined on input line 760.
+LaTeX Warning: Reference `tab:TODO' on page 42 undefined on input line 750.
+
+[42]
+
+LaTeX Warning: Reference `tab:TODO' on page 43 undefined on input line 756.
 
 
-LaTeX Warning: Reference `tab:TODO' on page 42 undefined on input line 760.
+LaTeX Warning: Reference `tab:TODO' on page 43 undefined on input line 762.
 
 
-LaTeX Warning: Reference `tab:TODO' on page 42 undefined on input line 760.
+LaTeX Warning: Reference `tab:TODO' on page 43 undefined on input line 762.
 
-[42]) (./chapters/Discussion.tex [43]
+
+LaTeX Warning: Reference `tab:TODO' on page 43 undefined on input line 762.
+
+) (./chapters/Discussion.tex [43]
 Chapter 4.
 ------------------------------------------------------------------------------
  4 Discussion
@@ -2824,7 +2824,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 72.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 72.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 72.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: CE74D3FD12B353E83B32D87D2D9F03F0;11399.
+(rerunfilecheck)             Checksum: DCC3D332A212F3EA52F7D1A2277ABBB3;11409.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -2832,15 +2832,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 72.
  ) 
 Here is how much of TeX's memory you used:
  50608 strings out of 492995
- 1100205 string characters out of 6132704
- 1562411 words of memory out of 5000000
+ 1100208 string characters out of 6132704
+ 1617822 words of memory out of 5000000
  52711 multiletter control sequences out of 15000+600000
  105339 words of font info for 92 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
@@ -2870,10 +2867,10 @@ ri12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmsy10.pfb><
 /usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmtt12.pfb></usr/local
 /texlive/2017/texmf-dist/fonts/type1/public/lm/lmtt8.pfb></usr/local/texlive/20
 17/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on main.pdf (80 pages, 898531 bytes).
+Output written on main.pdf (80 pages, 898840 bytes).
 PDF statistics:
- 1692 PDF objects out of 1728 (max. 8388607)
- 1566 compressed objects within 16 object streams
+ 1694 PDF objects out of 1728 (max. 8388607)
+ 1568 compressed objects within 16 object streams
  640 named destinations out of 1000 (max. 500000)
  506 words of extra memory for PDF output out of 10000 (max. 10000000)
 
