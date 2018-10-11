@@ -34,23 +34,23 @@
 \contentsline {chapter}{\numberline {4}Discussion}{44}{chapter.100}
 \contentsline {section}{\numberline {4.1}Health status of internationally adopted children}{44}{section.101}
 \contentsline {section}{\numberline {4.2}Is everything we do worthwhile?}{45}{section.102}
-\contentsline {subsection}{\numberline {4.2.1}What we believe to be worthwhile}{45}{subsection.103}
-\contentsline {subsection}{\numberline {4.2.2}And what may not be}{45}{subsection.104}
+\contentsline {subsection}{\numberline {4.2.1}What we believe to be worthwhile}{46}{subsection.103}
+\contentsline {subsection}{\numberline {4.2.2}And what may not be}{46}{subsection.104}
 \contentsline {section}{\numberline {4.3}Seeking for support: building correlations}{46}{section.105}
-\contentsline {section}{\numberline {4.4}Objectives achieved}{46}{section.106}
-\contentsline {section}{\numberline {4.5}Future work}{46}{section.107}
+\contentsline {section}{\numberline {4.4}Objectives achieved}{47}{section.106}
+\contentsline {section}{\numberline {4.5}Future work}{47}{section.107}
 \vspace {2em}
-\contentsline {chapter}{\numberline {A}Dataset elaboration: VBA expressions}{47}{appendix.108}
-\contentsline {section}{\numberline {A.1}Age (in years)}{50}{section.111}
-\contentsline {section}{\numberline {A.2}Geographic area of origin}{51}{section.121}
-\contentsline {section}{\numberline {A.3}Pathological values}{52}{section.172}
-\contentsline {subsection}{\numberline {A.3.1}Weight and height}{52}{subsection.173}
-\contentsline {subsection}{\numberline {A.3.2}Haemoglobin}{53}{subsection.184}
-\contentsline {subsection}{\numberline {A.3.3}MCV}{55}{subsection.265}
-\contentsline {subsection}{\numberline {A.3.4}Circulating iron}{58}{subsection.386}
-\contentsline {subsection}{\numberline {A.3.5}Ferritin}{58}{subsection.400}
-\contentsline {subsection}{\numberline {A.3.6}Vitamin D}{59}{subsection.428}
-\contentsline {section}{\numberline {A.4}Parasitic Infections}{60}{section.456}
-\contentsline {subsection}{\numberline {A.4.1}Parasite positivity}{60}{subsection.457}
-\contentsline {subsection}{\numberline {A.4.2}Parasite grouping}{61}{subsection.469}
-\contentsline {chapter}{Bibliography}{63}{dummy.510}
+\contentsline {chapter}{\numberline {A}Dataset elaboration: VBA expressions}{48}{appendix.108}
+\contentsline {section}{\numberline {A.1}Age (in years)}{51}{section.111}
+\contentsline {section}{\numberline {A.2}Geographic area of origin}{52}{section.121}
+\contentsline {section}{\numberline {A.3}Pathological values}{53}{section.172}
+\contentsline {subsection}{\numberline {A.3.1}Weight and height}{53}{subsection.173}
+\contentsline {subsection}{\numberline {A.3.2}Haemoglobin}{54}{subsection.184}
+\contentsline {subsection}{\numberline {A.3.3}MCV}{56}{subsection.265}
+\contentsline {subsection}{\numberline {A.3.4}Circulating iron}{59}{subsection.386}
+\contentsline {subsection}{\numberline {A.3.5}Ferritin}{59}{subsection.400}
+\contentsline {subsection}{\numberline {A.3.6}Vitamin D}{60}{subsection.428}
+\contentsline {section}{\numberline {A.4}Parasitic Infections}{61}{section.456}
+\contentsline {subsection}{\numberline {A.4.1}Parasite positivity}{61}{subsection.457}
+\contentsline {subsection}{\numberline {A.4.2}Parasite grouping}{62}{subsection.469}
+\contentsline {chapter}{Bibliography}{64}{dummy.510}
