@@ -36,8 +36,8 @@
 \contentsline {section}{\numberline {4.2}Is everything we do worthwhile?}{46}{section.102}
 \contentsline {subsection}{\numberline {4.2.1}What we believe to be worthwhile}{46}{subsection.103}
 \contentsline {subsection}{\numberline {4.2.2}And what may not be}{47}{subsection.104}
-\contentsline {section}{\numberline {4.3}Seeking for support: building correlations}{47}{section.105}
-\contentsline {section}{\numberline {4.4}Objectives achieved}{48}{section.110}
+\contentsline {section}{\numberline {4.3}Seeking for support: building correlations}{48}{section.105}
+\contentsline {section}{\numberline {4.4}Objectives achieved}{49}{section.110}
 \contentsline {section}{\numberline {4.5}Future work}{49}{section.111}
 \vspace {2em}
 \contentsline {chapter}{\numberline {A}Dataset elaboration: VBA expressions}{50}{appendix.112}
