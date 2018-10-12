@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.1.18)  13 OCT 2018 00:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.1.18)  13 OCT 2018 00:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2647,18 +2647,18 @@ Chapter 4.
 ------------------------------------------------------------------------------
 [44
 
-]
-Overfull \hbox (1.3pt too wide) in paragraph at lines 14--15
-\OT1/lmr/m/n/12 vaccine-preventable dis-eases (65% of all chil-dren) and, there
--fore, it should be strongly
+] [45] [46] [47]
+Overfull \hbox (19.17531pt too wide) in paragraph at lines 53--54
+\OT1/lmr/m/n/12 op-tion that must be con-sid-ered in in-ter-na-tion-ally adopte
+d chil-dren is $\OML/lmm/m/it/12 ^^L$\OT1/lmr/m/n/12 -thalassemia
  []
 
-[45] [46] [47] [48]) [49] (./appendices/Appendix.tex [50]
+[48]) (./appendices/Appendix.tex [49]
 Appendix A.
 ------------------------------------------------------------------------------
  A Dataset elaboration: VBA expressions
 ------------------------------------------------------------------------------
-[51
+[50
 
 ]
 Overfull \hbox (0.5339pt too wide) in paragraph at lines 14--14
@@ -2710,7 +2710,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 52--53
 []|\OT1/lmr/m/it/10 25-hydroxycholecalciferol \OT1/lmr/m/n/10 serum
  []
 
-[52] [53] [54] [55] [56] [57] [58] [59] [60] [61] [62] [63] [64] [65]) [66]
+[51] [52] [53] [54] [55] [56] [57] [58] [59] [60] [61] [62] [63] [64]) [65]
 ------------------------------------------------------------------------------
  Bibliography
 ------------------------------------------------------------------------------
@@ -2744,7 +2744,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 46--49
 -[]publications .
  []
 
-[67
+[66
 
 
 ]
@@ -2801,13 +2801,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 75--81
 3 / report _ statistico _
  []
 
-[68]
+[67]
 Underfull \hbox (badness 3281) in paragraph at lines 132--138
 \OT1/lmr/m/n/12 Pe-di-atrics. Vol 88, No. 3. pp.  642-644. Septem-ber 1991. Ava
 il-able
  []
 
-[69] [70]
+[68] [69]
 Underfull \hbox (badness 10000) in paragraph at lines 231--235
 [][]$\OT1/lmtt/c/n/12 http : / / www . glnbi . org / documenti / 7dc63f2c92f238
 28da9b9727d0a2779d .
@@ -2825,7 +2825,7 @@ Underfull \hbox (badness 1009) in paragraph at lines 250--255
 /n/12 . pp.  139-226. 2006.
  []
 
-[71] [72]
+[70] [71]
 Underfull \hbox (badness 1210) in paragraph at lines 339--343
 []\OT1/lmr/m/it/12 Nomenclatore tar-if-fario di spe-cial-is-tica am-bu-la-to-ri
 -ale\OT1/lmr/m/n/12 . Re-gione Au-tonoma
@@ -2837,7 +2837,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 339--343
 e-[]sanitario /
  []
 
-) [73]
+) [72]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 70.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 70.
  (./main.aux)
@@ -2855,9 +2855,9 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 70.
  ) 
 Here is how much of TeX's memory you used:
- 50606 strings out of 492995
- 1100104 string characters out of 6132704
- 1618348 words of memory out of 5000000
+ 50605 strings out of 492995
+ 1100097 string characters out of 6132704
+ 1618350 words of memory out of 5000000
  52705 multiletter control sequences out of 15000+600000
  105339 words of font info for 92 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
@@ -2887,10 +2887,10 @@ ri12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmsy10.pfb><
 /usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmtt12.pfb></usr/local
 /texlive/2017/texmf-dist/fonts/type1/public/lm/lmtt8.pfb></usr/local/texlive/20
 17/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on main.pdf (84 pages, 910905 bytes).
+Output written on main.pdf (83 pages, 910435 bytes).
 PDF statistics:
- 1709 PDF objects out of 1728 (max. 8388607)
- 1579 compressed objects within 16 object streams
- 644 named destinations out of 1000 (max. 500000)
+ 1705 PDF objects out of 1728 (max. 8388607)
+ 1576 compressed objects within 16 object streams
+ 643 named destinations out of 1000 (max. 500000)
  450 words of extra memory for PDF output out of 10000 (max. 10000000)
 
