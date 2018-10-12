@@ -40,17 +40,17 @@
 \contentsline {section}{\numberline {4.4}Objectives achieved}{49}{section.110}
 \contentsline {section}{\numberline {4.5}Future work}{49}{section.111}
 \vspace {2em}
-\contentsline {chapter}{\numberline {A}Dataset elaboration: VBA expressions}{50}{appendix.112}
-\contentsline {section}{\numberline {A.1}Age (in years)}{53}{section.115}
-\contentsline {section}{\numberline {A.2}Geographic area of origin}{54}{section.125}
-\contentsline {section}{\numberline {A.3}Pathological values}{55}{section.176}
-\contentsline {subsection}{\numberline {A.3.1}Weight and height}{55}{subsection.177}
-\contentsline {subsection}{\numberline {A.3.2}Haemoglobin}{56}{subsection.188}
-\contentsline {subsection}{\numberline {A.3.3}MCV}{58}{subsection.269}
-\contentsline {subsection}{\numberline {A.3.4}Circulating iron}{61}{subsection.390}
-\contentsline {subsection}{\numberline {A.3.5}Ferritin}{61}{subsection.404}
-\contentsline {subsection}{\numberline {A.3.6}Vitamin D}{62}{subsection.432}
-\contentsline {section}{\numberline {A.4}Parasitic Infections}{63}{section.460}
-\contentsline {subsection}{\numberline {A.4.1}Parasite positivity}{63}{subsection.461}
-\contentsline {subsection}{\numberline {A.4.2}Parasite grouping}{64}{subsection.473}
-\contentsline {chapter}{Bibliography}{66}{dummy.514}
+\contentsline {chapter}{\numberline {A}Dataset elaboration: VBA expressions}{51}{appendix.112}
+\contentsline {section}{\numberline {A.1}Age (in years)}{54}{section.115}
+\contentsline {section}{\numberline {A.2}Geographic area of origin}{55}{section.125}
+\contentsline {section}{\numberline {A.3}Pathological values}{56}{section.176}
+\contentsline {subsection}{\numberline {A.3.1}Weight and height}{56}{subsection.177}
+\contentsline {subsection}{\numberline {A.3.2}Haemoglobin}{57}{subsection.188}
+\contentsline {subsection}{\numberline {A.3.3}MCV}{59}{subsection.269}
+\contentsline {subsection}{\numberline {A.3.4}Circulating iron}{62}{subsection.390}
+\contentsline {subsection}{\numberline {A.3.5}Ferritin}{62}{subsection.404}
+\contentsline {subsection}{\numberline {A.3.6}Vitamin D}{63}{subsection.432}
+\contentsline {section}{\numberline {A.4}Parasitic Infections}{64}{section.460}
+\contentsline {subsection}{\numberline {A.4.1}Parasite positivity}{64}{subsection.461}
+\contentsline {subsection}{\numberline {A.4.2}Parasite grouping}{65}{subsection.473}
+\contentsline {chapter}{Bibliography}{67}{dummy.514}
