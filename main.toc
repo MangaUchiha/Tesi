@@ -33,11 +33,11 @@
 \contentsline {section}{\numberline {3.3}Statistical inference of data}{38}{section.92}
 \contentsline {chapter}{\numberline {4}Discussion}{44}{chapter.100}
 \contentsline {section}{\numberline {4.1}Health status of internationally adopted children}{44}{section.101}
-\contentsline {section}{\numberline {4.2}Is everything we do worthwhile?}{45}{section.102}
+\contentsline {section}{\numberline {4.2}Is everything we do worthwhile?}{46}{section.102}
 \contentsline {subsection}{\numberline {4.2.1}What we believe to be worthwhile}{46}{subsection.103}
 \contentsline {subsection}{\numberline {4.2.2}And what may not be}{46}{subsection.104}
-\contentsline {section}{\numberline {4.3}Seeking for support: building correlations}{46}{section.105}
-\contentsline {section}{\numberline {4.4}Objectives achieved}{47}{section.110}
+\contentsline {section}{\numberline {4.3}Seeking for support: building correlations}{47}{section.105}
+\contentsline {section}{\numberline {4.4}Objectives achieved}{48}{section.110}
 \contentsline {section}{\numberline {4.5}Future work}{48}{section.111}
 \vspace {2em}
 \contentsline {chapter}{\numberline {A}Dataset elaboration: VBA expressions}{49}{appendix.112}

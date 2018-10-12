@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.1.18)  12 OCT 2018 16:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.1.18)  12 OCT 2018 16:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2849,6 +2849,9 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 70.
  ) 
 Here is how much of TeX's memory you used:
@@ -2884,10 +2887,10 @@ ri12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmsy10.pfb><
 /usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmtt12.pfb></usr/local
 /texlive/2017/texmf-dist/fonts/type1/public/lm/lmtt8.pfb></usr/local/texlive/20
 17/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on main.pdf (82 pages, 905455 bytes).
+Output written on main.pdf (82 pages, 906046 bytes).
 PDF statistics:
- 1694 PDF objects out of 1728 (max. 8388607)
- 1566 compressed objects within 16 object streams
+ 1697 PDF objects out of 1728 (max. 8388607)
+ 1569 compressed objects within 16 object streams
  642 named destinations out of 1000 (max. 500000)
  450 words of extra memory for PDF output out of 10000 (max. 10000000)
 
