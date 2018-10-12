@@ -10,7 +10,7 @@
 \contentsline {subsection}{\numberline {1.1.1}Levels and trends in intercountry adoption worldwide}{3}{subsection.15}
 \contentsline {subsection}{\numberline {1.1.2}International adoption in Italy}{8}{subsection.22}
 \contentsline {section}{\numberline {1.2}Role of the pediatrician}{10}{section.24}
-\contentsline {subsection}{\numberline {1.2.1}Watch out for the \textit {fragile creature}}{14}{subsection.26}
+\contentsline {subsection}{\numberline {1.2.1}Watch out for the \textit {fragile creature}}{15}{subsection.26}
 \contentsline {chapter}{\numberline {2}Materials and Methods}{16}{chapter.30}
 \contentsline {section}{\numberline {2.1}The aim of this study}{17}{section.32}
 \contentsline {section}{\numberline {2.2}The population in exam}{18}{section.35}
