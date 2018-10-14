@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.1.18)  14 OCT 2018 15:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.1.18)  14 OCT 2018 16:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2600,13 +2600,7 @@ Chapter 4.
 ------------------------------------------------------------------------------
 [44
 
-] [45] [46] [47]
-Overfull \hbox (19.17531pt too wide) in paragraph at lines 53--54
-\OT1/lmr/m/n/12 op-tion that must be con-sid-ered in in-ter-na-tion-ally adopte
-d chil-dren is $\OML/lmm/m/it/12 ^^L$\OT1/lmr/m/n/12 -thalassemia
- []
-
-[48]) (./appendices/Appendix.tex [49]
+] [45] [46] [47] [48]) (./appendices/Appendix.tex [49]
 Appendix A.
 ------------------------------------------------------------------------------
  A Dataset elaboration: VBA expressions
